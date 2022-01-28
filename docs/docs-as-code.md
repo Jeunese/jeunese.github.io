@@ -18,7 +18,7 @@ So, therefore, the best place for documentation to live is within the correspond
 
 ## Tools
 
-You can use a static site generator, such as [Docsify](https://docsify.js.org/#/) to generate documentation that is easy to navigate and parse. You can extend Docsify with features such as collapsable menus, search tools, and themes, for example, with [Code Sandbox](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
+You can use a static site generator, such as [Docsify](https://docsify.js.org/#/) to generate documentation that is easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [Code Sandbox](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
 
 You edit the documentation in a text editor, like [VSCode](https://code.visualstudio.com/). 
 

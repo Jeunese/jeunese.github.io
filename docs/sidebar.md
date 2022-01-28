@@ -1,5 +1,5 @@
 - [Overview](/)
-- [Guidelines](guidelines)
+- [Writing Guidelines](guidelines)
 - [Docs as Code](docs-as-code)
 - **Links**
 - [Github](https://github.com/Jeunese/docsify)
