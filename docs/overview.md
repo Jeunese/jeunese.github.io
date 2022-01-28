@@ -96,7 +96,7 @@ Product documentation should be updated based on a roadmap for organising, sched
 
 ### Infrastructure and process (Docs as Code)
 
-With a **Docs as Code** (**Open Docs**) approach to product documentation, content for a release is published only when the feature is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
+With a [Docs as Code](/docs-as-code) approach to product documentation, content for a release is published only when the feature is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
 
 Content authoring can start at any time providing the technical author has the information needed to start drafting. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM.  Candidates for product documentation include:
 
