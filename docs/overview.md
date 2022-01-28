@@ -7,9 +7,9 @@ An Information Development (or Information Experience, IX) team consists of tech
 -  In-product content development, such as error messages and on-screen text
 
 As well as Engineering, information developers work closely with:
--  Product teams, under the guidance of Product Management
--  Product Design to collaborate on UI content and to ensure that guided workflows are provided
--  Globalization to create automatic translation
+-  Product teams, under the guidance of Product Management.
+-  Product Design to collaborate on UI content and guided workflows.
+-  Globalization teams to create automatic translation.
 
 ## Product documentation
 
