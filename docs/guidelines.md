@@ -1,33 +1,36 @@
 # Writing guidelines
 
-The following information is based on user research, industry standards, and expertise in information development. This helps ensure high quality content, strong search engine optimization (SEO), and good customer experience.
+Following a set of writing guidelines helps ensure consistency, content quality, and a good user experience of product documentation and UI content. The writing guidelines presented in this article are based on substantial research, content writing expertise, and industry standards.
 
 ## General guidelines for writing content
 
 You can apply the following guidelines to both product documentation and UI content.
 
-### Scannability: Make content easy to scan
+### Scannability: Make content easy to scan for relevant information
 
-Break up the content:
+To help readers find the content they need, make your content "scannable".
+
+Break up content:
 
 -  Use headings.
--  Adopt a flat hierarchy of essential information (2-3 tiers).
+-  Adopt flat hierarchy (2-3 tiers).
 -  Keep headings short (12 words or fewer).
 -  Write short paragraphs (75 words or fewer; 2-4 sentences).
 -  Use bullet points.
 
 Consider the location of content:
 
--  People are most likely to read content that is "above the fold", so keep content as short as possible to the reduce the need for users to scroll.
--  In left-to-right languages, people tend to read in an F shape, so put the most important information on the top left.
+-  Keep content as short as possible to the reduce the need for users to scroll. 
+-  Place important content "above the fold" in a webpage.
+-  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
 
 
 ### Sentences: Keep sentences short, simple, and relevant
 
 Write short sentences:
 
--  For online documentation, no more than 25 words.
--  For UI content, no more than 15 words.
+-  For online documentation, write sentences that are no more than 28 words.
+-  For UI content, write sentences that are no more than 15 words.
 -  Use as few words as possible and prune every excess word.
 
 Use clause and step order to help the reader identify and remember the relevant information:
@@ -35,12 +38,12 @@ Use clause and step order to help the reader identify and remember the relevant 
 |Guidance | Example|
 |---|---|
 |Put conditional clauses before instructions. |*"For more information, see the disclosure document"* (rather than *"See the disclosure document for more information"*). |
-|To direct the user to do something, mention the circumstances before you provide the instruction. |"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
-|When writing a series of steps, first mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
+|To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
+|When writing a series of steps, mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
 
 ### Word choice: Use clear, consistent, and human language
 
-Use unambiguous langauge:
+Use unambiguous terms:
 
 -  Use terms that are clear and understood by global audiences without need of special or local cultural knowledge.
 -  "Would", "should", and "may" can be ambiguous in describing whether something *will*, *must*, or *can* be done.
@@ -55,12 +58,12 @@ Use plain English and full words:
 
 Use terminology consistently:
 
--  Don't switch between terms in the product documentation or in the product.
--  Refer to elements in the UI exactly as they appear.
+-  Don't switch between terms in the product documentation or in the product itself.
+-  Refer to elements exactly as they appear in the UI.
 
 Use unbiased language. You're talking to humans, so be sensitive to the human meaning of words:
 
--  Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate", e.g., instead of "Kill your session", use "End your session".
+-  Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate", e.g., instead of *"Kill your session"*, use *"End your session"*.
 -  Avoid terms that reflect historical racial bias, such as:
 	- The presumption of colour-coding to dichotomise good and bad in terms of black and white (e.g., blacklist, whitelist).
 	- References that carry forward the master/slave paradigm (e.g., master table).
@@ -71,10 +74,10 @@ Don't use symbols or characters to substitute words:
 
 -  Use "or" instead of ``/``.
 -  Use "and" instead of ``&`` unless space is extremely limited in the UI, e.g., for tab labels or screen titles.
- -  Use "more than" and "less than"  instead of ``>`` and ``<`` unless space is extremely limited in the UI labels.
+ -  Use "more than" and "less than"  instead of ``>`` and ``<`` unless space is extremely limited in UI labels.
  -  Only use ``+`` when  you are adding a technical command or to indicate a count that exceeds a specific number when space is limited in the UI, e.g., 30+ degrees
--  Only use ``"`` (straight quotation marks) when  you are adding a technical command or to represent inches, e.g., 10"x10"
--  Only use ``x`` when  you are adding a technical command; do not use the letter x to indicate a multiplication sign
+-  Only use ``"`` when  you are adding a technical command or to represent inches, e.g., 10"x10"
+-  Only use ``x`` when  you are adding a technical command; do not use the letter ``x`` to indicate a multiplication sign
 -  Use an en dash (``-``) to indicate a minus sign or a hyphen	
 -  Use "percent" with a number (e.g., `5 percent`) and "percentage" without a number.
 	- Spell out the word "percent" (instead of using the `%` symbol).
@@ -95,9 +98,11 @@ Don't use symbols or characters to substitute words:
 
 Voice is *what* you say and tone is *how* you say it. In general, the voice of documentation should always be the same, remaining clear, direct, relevant, and positive. 
 
-Tone can change based on the target audience. For example, an academic paper will typically use third person and will tend not to use contractions, giving it a formal tone. However, in product documentation, it's more important to avoid fatigue and frustration; we want to the text to be as short, friendly, and understandable as possible for getting the job done. We thus aim to write in plain English, short sentences, and a conversational tone. 
+Tone can change based on the target audience or context. For example, academic papers typically use third person and tend to avoid contractions, giving it a formal tone. However, in product documentation, it's more important to avoid fatigue and frustration; we want to the text to be as short, friendly, and understandable as possible for getting the job done. We thus aim to write in plain English, short sentences, and a conversational tone. 
 
-The tone (not the voice) might change depending on whether you're writing product documentation or in-product copy. The advice for a pop-up message in the UI, for example, might call for friendlier language, like *"Do you need more time?"*. The underlying voice remains the same –– with short sentences, plain English, and so on –– but the tone is more conversational and reassuring.
+The tone (not the voice) might change depending on whether you're writing product documentation or in-product copy. The advice for a pop-up message in the UI, for example, might call for friendlier language, like *"Are you sure you want to delete this file?"*. The underlying voice remains the same –– with short sentences, plain English, and so on –– but the tone is more conversational and familiar.
+
+The sections below provide guidelines for the general voice and tone of product documentation and UI content.
 
 ### Be clear
 
@@ -107,7 +112,7 @@ Avoid redundancy to maintain the effectiveness of your instruction. Keep it shor
 -  Write in plain English.
 -  Use contractions.
 -  Use short words where possible.
--  Write in short sentences (on average, 15 words; 28 words maximum).
+-  Write in short sentences.
 
 Avoid:
 
@@ -117,24 +122,24 @@ Avoid:
 
 ### Be human
 
-Talk *to* users, not at them. Be direct and conversational, but not colloquial. Keep your tone friendly, informal, and natural to establish a conversation with users, even if relaying technical information to more tech-savvy users.
+Talk *to* users, not at them. Be direct and conversational, but not colloquial. Keep your tone friendly, informal, and natural, even if relaying technical information to more tech-savvy users.
 
 |Guidance | Use (example) | Don't use (example) |
 |---|---|---|
-|Choose short, simple words over long, formal, or complicated words | "help" | "assist" |
-|Use everyday words and contractions | "can't" | "cannot" or "can not" |
-|Address readers directly. Use the second person in sentences. | "you" | "the administrator" |
+|Choose short, simple words over long, formal, or complicated words. | "help" | "assist" |
+|Use everyday words and contractions to make content easier to read and less formal. | "can't" | "cannot" or "can not" |
+|Address readers directly to establish a conversational style. Use the second person in sentences. | "you" | "the administrator" |
 
 
 ### Be relevant
 
-Make your content about the user. 
+Make your content about the user: 
 
 -  Use the second person "you" in sentences about the user.
 -  Tell the user why they should care.
 -  Make the next step obvious.
 
-Make your content actionable. Use a verb where possible:
+Make your content actionable:
 
 |Guidance | Example|
 |---|---|
@@ -145,47 +150,38 @@ Make your content actionable. Use a verb where possible:
 
 ### Be positive
 
--  Look out for words like "can't" and "don't", e.g., instead of "You can't reconnect without signing in again", use "Sign in again to reconnect"
--  Focus on the solution, not the error or mistake
--  Use missteps as an opportunity to encourage users to keep navigating through the product
--  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages
--  Turn error messages and 404 pages into positive reinforcement by guiding the user along until they complete their task
--  When a product fails, use a tone that encourages the user to come back or try again, e.g., "It's not you, it's us. Try again in a few minutes."
--  If a product requires an extended activity, direct the user with clear, conversational language, e.g., "Do you need more time?"
+-  Look out for words like "can't" and "don't", e.g., instead of *"You can't reconnect without signing in again"*, use *"Sign in again to reconnect"*.
+-  Focus on the solution, not the error or mistake; use missteps as an opportunity to encourage users to keep navigating through the product.
+-  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
+
+Being positive doesn't mean being overly polite or aapologetic. Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program:
+
+-  Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault.
+-  Use "thank you" when you're asking someone to provide input that is inconvenient or difficult to get.
+-  Use "sorry" only in situations that cause serious problems for the user, such as data loss.
+
+Use missteps as an opportunity to encourage users to keep navigating through the product.
 
 ## Product documentation
 
 Before writing product documentation, you should:
 
--  Understand the user persona: whether they are network admins, security officers, IT admins, end-users, security adminds, or data analytics specialists
--  Change the way you write your content based on the users and their expectations: be aware of user goals, needs, and backgrounds. 
+-  Understand the user persona: whether they are network administrators, IT administrators, security administrators, security officers, end-users,or data analysts.
+-  Change the way you write based on the users and their expectations. Be aware of goals, needs, and backgrounds. Decide on the tone you use based on the product and target audience.
 -  Understand at what stage in the customer journey the user is when they read your content.
--  Decide on the tone you use based on the product and target audience.
--  Understand the product: narrow down your perspective on the functionality before drafting content. Then, be direct and focus on the topic while conveying information.
+-  Understand the product: narrow your perspective down to the specific functionality that requires content.
 
 ### Product knowledge guidelines
 
 To write clear and accurate content, you must aim to understand the product, users, and delivery modes. 
 
--  Get in-depth technical knowledge of the product
--  Understand the real-world conditions in which the user employs the product
--  Understand the use cases and solution we are providing
--  Identify the competitors and what the differentiator is
--  Consider globalisation standards, especially when writing UI copy because translated strings can be 2x longer
--  Be hands-on with the product; create information as we experience the product
--  When writing content for the UI, keystroke the design flow the way a user would
--  When writing product documentation, keystroke the product and document as you perform the steps
-
-Delivery mode considerations:
-
--  Where will your content appear? 
--  What display size are you writing for?
--  How will your content render between delivery modes? 
-
-
--  Be positive, but not apologetic
--  Be conversational, but not colloquial
--  Be clear, but not formal
+-  Develop in-depth knowledge of the product.
+-  Understand the real-world use cases for the product or feature.
+-  Understand the solution provided by the product or feature.
+-  Identify the competitors and what the product or feature differentiator is.
+-  Consider globalisation standards (strings can be 2x longer; content can be translated in an unfavourable way).
+-  Create content based on a hands-on experience with the product or feature.
+-  When writing content, walk through design flow the way a user would and document as you perform the steps.
 
 ### Documentation writing guidelines
 
@@ -194,6 +190,8 @@ Delivery mode considerations:
     -  Eliminate redundancy, such as titles that restate the body of an information box in the UI or a paragraph in documentation
     -  Don't provide unnecessary information (e.g., don't give background information on the product –– focus on what's new in the particular service and instructions for performing a specific task)
     -  Make content easy to scan with short sentences, bullet points, and headers
+
+    (on average, 15 words; 28 words maximum)
 
 -  Break up the content:
 
@@ -299,11 +297,6 @@ Context-sensitive topics that are triggered when the user clicks on a link provi
 -  Avoid using the same word twice in the same screen
 -  Use one word for CTA and text buttons unless there is a verb involved
 -  Avoid negative words
--  Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program
-    -  Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault
-    -  Use "thank you" when you're asking someone to provide input that is inconvenient or difficult to get
-    -  Use "sorry" only in situations that cause serious problems for the user, such as data loss
-    -  Use missteps as an opportunity to encourage users to keep navigating through the product
 
 #### For tooltips:
 
@@ -381,3 +374,7 @@ Error messages: sentence case, neutral
 |Use "percent" with a number and "percentage" without a number. | "5 percent" unless the number is the fist word in a sentence | "5%" |
     - Use "percent" without a number in column headings.
 	- Use the the `%` symbol in UI, charts, and table cells, or as a technical symbol.
+
+-  Turn error messages and 404 pages into positive reinforcement by guiding the user along until they complete their task
+-  When a product fails, use a tone that encourages the user to come back or try again, e.g., "It's not you, it's us. Try again in a few minutes."
+-  If a product requires an extended activity, direct the user with clear, conversational language, e.g., "Do you need more time?"
