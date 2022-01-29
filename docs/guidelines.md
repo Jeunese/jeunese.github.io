@@ -267,12 +267,15 @@ To write clear and accurate content:
 - Consider the location of content.
     -  Place important content "above the fold" in a webpage.
     -  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
+- Use emphasis very selectively:
+    -  Typically, we use bolding to call out UI elements and to place emphasis on specific actions. 
+    -  Don't use italics or quotation marks for emphasis.
 
 ### Writing instructional content
 
 **Bullets and numbering.** Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
 
-**Emphasis.** Use emphasis very selectively. Typically, we use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. Don't use italics or quotation marks for emphasis.
+**Emphasis.** Use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
 
 **Style.** Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
 
