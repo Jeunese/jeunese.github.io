@@ -288,7 +288,7 @@ Use emphasis very selectively. Typically, we use bolding to call out UI elements
 
 Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
 
- Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over" , "point to", "select", "choose", and "enter". Use **select** to instruct the reader to select an item, like text, objects, or cells. Use **enter** to instruct the user to type their password or choose a selection from a dialogue box.
+ Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". Use **select** to instruct the reader to select an item, like text, objects, or cells. Use **enter** to instruct the user to type their password or choose a selection from a dialogue box.
 
 ## UX writing
 
