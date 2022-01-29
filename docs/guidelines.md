@@ -348,15 +348,16 @@ A series of messages or tooltips appearing one at a time to provide step-by-step
 
 Context-sensitive topics that are triggered when the user selects a link provided at page level, used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page that the user is on. This provides users with a way of getting detailed information without having to navigate or search different sites.
 
-## UX writing
+## Writing and reviewing UI content
 
-Before writing UI content, the UX writer needs to know:
+Before writing or reviewing UI content, the UX writer needs to know:
 
 -  Who they're writing for, such as end-users or administrators.
 -  How the product is used. 
 -  What the use cases are.
+-  What components of the product need written or reviewed (if not the end-to-end experience).
 
-## Guidelines for tooltips
+### Guidelines for tooltips
 
 The text in a tooltip must be informative. You should aim to:
 
@@ -375,7 +376,7 @@ Tooltip text should provide additional and useful information, such as why a fie
 
 Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation/termination method.
 
-## Guidelines for instructional text
+### Guidelines for instructional text
 
 **Keep it simple.** Don't overuse instructional UI text; copy should enhance the experience, not clutter it.
 
@@ -392,7 +393,7 @@ Tooltips used in touchscreen devices are called popup tips, following the same g
 -  Ensure warnings are relevant to the task.
 -  Include tips that might help the user complete their task.
 
-## Guidelines for UI messages
+### Guidelines for UI messages
 
 In general, messages should:
 
@@ -426,7 +427,7 @@ General recommendations for each element of a message, whichever type it is, are
 -  For the message body, use complete sentences, sentence case capitalisation, and ending punctuation.
 -  For the buttons, use sentence case punctuation but no end punctuation, and use short, action verbs unless the buttons require a simple **Yes | No**.
 
-## Guidelines for UI elements
+### Guidelines for UI elements
 
 -  Use a logical order for UI elements. Avoid alphabetical (because it is language-dependent) unless no other order can be found.
 -  Don't use "click here" on a link.
