@@ -1,20 +1,57 @@
 # Voice and tone
 
-Depending on the source of definitions for voice and tone, voice is *what* you say and tone is *how* you say it. According to the [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human)(2018), the *message* is *what* you say, voice is *how* you say it, and tone is one aspect of voice, alongside personality, substance, and style. 
+Voice and tone are determined by the individual components that make up the content, like the words and phrases we use (and don't use), sentence structure, viewpoint, and the progression of information.
 
-Regardless of the precise semantics, **voice** –– determined by the words and phrases we use (and don't use), sentence structure, the progression of information, and other individual components that make up the content –– remains largely the same. Voice determines the "character" of content, whether it's polite, transparent, optimistic, formal, playful, cold, passive, conversational, direct, and so on, delivered with consistency across content. If your personality or messaging change often, it’s harder for readers to understand the purpose of the content or to trust it.
+For example, scientific and academic papers typically use third person and tend to avoid contractions, making it formal and impersonal. 
 
-Meanwhile, **tone** changes based on the target audience, context, and the reader's state of mind. Tone applies "emotional inflection" to the voice. It can be serious, friendly, lighthearted, professional, reassuring, authoritative, fun, and so on. 
+In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for getting the job done. We thus aim to write in plain English, short sentences, and a conversational style.
 
-For example, scientific and academic papers typically use third person and tend to avoid contractions, giving it a formal voice. However, in product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as short, friendly, and understandable as possible for getting the job done. We thus aim to write in plain English, short sentences, and a conversational style.
+## What are voice and tone?
 
-The tone might change a little depending on whether you're writing product documentation or in-product copy. The advice for a pop-up message in the UI, for example, might call for friendlier language to put the user at ease, such as *"It looks like your passwords don't match. Try again?"* in an error message versus *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, but their tone is different.
+Depending on the source of definitions for voice and tone, the simplest answers are:
 
-Nevertheless, it can be hard separating voice and tone, and it is generally useful to think of them together.
+|Voice|Tone|
+|---|---|
+| *What* you say. | *How* you say it. |
+| Remains stable. | Changes based on context.
+| The character or persona. | The attitude or emotional inflection. |
 
-The sections below provide guidelines for the general voice and tone of both product documentation and UI content. Some of the guidelines overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be relevant).
+### Voice
 
-## Be clear
+Voice captures the persona behind the content or its "character". Voice should be delivered with consistency across content. If your personality or messaging change too much or too often, it’s harder for readers to understand the purpose of the content or to trust it.
+
+### Tone
+
+Tone captures the "attitude" with which we express content. It is often described as the "emotional inflection" applied to the voice. This should change based on the target audience, context, and the reader's state of mind.
+
+For example, an error message in the UI might call for friendlier language such as *"It looks like your passwords don't match. Try again?"* to put the user at ease, compared with *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel, but their tone is different.
+
+## Voice and tone, or tone of voice?
+
+It can be hard differentiating voice (character) from tone (attitude) with concrete examples. 
+
+Adding to the confusion, the [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that the *message*, rather than voice, is *what* you say, and that voice is *how* you say it, with tone being *an aspect of* voice, alongside personality, substance, and style. Voice then becomes a group of multiple features or a delivery mechanism of sorts. 
+
+Rather than attempting to reconcile the differences in opinion about the nature of voice and tone in writing, it might be more useful to consider both concepts as part of a whole. Specifically, it makes sense to define voice as the parameter within which tone can operate. 
+
+With this in mind, this style guide defines the difference between voice and tone as similar to the difference between "traits" and "states" in human psychology: you can be a friendly person (trait), but also exhibit more or less friendliness depending on the situation or who you're interacting with (state).
+
+Similarly, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
+
+If voice and tone don't operate independently, it is useful to consider them jointly in making decisions about writing style. 
+For this reason, we can refer to our **tone of voice** rather than "voice and tone".
+
+## Our tone of voice
+
+The sections below provide guidelines for the proposed tone of voice of both product documentation and UI content. Our tone of voice is based on the purpose of content and the intended audiences. The high-level goals outlined for tone of voice include:
+
+- Be clear (direct, simple, precise, and concise)
+- Be human (conversational, personal, positive, and inclusive)
+- Be useful (neutral, user-centric, and action-focused)
+
+Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be relevant).
+
+### Be clear
 
 -  Get to the point quickly.
 -  Write in plain English.
@@ -29,7 +66,7 @@ Avoid:
 -  Phrases with indirect or ironic meaning.
 -  Humour, which can be misinterpreted or irritating.
 
-## Be human
+### Be human
 
 Keep your style informal and natural, even if relaying technical information to more tech-savvy users.
 
@@ -50,7 +87,7 @@ Keep your style informal and natural, even if relaying technical information to 
 * Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not". 
 * Serious isn't the same as formal. You can write clearly and simply, and thus less formally, without losing the credibility needed for technical (serious) documentation and in-product guidance.
 
-## Be relevant
+### Be useful
 
 Make your content about the reader or user. Make it obvious why content is relevant to the reader or user, and how they can act on it.
 

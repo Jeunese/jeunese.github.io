@@ -10,6 +10,8 @@ Write clearly, precisely, and concisely to make content easier to read and under
 
 ### Keep content short and simple
 
+Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and are more accessible to people who struggle with reading. With this in mind, aim to:
+
 - Separate different points or thoughts into different sentences.
 - Use common contractions, such as "don't" instead of "do not".
 - Use short and simple, everyday words, such as "help" instead of "assistance".
@@ -63,14 +65,15 @@ Use clear, consistent, and human language.
 -  Don't switch back and forth between full words and acronyms or abbreviations.
 -  In instructions, refer to UI elements exactly as they appear in the product.
 
-### Use unbiased language
+### Use unbiased and inclusive language
 
 You're talking to humans, so be sensitive to the human meaning of words.
 
--  Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate". For example, instead of *"Kill your session"*, use *"End your session"*.
--  Avoid terms that reflect historical racial bias, such as:
-	- The presumption of colour-coding to dichotomise good and bad in terms of black and white (for example, blacklist, whitelist).
-	- References that carry forward the master/slave paradigm (for example, master table).
+|Guidance | Example |
+|---|---|
+|Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate". | Instead of *"Kill your session"*, use *"End your session"* |
+|Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad" and references that carry forward the master/slave paradigm | Instead of "blacklist" and "whitelist", use "blocklist" and "allowlist"; instead of "master table", use "main table". |
+|Use gender-neutral alternatives to "he", "she", "him", and "her". |Instead of "him" or "her", use "them"; instead of "his" or "her", use "their". |
 
 ## Writing conventions
 
@@ -132,6 +135,15 @@ Use lists to present steps, groups, or sets of information:
 -  Capitalise the first word of a list item. 
 -  Don’t add a full stop to the end of a list item if it’s not a complete sentence. 
 -  If a list includes standalone, complete sentences, use proper closing punctuation. 
+
+Long lists of bullets are no easier to read than big blocks of text. So keep bulleted items:
+
+* Short
+* Related
+* Consistent in style
+* 8 items or fewer
+
+Consider grouper longer lists into themes and under different subheadings. 
 
 ### Acronyms and abbreviations
 
@@ -215,7 +227,7 @@ To write clear and accurate content:
 
 **Make content easy to scan for relevant information:**
 
--  Keep it short and simple.
+-  Keep it short and simple. 
     -  Keep content as short as possible to the reduce the need for users to scroll. 
     -  Aim for paragraphs that are 75 words or fewer.
     -  Sentences should be, on average, 15 words, and 28 words as a maximum.
@@ -274,7 +286,6 @@ General guidance for UX writing include:
 -  Use voice, tone, and terminology consistently across different modes.
 -  Use first person references to address the reader directly; avoid referring to "users" or "customers".
 -  Avoid using the same word twice in the same screen.
--  Use one word for CTA and text buttons unless there is a verb involved.
 -  Avoid negative words.
 -  Use sentence case for everything except global navigation and boolean values.
 
@@ -430,6 +441,7 @@ General recommendations for each element of a message, whichever type it is, are
 ### Guidelines for UI elements
 
 -  Use a logical order for UI elements. Avoid alphabetical (because it is language-dependent) unless no other order can be found.
+-  Use one word for CTA and text buttons unless there is a verb involved.
 -  Don't use "click here" on a link.
 -  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
 -  Use "percent" without a number in column headings.
