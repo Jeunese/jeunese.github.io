@@ -146,18 +146,19 @@ Don't use symbols or characters to substitute words:
 -  Only use ``"`` when  you are adding a technical command or to represent inches, e.g., 10"x10"
 -  Only use ``x`` when  you are adding a technical command; do not use the letter ``x`` to indicate a multiplication sign
 -  Use an en dash (``-``) to indicate a minus sign or a hyphen	
--  Use "percent" with a number (e.g., `5 percent`) and "percentage" without a number.
+-  Use "percent" with a number (e.g., 5 percent) and "percentage" without a number.
 	- Spell out the word "percent" (instead of using the `%` symbol).
 	- Alway use a number with "percent" unless the number is the first word in a sentence
 	- Use a space between the number and the word "percent".
 
 ### Numbers
 
--  Spell out numbers from zero through to nine.
--  Use figures for 10 and above.
+-  In the main body of text:
+    -  Spell out numbers from zero through to nine.
+    -  Use figures for 10 and above.
 -  Use figures for numbers in headlines.
 -  Use figures before million, billion, and trillion (e.g., 1 million).
--  Use figures for specific dates, time, and measurements (e.g., 5 minutes).
+-  Use figures for specific dates, time, and measurements (e.g., 5 minutes), unless that number is at the beginning of a sentence.
 
 ## Voice and tone
 
