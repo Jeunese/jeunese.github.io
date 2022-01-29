@@ -8,20 +8,11 @@ You can apply the following guidelines to both product documentation and UI cont
 
 ### Lean writing
 
-Write clearly, precisely, and concisely. Keep it short, simple, and relevant.
-
-**Keep sentences short:**
-
--  For online documentation, write sentences that are no more than 28 words.
--  For UI content, write sentences that are no more than 15 words.
-
-Use as few words as possible:
--  Remove unnecessary modifiers. For example, "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward".
--  Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
+Write clearly, precisely, and concisely.
 
 **Write purposeful content:**
 
-Choose every word with purpose, direction, and meaning.
+Write every sentence and choose every word with purpose, direction, and meaning:
 
 -  Write only to say something relevant that the reader can use.
 -  Don't write to fill space.
@@ -29,27 +20,32 @@ Choose every word with purpose, direction, and meaning.
 -  Don't provide unnecessary context or detail.
 -  Don't tell the reader how to think or feel; allow the reader to think or feel based on what you write.
 
-**Avoid grammatical expletives:**
+Use as few words as possible to portray meaning:
 
-Grammatical expletives are words that add emphasis by delaying the real subject of a sentence, but don't add to the essential meaning of the sentence.
+-  Remove unnecessary modifiers. For example, "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward".
+-  Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
 
-The most common grammatical expletives are “it is" and “there is” at the beginning of sentences. For example, *"There is an option to hide your location in the settings"*. This sentence could be reworded to *"An option to hide your location is in the settings"*.
+**Keep it short and simple:**
 
-**Avoid nominalisation:**
+Make content easier to read by:
+-  Separating different points or thoughts into separate sentences.
+-  Using common contractions, such as "don't" instead of "do not".
+-  Using short and simple, everyday words, such as "help" instead of "assistance".
+- Writing short sentences, and keeping to a limit:
+    -  For online documentation, write sentences that are no more than 28 words.
+    -  For UI content, write sentences that are no more than 15 words.
 
-Nominalisation refers to when a writer uses both a noun and a verb when a verb alone would be enough to portray the meaning. 
-
-*"The system performed a test of the connection"* could instead be *"The system tested the connection"*. The verb "test" was being used as noun; turning the word "test" into an action removed the need for the word "performed".
-
-**Avoid prepositional phrases:**
+**Get to the point, quicker:**
 
 |Guidance | Example |
 |---|---|
-|Avoid buried verbs.  | *"Follow the guidelines for upgrading your software"*, rather than *"Follow the guidelines for **performing an upgrade of** your software"*. |
-|Omit prepositional phrases. | *"Select the plus sign ~~in order~~ to add new user."*|
-|Use adverbs in place of prepositional phrases.  | *"This allows you to use the app effectively"*, rather than *"This allows you to use the app **with great effectiveness**"*. |
-|Replace prepositional phrases with the possessive.| *"Find the computer's instructions"*, rather than *"Find **the instructions of the computer**".*|
-|Use active voice. |*"The user must sign in to the computer"*, rather than *The computer must **be signed in to by** the user"*.|
+|Avoid buried verbs and nominalisation (using a noun and a verb when a verb alone would portray the meaning).  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
+|Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add new user."|
+|Use adverbs in place of prepositional phrases.  | "This allows you to use the app effectively", rather than "This allows you to use the app *with great effectiveness*". |
+|Replace prepositional phrases with the possessive.| "Find the computer's instructions", rather than "Find *the instructions for the computer*".|
+|Use active voice. |"The user must sign in to the computer"*, rather than *The computer must *be signed in to by* the user".|
+|Write imperative sentences. | "If you need further help, ~~you can~~ contact the Support team". |
+|Avoid grammatical expletives (words that add emphasis by delaying the subject), such as "it is" or "there are". |"There are six items in the list", could be reworded to "The list has six items".|
 
 ### Language
 
@@ -172,7 +168,6 @@ Keep it short and simple. Simple sentences and short works are easier read and u
 
 -  Get to the point quickly.
 -  Write in plain English.
--  Use contractions.
 -  Use simple words where possible.
 -  Write in short sentences.
 -  Break up sentences into separate thoughts.
@@ -208,17 +203,15 @@ Formality in writing is a spectrum. While everyday contractions are encouraged b
 **Make your content about the user:**
 
 -  Use the second person "you" in sentences about the user.
+-  Use the active (as opposed to passive) voice.
 -  Tell the user why they should care.
--  Make the next step obvious.
+-  Suggest next steps or make the next steps obvious for the user.
 
-**Make your content actionable:**
+**Focus on the user's actions:**
 
-|Guidance | Example|
-|---|---|
-|Write sentences in the imperative. |*"If you want to download the report, ~~you can~~ use the **Export** option"*. |
-|Avoid using "there is", "there are", or "there were". |*"If you get no output, there is a serious issue with..."* could instead be *"If you get no output, investigate..."*.|
-|Try starting sentences with a verb. | *"Get your desktop from a browser"* rather than *"We enable users to access virtual desktops from a web browser."* |
+Try starting sentences with a verb and using imperative sentences. For example, *"Access your emails through the browser"* rather than *"We enable users to access emails through a browser."* 
 
+Focus on what the user can do, rather than the state of the system. For example, "If you get no output, there is a serious issue with the input"* could instead be *"If you get no output, investigate the input"*.
 
 ### Be positive
 
