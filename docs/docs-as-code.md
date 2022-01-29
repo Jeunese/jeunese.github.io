@@ -6,7 +6,7 @@ Good documentation works best when it's:
 *  Easy-to-view
 *  Always up-to-date
 
-So, therefore, the best place for documentation to live is within the corresponding repo -- the repo of the product or service that it documents. This means that the documentation is:
+Therefore, the best place for documentation to live is within the corresponding repo -- the repo of the product or service that it documents. This means that the documentation is:
 
 *  Version-controlled
 *  Easy to keep up-to-date
