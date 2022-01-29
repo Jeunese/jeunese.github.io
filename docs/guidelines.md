@@ -177,7 +177,7 @@ The sections below provide guidelines for the general voice and tone of both pro
 -  Use simple words where possible.
 -  Write in short sentences.
 -  Break up sentences into separate thoughts.
--  Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps by using the second person with the imperative mood and active voice.
+-  Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps, by using the second person with the imperative mood and active voice.
 
 Avoid:
 
@@ -187,29 +187,22 @@ Avoid:
 
 ### Be human
 
-Be personal and conversational, even if relaying technical information to more tech-savvy users.
-
-**Keep your tone informal and natural:** 
+Keep your tone informal and natural, even if relaying technical information to more tech-savvy users.
 
 -  Use everyday language.
--  Talk *to* users, not at them. 
--  Adopt a personal tone.
--  Be direct and conversational.
+-  Be direct and conversational; talk *to* users, not at them. 
+-  Adopt an informal and personal tone.
+-  Be friendly and positive.
 
 |Guidance | Use (example) | Don't use (example) |
 |---|---|---|
 |Choose short, simple words over long, formal, or complicated words. | "help" | "assistance" |
 |Use everyday words and contractions to make content easier to read and less formal. | "can't" | "cannot" or "can not" |
 |Address readers directly to establish a personal tone. Use the second person in sentences. | "you" | "the administrator" |
+|Look out for words like "can't" and "don't".|"Sign in again to reconnect"|"You can't reconnect until you sign in again"|
 
 **Note:**
 Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would".
-
-**Be friendly and positive when communicating information:**
-
--  Look out for words like "can't" and "don't", e.g., instead of *"You can't reconnect without signing in again"*, use *"Sign in again to reconnect"*.
--  Focus on the solution, not the error or mistake; use missteps as an opportunity to encourage users to keep navigating through the product.
--  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
 
 ### Be relevant
 
@@ -429,7 +422,14 @@ In general, messages should:
 -  Suggest next steps.
 -  If a product requires an extended activity, direct the user with clear, conversational language, e.g., *"Do you need more time?"*
 
-When a product fails, use a tone that encourages the user to come back or try again. Turn error messages and 404 pages into positive reinforcement by guiding the user along until they complete their task.
+For error messages:
+
+-  Use a language that encourages the user to come back or try again. 
+-  Turn error messages and 404 pages into positive reinforcement by guiding the user along until they complete their task. 
+-  Focus on the solution, not the error or mistake.
+-  Don't blame the user.
+-  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
+-  Use missteps as an opportunity to encourage users to keep navigating through the product.
 
 General recommendations for each element of a message, whichever type it is, are:
 
