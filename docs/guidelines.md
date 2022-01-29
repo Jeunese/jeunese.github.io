@@ -33,7 +33,7 @@ Avoid intensifiers that are imprecise, redundant, or don't add meaning to the se
 *  Remove an empty intensifier, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
 *  Replace the intensifier and the adjective it refers to with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
 
-Additionally, avoid "adverbs of manner". Manner adverbs are modifiers that tell us the way or how something is done, and are usually formed from adjectives by adding "-ly". you cant avoid manner adverbs by using precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
+Additionally, avoid "adverbs of manner". Manner adverbs are modifiers that tell us the way or how something is done, and are usually formed from adjectives by adding "-ly". You can avoid manner adverbs by using precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
 
 **Avoid grammatical expletives:**
 
