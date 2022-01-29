@@ -2,23 +2,23 @@
 
 An Information Development (or Information Experience, IX) team consists of technical writers that typically belong to Engineering. IX are responsible for:
 
--  Website infrastructure for product documentation.
--  Technical content authoring for a company's products and services.
--  In-product content development, such as error messages and on-screen text.
+- Website infrastructure for product documentation.
+- Technical content authoring for a company's products and services.
+- In-product content development, such as error messages and on-screen text.
 
 As well as Engineering, information developers typically work closely with:
 
--  Product teams, under the guidance of Product Management (PM).
--  Product Design to collaborate on UI content and guided workflows.
--  Globalization teams to create automatic translation.
+- Product teams, under the guidance of Product Management (PM).
+- Product Design to collaborate on UI content and guided workflows.
+- Globalization teams to create automatic translation.
 
 ## Product documentation
 
 Product documentation articulates technical concepts, in writing, for a company's products and services. It is "how-to" guidance written for administrators to help them:
 
--  Understand how a product or service works.
--  Keep up with new releases.
--  Learn how to install, upgrade, manage, and troubleshoot products and services.
+- Understand how a product or service works.
+- Keep up with new releases.
+- Learn how to install, upgrade, manage, and troubleshoot products and services.
 
 There is also the expanded audience to consider, which often includes key decision-makers, such as product managers and executives, who are evaluating the complexity, size, and cost of implementation.
 
@@ -30,8 +30,8 @@ Product documentation should help the reader get set up as quickly and smoothly 
 
 The administrator interaction with product documentation is, in itself, a user experience. This is additional to the interactions they have with the actual systems and interfaces that the product documentation refers to. To maximise the information experience of product documentation, you should plan and create a core content framework and strategy:
 
--  A core **content framework**: the **content and structural components**, including the information architecture (IA) this content is built around.
--  A core **content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
+- A core **content framework**: the **content and structural components**, including the information architecture (IA) this content is built around.
+- A core **content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
 
 #### **Content framework**
 
@@ -102,7 +102,7 @@ IX engages with Product Design (PD) for UI content review when PD has developed 
 3. **Feedback.** IX provides feedback on the prototype and asks any outstanding questions for information, confirmation, or clarification. Where multiple approaches to on-screen content are possible, IX provides clear options and preferences.
 4. **Review.** PD incorporates IX feedback and reviews the completed prototypes with the PM for approval.
 5. **"Ready for Implementation" (RFI).** PD completes the design, which is approved by the PM for implementation by Engineering. 
-	-  Depending on priorities and Engineering bandwidth, the design may or may not be implemented. 
+	-  Depending on priorities and Engineering bandwidth, the design might or might not be implemented. 
 	-  IX might start drafting documentation for these designs.
 
 

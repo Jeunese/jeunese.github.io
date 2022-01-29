@@ -1,6 +1,9 @@
 - [Overview](/)
+- [Voice and Tone](voice-and-tone)
 - [Writing Guidelines](guidelines)
 - [Docs as Code](docs-as-code)
 - **Links**
 - [Github](https://github.com/Jeunese/docsify)
+- [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 - [Microsoft UX Guide](https://docs.microsoft.com/en-us/windows/win32/uxguide/text-ui)
+- [How to make sense of any mess](http://www.howtomakesenseofanymess.com/)
