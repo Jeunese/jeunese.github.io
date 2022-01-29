@@ -39,7 +39,7 @@ Avoid redundancy to maintain the effectiveness of your content.
 
 **Get to the point, quicker:**
 
-|Guidance | Example |
+|Tip | Example |
 |---|---|
 |Avoid buried verbs (or nominalisation; using a noun and a verb when a verb alone would portray the meaning).  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
 |Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add new user" or "The solution ~~in this case~~ is to delete the file." |
@@ -246,44 +246,47 @@ To write clear and accurate content:
 
 -  Eliminate redundancy, such as titles that restate the body of an information box in the UI or a paragraph in documentation.
 -  Don't provide unnecessary information. For example, don't give background information on the product –– focus on what's new in the particular service and instructions for performing a specific task.
--  Keep it short and simple.
-    -  Sentences should be, on average, 15 words; 28 words maximum.
-    -  Use shorter and less complicated words where possible.
 -  Remove unnecessary words and imprecise modifiers:
-    -  Remove an empty modifier, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
+    -  Remove empty modifiers, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
     -  Replace an intensifier or qualifier, along with the adjective it refers to, with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
     -  Avoid manner adverbs (usually formed from adjectives by adding "-ly") and use precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
 
 **Make content easy to scan for relevant information:**
 
-- Break up content and signpost sections.
+-  Keep it short and simple.
+    -  Keep content as short as possible to the reduce the need for users to scroll. 
+    -  Aim for paragraphs that are 75 words or fewer.
+    -  Sentences should be, on average, 15 words, and 28 words as a maximum.
+    -  Use shorter and less complicated words where possible.
+    -  Keep headings 12 words or fewer.
+-  Break up content.
     -  Use headings.
     -  Adopt flat hierarchy (2-3 tiers).
-    -  Keep headings short (12 words or fewer).
-    -  Write short paragraphs (75 words or fewer; 2-4 sentences).
+    -  Write short blocks of text (2-4 sentences).
     -  Use bullet points.
 - Consider the location of content.
-    -  Keep content as short as possible to the reduce the need for users to scroll. 
     -  Place important content "above the fold" in a webpage.
     -  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
 
-**Use clause and step order to help the reader identify and remember the relevant information:**
+### Writing instructional content
 
-|Guidance | Example|
+**Bullets and numbering.** Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
+
+**Emphasis.** Use emphasis very selectively. Typically, we use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. Don't use italics or quotation marks for emphasis.
+
+**Style.** Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
+
+**Click-throughs.** Use chevrons (**`>`**) with spaces around them to separate items in a click-through; bold the chevrons. For example, *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
+
+**Terminology.** Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". 
+ -  Use **select** to instruct the reader to select an item, like text, objects, or cells. 
+ -  Use **enter** to instruct the user to type their password or choose a selection from a dialogue box.
+
+|Sentence structure | Example|
 |---|---|
 |Put conditional clauses before instructions. |*"For more information, see the disclosure document"* (rather than *"See the disclosure document for more information"*). |
 |To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
 |When writing a series of steps, mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
-
-### Writing instructional content
-
-Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
-
-Use emphasis very selectively. Typically, we use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. Don't use italics or quotation marks for emphasis.
-
-Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
-
- Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". Use **select** to instruct the reader to select an item, like text, objects, or cells. Use **enter** to instruct the user to type their password or choose a selection from a dialogue box.
 
 ## UX writing
 
