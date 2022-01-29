@@ -194,12 +194,13 @@ Keep your tone informal and natural, even if relaying technical information to m
 -  Adopt an informal and personal tone.
 -  Be friendly and positive.
 
-|Guidance | Use (example) | Don't use (example) |
+|Guidance | Examples | |
 |---|---|---|
+|| **Use** | **Don't use**|
 |Choose short, simple words over long, formal, or complicated words. | "help" | "assistance" |
 |Use everyday words and contractions to make content easier to read and less formal. | "can't" | "cannot" or "can not" |
 |Address readers directly to establish a personal tone. Use the second person in sentences. | "you" | "the administrator" |
-|Look out for words like "can't" and "don't".|"Sign in again to reconnect"|"You can't reconnect until you sign in again"|
+|Look out for words like "can't" and "don't".|"Sign in again to reconnect"|"You *can't* reconnect until you sign in again"|
 
 **Note:**
 Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would".
