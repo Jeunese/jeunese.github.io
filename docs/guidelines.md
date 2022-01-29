@@ -15,25 +15,19 @@ Write clearly, precisely, and concisely. Keep it short, simple, and relevant.
 -  For online documentation, write sentences that are no more than 28 words.
 -  For UI content, write sentences that are no more than 15 words.
 
-Use as few words as possible. Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
+Use as few words as possible:
+-  Remove unnecessary modifiers. For example, "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward".
+-  Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
 
 **Write purposeful content:**
 
-Choose every word with both direction and meaning.
+Choose every word with purpose, direction, and meaning.
 
--  Write only to say something relevant and meaningful that the reader can use.
--  Don't write just to fill space.
+-  Write only to say something relevant that the reader can use.
+-  Don't write to fill space.
+-  Provide only the information needed to complete the task successfully.
+-  Don't provide unnecessary context or detail.
 -  Don't tell the reader how to think or feel; allow the reader to think or feel based on what you write.
-
-**Remove unnecessary or imprecise modifiers:**
-
-An intensifier ("adverb of degree") is a word that emphasises the meaning of another word, or amplifies the meaning of the word it modifies. Commonly used intensifiers include: "absolutely", "completely", "extremely", "highly", "rather", "really", "so", "too", "totally", "very", and "at all".
-
-Avoid intensifiers that are imprecise, redundant, or don't add meaning to the sentence. To do this, you can either:
-*  Remove an empty intensifier, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
-*  Replace the intensifier and the adjective it refers to with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
-
-Additionally, avoid "adverbs of manner". Manner adverbs are modifiers that tell us the way or how something is done, and are usually formed from adjectives by adding "-ly". You can avoid manner adverbs by using precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
 
 **Avoid grammatical expletives:**
 
@@ -205,9 +199,8 @@ Keep your tone friendly, informal, and natural, even if relaying technical infor
 |Use everyday words and contractions to make content easier to read and less formal. | "can't" | "cannot" or "can not" |
 |Address readers directly to establish a personal tone. Use the second person in sentences. | "you" | "the administrator" |
 
-> **Note:**
->
-> Personal writing is a spectrum. While everyday contractions are encouraged because they're easier to read, product documentation avoids less common or colloquial contractions, such as "that'd" instead of "that would".
+**Note:**
+Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, product documentation avoids less common or colloquial contractions, such as "that'd" instead of "that would".
 
 
 ### Be relevant
@@ -266,11 +259,15 @@ To write clear and accurate content:
 
 **Get straight to the point based on what users want and need:**
 
--  Eliminate redundancy, such as titles that restate the body of an information box in the UI or a paragraph in documentation
--  Don't provide unnecessary information. For example, don't give background information on the product –– focus on what's new in the particular service and instructions for performing a specific task),
+-  Eliminate redundancy, such as titles that restate the body of an information box in the UI or a paragraph in documentation.
+-  Don't provide unnecessary information. For example, don't give background information on the product –– focus on what's new in the particular service and instructions for performing a specific task.
 -  Keep it short and simple.
     -  Sentences should be, on average, 15 words; 28 words maximum.
     -  Use shorter and less complicated words where possible.
+-  Remove unnecessary words and imprecise modifiers:
+    -  Remove an empty modifier, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
+    -  Replace an intensifier or qualifier, along with the adjective it refers to, with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
+    -  Avoid manner adverbs (usually formed from adjectives by adding "-ly") and use precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
 
 **Make content easy to scan for relevant information:**
 
