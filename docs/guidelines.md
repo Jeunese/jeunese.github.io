@@ -8,30 +8,22 @@ You can apply the following guidelines to both product documentation and UI cont
 
 ### Lean writing
 
-Keep it short, simple, and relevant.
+Write clearly, precisely, and concisely. Keep it short, simple, and relevant.
 
-**Write short sentences:**
+**Keep sentences short:**
 
 -  For online documentation, write sentences that are no more than 28 words.
 -  For UI content, write sentences that are no more than 15 words.
 
-Use as few words as possible. Choose every word with both purpose and meaning, and prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
+Use as few words as possible. Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
 
 **Write purposeful content:**
 
--  Write only when you have something relevant and meaningful to say that the reader can use.
+Choose every word with both direction and meaning.
+
+-  Write only to say something relevant and meaningful that the reader can use.
 -  Don't write just to fill space.
--  Don't tell the reader how to think or feel; allow the reader to think or feel based on what you write. 
-
-**Avoid prepositional phrases:**
-
-|Guidance | Example |
-|---|---|
-|Avoid buried verbs.  | *"Follow the guidelines for upgrading your software"*, rather than *"Follow the guidelines for **performing an upgrade of** your software"*. |
-|Omit prepositional phrases. | *"Select the plus sign ~~in order~~ to add new user."*|
-|Use adverbs in place of prepositional phrases.  | *"This allows you to use the app effectively"*, rather than *"This allows you to use the app **with great effectiveness**"*. |
-|Replace prepositional phrases with the possessive.| *"Find the computer's instructions"*, rather than *"Find **the instructions of the computer**".*|
-|Use active voice. |*"The user must sign in to the computer"*, rather than *The computer must **be signed in to by** the user"*.|
+-  Don't tell the reader how to think or feel; allow the reader to think or feel based on what you write.
 
 **Remove unnecessary or imprecise modifiers:**
 
@@ -54,6 +46,16 @@ The most common grammatical expletives are “it is" and “there is” at the b
 Nominalisation refers to when a writer uses both a noun and a verb when a verb alone would be enough to portray the meaning. 
 
 *"The system performed a test of the connection"* could instead be *"The system tested the connection"*. The verb "test" was being used as noun; turning the word "test" into an action removed the need for the word "performed".
+
+**Avoid prepositional phrases:**
+
+|Guidance | Example |
+|---|---|
+|Avoid buried verbs.  | *"Follow the guidelines for upgrading your software"*, rather than *"Follow the guidelines for **performing an upgrade of** your software"*. |
+|Omit prepositional phrases. | *"Select the plus sign ~~in order~~ to add new user."*|
+|Use adverbs in place of prepositional phrases.  | *"This allows you to use the app effectively"*, rather than *"This allows you to use the app **with great effectiveness**"*. |
+|Replace prepositional phrases with the possessive.| *"Find the computer's instructions"*, rather than *"Find **the instructions of the computer**".*|
+|Use active voice. |*"The user must sign in to the computer"*, rather than *The computer must **be signed in to by** the user"*.|
 
 ### Language
 
