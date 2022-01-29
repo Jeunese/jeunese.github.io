@@ -267,7 +267,7 @@ To write clear and accurate content:
 - Consider the location of content.
     -  Place important content "above the fold" in a webpage.
     -  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
-- Use emphasis very selectively:
+- Use emphasis very selectively.
     -  Typically, we use bolding to call out UI elements and to place emphasis on specific actions. 
     -  Don't use italics or quotation marks for emphasis.
 
@@ -279,7 +279,7 @@ To write clear and accurate content:
 
 **Style.** Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
 
-**Click-throughs.** Use chevrons (**`>`**) with spaces around them to separate items in a click-through; bold the chevrons. For example, *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
+**Click-throughs.** Use chevrons (**>**) with spaces around them to separate items in a click-through; bold the chevrons. For example, *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
 
 **Terminology.** Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". 
  -  Use **select** to instruct the reader to select an item, like text, objects, or cells. 

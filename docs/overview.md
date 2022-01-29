@@ -24,16 +24,18 @@ There is also the expanded audience to consider, which often includes key decisi
 
 Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes.
 
+Product documentation should help the reader get set up as quickly and smoothly as possible.
+
 ### Content framework and strategy
 
-The administrator interaction with product documentation is, in itself, a user experience. This is additional to the interactions they have with the actual systems and interfaces that the product documentation refers to. Product documentation should help the reader get set up as quickly and smoothly as possible. To maximise the information experience of product documentation, you should plan and create a core content framework and strategy:
+The administrator interaction with product documentation is, in itself, a user experience. This is additional to the interactions they have with the actual systems and interfaces that the product documentation refers to. To maximise the information experience of product documentation, you should plan and create a core content framework and strategy:
 
 -  A core **content framework**: the **content and structural components**, including the information architecture (IA) this content is built around.
 -  A core **content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
 
 #### **Content framework**
 
-A content framework deals with we build, present, and organise content. 
+A content framework deals with how we build, present, and organise content. 
 
 Content should provide a coherent, consistent narrative throughout the product set-up and maintenance journey –– structured around the needs of the target audience so that administrators can find the right information and make use of it efficiently. Take the time to understand and plan for the target audience in the context of their needs and pain points, including: 
 
