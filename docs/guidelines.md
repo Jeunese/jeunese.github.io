@@ -280,7 +280,7 @@ To write clear and accurate content:
 |To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
 |When writing a series of steps, mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
 
-### Writing instructions
+### Writing instructional content
 
 Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
 
