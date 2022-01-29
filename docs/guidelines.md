@@ -15,9 +15,9 @@ Keep it short, simple, and relevant.
 -  For online documentation, write sentences that are no more than 28 words.
 -  For UI content, write sentences that are no more than 15 words.
 
-Use as few words as possible. Choose every word with both purpose and meaning and prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
+Use as few words as possible. Choose every word with both purpose and meaning, and prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
 
-**Write purposeful and meaningful content:**
+**Write purposeful content:**
 
 -  Write only when you have something relevant and meaningful to say that the reader can use.
 -  Don't write just to fill space.
