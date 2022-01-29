@@ -168,7 +168,7 @@ Tone can change based on the target audience or context. For example, academic p
 
 The tone might change a little depending on whether you're writing product documentation or in-product copy. The advice for a pop-up message in the UI, for example, might call for friendlier language to put the user at ease.
 
-The sections below provide guidelines for the general voice and tone of both product documentation and UI content. Some of the guidelines overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a personal tone (be human), and makes the content directly relevant to the reader (be relevant).
+The sections below provide guidelines for the general voice and tone of both product documentation and UI content. Some of the guidelines overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be relevant).
 
 ### Be clear
 
@@ -187,11 +187,11 @@ Avoid:
 
 ### Be human
 
-Keep your tone informal and natural, even if relaying technical information to more tech-savvy users.
+Keep your style informal and natural, even if relaying technical information to more tech-savvy users.
 
 -  Use everyday language.
 -  Be direct and conversational; talk *to* users, not at them. 
--  Adopt an informal and personal tone.
+-  Adopt an informal and personal style.
 -  Be friendly and positive.
 
 |Guidance | Example | 
