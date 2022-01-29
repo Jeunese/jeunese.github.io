@@ -184,7 +184,7 @@ Don't use symbols or characters to substitute words:
 	- Negative number
 	- Range of numbers (For example, pages 95–110). 
 
-## Technical writing guidelines
+# Technical writing guidelines
 
 Before writing technical content for product documentation, you should:
 
@@ -193,7 +193,7 @@ Before writing technical content for product documentation, you should:
 -  Understand at what stage in the customer journey the user is when they read your content.
 -  Understand the product: narrow your perspective down to the specific functionality that requires content.
 
-### Product knowledge guidelines
+## Product knowledge guidelines
 
 To write clear and accurate content: 
 
@@ -205,7 +205,7 @@ To write clear and accurate content:
 -  Create content based on a hands-on experience with the product or feature.
 -  When writing content, walk through design flow the way a user would and document as you perform the steps.
 
-### Writing product documentation
+## Writing product documentation
 
 **Get straight to the point based on what users want and need:**
 
@@ -243,7 +243,7 @@ Use as few words as possible to portray meaning.
 -  Replace an intensifier or qualifier, along with the adjective it refers to, with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
 -  Avoid manner adverbs (usually formed from adjectives by adding "-ly") and use precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
 
-### Writing instructional content
+## Writing instructional content
 
 **Bullets and numbering.** Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
 
@@ -262,6 +262,23 @@ Use as few words as possible to portray meaning.
 |Put conditional clauses before instructions. |*"For more information, see the disclosure document"* (rather than *"See the disclosure document for more information"*). |
 |To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
 |When writing a series of steps, mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
+
+# UX writing guidelines
+
+General guidance for UX writing include:
+
+-  Engage early with Product Design (PD).
+-  Set the strategy early in your writing.
+-  Take a user-centred approach.
+-  Keep messages short.
+-  Use voice, tone, and terminology consistently across different modes.
+-  Use first person references to address the reader directly; avoid referring to "users" or "customers".
+-  Avoid using the same word twice in the same screen.
+-  Use one word for CTA and text buttons unless there is a verb involved.
+-  Avoid negative words.
+-  Use sentence case for everything except global navigation and boolean values.
+
+More specific guidance depends on the type of UX writing you're engaged in.
 
 ## UX writing categories
 
@@ -331,7 +348,7 @@ A series of messages or tooltips appearing one at a time to provide step-by-step
 
 Context-sensitive topics that are triggered when the user selects a link provided at page level, used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page that the user is on. This provides users with a way of getting detailed information without having to navigate or search different sites.
 
-## UX writing guidelines
+## UX writing
 
 Before writing UI content, the UX writer needs to know:
 
@@ -339,20 +356,7 @@ Before writing UI content, the UX writer needs to know:
 -  How the product is used. 
 -  What the use cases are.
 
-General guidance for UX writing include:
-
--  Engage early with Product Design (PD).
--  Set the strategy early in your writing.
--  Take a user-centred approach.
--  Keep messages short.
--  Use voice, tone, and terminology consistently across different modes.
--  Use first person references to address the reader directly; avoid referring to "users" or "customers".
--  Avoid using the same word twice in the same screen.
--  Use one word for CTA and text buttons unless there is a verb involved.
--  Avoid negative words.
--  Use sentence case for everything except global navigation and boolean values.
-
-### Guidelines for tooltips
+## Guidelines for tooltips
 
 The text in a tooltip must be informative. You should aim to:
 
@@ -371,7 +375,7 @@ Tooltip text should provide additional and useful information, such as why a fie
 
 Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation/termination method.
 
-### Guidelines for instructional text
+## Guidelines for instructional text
 
 **Keep it simple.** Don't overuse instructional UI text; copy should enhance the experience, not clutter it.
 
@@ -388,7 +392,7 @@ Tooltips used in touchscreen devices are called popup tips, following the same g
 -  Ensure warnings are relevant to the task.
 -  Include tips that might help the user complete their task.
 
-### Guidelines for UI messages
+## Guidelines for UI messages
 
 In general, messages should:
 
@@ -422,7 +426,7 @@ General recommendations for each element of a message, whichever type it is, are
 -  For the message body, use complete sentences, sentence case capitalisation, and ending punctuation.
 -  For the buttons, use sentence case punctuation but no end punctuation, and use short, action verbs unless the buttons require a simple **Yes | No**.
 
-### Guidelines for UI elements
+## Guidelines for UI elements
 
 -  Use a logical order for UI elements. Avoid alphabetical (because it is language-dependent) unless no other order can be found.
 -  Don't use "click here" on a link.
