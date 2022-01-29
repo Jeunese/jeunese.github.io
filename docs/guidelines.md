@@ -80,6 +80,14 @@ You're talking to humans, so be sensitive to the human meaning of words.
 	- The presumption of colour-coding to dichotomise good and bad in terms of black and white (e.g., blacklist, whitelist).
 	- References that carry forward the master/slave paradigm (e.g., master table).
 
+**Use "please", "thank you", and "sorry" sparingly:** 
+
+Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program:
+
+-  Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault.
+-  Use "thank you" when you're asking someone to provide input that is inconvenient or difficult to get.
+-  Use "sorry" only in situations that cause serious problems for the user, such as data loss.
+
 ### Grammar
 
 Know when and how to use:
@@ -160,7 +168,7 @@ Tone can change based on the target audience or context. For example, academic p
 
 The tone might change a little depending on whether you're writing product documentation or in-product copy. The advice for a pop-up message in the UI, for example, might call for friendlier language to put the user at ease.
 
-The sections below provide guidelines for the general voice and tone of product documentation and UI content.
+The sections below provide guidelines for the general voice and tone of both product documentation and UI content. Some of the guidelines overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a personal tone (be human), and makes the content directly relevant to the reader (be relevant).
 
 ### Be clear
 
@@ -169,7 +177,7 @@ The sections below provide guidelines for the general voice and tone of product 
 -  Use simple words where possible.
 -  Write in short sentences.
 -  Break up sentences into separate thoughts.
--  Consider using an introductory condition to link shorter sentences.
+-  Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps by using the second person with the imperative mood and active voice.
 
 Avoid:
 
@@ -179,7 +187,9 @@ Avoid:
 
 ### Be human
 
-Keep your tone friendly, informal, and natural, even if relaying technical information to more tech-savvy users:
+Be personal and conversational, even if relaying technical information to more tech-savvy users.
+
+**Keep your tone informal and natural:** 
 
 -  Use everyday language.
 -  Talk *to* users, not at them. 
@@ -193,13 +203,19 @@ Keep your tone friendly, informal, and natural, even if relaying technical infor
 |Address readers directly to establish a personal tone. Use the second person in sentences. | "you" | "the administrator" |
 
 **Note:**
-Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, product documentation avoids less common or colloquial contractions, such as "that'd" instead of "that would".
+Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would".
+
+**Be friendly and positive when communicating information:**
+
+-  Look out for words like "can't" and "don't", e.g., instead of *"You can't reconnect without signing in again"*, use *"Sign in again to reconnect"*.
+-  Focus on the solution, not the error or mistake; use missteps as an opportunity to encourage users to keep navigating through the product.
+-  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
 
 ### Be relevant
 
 **Make your content about the user:**
 
--  Use the second person "you" in sentences about the user.
+-  Use the second person ("you") in sentences about the user.
 -  Use the active (as opposed to passive) voice.
 -  Tell the user why they should care.
 -  Suggest next steps or make the next steps obvious for the user.
@@ -208,21 +224,7 @@ Formality in writing is a spectrum. While everyday contractions are encouraged b
 
 Try starting sentences with a verb and using imperative sentences. For example, *"Access your emails through the browser"* rather than *"We enable users to access emails through a browser."* 
 
-Focus on what the user can do, rather than the state of the system. For example, "If you get no output, there is a serious issue with the input"* could instead be *"If you get no output, investigate the input"*.
-
-### Be positive
-
--  Look out for words like "can't" and "don't", e.g., instead of *"You can't reconnect without signing in again"*, use *"Sign in again to reconnect"*.
--  Focus on the solution, not the error or mistake; use missteps as an opportunity to encourage users to keep navigating through the product.
--  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
-
-Being positive doesn't mean being overly polite or apologetic. Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program:
-
--  Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault.
--  Use "thank you" when you're asking someone to provide input that is inconvenient or difficult to get.
--  Use "sorry" only in situations that cause serious problems for the user, such as data loss.
-
-Use missteps as an opportunity to encourage users to keep navigating through the product.
+Focus on what the user can do, rather than the state of the system. For example, *"If you get no output, there is a serious issue with the input"*, could instead be *"If you get no output, investigate the input"*.
 
 ## Product documentation
 
