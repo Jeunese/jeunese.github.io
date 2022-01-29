@@ -86,37 +86,6 @@ You're talking to humans, so be sensitive to the human meaning of words.
 	- The presumption of colour-coding to dichotomise good and bad in terms of black and white (e.g., blacklist, whitelist).
 	- References that carry forward the master/slave paradigm (e.g., master table).
 
-### Symbols
-
-Don't use symbols or characters to substitute words:
-
--  Use "or" instead of ``/``.
--  Use "and" instead of ``&`` unless space is extremely limited in the UI, e.g., for tab labels or screen titles.
- -  Use "more than" and "less than"  instead of ``>`` and ``<`` unless space is extremely limited in UI labels.
- -  Only use ``+`` when  you are adding a technical command or to indicate a count that exceeds a specific number when space is limited in the UI, e.g., 30+ degrees
--  Only use ``"`` when  you are adding a technical command or to represent inches, e.g., 10"x10"
--  Only use ``x`` when  you are adding a technical command; do not use the letter ``x`` to indicate a multiplication sign
--  Use an en dash (``-``) to indicate a minus sign or a hyphen	
--  Use "percent" with a number (e.g., `5 percent`) and "percentage" without a number.
-	- Spell out the word "percent" (instead of using the `%` symbol).
-	- Alway use a number with "percent" unless the number is the first word in a sentence
-	- Use a space between the number and the word "percent".
-
-### Acronyms and abbreviations
-
-Use shortened forms with care:
-
--  Spell out acronyms and include the acronym in parentheses immediately following the expanded form on first reference in online documentation unless it's a long-established acronym (e.g., HTML).
--  Don't capitalise the words on which the acronym is based unless it is a proper noun.
--  Avoid using the possessive form with abbreviations and acronyms.
--  Use the proper article with an acronym in the sentence.
--  Don't use an apostrophe for the plural of an acronym.
--  Avoid using abbreviations and acronyms for the first time in a title or heading, unless the abbreviation or acronym is a keyword, in which case, introduce the acronym in parenthesis following the full phrase it is based on.
--  Reserve abbreviations and acronyms for when space is limited or for when users are more familiar with the abbreviation or acronym than the phrase it is based on (e.g., URL)
--  Use abbreviations for a unit of measurement.
-	-  If an abbreviation matches a preposition, include a period after (e.g., 3 ft, 5 in.).
-	-  Insert a space between the number and the unit of measure
-
 ### Grammar
 
 Know when and how to use:
@@ -149,13 +118,44 @@ This leaves title case only for:
 -  Titles of books, podcasts, webinars, and videos.
 -  Trademarked product names.
 
+### Acronyms and abbreviations
+
+Use shortened forms with care:
+
+-  Spell out acronyms and include the acronym in parentheses immediately following the expanded form on first reference in online documentation unless it's a long-established acronym (e.g., HTML).
+-  Don't capitalise the words on which the acronym is based unless it is a proper noun.
+-  Avoid using the possessive form with abbreviations and acronyms.
+-  Use the proper article with an acronym in the sentence.
+-  Don't use an apostrophe for the plural of an acronym.
+-  Avoid using abbreviations and acronyms for the first time in a title or heading, unless the abbreviation or acronym is a keyword, in which case, introduce the acronym in parenthesis following the full phrase it is based on.
+-  Reserve abbreviations and acronyms for when space is limited or for when users are more familiar with the abbreviation or acronym than the phrase it is based on (e.g., URL)
+-  Use abbreviations for a unit of measurement.
+	-  If an abbreviation matches a preposition, include a period after (e.g., 3 ft, 5 in.).
+	-  Insert a space between the number and the unit of measure
+
+### Symbols
+
+Don't use symbols or characters to substitute words:
+
+-  Use "or" instead of ``/``.
+-  Use "and" instead of ``&`` unless space is extremely limited in the UI, e.g., for tab labels or screen titles.
+ -  Use "more than" and "less than"  instead of ``>`` and ``<`` unless space is extremely limited in UI labels.
+ -  Only use ``+`` when  you are adding a technical command or to indicate a count that exceeds a specific number when space is limited in the UI, e.g., 30+ degrees
+-  Only use ``"`` when  you are adding a technical command or to represent inches, e.g., 10"x10"
+-  Only use ``x`` when  you are adding a technical command; do not use the letter ``x`` to indicate a multiplication sign
+-  Use an en dash (``-``) to indicate a minus sign or a hyphen	
+-  Use "percent" with a number (e.g., `5 percent`) and "percentage" without a number.
+	- Spell out the word "percent" (instead of using the `%` symbol).
+	- Alway use a number with "percent" unless the number is the first word in a sentence
+	- Use a space between the number and the word "percent".
+
 ### Numbers
 
 -  Spell out numbers from zero through to nine.
 -  Use figures for 10 and above.
 -  Use figures for numbers in headlines.
 -  Use figures before million, billion, and trillion (e.g., 1 million).
--  Use figures for specific dates and time (e.g., 5 minutes).
+-  Use figures for specific dates, time, and measurements (e.g., 5 minutes).
 
 ## Voice and tone
 
