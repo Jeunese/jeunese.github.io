@@ -8,42 +8,44 @@ You can apply the following guidelines to both product documentation and UI cont
 
 ### Lean writing
 
-Write clearly, precisely, and concisely.
+Write clearly, precisely, and concisely to make it easier to read.
 
+**Keep content short and simple:**
+
+ Short and simple sentences and words are easier read and understand. 
+
+-  Separate different points or thoughts into separate sentences.
+-  Use common contractions, such as "don't" instead of "do not".
+-  Use short and simple, everyday words, such as "help" instead of "assistance".
+-  Write short sentences, and keep to a limit:
+    -  For online documentation, write sentences that are no more than 28 words.
+    -  For UI content, write sentences that are no more than 15 words.
+    
 **Write purposeful content:**
 
-Write every sentence and choose every word with purpose, direction, and meaning:
+Write every sentence and choose every word with purpose, direction, and meaning.
 
 -  Write only to say something relevant that the reader can use.
 -  Don't write to fill space.
--  Provide only the information needed to complete the task successfully.
 -  Don't provide unnecessary context or detail.
 -  Don't tell the reader how to think or feel; allow the reader to think or feel based on what you write.
 
-Use as few words as possible to portray meaning:
+**Use as few words as possible to portray meaning:**
+
+Avoid redundancy to maintain the effectiveness of your content. 
 
 -  Remove unnecessary modifiers. For example, "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward".
 -  Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings."
-
-**Keep it short and simple:**
-
-Make content easier to read by:
--  Separating different points or thoughts into separate sentences.
--  Using common contractions, such as "don't" instead of "do not".
--  Using short and simple, everyday words, such as "help" instead of "assistance".
-- Writing short sentences, and keeping to a limit:
-    -  For online documentation, write sentences that are no more than 28 words.
-    -  For UI content, write sentences that are no more than 15 words.
 
 **Get to the point, quicker:**
 
 |Guidance | Example |
 |---|---|
-|Avoid buried verbs and nominalisation (using a noun and a verb when a verb alone would portray the meaning).  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
-|Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add new user."|
+|Avoid buried verbs (or nominalisation; using a noun and a verb when a verb alone would portray the meaning).  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
+|Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add new user" or "The solution ~~in this case~~ is to delete the file." |
 |Use adverbs in place of prepositional phrases.  | "This allows you to use the app effectively", rather than "This allows you to use the app *with great effectiveness*". |
 |Replace prepositional phrases with the possessive.| "Find the computer's instructions", rather than "Find *the instructions for the computer*".|
-|Use active voice. |"The user must sign in to the computer"*, rather than *The computer must *be signed in to by* the user".|
+|Use the active voice, which is more direct and easier to understand than the passive voice. |"The user must sign in to the computer", rather than "The computer must *be signed in to by* the user".|
 |Write imperative sentences. | "If you need further help, ~~you can~~ contact the Support team". |
 |Avoid grammatical expletives (words that add emphasis by delaying the subject), such as "it is" or "there are". |"There are six items in the list", could be reworded to "The list has six items".|
 
@@ -162,10 +164,6 @@ The sections below provide guidelines for the general voice and tone of product 
 
 ### Be clear
 
-Try to write in the active voice. This is more direct and easier to understand. The passive voice can conceal the subject and lead to ambiguity.
-
-Keep it short and simple. Simple sentences and short works are easier read and understand. Avoid redundancy to maintain the effectiveness of your instruction. 
-
 -  Get to the point quickly.
 -  Write in plain English.
 -  Use simple words where possible.
@@ -190,13 +188,12 @@ Keep your tone friendly, informal, and natural, even if relaying technical infor
 
 |Guidance | Use (example) | Don't use (example) |
 |---|---|---|
-|Choose short, simple words over long, formal, or complicated words. | "help" | "assist" |
+|Choose short, simple words over long, formal, or complicated words. | "help" | "assistance" |
 |Use everyday words and contractions to make content easier to read and less formal. | "can't" | "cannot" or "can not" |
 |Address readers directly to establish a personal tone. Use the second person in sentences. | "you" | "the administrator" |
 
 **Note:**
 Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, product documentation avoids less common or colloquial contractions, such as "that'd" instead of "that would".
-
 
 ### Be relevant
 
