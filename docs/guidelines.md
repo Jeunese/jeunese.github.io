@@ -19,7 +19,7 @@ Use as few words as possible. Choose every word with both purpose and meaning an
 
 **Write purposeful and meaningful content:**
 
--  Write only when you have something to relevant and meaningful to say that the reader can use.
+-  Write only when you have something relevant and meaningful to say that the reader can use.
 -  Don't write just to fill space.
 -  Don't tell the reader how to think or feel; allow the reader to think or feel based on what you write. 
 
@@ -28,7 +28,7 @@ Use as few words as possible. Choose every word with both purpose and meaning an
 |Guidance | Example |
 |---|---|
 |Avoid buried verbs.  | *"Follow the guidelines for upgrading your software"*, rather than *"Follow the guidelines for **performing an upgrade of** your software"*. |
-|Omit prepositional phrases. | *"Select the plus sign to add new user*, rather than *"Select the plus sign **in order** to add new user*|
+|Omit prepositional phrases. | *"Select the plus sign ~~in order~~ to add new user."*|
 |Use adverbs in place of prepositional phrases.  | *"This allows you to use the app effectively"*, rather than *"This allows you to use the app **with great effectiveness**"*. |
 |Replace prepositional phrases with the possessive.| *"Find the computer's instructions"*, rather than *"Find **the instructions of the computer**".*|
 |Use active voice. |*"The user must sign in to the computer"*, rather than *The computer must **be signed in to by** the user"*.|
@@ -37,11 +37,11 @@ Use as few words as possible. Choose every word with both purpose and meaning an
 
 An intensifier ("adverb of degree") is a word that emphasises the meaning of another word, or amplifies the meaning of the word it modifies. Commonly used intensifiers include: "absolutely", "completely", "extremely", "highly", "rather", "really", "so", "too", "totally", "very", and "at all".
 
-Avoid intensifiers that are imprecise, redundant, or practically meaningless in the sentence. To do this, you can either:
+Avoid intensifiers that are imprecise, redundant, or don't add meaning to the sentence. To do this, you can either:
 *  Remove an empty intensifier, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
 *  Replace the intensifier and the adjective it refers to with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
 
-Additionally, avoid "adverbs of manner". Manner adverbs are modifiers tell us the way or how something is done, and are usually formed from adjectives by adding "-ly". Use more precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
+Additionally, avoid "adverbs of manner". Manner adverbs are modifiers that tell us the way or how something is done, and are usually formed from adjectives by adding "-ly". you cant avoid manner adverbs by using precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
 
 **Avoid grammatical expletives:**
 
@@ -101,7 +101,6 @@ Don't use symbols or characters to substitute words:
 	- Spell out the word "percent" (instead of using the `%` symbol).
 	- Alway use a number with "percent" unless the number is the first word in a sentence
 	- Use a space between the number and the word "percent".
-	- Duplicate the word "percent" in number ranges.
 
 ### Acronyms and abbreviations
 
@@ -152,10 +151,11 @@ This leaves title case only for:
 
 ### Numbers
 
-- Spell out numbers from zero through to nine.
-- Use figures for 10 and above.
-- Use figures before million, billion, and trillion.
-- Use figures for numbers in headlines.
+-  Spell out numbers from zero through to nine.
+-  Use figures for 10 and above.
+-  Use figures for numbers in headlines.
+-  Use figures before million, billion, and trillion (e.g., 1 million).
+-  Use figures for specific dates and time (e.g., 5 minutes).
 
 ## Voice and tone
 
