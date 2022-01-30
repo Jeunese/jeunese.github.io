@@ -76,10 +76,10 @@ Keep your style informal and natural, even if relaying technical information to 
 
 |Guidance | Examples | 
 |---|---|
-|Choose short, simple words over long, formal, or complicated words. | "help" instead of "assistance", "let" instead of "enable", "use" instead of "utilise", "more" instead of "further"|
-|Use everyday words and contractions to make content easier to read and less formal. | "can't" instead of "cannot" or "can not", "you're" instead of "you are", "it's" instead of "it is"|
+|Choose short, simple, everyday words over long, formal, or complicated words. | "help" instead of "assistance", "let" instead of "enable", "use" instead of "utilise", "more" instead of "further"|
+|Use  contractions to make content easier to read and less formal. | "can't" instead of "cannot" or "can not", "you're" instead of "you are", "it's" instead of "it is"|
 |Address readers directly to establish a personal tone. Use the second person in sentences. | "you" instead of "the administrator", "the customer", "the user" |
-|Look out for words like "can't" and "don't".|"Sign in again to reconnect" instead of "You *can't* reconnect until you sign in again"|
+|Look out for words like "can't" and "don't" to re-frame sentences more positively.|"Sign in again to reconnect" instead of "You *can't* reconnect until you sign in again"|
 
 **Notes on formality:**
 
