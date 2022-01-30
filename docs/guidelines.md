@@ -88,7 +88,7 @@ Avoid overusing "please", "thank you", and "sorry", especially for normal operat
 |---|---|---|---|
 |Please | Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault. | "Please try again later." | "To view the file, ~~please~~ select **View**."|
 |Thank you | Use "thank you" when you're asking someone to provide input that is inconvenient. Only convey gratitude from the people behind the documentation or product rather than the system itself. |"Thank you for giving us your feedback!" |"Check that you've entered your email address correctly before submitting. ~~Thank you~~."  |
-|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service. Please try again later" |"~~Sorry.~~ It looks like your card is expired." |
+|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service. Please try again later." |"~~Sorry.~~ It looks like your card is expired." |
 
 Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of of the reader or user first. 
 
@@ -304,11 +304,11 @@ Use chevrons (**>**) with spaces around them to separate items in a clickthrough
 
 ### Terminology
 
-Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". 
+Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "choose", "select", and "enter". 
  -  Use **select** to instruct the reader to select an item, like text, objects, or cells. 
  -  Use **enter** to instruct the user to type their password or choose a selection from a dialogue box.
 
- ### Sentence structure
+### Sentence structure
 
 |Sentence structure | Example|
 |---|---|
@@ -325,7 +325,7 @@ General guidance for UX writing include:
 -  Take a user-centred approach.
 -  Keep messages short.
 -  Use voice, tone, and terminology consistently across different modes.
--  Use first person references to address the reader directly; avoid referring to "users" or "customers".
+-  Address the reader directly; avoid referring to "users" or "customers".
 -  Avoid using the same word twice in the same screen.
 -  Avoid negative words.
 -  Use sentence case for everything except global navigation and boolean values.
