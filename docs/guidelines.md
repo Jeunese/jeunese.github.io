@@ -2,7 +2,9 @@
 
 Following a set of writing guidelines helps ensure consistency, content quality, and a good user experience of product documentation and UI content. The writing guidelines presented in this article are based on substantial research, content design principles, UX writing expertise, and industry standards.
 
-You can apply the **Lean writing principles**, guidelines for **Word choice**, and **Writing conventions** to both technical writing and UX writing.
+This isn't a complete list of every language, grammar, or formatting rule or convention. The guidelines are designed to deal with common scenarios and to recommend best practices for technical documentation and in-product content.
+
+You can apply the **Lean writing principles**, **Word choice guidelines**, and **Writing conventions** to both technical writing and UX writing (or content design).
 
 ## Lean writing principles
 
@@ -17,9 +19,9 @@ Shorter paragraphs, sentences, and words are easier to scan, easier to understan
 - Separate different points or thoughts into different sentences.
 - Use common contractions, such as "don't" instead of "do not".
 - Use short and simple, everyday words, such as "help" instead of "assistance".
-- Remove excess words that don't add meaning to the sentence, for example "Remove each ~~individual~~ item from the list.” 
-- Replace wordy phrases with single words where possible, for example, "due to the fact that" can be replaced with "because".
-- Use as few words as possible to portray meaning, for example, *"You'll be asked to change your password ~~at some point~~ before your next sign in."*
+- Remove excess words that don't add meaning to the sentence, for example:"Remove each ~~individual~~ item from the list.” 
+- Replace wordy phrases with single words where possible, for example: "due to the fact that" can be replaced with "because".
+- Use as few words as possible to portray meaning, for example: *"You'll be asked to change your password ~~at some point~~ before your next sign in."*
 
 ### Write purposeful content
 
@@ -44,7 +46,7 @@ Follow these tips to get to the point in your communication with readers.
 |Write imperative sentences. | "If you need further help, ~~you can~~ contact the Support team". |
 |Avoid grammatical expletives (words that add emphasis by delaying the subject), such as "it is" or "there are". |"There are six items in the list", could be reworded to "The list has six items".|
 
-## Word choice
+## Word choice guidelines
 
 Use clear, consistent, and human language.
 
@@ -295,7 +297,7 @@ Use the imperative mood for instructions. Sentences with an imperative mood star
 
 ### Clickthroughs
 
-Use chevrons (**>**) with spaces around them to separate items in a clickthrough; bold the chevrons. For example, *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
+Use chevrons (**>**) with spaces around them to separate items in a clickthrough; bold the chevrons. For example: *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
 
 ### Terminology
 
