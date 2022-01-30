@@ -310,7 +310,7 @@ Use the word **click** only to refer to specific mouse actions; in general, avoi
 
 ### Sentence structure
 
-|Sentence structure | Example|
+|Guidance| Example|
 |---|---|
 |Put conditional clauses before instructions. |*"For more information, see the disclosure document"* (rather than *"See the disclosure document for more information"*). |
 |To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
