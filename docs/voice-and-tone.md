@@ -28,18 +28,13 @@ For example, an error message in the UI might call for friendlier language such 
 
 ## Voice and tone, or tone of voice?
 
-It can be hard differentiating voice (character) from tone (attitude) with concrete examples. 
+It can be hard differentiating voice (character) from tone (attitude) with concrete examples. Rather than attempting to reconcile the differences in opinion about the nature of voice and tone in writing, it might be more useful to consider both concepts as part of a whole. 
 
-Adding to the confusion, the [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that the *message*, rather than voice, is *what* you say, and that voice is *how* you say it, with tone being *an aspect of* voice, alongside personality, substance, and style. Voice then becomes a group of multiple features or a delivery mechanism of sorts. 
+The [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that the *message*, rather than voice, is *what* you say, and that voice is *how* you say it, with tone being *an aspect of* voice, alongside personality, substance, and style. Voice then becomes a group of multiple features or a delivery mechanism of sorts. 
 
-Rather than attempting to reconcile the differences in opinion about the nature of voice and tone in writing, it might be more useful to consider both concepts as part of a whole. Specifically, it makes sense to define voice as the parameter within which tone can operate. 
+If voice and tone don't operate independently, it is useful to consider them jointly in making decisions about writing style. For this reason, we refer to our **tone of voice** rather than "voice and tone". Specifically, it makes sense to define voice as the parameter within which tone can operate. 
 
-With this in mind, this style guide defines the difference between voice and tone as similar to the difference between "traits" and "states" in human psychology: you can be a friendly person (trait), but also exhibit more or less friendliness depending on the situation or who you're interacting with (state).
-
-Similarly, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
-
-If voice and tone don't operate independently, it is useful to consider them jointly in making decisions about writing style. 
-For this reason, we can refer to our **tone of voice** rather than "voice and tone".
+Under this logic, the difference between voice and tone as similar to the difference between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (state)depending on the situation or who you're interacting with. Similarly, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
 
 ## Our tone of voice
 
