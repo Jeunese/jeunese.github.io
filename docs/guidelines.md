@@ -258,9 +258,11 @@ The primary purpose of the product documentation is to provide information to th
 -  Place important content "above the fold" in a webpage.
 -  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
 
-**Use emphasis very selectively:**
--  Typically, we use bolding to call out UI elements and to place emphasis on specific actions. 
--  Don't use italics or quotation marks for emphasis.
+**Use bold for emphasis very selectively:**
+-  Reserve bolding to call out UI elements and to place emphasis on specific actions. 
+-  Don't use quotation marks for emphasis.
+-  Avoid using italics for emphasis, where possible.
+-  Rather than using bold or italics to emphasise whole phrases, use layout, callouts, headings, and short paragraphs to draw attention to important content or messages.
 
 ### Avoid redundancy to maintain the effectiveness of your content
 
