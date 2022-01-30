@@ -21,7 +21,7 @@ Shorter paragraphs, sentences, and words are easier to scan, easier to understan
 - Use short and simple, everyday words, such as "help" instead of "assistance".
 - Remove excess words that don't add meaning to the sentence, for example:"Remove each ~~individual~~ item from the list.” 
 - Replace wordy phrases with single words where possible, for example: "due to the fact that" can be replaced with "because".
-- Use as few words as possible to portray meaning, for example: *"You'll be asked to change your password ~~at some point~~ before your next sign in."*
+- Use as few words as possible to portray meaning, for example: *"You'll be asked to change your password ~~at some point~~ before you next sign in."*
 
 ### Write purposeful content
 
@@ -273,7 +273,7 @@ To modify a quote from Antoine de Saint-Exupery, good writing is achieved, not w
 - Get straight to the point based on what users want and need.
 - Eliminate titles that restate the body of an information box in the UI or a paragraph in documentation.
 - Remove unnecessary words and content, for example, *"You'll be asked to enter your password~~, which you created in the previous step~~."
-- Use as few words as possible to portray meaning. The table, below, outlines some tips.
+- Use as few words as possible to portray meaning. The table, below, outlines some guidance.
 
 |Guideline | Examples |
 |---|---|
