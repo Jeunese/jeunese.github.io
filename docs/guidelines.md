@@ -88,11 +88,11 @@ Avoid overusing "please", "thank you", and "sorry", especially for normal operat
 |---|---|---|---|
 |Please | Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault. | "Please try again later." | "To view the file, ~~please~~ select **View**."|
 |Thank you | Use "thank you" when you're asking someone to provide input that is inconvenient. Only convey gratitude from the people behind the documentation or product rather than the system itself. |"Thank you for giving us your feedback!" |"Check that you've entered your email address correctly before submitting. ~~Thank you~~."  |
-|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service." |"~~Sorry.~~ It looks like your card is expired." |
+|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service. Please try again later" |"~~Sorry.~~ It looks like your card is expired." |
 
 Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of of the reader or user first. 
 
-For example, an error message that says *"Sorry! There was a generic error"* is polite, but not especially useful because it focusses on its own basic function, and not what the reader or user needs to do.
+For example, an error message that says *"Sorry! There was a generic error"* is polite, but not especially useful because it focuses on its own basic function, and not what the reader or user needs to do. 
 
 ## Writing conventions
 
@@ -207,7 +207,7 @@ Don't use symbols or characters to substitute words:
 - Hyphenate compound modifiers that act as adjectives, for example, "A high-definition user experience"
 - Don't use a hyphen with adverbs ending in -ly, for example, "A highly mobile worker"
 - Use em dashes (––) like parentheses, but don’t overuse them. 
-- Be careful not to substitute an en dash (–) for an em dash (––).
+- Be careful not to substitute an en dash (–) for an em dash (––), or vice versa.
 - Use an en dash (–) to indicate a: 
 	- Minus sign
 	- Negative number
