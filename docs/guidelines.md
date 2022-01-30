@@ -34,7 +34,7 @@ Follow these tips to get to the point in your communication with readers.
 
 |Tip | Example |
 |---|---|
-|Avoid buried verbs (or nominalisation; using a noun and a verb when a verb alone would portray the meaning).  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
+|Avoid buried verbs (nominalisation): using a noun and a verb when a verb alone would portray the meaning.  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
 |Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add new user" or "The solution ~~in this case~~ is to delete the file." |
 |Use adverbs in place of prepositional phrases.  | "This allows you to use the app effectively", rather than "This allows you to use the app *with great effectiveness*". |
 |Replace prepositional phrases with the possessive.| "Find the computer's instructions", rather than "Find *the instructions for the computer*".|
@@ -71,9 +71,23 @@ You're talking to humans, so be sensitive to the human meaning of words.
 
 |Guidance | Example |
 |---|---|
-|Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate". | Instead of *"Kill your session"*, use *"End your session"* |
-|Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad" and references that carry forward the master/slave paradigm | Instead of "blacklist" and "whitelist", use "blocklist" and "allowlist"; instead of "master table", use "main table". |
-|Use gender-neutral alternatives to "he", "she", "him", and "her". |Instead of "him" or "her", use "them"; instead of "his" or "her", use "their". |
+|Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate". | **Do use:** "*End* your session." **Don't use:** "*Kill* your session." |
+|Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad" and references that carry forward the master/slave paradigm | **Do use:** "blocklist", "allowlist", "main table". **Don't use:** "blacklist", "whitelist", "master table". |
+|Use gender-neutral alternatives to "he", "she", "him", and "her". | **Do use:** "them", "their", "they". **Don't use:** "him", "his" or "her".|
+
+### Be considerate, but not over-polite
+
+Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program. Adding these terms might seem polite, but they can come across as disingenuous and slow people down by adding wordiness to your sentences.
+
+|Term | Guidance | Examples |
+|---|---|---|
+|Please | Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault. | **Do:** "Please try again later." **Don't:** "To view the document, ~~please~~ select **View**."|
+|Thank you | Use "thank you" when you're asking someone to provide input that is inconvenient. Only convey gratitude from the people behind the documentation or product rather than the system itself. | **Do:** "Thank you for giving us your feedback!" **Don't:** "Check that you've entered you email correctly before submitting. ~~Thank you~~."  |
+|Sorry | Use "sorry" only in situations that cause serious problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function.  | **Do:**"Sorry. Something has gone wrong." **Don't:** "~~Sorry.~~ It looks like your card is expired." |
+
+Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of of the reader or user first. 
+
+For example, an error message that says *"Sorry! There was a generic error"* is polite, not especially useful because it focusses on its own basic function, and not what the reader or user needs to do.
 
 ## Writing conventions
 
@@ -81,12 +95,11 @@ This section provides guidance on some of the mechanics of technical writing, li
 
 ### Punctuation
 
-Punctuation steps in to provide meaning in the absence of the rhythm, intonation, and pauses in speech that would otherwise offer clarity.
+Punctuation provides meaning in the absence of the rhythm, intonation, and pauses in speech that would otherwise offer clarity.
 
 -  Keep punctuation simple. Complex constructions, using semicolons or multiple dashes, for example, can impair readability and can make translation difficult.
 -  Use the serial (Oxford) comma to provide clarity and to maintain consistency across content. Use a comma for a series of three or more elements.
 -  Don't use end punctuation (``. : ! ?``) in section titles, subheadings, UI titles, and items in a list that are three or fewer words.
--  Use full stops only in paragraphs and body copy.
 -  Don't use a comma to combine two independent clauses (comma splicing). Instead, add a conjunction (like "and") or separate the clauses into two sentences. For example, *"I sent 100 emails, I plan to send 100 more"* could instead be either:
     - *"I sent 100 emails, and I plan to send 100 more"*
     - *"I sent 100 emails. I plan to send 100 more"*
@@ -114,17 +127,14 @@ This leaves title case only for:
 
 ### Headings
 
+Headings help with scanning by breaking up a page into sections and signposting those sections.
+
 -  Keep headings (headlines and subheadings), short, clear, and to the point. 
 -  Use action verbs whenever possible. 
 -  Choose clarity over cleverness.
 -  Highlight the main point of your content and give the reader a good sense of what they’re about to read. 
 -  Create a benefit-driven statement written in conversational language.  
 -  Keep your headline as short as possible, using a subheading to dive into the details if necessary.
-
-Subheads can be used to: 
-- Pay off a headline
-- Help with scanning by signposting sections of a page
-- Break up a page into sections
 
 ### Lists
 
@@ -143,19 +153,21 @@ Long lists of bullets are no easier to read than big blocks of text. So keep bul
 * Consistent in style
 * 8 items or fewer
 
-Consider grouper longer lists into themes and under different subheadings. 
+Consider grouping longer lists into themes and under different subheadings. 
 
 ### Acronyms and abbreviations
 
-Use shortened forms with care:
+Use shortened forms with care. 
 
--  Spell out acronyms and include the acronym in parentheses immediately following the expanded form on first reference in online documentation unless it's a long-established acronym (for example, HTML).
+In online documentation, spell out acronyms and include the acronym in parentheses immediately following the expanded form on first reference unless it's a long-established acronym (for example, HTML).
+
+Reserve acronyms and abbreviations for when space is limited or for when users are more familiar with the acronym or abbreviation than the phrase it's based on (for example, URL). When you do use acronyms and abbreviations:
+
 -  Don't capitalise the words on which the acronym is based unless it is a proper noun.
 -  Avoid using the possessive form with abbreviations and acronyms.
 -  Use the proper article with an acronym in the sentence.
 -  Don't use an apostrophe for the plural of an acronym.
 -  Avoid using abbreviations and acronyms for the first time in a title or heading, unless the abbreviation or acronym is a keyword, in which case, introduce the acronym in parenthesis following the full phrase it is based on.
--  Reserve abbreviations and acronyms for when space is limited or for when users are more familiar with the abbreviation or acronym than the phrase it is based on (for example, URL)
 -  Use abbreviations for a unit of measurement.
 	-  If an abbreviation matches a preposition, include a period after (for example, 3 ft, 5 in.).
 	-  Insert a space between the number and the unit of measure
@@ -189,18 +201,18 @@ Don't use symbols or characters to substitute words:
 
 - Hyphenate compound modifiers that act as adjectives, for example, "A high-definition user experience"
 - Don't use a hyphen with adverbs ending in -ly, for example, "A highly mobile worker"
-- Use em dashes (—) like parentheses, but don’t overuse them. 
-- Be careful not to substitute an en dash (–) for an em dash.
+- Use em dashes (––) like parentheses, but don’t overuse them. 
+- Be careful not to substitute an en dash (–) for an em dash (––).
 - Use an en dash (–) to indicate a: 
-	- Minus sign  
+	- Minus sign
 	- Negative number
-	- Range of numbers (For example, pages 95–110). 
+	- Range of numbers (for example, pages 95–110). 
 
 # Technical writing guidelines
 
 Before writing technical content for product documentation, you should:
 
--  Understand the user persona: whether they're network, IT, or security administrators, security officers, end-users, or data analysts.
+-  Understand the user persona: whether they're: network, IT, or security administrators; security officers; end-users; or data analysts.
 -  Change the way you write based on the users and their expectations. Be aware of goals, needs, and backgrounds. Decide on the tone you use based on the product and target audience.
 -  Understand at what stage in the customer journey the user is when they read your content.
 -  Understand the product: narrow your perspective down to the specific functionality that requires content.
@@ -219,55 +231,77 @@ To write clear and accurate content:
 
 ## Writing product documentation
 
-**Get straight to the point based on what users want and need:**
+Good writing, especially writing designed for instruction, should be clear and to the point. 
 
--  Eliminate redundancy, such as titles that restate the body of an information box in the UI or a paragraph in documentation.
--  Don't provide unnecessary information. For example, don't give a detailed history the product –– focus on what's new in the particular service and instructions for performing a specific task.
--  Remove unnecessary words and content.
+### Make content easy to scan for relevant information
 
-**Make content easy to scan for relevant information:**
+The primary purpose of the product documentation is to provide information to the administrator who's looking for it.
 
--  Keep it short and simple. 
-    -  Keep content as short as possible to the reduce the need for users to scroll. 
-    -  Aim for paragraphs that are 75 words or fewer.
-    -  Sentences should be, on average, 15 words, and 28 words as a maximum.
-    -  Use shorter and less complicated words where possible.
-    -  Keep headings 12 words or fewer.
--  Break up content.
-    -  Use headings.
-    -  Adopt flat hierarchy (2-3 tiers).
-    -  Write short blocks of text (2-4 sentences).
-    -  Use bullet points.
-- Consider the location of content.
-    -  Place important content "above the fold" in a webpage.
-    -  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
-- Use emphasis very selectively.
-    -  Typically, we use bolding to call out UI elements and to place emphasis on specific actions. 
-    -  Don't use italics or quotation marks for emphasis.
+**Keep it short and simple:**
+-  Keep content as short as possible to the reduce the need for users to scroll. 
+-  Aim for paragraphs that are 75 words or fewer.
+-  Sentences should be, on average, 15 words, and 28 words as a maximum.
+-  Use shorter and less complicated words where possible.
+-  Keep headings 12 words or fewer.
 
-**Avoid redundancy to maintain the effectiveness of your content.**
+**Break up content:**
+-  Use headings.
+-  Adopt a flat hierarchy (2-3 tiers).
+-  Write short blocks of text (2-4 sentences).
+-  Use bullet points.
 
-Use as few words as possible to portray meaning.
+**Consider the location of content:**
+-  Place important content "above the fold" in a webpage.
+-  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
 
--  Remove unnecessary modifiers. For example, "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward".
--  Prune every excess word. For example, "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings.".
--  Remove empty modifiers, for example, *"Selecting this option is ~~really~~ only needed if you're using a Windows machine."*
--  Replace an intensifier or qualifier, along with the adjective it refers to, with a stronger word, for example, *"very important"* could be replaced with *"crucial"*.
--  Avoid manner adverbs (usually formed from adjectives by adding "-ly") and use precise language, instead. For example, *"The change takes effect quickly"*, could instead be *"The change takes effect within 5 minutes"*.
+**Use emphasis very selectively:**
+-  Typically, we use bolding to call out UI elements and to place emphasis on specific actions. 
+-  Don't use italics or quotation marks for emphasis.
+
+### Avoid redundancy to maintain the effectiveness of your content
+
+Don't provide unnecessary information. For example, don't give a detailed history the product –– focus on what's new in the particular service and instructions for performing a specific task.
+
+To modify a quote from Antoine de Saint-Exupery, good writing is achieved, not when there is nothing left to add, but when there is nothing left to remove. 
+
+- Get straight to the point based on what users want and need.
+- Eliminate titles that restate the body of an information box in the UI or a paragraph in documentation.
+- Remove unnecessary words and content. 
+- Use as few words as possible to portray meaning. 
+
+|Guideline | Examples |
+|---|---|
+|Remove unnecessary modifiers. | "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward". |
+|Prune every excess word. | "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings." |
+|Remove empty modifiers. | "Selecting this option is ~~really~~ only needed if you're using a Windows machine."|
+|Replace an intensifier or qualifier, along with the adjective it refers to, with a stronger word. | *"very important"* could be replaced with *"crucial"*.|
+|Avoid manner adverbs (usually formed from adjectives by adding "-ly") and use precise language, instead. |  "The change takes effect *quickly*", could instead be "The change takes effect within *5 minutes*".
 
 ## Writing instructional content
 
-**Bullets and numbering.** Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
+### Bullets and numbering
 
-**Emphasis.** Use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
+Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
 
-**Style.** Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
+### Emphasis
 
-**Click-throughs.** Use chevrons (**>**) with spaces around them to separate items in a click-through; bold the chevrons. For example, *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
+Use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
 
-**Terminology.** Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". 
+### Style
+
+Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
+
+### Clickthroughs
+
+Use chevrons (**>**) with spaces around them to separate items in a clickthrough; bold the chevrons. For example, *"To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**"*.
+
+### Terminology
+
+Use the word **click** only to refer to specific mouse actions; in general, avoid talking about mouse actions. Instead, refer to user actions with words like "hover over", "point to", "select", "choose", and "enter". 
  -  Use **select** to instruct the reader to select an item, like text, objects, or cells. 
  -  Use **enter** to instruct the user to type their password or choose a selection from a dialogue box.
+
+ ### Sentence structure
 
 |Sentence structure | Example|
 |---|---|
@@ -425,12 +459,6 @@ For error messages:
 -  Don't blame the user.
 -  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
 -  Use missteps as an opportunity to encourage users to keep navigating through the product.
-
-Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program:
-
--  Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault.
--  Use "thank you" when you're asking someone to provide input that is inconvenient or difficult to get.
--  Use "sorry" only in situations that cause serious problems for the user, such as data loss.
 
 General recommendations for each element of a message, whichever type it is, are:
 
