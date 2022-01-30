@@ -67,6 +67,7 @@ Use clear, consistent, and human language.
 
 -  Don't switch between terms in the product documentation or in the product itself.
 -  Don't switch back and forth between full words and acronyms or abbreviations.
+-  Don't switch between language conventions, such as American and British spellings.
 -  In instructions, refer to UI elements exactly as they appear in the product.
 
 ### Use unbiased and inclusive language
@@ -79,19 +80,19 @@ You're talking to humans, so be sensitive to the human meaning of words.
 |Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad" and references that carry forward the master/slave paradigm | **Do use:** "blocklist", "allowlist", "main table". **Don't use:** "blacklist", "whitelist", "master table". |
 |Use gender-neutral alternatives to "he", "she", "him", and "her". | **Do use:** "them", "their", "they". **Don't use:** "him", "his", "her".|
 
-### Be considerate, but not over-polite
+### Be considerate, not over-polite
 
 Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program. Adding these terms might seem polite, but they can come across as disingenuous and slow people down by adding wordiness to your sentences.
 
 |Term | Guidance | When to use (example) | When to remove (example) |
 |---|---|---|---|
 |Please | Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault. | "Please try again later." | "To view the file, ~~please~~ select **View**."|
-|Thank you | Use "thank you" when you're asking someone to provide input that is inconvenient. Only convey gratitude from the people behind the documentation or product rather than the system itself. |"Thank you for giving us your feedback!" |"Check that you've entered you email correctly before submitting. ~~Thank you~~."  |
-|Sorry | Use "sorry" only in situations that cause serious problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function.  | "Sorry. Something has gone wrong." |"~~Sorry.~~ It looks like your card is expired." |
+|Thank you | Use "thank you" when you're asking someone to provide input that is inconvenient. Only convey gratitude from the people behind the documentation or product rather than the system itself. |"Thank you for giving us your feedback!" |"Check that you've entered your email address correctly before submitting. ~~Thank you~~."  |
+|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service." |"~~Sorry.~~ It looks like your card is expired." |
 
 Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of of the reader or user first. 
 
-For example, an error message that says *"Sorry! There was a generic error"* is polite, not especially useful because it focusses on its own basic function, and not what the reader or user needs to do.
+For example, an error message that says *"Sorry! There was a generic error"* is polite, but not especially useful because it focusses on its own basic function, and not what the reader or user needs to do.
 
 ## Writing conventions
 
