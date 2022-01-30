@@ -83,7 +83,7 @@ Avoid overusing "please", "thank you", and "sorry", especially for normal operat
 |---|---|---|
 |Please | Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault. | **Do:** "Please try again later." **Don't:** "To view the document, ~~please~~ select **View**."|
 |Thank you | Use "thank you" when you're asking someone to provide input that is inconvenient. Only convey gratitude from the people behind the documentation or product rather than the system itself. | **Do:** "Thank you for giving us your feedback!" **Don't:** "Check that you've entered you email correctly before submitting. ~~Thank you~~."  |
-|Sorry | Use "sorry" only in situations that cause serious problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function.  | **Do:**"Sorry. Something has gone wrong." **Don't:** "~~Sorry.~~ It looks like your card is expired." |
+|Sorry | Use "sorry" only in situations that cause serious problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function.  | **Do:** "Sorry. Something has gone wrong." **Don't:** "~~Sorry.~~ It looks like your card is expired." |
 
 Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of of the reader or user first. 
 
@@ -151,7 +151,7 @@ Long lists of bullets are no easier to read than big blocks of text. So keep bul
 * Short
 * Related
 * Consistent in style
-* 8 items or fewer
+* Eight items or fewer
 
 Consider grouping longer lists into themes and under different subheadings. 
 

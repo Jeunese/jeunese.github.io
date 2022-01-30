@@ -106,5 +106,5 @@ Make your content about the reader or user. Make it obvious why content is relev
 |---|---|
 |Try starting sentences with a verb and using imperative sentences. | "Access your emails through the browser" rather than "We enable users to access emails through a browser." |
 |Focus on what the user can do, rather than the state of the system.| "If you get no output, investigate the input" rather than "If you get no output, there is a serious issue with the input."|
-|Use more verbs and fewer nouns. | "If you decide to..." instead of "If you make a decision to...", "The system analysed..." instead of "The system conducted an analysis of..." |
+|Use more verbs and fewer nouns. | "If you decide to..." instead of "If you make a decision to..."; "The system analysed..." instead of "The system conducted an analysis of..." |
 |Write in the active voice, where the subject of the sentence performs the action (subject + verb + object construction).| "You can send emails from your phone", rather than "Emails *can be sent from* your phone".|
