@@ -24,17 +24,21 @@ Voice captures the persona behind the content or its "character". Voice should b
 
 Tone captures the "attitude" with which we express content. It is often described as the "emotional inflection" applied to the voice. This should change based on the target audience, context, and the reader's state of mind.
 
-For example, an error message in the UI might call for friendlier language such as *"It looks like your passwords don't match. Try again?"* to put the user at ease, compared with *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel, but their tone is different.
+For example, an error message in the UI might call for friendlier language such as *"It looks like your passwords don't match. Try again?"* to put the user at ease. Compare this with a phrase like *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel, but the tone is different.
 
 ## Voice and tone, or tone of voice?
 
-It can be hard differentiating voice (character) from tone (attitude) with concrete examples. Rather than attempting to reconcile the differences in opinion about the nature of voice and tone in writing, it might be more useful to consider both concepts as part of a whole. 
+It can be hard differentiating voice (character) from tone (attitude) with concrete examples. For example, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
 
-The [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that the *message*, rather than voice, is *what* you say, and that voice is *how* you say it, with tone being *an aspect of* voice, alongside personality, substance, and style. Voice then becomes a group of multiple features or a delivery mechanism of sorts. 
+This is similar to the difference between between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (as a more transient state) depending on the situation or who you're interacting with.
 
-If voice and tone don't operate independently, it is useful to consider them jointly in making decisions about writing style. For this reason, we refer to our **tone of voice** rather than "voice and tone". Specifically, it makes sense to define voice as the parameter within which tone can operate. 
+Adding to the confusion, the [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that the *message*, rather than voice, is *what* you say, and that voice is *how* you say it. According to this Microsoft style guide, tone is *an aspect of* voice, alongside personality, substance, and style. Under this logic, voice becomes a group of multiple features or a delivery mechanism for these features.
 
-Under this logic, the difference between voice and tone as similar to the difference between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (state)depending on the situation or who you're interacting with. Similarly, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
+If voice and tone don't operate independently, it is more useful to consider them jointly in making decisions about writing style rather than attempting separate them. Specifically, it makes sense to define voice as the parameter within which tone can operate. 
+
+Rather than attempting to reconcile the differences in opinion about the precise nature of voice and tone in writing, we refer to them as a single concept in our capacity as technical authors and content designers.
+
+For this reason, we refer to our **tone of voice** rather than "voice and tone" to define our high-level writing goals.
 
 ## Our tone of voice
 
@@ -86,16 +90,14 @@ Keep your style informal and natural, even if relaying technical information to 
 
 Make your content about the reader or user. Make it obvious why content is relevant to the reader or user, and how they can act on it.
 
-**Focus on the impact for the reader or user:**
+**Refer directly to the reader or user:**
 
 -  Think benefit first, product second.
 -  Focus on what matters for the reader or user.
 -  Understand what the reader or user needs to know to meet their goals.
-
-**Refer directly to the reader or user:**
-
 -  Use the second person ("you") in sentences about the reader or user.
 -  Use the active (as opposed to passive) voice.
+-  Focus on the impact for the reader or user
 -  Suggest next steps for the reader or user.
 
 **Hone in on the user's actions:**
