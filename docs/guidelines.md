@@ -11,13 +11,15 @@ Write clearly, precisely, and concisely to make content easier to read and under
 ### Keep content short and simple
 
 Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and are more accessible to people who struggle with reading. With this in mind, aim to:
-
-- Separate different points or thoughts into different sentences.
-- Use common contractions, such as "don't" instead of "do not".
-- Use short and simple, everyday words, such as "help" instead of "assistance".
 - Write short sentences, and keep to a limit:
     - For online documentation, write sentences that are no more than 28 words.
     - For UI content, write sentences that are no more than 15 words.
+- Separate different points or thoughts into different sentences.
+- Use common contractions, such as "don't" instead of "do not".
+- Use short and simple, everyday words, such as "help" instead of "assistance".
+- Remove excess words that don't add meaning to the sentence, for example "Remove each ~~individual~~ item from the list.” 
+- Replace wordy phrases with single words where possible, for example, "due to the fact that" can be replaced with "because".
+- Use as few words as possible to portray meaning, for example, *"You'll be asked to change your password ~~at some point~~ before your next sign in."*
 
 ### Write purposeful content
 
@@ -266,16 +268,16 @@ To modify a quote from Antoine de Saint-Exupery, good writing is achieved, not w
 
 - Get straight to the point based on what users want and need.
 - Eliminate titles that restate the body of an information box in the UI or a paragraph in documentation.
-- Remove unnecessary words and content. 
-- Use as few words as possible to portray meaning. 
+- Remove unnecessary words and content, for example, *"You'll be asked to enter your password~~, which you created in the previous step~~."
+- Use as few words as possible to portray meaning. The table, below, outlines some tips.
 
 |Guideline | Examples |
 |---|---|
-|Remove unnecessary modifiers. | "The set up is ~~basically~~ the same" or "The process is ~~quite~~ straightforward". |
-|Prune every excess word. | "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings." |
-|Remove empty modifiers. | "Selecting this option is ~~really~~ only needed if you're using a Windows machine."|
+|Remove empty or unnecessary determiners and modifiers. | "The set up is ~~basically~~ the same"; "The process is ~~actually quite~~ straightforward"; "Selecting this option is ~~really~~ only needed if you're using a Windows machine." |
+|Prune every excess or redundant word. | "*Repeat* the steps ~~*again*~~" or "*Revert ~~back~~* to your previous settings." |
 |Replace an intensifier or qualifier, along with the adjective it refers to, with a stronger word. | *"very important"* could be replaced with *"crucial"*.|
 |Avoid manner adverbs (usually formed from adjectives by adding "-ly") and use precise language, instead. |  "The change takes effect *quickly*", could instead be "The change takes effect within *5 minutes*".
+|Replace wordy phrases with single words where possible. | "With the exception of" could be replaced with "Unlike". |
 
 ## Writing instructional content
 
