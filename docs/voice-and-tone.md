@@ -47,9 +47,9 @@ The sections below provide guidelines for the proposed tone of voice of both pro
 
 - Be clear (direct, simple, precise, and concise)
 - Be human (conversational, personal, positive, and inclusive)
-- Be useful (neutral, user-centric, and action-focused)
+- Be useful (professional, user-centric, and action-focused)
 
-Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be relevant).
+Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be useful).
 
 ### Be clear
 
