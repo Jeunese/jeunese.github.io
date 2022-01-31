@@ -2,7 +2,7 @@
 
 Technical documentation should ideally be hosted online. 
 
-PDFs get out-of-date. Outdated information can eventually become harmful when it's shared and downloaded –– as PDF documentation must if it's to be useful in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. 
+PDFs get out-of-date. Outdated information can eventually become harmful, especially when it's shared and downloaded –– as PDF documentation must if it's to be useful in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. 
 
 And, as a technical writer, you have to wait until the next version to fix any issues, whether those are small fixes, like typos, or a major oversight, like incorrect technical detail. Even if you ship your documentation *with* the product itself in a README file, you can't fix any issues until the next release, and this might depend on convincing customers to upgrade.
 
