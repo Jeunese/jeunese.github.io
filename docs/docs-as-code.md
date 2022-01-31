@@ -100,7 +100,11 @@ Broadly, the process for managing content using Git (for version control) to the
 1. To host the content on a Web page, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
 1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website.
 
-Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, Yml, images, or any other kind of static data file.
+Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file.
+
+There is no formal standard for Markdown. However, in 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and a growing list of tools that support it. 
+
+Markdownlint is an extension used for automated style checks on content written in VSCode. It doubles as a conformance test, highlighting any issues that violate one of Markdownlint's rules. This extension can be modified to create exceptions to the Markdown rules. 
 
 ### Example use case
 
