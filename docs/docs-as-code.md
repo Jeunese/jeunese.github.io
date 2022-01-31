@@ -12,11 +12,11 @@ Online documentation removes these issues, especially if you adopt a "Docs-as-Co
 
 You don’t have to adopt a Docs-as-Code approach to maintain online documentation. The approach just streamlines the processes involved and ensures that the product and its documentation are aligned. 
 
-Documentation becomes *part* of the product or feature, and so can't be neglected. Documentation must be written before a product or feature can be released. 
+Using the Docs-as-Code approach, documentation becomes *part* of the product or feature, and so can't be neglected. Documentation must be written before a product or feature can be released. 
 
 ## What is good documentation?
 
-Good technical documentation is clear and useful to the reader, aided with the use of a good [writing guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, the this input is only one aspect of technical writing. Technical documentation also benefits from an efficient and effective process for delivering the *output*. 
+Good technical documentation is clear and useful to the reader, aided with the use of a good [writing guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, this input is only one aspect of technical writing. Technical documentation also benefits from an efficient and effective process for delivering the *output*. 
 
 Good documentation works best when it:
 
@@ -35,7 +35,9 @@ Docs-as-Code allows you to output technical documentation alongside the products
 
 ## What is Docs-as-Code?
 
-Docs-as-Code is an approach to writing and publishing technical documentation using the same tools as code. Just as Engineering continuously integrates, deploys, tests, and monitors their work, technical writers continuously develop the documentation that helps people *use* the product. 
+Docs-as-Code is an approach to writing and publishing technical documentation using the same tools as Engineering. Just as Engineering continuously integrates, deploys, tests, and monitors their work, technical writers continuously develop the documentation that helps people *use* the product. 
+
+Content is managed as code, which has the following benefits:
 
 * Efficiency, by publishing in alignment with Engineering working practices.
 * Accuracy (which also helps to establish trust) by making documentation easy to maintain and update.
@@ -46,7 +48,7 @@ Docs-as-Code is an approach to writing and publishing technical documentation us
 
 Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website.
 
-Docs as Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
+Docs-as-Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
 
 Ideally, you still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs-as-Code). Your job as a technical writer is largely about quality-control, aided with an established review and approval process. 
 
@@ -91,7 +93,7 @@ These tools allow you to leverage CI and review tools for writing efficiently, e
 
 Broadly, the process for managing content using Git (for version control) to then push to a website, would be as follows:
 
-1. Technical writers create and maintain content as static data (such as Markdown files) in their local repo, edited in a text editor (like VSCode).
+1. Technical writers create and maintain content as code –– static data (such as Markdown files) –– in their local repo, edited in a text editor (like VSCode).
 1. A static site generator (SSG) (such as Docsify) converts these files into a static HTML file (a static Web page). This page can be served in one of two ways:
     *  Locally through a browser on your machine. No Internet connection is needed for this, but you can't share it.
     *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
