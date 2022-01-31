@@ -2,15 +2,15 @@
 
 Technical documentation should ideally be hosted online. 
 
-PDFs get out-of-date. Outdated information can eventually become harmful when it is shared and downloaded –– as PDF documentation must be of use in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. 
+PDFs get out-of-date. Outdated information can eventually become harmful when it is shared and downloaded –– as PDF documentation must if it's to be useful in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. 
 
 And, as a technical writer, you have to wait until the next version to fix any issues, whether those are small fixes, like typos, or a major oversight, like incorrect technical detail. Even if you ship your documentation *with* the product itself in a README file, you can't fix any issues until the next release, and this might depend on convincing customers to upgrade.
 
-Online documentation removes these issues, especially if you adopt a "Docs as Code" approach. Under this approach, publishing is no longer a special or challenging event. Rather, Docs as Code involves an established review and approval process before pushing content to a production website. This can be asimple and functional process in which you build the documentation and and ensure that the changes don't introduce errors before pushing it to a live website.
+Online documentation removes these issues, especially if you adopt a "Docs as Code" approach. Under this approach, publishing is no longer a special or challenging event. Rather, Docs as Code involves an established review and approval process before pushing content to a production website. This can be a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website.
 
 ## What is good documentation?
 
-Good technical documentation is clear and useful to the reader, aided with the use of a good [style guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, the input is only one aspect of technical writing. For readers to make the most of your content, technical documentation also needs an efficient and effective process for delivering the output. 
+Good technical documentation is clear and useful to the reader, aided with the use of a good [writing guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, the input is only one aspect of technical writing. For readers to make the most of your content, technical documentation also needs an efficient and effective process for delivering the *output*. 
 
 Good documentation works best when it's:
 
