@@ -30,6 +30,9 @@ Good documentation works best when it:
 
 That's what a Docs-as-Code approach offers.
 
+Docs-as-Code allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date and to track changes to content with version control.
+
+
 ## What is Docs-as-Code?
 
 Docs-as-Code is an approach to writing and publishing technical documentation using the same tools as code. Just as Engineering continuously integrates, deploys, tests, and monitors their work, technical writers continuously develop the documentation that helps people *use* the product. 
@@ -79,27 +82,34 @@ These tools allow you to leverage CI and review tools for writing efficiently, e
 |Docsify | An SSG that takes static files, like **Markdown** documents, and turns them into an HTML page.|
 |Git | An open-source VSC for managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service for managing Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
-|GitHub Pages | A static site hosting service that takes files from a repository on GitHub to publish to a website.|
+|GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
 |Markdown | A lightweight/streamlined markup language that, as well as being a publishing format, is also a writing format. It's a text-to-HTML conversion tool for web writers that's designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention.|
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
 ### Process
 
-Docs-as-Code allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date.
-
 Broadly, the process for managing content using Git (for version control) to then push to a website, would be as follows:
 
 1. Technical writers create and maintain content as static data (such as Markdown files) in their local repo, edited in a text editor (like VSCode).
 1. A static site generator (SSG) (such as Docsify) converts these files into a static HTML file (a static Web page). This page can be served in one of two ways:
     *  Locally through a browser on your machine. No Internet connection is needed for this, but you can't share it.
-    *  Remotely through a static site-hosting service (like GitHub Pages).
-1. To host the content on a Web page, the static HTML file is pushed to a remote repo, typically through the command line, on a cloud-based hosting service (such as GitHub).
+    *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
+1. To host the content on a Web page, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
 1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website. 
-
-Every time you push to your remote repo, you trigger the SSG to convert the markdown file to HTML before it's published on your website through your chosen static-hosting service.
-
 
 ### Example use case
 
+Using the above examples of possible tools, content could be managed using Git for version control, maintained in Markdown files that are formatted using [GFM](https://github.github.com/gfm/), edited using [VSCode](https://code.visualstudio.com/), and stored in a remote repo on [GitHub](https://github.com/). 
+
+You could then use [Docsify](https://docsify.js.org/#/) to generate documentation that is easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
+
+Every time you push to your remote repo, either through the command line or with VSCode, you trigger Docsify to convert your Markdown files to HTML before your content is published on your website through [GitHub Pages](https://pages.github.com/).
+
 ### Get started with Docs as Code
+
+1. Set up Git
+1. Set up GitHub
+1. Set up a local repo
+1. Download Docsify
+1. ...
