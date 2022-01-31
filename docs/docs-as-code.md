@@ -12,14 +12,14 @@ Online documentation removes these issues, especially if you adopt a "Docs as Co
 
 Good technical documentation is clear and useful to the reader, aided with the use of a good [writing guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, the input is only one aspect of technical writing. For readers to make the most of your content, technical documentation also needs an efficient and effective process for delivering the *output*. 
 
-Good documentation works best when it's:
+Good documentation works best when it:
 
-*  Version controlled
-*  Easy to keep up-to-date and to apply fixes
-*  In sync with product releases
+*  Is version controlled
+*  Is easy to keep up-to-date and to apply fixes
+*  Is in sync with product releases
 *  Has a low editing overhead
 *  Removes the need for context-switching
-*  Easily viewable both online and offline
+*  Is easily viewable both online and offline
 *  Empowers colleagues in different teams to collaborate and contribute
 
 That's what a Docs as Code approach does.
@@ -41,7 +41,7 @@ Using Engineering processes and tools to publish content allows technical writer
 
 Docs as Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
 
-Your job as a technical writer is largely about quality-control, aided by implementing a review and approval process. Contributers don't publish changes directly, but can suggest changes, which then pass through a review and approval process with a technical author.
+Your job as a technical writer is largely about quality-control, aided by implementing a review and approval process. Contributors don't publish changes directly, but can suggest changes, which then pass through a review and approval process with a technical author.
 
 Ideally, you'll still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs and Code). Documentation becomes *part* of the feature, and so must be written before a feature can be released.
 
