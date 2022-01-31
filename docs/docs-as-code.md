@@ -60,8 +60,8 @@ Before continuing, let's cover some terminology.
 |Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create webpages. |
 |Markup language| | A publishing format that uses tags to define page layout and the elements within a page.|
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
-| (Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a git repository on your local machine. |
 |Style sheet language | | A programming language that describes the presentation of structured documents; a constrained approach to creating standardised content that allows content to be reused in different contexts and helps content writers move away from versioning. |
+| (Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a git repository on your local machine. |
 |Version Control System (or Source Code Management tool) | VSC (not to be confused with VSC*ode*) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VSC is also used to co-ordinate the work of multiple people.
 
 ### Tools
@@ -73,7 +73,7 @@ These tools allow you to leverage continuous integration and review tools to wri
 |Docsify | An SSG that takes static files, like **Markdown** documents, and turns them into an HTML page.|
 |Git | An open-source VSC for managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service for managing Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
-|GitHub Pages | |
+|GitHub Pages | A static site hosting service that takes files from a repository on GitHub to publish to a website.|
 |Markdown | A lightweight/streamlined markup language that, as well as being a publishing format, is also a writing format. It's a text-to-HTML conversion tool for web writers that's designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention.|
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
