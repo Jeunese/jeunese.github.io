@@ -19,9 +19,9 @@ Shorter paragraphs, sentences, and words are easier to scan, easier to understan
 - Separate different points or thoughts into different sentences.
 - Use common contractions, such as "don't" instead of "do not".
 - Use short and simple, everyday words, such as "help" instead of "assistance".
-- Remove excess words that don't add meaning to the sentence, for example:"Remove each ~~individual~~ item from the list.” 
+- Remove excess words that don't add meaning to the sentence, for example: "Remove each ~~individual~~ item from the list." 
 - Replace wordy phrases with single words where possible, for example: "due to the fact that" can be replaced with "because".
-- Use as few words as possible to portray meaning, for example: *"You'll be asked to change your password ~~at some point~~ before you next sign in."*
+- Use as few words as possible to portray meaning, for example: "You'll be asked to change your password ~~at some point~~ before you next sign in."
 
 ### Write purposeful content
 
@@ -253,7 +253,17 @@ Before writing content, a technical first researches and tests the product or fe
 
 ## Writing product documentation
 
-Good writing, especially writing designed for instruction, should be clear and to the point. 
+Once you've learned everything you need to start writing about the product or feature, write only what the administrator needs to know, and no more. Good writing, especially writing that's designed for instruction, should be to the point: clear, precise, and concise. 
+
+### Avoid duplication
+
+Avoid duplication by adopting a single-sourcing model. The following guidelines mean that you should only have to update the documentation in one place.
+
+- Keep content in one place so that you can efficiently manage it.
+- Arrange content logically.
+- Create self-contained, complete pieces of content that don't overlap ("topics").
+- Make liberal use of links to existing content.
+- Don't assume someone has read one piece of content before reading another.
 
 ### Make content easy to scan for relevant information
 

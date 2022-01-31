@@ -48,13 +48,13 @@ Content should provide a coherent, consistent narrative throughout the product s
 *  Information-retrieval behaviour	
 *  User knowledge and experience
 
-Think about *where* information is best placed and *how* to communicate flows of information (procedures and processes). This information:
+Make everything you write scannable, discoverable, and searchable. Think about *where* information is best placed and *how* to communicate flows of information (procedures and processes). This information:
 
 *  Helps the reader figure out where they are in the content.
 *  Helps the reader determine where the information they want is in relation to their current position.
 *  Informs the **content strategy**.
 
-#### **Content strategy**
+#### Content strategy
 
 Content strategy deals with how we create and maintain content, including what that content needs to be.
 
@@ -74,7 +74,7 @@ A release typically includes one specific feature or a narrowly defined set of f
 
 -  A new product, feature, or important component release.
 -  An important update to an existing feature.
--  Information on how to install, upgrade, manage, or troubleshoot .
+-  Information on how to install, upgrade, manage, or troubleshoot.
 -  Public technical preview content.
 
 Once a content need is identified, a ticket should be created in an issue tracking tool, such as JIRA. Once the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of a Master branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering. The technical author pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
