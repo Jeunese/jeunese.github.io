@@ -8,6 +8,8 @@ Even if you regularly create updated PDFs, you then have an issue with version c
 
 As a technical writer working with PDFs, you have to wait until the next version to fix any issues, whether those are small fixes, like typos, or a major oversight, like incorrect technical detail. Even if you ship your documentation *with* the product itself in a README file, you can't fix any issues until the next release, and this might depend on convincing customers to upgrade.
 
+Finally, working with PDFs means first working with a word processing tool, like Microsoft Word. That means you'll spend a lot of time styling content as you write it, instead of fully focussing on your content.
+
 Online documentation removes these issues, especially if you adopt a "Docs-as-Code" approach. 
 
 You don’t have to adopt a Docs-as-Code approach to maintain online documentation. The approach just streamlines the processes involved and ensures that the product and its documentation are aligned. 
@@ -46,7 +48,9 @@ Content is managed as code, which has the following benefits:
 * Collaboration, by fostering communication and cooperation between teams.
 * Integration, by synchronising documentation release with the functionality of the product.
 
-Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website.
+Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website. 
+
+This process allows you to work on content without worrying about visual layout and style, since these aspects are already configured.
 
 Docs-as-Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
 
@@ -74,6 +78,14 @@ Before continuing, let's cover some terminology.
 | (Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a copy stored on your local machine. |
 |Version Control System (or Source Code Management tool) | VSC (not to be confused with VSC*ode*) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VSC is also used to co-ordinate the work of multiple people.
 
+> **Notes on static pages for documentation:**
+>
+> Technical documentation tends to make use of static because the server needs only to *serve* the pages you've created (rather than *generate* them dynamically).
+>
+> Static websites tend to be faster, simpler, and more secure because they don't have any server-side application dependences or databases, don't need you to install anything, and the server uses very few hardware resources. 
+>
+> For technical documentation, you provide an SSG with content (such as Markdown files) and a theme (such as templated HTML), which it then turns into a working website. Updating the site can be as simple as modifying the content and processing everything again.
+
 ### Tools
 
 These tools allow you to leverage CI and review tools for writing efficiently, effectively, and collaboratively with Engineering. They aren't the only tools available to you. Many alternatives exist. The tools listed, below, are used to help describe the Docs-as-Code process with concrete examples.
@@ -81,29 +93,49 @@ These tools allow you to leverage CI and review tools for writing efficiently, e
 | Tool | Description |
 |---|---|
 |Docsify | An SSG that takes static files, like **Markdown** documents, and turns them into an HTML page.|
-|Git | An open-source VSC for managing changes to source code, text files, and directories. |
-|GitHub | A cloud-based hosting service for managing Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
+|Git | An open-source VSC for tracking, co-ordinating, and managing changes to source code, text files, and directories. |
+|GitHub | A cloud-based hosting service and Web interface for managing and collaborating on Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
 |GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
-|Markdown | A lightweight/streamlined markup language, as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand, and for machines to convert into HTML.|
-|Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention.|
+|Markdown | A lightweight/streamlined markup language, as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
+|Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention. This extension can be modified to create exceptions to the Markdown rules. |
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
+
+> **Notes on Markdown:**
+>
+> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
+>
+> However, there's no formal standard for Markdown –– Markdown comes in many "flavours", one of the most popular of which, is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
 
 ### Process
 
-Broadly, the process for managing content using Git (for version control) to then push to a website, would be as follows:
+Git is a distributed VSC, meaning that your local copy of the repo is a complete version control repository that you can manage on your local computer. Distributed VSC allow technical writers to work offline and to work on the same content in parallel.
+
+Broadly, the process for managing content using Git to then push to a website, would be as follows:
 
 1. Technical writers create and maintain content as code –– static data (such as Markdown files) –– in their local repo, edited in a text editor (like VSCode).
 1. A static site generator (SSG), such as Docsify, converts these files into a static HTML. This page can be served in one of two ways:
-    *  Locally through a browser on your machine. No Internet connection is needed for this. This is convenient for developers who have the already downloaded the repo.
+    *  Locally through a browser on your machine. No Internet connection is needed for this. This is convenient for when you've already downloaded the repo.
     *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
 1. To host the content on a Web page, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
 1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website.
 
-Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file.
+Docs-as-Code doesn't mean you have to use a singular test framework for checking both code and documentation. It's common to have two separate but parallel test frameworks: one for checking code, and one for validating documentation. 
 
-There is no formal standard for Markdown. However, in 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and a growing list of tools that support it. 
+### People
 
-Markdownlint is an extension used for automated style checks on content written in VSCode. It doubles as a conformance test, highlighting any issues that violate one of Markdownlint's rules. This extension can be modified to create exceptions to the Markdown rules. 
+Typically, technical writers are not responsible for every aspect of the Docs-as-Code approach. Technical writers are in charge of:
+
+- Information gathering and scoping for content.
+- Writing and checking content.
+- Reviewing and approving content.
+- Publishing content to the main documentation website.
+
+Meanwhile, information development system administrators are in charge of:
+
+- Creating new repos.
+- Controlling repo and branch permissions.
+- Monitoring site builds.
+- Maintaining and updating validation rules.
 
 ### Example use case
 
@@ -113,7 +145,7 @@ You could then use [Docsify](https://docsify.js.org/#/) to generate documentatio
 
 Every time you push to your remote repo, either through the command line or with VSCode, you trigger Docsify to convert your Markdown files to HTML before your content is published on your website through [GitHub Pages](https://pages.github.com/).
 
-Alternatively, you could generate your HTML page with Docsify locally, and upload it onto GitHub pages.
+Alternatively, you could generate your HTML page with Docsify locally, and then upload it onto GitHub pages.
 
 ### Get started with Docs-as-Code
 
@@ -122,5 +154,9 @@ Alternatively, you could generate your HTML page with Docsify locally, and uploa
 1. Set up a local repo
 1. Set up [Docsify](https://docsify.js.org/#/quickstart)
 1. Edit your markdown documents
-1. Run Docsify 
+1. Run Docsify
+1. Push your changes to GitHub 
 1. View your page locally or deploy it to a static-site hosting service
+
+*  Instructions on how to build the documentation locally 
+*  Instructions on how to contribute

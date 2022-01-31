@@ -4,9 +4,9 @@
 - [Online Documentation](docs-as-code)
 - **Links**
 - [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
-- [Github](https://github.com/Jeunese/docsify)
+- [Github](https://github.com/)
 - [GitHub Content Style Guide](https://github.com/github/docs/blob/main/contributing/content-style-guide.md)
-- [How to make sense of any mess](http://www.howtomakesenseofanymess.com/)
+- [How to Make Sense of Any Mess](http://www.howtomakesenseofanymess.com/)
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 - [Microsoft UX Guide](https://docs.microsoft.com/en-us/windows/win32/uxguide/text-ui)
 
