@@ -34,19 +34,15 @@ That's what a Docs-as-Code approach offers.
 
 Docs-as-Code allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date and to track changes to content with version control.
 
-
 ## What is Docs-as-Code?
 
-Docs-as-Code is an approach to writing and publishing technical documentation using the same tools as Engineering. Just as Engineering continuously integrates, deploys, tests, and monitors their work, technical writers continuously develop the documentation that helps people *use* the product. 
+Docs-as-Code is an approach to writing and publishing technical documentation using the same tools as Engineering. Docs-as-Code streamlines the maintenance of online documentation by managing content as code. Managing content as code means:
 
-Content is managed as code, which has the following benefits:
+- Storing the technical documentation source files in a version control system, typically Git.
+- Building and publishing documentation pages with automatic validation and templating.
+- Implementing a review and approval process.
 
-* Efficiency, by publishing in alignment with Engineering working practices.
-* Accuracy (which also helps to establish trust) by making documentation easy to maintain and update.
-* Consistency, both in style and purpose.
-* Findability, by making content easy to tag, to include keywords for SEO, to access online, and to search.
-* Collaboration, by fostering communication and cooperation between teams.
-* Integration, by synchronising documentation release with the functionality of the product.
+With a Docs-as-Code approach, technical writers continuously develop the documentation that helps people use the product, just as Engineering continuously integrates, deploys, tests, and monitors their work.
 
 Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website. 
 
@@ -54,9 +50,16 @@ This process allows you to work on content without worrying about visual layout 
 
 Docs-as-Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
 
-Ideally, you still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs-as-Code). Your job as a technical writer is largely about quality-control, aided with an established review and approval process. 
+Ideally, you still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs-as-Code). Your job as a technical writer is largely about quality-control, aided with an established review and approval process. Contributors don't publish changes directly to a production website, but can suggest changes, which then pass through a review and approval process with a technical author.
 
-Contributors don't publish changes directly to a production website, but can suggest changes, which then pass through a review and approval process with a technical author.
+> **What are the benefits of Docs-as-code?**
+>
+> * **Efficiency**, by publishing in alignment with Engineering working practices.
+> * **Accuracy** (which also helps to establish trust) by making documentation easy to maintain and update.
+> * **Consistency**, both in style and purpose.
+> * **Findability**, by making content easy to tag, to include keywords for SEO, to access online, and to search.
+> * **Collaboration**, by fostering communication and cooperation between teams.
+> * **Integration**, by synchronising documentation release with the functionality of the product.
 
 ### Terminology
 
@@ -78,7 +81,7 @@ Before continuing, let's cover some terminology.
 | (Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a copy stored on your local machine. |
 |Version Control System (or Source Code Management tool) | VSC (not to be confused with VSC*ode*) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VSC is also used to co-ordinate the work of multiple people.
 
-> **Notes on static pages for documentation:**
+> **Why use static pages for technical documentation?**
 >
 > Technical documentation tends to make use of static because the server needs only to *serve* the pages you've created (rather than *generate* them dynamically).
 >
@@ -100,11 +103,11 @@ These tools allow you to leverage CI and review tools for writing efficiently, e
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention. This extension can be modified to create exceptions to the Markdown rules. |
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
-> **Notes on Markdown:**
+> **Why use Markdown for technical documentation?**
 >
 > Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
 >
-> However, there's no formal standard for Markdown –– Markdown comes in many "flavours", one of the most popular of which, is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
+> There's no formal standard for Markdown –– Markdown comes in many "flavours", one of the most popular of which, is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
 
 ### Process
 
@@ -123,7 +126,7 @@ Docs-as-Code doesn't mean you have to use a singular test framework for checking
 
 ### People
 
-Typically, technical writers are not responsible for every aspect of the Docs-as-Code approach. Technical writers are in charge of:
+Technical writers are not typically responsible for every aspect of the Docs-as-Code approach. Rather, technical writers are in charge of:
 
 - Information gathering and scoping for content.
 - Writing and checking content.
