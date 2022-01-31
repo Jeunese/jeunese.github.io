@@ -83,7 +83,7 @@ These tools allow you to leverage CI and review tools for writing efficiently, e
 |Git | An open-source VSC for managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service for managing Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
 |GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
-|Markdown | A lightweight/streamlined markup language that, as well as being a publishing format, is also a writing format. It's a text-to-HTML conversion tool for web writers that's designed to be easy for humans to read, write, and understand.|
+|Markdown | A lightweight/streamlined markup language that, as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention.|
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
@@ -96,7 +96,9 @@ Broadly, the process for managing content using Git (for version control) to the
     *  Locally through a browser on your machine. No Internet connection is needed for this, but you can't share it.
     *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
 1. To host the content on a Web page, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
-1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website. 
+1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website.
+
+Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, Yml, images, or any other kind of static data file.
 
 ### Example use case
 
@@ -106,7 +108,9 @@ You could then use [Docsify](https://docsify.js.org/#/) to generate documentatio
 
 Every time you push to your remote repo, either through the command line or with VSCode, you trigger Docsify to convert your Markdown files to HTML before your content is published on your website through [GitHub Pages](https://pages.github.com/).
 
-### Get started with Docs as Code
+Alternatively, you could generate your HTML page with Docsify locally, and upload it onto GitHub pages.
+
+### Get started with Docs-as-Code
 
 1. Set up Git
 1. Set up GitHub
