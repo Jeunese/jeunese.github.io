@@ -43,16 +43,16 @@ Docs as Code also empowers colleagues, especially the Engineers who build the pr
 
 Your job as a technical writer is largely about quality-control, aided by implementing a review and approval process. Contributers don't publish changes directly, but can suggest changes, which then pass through a review and approval process with a technical author.
 
-Ideally, you'll still create the majority of technical documentation yourself as part of a Continuous Integration release process, or "continuous documentation" (Docs and Code). Documentation becomes *part* of the feature, and so must be written before a feature can be released.
+Ideally, you'll still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs and Code). Documentation becomes *part* of the feature, and so must be written before a feature can be released.
 
 ### Terminology
 
 | Term | Abbreviation |Description |
 |---|---|---|
-|Continuous Integration | CI | Part of the Content Delivery Pipeline (CDP) in which features in a backlog are implemented, refined, built, and integrated into a full system. |
-|Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable |
 | Cascading Style Sheet |CSS | A style sheet language used to express the presentation of a document written in markup language, such as HTML. It is used to format the layout of Web pages by defining things like text style and table sizes –– aspects of Web pages that could previously only be defined in the page's HTML.|
 | Cascading Style Sheet document | CSS document | A file that defines styles to be used by any page that references it. This is instead of defining the style of each element in each page's HTML, which helps create a uniform look across pages and makes it easy to make changes across multiple pages. |
+|Continuous Integration | CI | Part of the Content Delivery Pipeline (CDP) in which features in a backlog are implemented, refined, built, and integrated into a full system. |
+|Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. |
 | Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
 |GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It is a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
 |Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create webpages. |
@@ -64,7 +64,7 @@ Ideally, you'll still create the majority of technical documentation yourself as
 
 ### Tools
 
-These tools allow you to leverage continuous integration and review tools to writing efficiently, effectively, and collaboratively with Engineering.
+These tools allow you to leverage continuous integration and review tools to writing efficiently, effectively, and collaboratively with Engineering. They are not the only tools available to you. Many alternatives exist, but these are used to help describe the Docs as Code process with concrete examples.
 
 | Tool | Description |
 |---|---|
@@ -77,7 +77,8 @@ These tools allow you to leverage continuous integration and review tools to wri
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
 ### Process
-This process allows you to output technical documentation alongside the products your content refers to. 
+
+This process allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date.
 
 ### Example use case
 
