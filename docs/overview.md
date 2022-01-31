@@ -14,13 +14,17 @@ As well as Engineering, information developers typically work closely with:
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a company's products and services. It is "how-to" guidance written for administrators to help them:
+Product documentation articulates technical concepts, in writing, for a company's products and services. 
+
+The audience for this type of technical content are typically administrators. Administrators install, configure, and maintain products and applications. Administrators are sometimes called "users" because they use the tools described in the product documentation. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
+
+Product documentation is "how-to" guidance written for administrators to help them:
 
 - Understand how a product or service works.
 - Keep up with new releases.
-- Learn how to install, upgrade, manage, and troubleshoot products and services.
+- Learn how to install, upgrade, manage, and troubleshoot products and services
 
-There is also the expanded audience to consider, which often includes key decision-makers, such as product managers and executives, who are evaluating the complexity, size, and cost of implementation.
+There is also the expanded audience of product documentation to consider, which often includes key decision-makers, such as product managers and executives, who are evaluating the complexity, size, and cost of implementation.
 
 Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes.
 
@@ -77,12 +81,12 @@ Once a content need is identified, a ticket should be created in an issue tracki
 
 ## In-product content development
 
-IX technical authors also typically help write and review in-product content. This can also be done with issue tracking software, and as part of agile and sprint cycles.
+IX technical authors also typically help write and review in-product content for end-users. This can also be done with issue tracking software, and as part of agile and sprint cycles.
 
 In collaboration with PD and the PM, IX can be asked to:
 
 -  Provide early design insights into design prototypes and the proposed flow of the feature.
--  Participate in design reviews or focussed walk-throughs to answer specific questions, or identify and help resolve specific issues in the design.
+-  Participate in design reviews or focused walkthroughs to answer specific questions, or identify and help resolve specific issues in the design.
 -  Provide new end-to-end design feedback and recommendations on the same feature later in the development lifecycle.
 
 ### UX writing
