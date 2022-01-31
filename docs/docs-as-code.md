@@ -2,7 +2,7 @@
 
 Technical documentation should ideally be hosted online. 
 
-PDFs get out-of-date. Outdated information can eventually become harmful when it is shared and downloaded –– as PDF documentation must if it's to be useful in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. 
+PDFs get out-of-date. Outdated information can eventually become harmful when it's shared and downloaded –– as PDF documentation must if it's to be useful in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. 
 
 And, as a technical writer, you have to wait until the next version to fix any issues, whether those are small fixes, like typos, or a major oversight, like incorrect technical detail. Even if you ship your documentation *with* the product itself in a README file, you can't fix any issues until the next release, and this might depend on convincing customers to upgrade.
 
@@ -47,16 +47,16 @@ Ideally, you'll still create the majority of technical documentation yourself as
 
 ### Terminology
 
-Before continuing, lets cover some terminology.
+Before continuing, let's cover some terminology.
 
 | Term | Abbreviation |Description |
 |---|---|---|
 | Cascading Style Sheet |CSS | A style sheet language used to express the presentation of a document written in markup language, such as HTML. It is used to format the layout of Web pages by defining things like text style and table sizes –– aspects of Web pages that could previously only be defined in the page's HTML.|
 | Cascading Style Sheet document | CSS document | A file that defines styles to be used by any page that references it. This is instead of defining the style of each element in each page's HTML, which helps create a uniform look across pages and makes it easy to make changes across multiple pages. |
 |Continuous Integration | CI | Part of the Content Delivery Pipeline (CDP) in which features in a backlog are implemented, refined, built, and integrated into a full system. |
-|Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. |
+|Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that's both human-readable and machine-readable. |
 | Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
-|GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It is a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
+|GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It's a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
 |Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create webpages. |
 |Markup language| | A publishing format that uses tags to define page layout and the elements within a page.|
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
@@ -66,7 +66,7 @@ Before continuing, lets cover some terminology.
 
 ### Tools
 
-These tools allow you to leverage continuous integration and review tools to writing efficiently, effectively, and collaboratively with Engineering. They are not the only tools available to you. Many alternatives exist, but these are used to help describe the Docs as Code process with concrete examples.
+These tools allow you to leverage continuous integration and review tools to writing efficiently, effectively, and collaboratively with Engineering. They aren't the only tools available to you. Many alternatives exist, but these are used to help describe the Docs as Code process with concrete examples.
 
 | Tool | Description |
 |---|---|
