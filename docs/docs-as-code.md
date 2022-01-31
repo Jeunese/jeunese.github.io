@@ -2,15 +2,21 @@
 
 Technical documentation should ideally be hosted online. 
 
-PDFs get out-of-date. Outdated information can eventually become harmful, especially when it's shared and downloaded –– as PDF documentation must if it's to be useful in the first instance. Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not even be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. And, the most recent PDF might be buried in an email thread somewhere.
+PDF documentation needs to be actively shared and downloaded, after which, its contents are no longer under your control. PDFs get out-of-date. Outdated information can eventually become harmful. 
+
+Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. And, the most recent PDF might be buried in an email thread somewhere.
 
 As a technical writer working with PDFs, you have to wait until the next version to fix any issues, whether those are small fixes, like typos, or a major oversight, like incorrect technical detail. Even if you ship your documentation *with* the product itself in a README file, you can't fix any issues until the next release, and this might depend on convincing customers to upgrade.
 
-Online documentation removes these issues, especially if you adopt a "Docs as Code" approach. Under this approach, publishing is no longer a special or challenging event. Rather, Docs as Code involves an established review and approval process before pushing content to a production website. This can be a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website.
+Online documentation removes these issues, especially if you adopt a "Docs-as-Code" approach. 
+
+You don’t have to adopt a Docs-as-Code approach to maintain online documentation. The approach just streamlines the processes involved and ensures that the product and its documentation are aligned. 
+
+Documentation becomes *part* of the product or feature, and so can't be neglected. Documentation must be written before a product or feature can be released. 
 
 ## What is good documentation?
 
-Good technical documentation is clear and useful to the reader, aided with the use of a good [writing guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, the input is only one aspect of technical writing. For readers to make the most of your content, technical documentation also needs an efficient and effective process for delivering the *output*. 
+Good technical documentation is clear and useful to the reader, aided with the use of a good [writing guide](https://jeunese.github.io/#/guidelines), as well as empathy for the intended audience. But, the this input is only one aspect of technical writing. Technical documentation also benefits from an efficient and effective process for delivering the *output*. 
 
 Good documentation works best when it:
 
@@ -22,28 +28,26 @@ Good documentation works best when it:
 *  Is easily viewable both online and offline
 *  Empowers colleagues in different teams to collaborate and contribute
 
-That's what a Docs as Code approach does.
+That's what a Docs-as-Code approach offers.
 
-## What is Docs as Code?
+## What is Docs-as-Code?
 
-Documentation as Code (Docs as Code) is an approach to writing and publishing technical documentation using the same tools as code. Engineering continuously integrates, deploys, tests, and monitors their work as part of a Continuous Delivery Pipeline (CDP). It makes sense that we should also be continuously developing the documentation that helps people *use* the product.
+Docs-as-Code is an approach to writing and publishing technical documentation using the same tools as code. Just as Engineering continuously integrates, deploys, tests, and monitors their work, technical writers continuously develop the documentation that helps people *use* the product. 
 
-The benefits of this approach are:
+* Efficiency, by publishing in alignment with Engineering working practices.
+* Accuracy (which also helps to establish trust) by making documentation easy to maintain and update.
+* Consistency, both in style and purpose.
+* Findability, by making content easy to tag, to include keywords for SEO, to access online, and to search.
+* Collaboration, by fostering communication and cooperation between teams.
+* Integration, by synchronising documentation release with the functionality of the product.
 
-* Efficiency –– publishing in alignment with Engineering working practices.
-* Accuracy –– easy to maintain and update, which also helps to establish trust.
-* Consistency –– consistent in style and purpose.
-* Findability –– easy to tag, include keywords for SEO, and find.
-* Collaboration –– fosters communication and cooperation between colleagues.
-* Integration –– better alignment with Engineering such that documentation is synchronized with the functionality of the product.
-
-Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster.
+Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website.
 
 Docs as Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
 
-Your job as a technical writer is largely about quality-control, aided by implementing a review and approval process. Contributors don't publish changes directly, but can suggest changes, which then pass through a review and approval process with a technical author.
+Ideally, you still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs-as-Code). Your job as a technical writer is largely about quality-control, aided with an established review and approval process. 
 
-Ideally, you'll still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation" (Docs and Code). Documentation becomes *part* of the feature, and so must be written before a feature can be released.
+Contributors don't publish changes directly to a production website, but can suggest changes, which then pass through a review and approval process with a technical author.
 
 ### Terminology
 
@@ -53,12 +57,14 @@ Before continuing, let's cover some terminology.
 |---|---|---|
 | Cascading Style Sheet |CSS | A style sheet language used to express the presentation of a document written in markup language, such as HTML. It is used to format the layout of Web pages by defining things like text style and table sizes –– aspects of Web pages that could previously only be defined in the page's HTML.|
 | Cascading Style Sheet document | CSS document | A file that defines styles to be used by any page that references it. This is instead of defining the style of each element in each page's HTML, which helps create a uniform look across pages and makes it easy to make changes across multiple pages. |
-|Continuous Integration | CI | Part of the Content Delivery Pipeline (CDP) in which features in a backlog are implemented, refined, built, and integrated into a full system. |
+|Continuous Integration | CI | A development practice in which developers frequently integrate code into a shared (remote) repo. Developers checkout code from the remote repo to work on locally, create a new branch for their work, and run tests on it in their own development environments. Once tests pass, they push commits to the remote repo, where their code is verified by an automated build. |
+|Dynamic HTML file (compare with **static HTML file**) | | A page delivered to the web browser that offers a live or interactive user experience (such as the BBC website or Facebook); it can change over time depending on different pieces of information that the server writes into a single web page. | 
 |Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that's both human-readable and machine-readable. |
 | Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
 |GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It's a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
-|Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create webpages. |
+|Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create web pages. |
 |Markup language| | A publishing format that uses tags to define page layout and the elements within a page.|
+|Static HTML file |  | A page delivered to the web browser exactly as it is stored; it doesn't change over time unless it's replaced by another HTML file. |
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
 |Style sheet language | | A programming language that describes the presentation of structured documents; a constrained approach to creating standardised content that allows content to be reused in different contexts and helps content writers move away from versioning. |
 | (Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a git repository on your local machine. |
@@ -66,7 +72,7 @@ Before continuing, let's cover some terminology.
 
 ### Tools
 
-These tools allow you to leverage continuous integration and review tools to writing efficiently, effectively, and collaboratively with Engineering. They aren't the only tools available to you. Many alternatives exist, but these are used to help describe the Docs as Code process with concrete examples.
+These tools allow you to leverage CI and review tools for writing efficiently, effectively, and collaboratively with Engineering. They aren't the only tools available to you. Many alternatives exist. The tools listed, below, are used to help describe the Docs-as-Code process with concrete examples.
 
 | Tool | Description |
 |---|---|
@@ -80,7 +86,19 @@ These tools allow you to leverage continuous integration and review tools to wri
 
 ### Process
 
-This process allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date.
+Docs-as-Code allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date.
+
+Broadly, the process for managing content using Git (for version control) to then push to a website, would be as follows:
+
+1. Technical writers create and maintain content as static data (such as Markdown files) in their local repo, edited in a text editor (like VSCode).
+1. A static site generator (SSG) (such as Docsify) converts these files into a static HTML file (a static Web page). This page can be served in one of two ways:
+    *  Locally through a browser on your machine. No Internet connection is needed for this, but you can't share it.
+    *  Remotely through a static site-hosting service (like GitHub Pages).
+1. To host the content on a Web page, the static HTML file is pushed to a remote repo, typically through the command line, on a cloud-based hosting service (such as GitHub).
+1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website. 
+
+Every time you push to your remote repo, you trigger the SSG to convert the markdown file to HTML before it's published on your website through your chosen static-hosting service.
+
 
 ### Example use case
 
