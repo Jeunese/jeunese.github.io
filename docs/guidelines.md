@@ -65,8 +65,10 @@ Use clear, consistent, and human language.
 
 ### Use terminology consistently
 
+Without consistency, documentation can come across as unreliable or lacking credibility.
+
 -  Don't switch between terms in the product documentation or in the product itself.
--  Don't switch back and forth between full words and acronyms or abbreviations.
+-  After introducing an acronym, don't switch back and forth between full words and the acronym.
 -  Don't switch between language conventions, such as American and British spellings.
 -  In instructions, refer to UI elements exactly as they appear in the product.
 
@@ -215,6 +217,23 @@ Don't use symbols or characters to substitute words:
 
 # Technical writing guidelines
 
+## Product documentation
+
+Product documentation covers:
+
+- What the product is.
+- Why anyone would use the product.
+- What the dependencies are.
+- How the product relates to other products.
+- How and where to get the product.
+- How to install the product.
+- How to configure the product.
+- The end-to-end technical workflow for setting up the product.
+
+Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities and use cases.
+
+## Product knowledge guidelines
+
 Before writing technical content for product documentation, you should:
 
 -  Understand the user persona: whether they're: network, IT, or security administrators; security officers; end-users; or data analysts.
@@ -222,9 +241,7 @@ Before writing technical content for product documentation, you should:
 -  Understand at what stage in the customer journey the user is when they read your content.
 -  Understand the product: narrow your perspective down to the specific functionality that requires content.
 
-## Product knowledge guidelines
-
-To write clear and accurate content: 
+Before writing content, a technical first researches and tests the product or feature they are writing about. Communicating the knowledge you garner from research and testing is the last step in the process. 
 
 -  Develop in-depth knowledge of the product.
 -  Understand the real-world use cases for the product or feature.
@@ -259,7 +276,7 @@ The primary purpose of the product documentation is to provide information to th
 -  Place important content "above the fold" in a webpage.
 -  In left-to-right languages, people tend to read in an F shape, so place important content or navigation in the top left.
 
-**Use bold for emphasis very selectively:**
+**Use bold and italics very selectively:**
 -  Reserve bolding to call out UI elements and to place emphasis on specific actions. 
 -  Don't use quotation marks for emphasis.
 -  Avoid using italics for emphasis, where possible.
