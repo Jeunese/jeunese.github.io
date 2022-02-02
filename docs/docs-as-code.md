@@ -14,7 +14,7 @@ Online documentation removes these issues, especially if you adopt a "Docs-as-Co
 
 You don’t have to adopt a Docs-as-Code approach to maintain online documentation. The approach just streamlines the processes involved and ensures that the product and its documentation are aligned. 
 
-Using the Docs-as-Code approach, documentation becomes *part* of the product or feature, and so can't be neglected. Documentation must be written before a product or feature can be released. 
+Using the Docs-as-Code approach, documentation becomes *part* of the product or feature, and so can't be neglected –– up-to-date documentation is part of your "Definition of Done", which means documentation must be written before a product or feature can be released. 
 
 ## What is good documentation?
 
@@ -72,10 +72,11 @@ Before continuing, let's cover some terminology.
 |Continuous Integration | CI | A development practice in which developers frequently integrate code into a shared (remote) repo. Developers checkout code from the remote repo to work on locally, create a new branch for their work, and run tests on it in their own development environments. Once tests pass, they push commits to the remote repo, where their code is verified by an automated build. |
 |Dynamic HTML file (compare with **static HTML file**) | | A page delivered to the web browser that offers a live or interactive user experience (such as the BBC website or Facebook); it can change over time depending on different pieces of information that the server writes into a single web page. | 
 |Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that's both human-readable and machine-readable. |
-| Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
+|Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
 |GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It's a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
 |Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create web pages. |
 |Markup language| | A publishing format that uses tags to define page layout and the elements within a page.|
+|Package Manager | |A system you download for managing your project dependencies (third-party software installed globally or locally on your cpmputer) so that you don't have to manually download, store, and uninstall them.|
 |Static HTML file |  | A page delivered to the web browser exactly as it is stored; it doesn't change over time unless it's replaced by another HTML file. |
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
 | (Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a copy stored on your local machine. |
@@ -98,9 +99,10 @@ These tools allow you to leverage CI and review tools for writing efficiently, e
 |Docsify | An SSG that takes static files, like **Markdown** documents, and turns them into an HTML page.|
 |Git | An open-source VSC for tracking, co-ordinating, and managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service and Web interface for managing and collaborating on Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
-|GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
+|GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|A package manager for Mac, designed to simplify open-source software installation, such as Node.js and npm|
 |Markdown | A lightweight/streamlined markup language, as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention. This extension can be modified to create exceptions to the Markdown rules. |
+|npm | A package manager that installs packages written in Node.js and provides a command line interface to work with them.|
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
 > **Why use Markdown for technical documentation?**
@@ -115,7 +117,7 @@ Git is a distributed VSC, meaning that your local copy of the repo is a complete
 
 Broadly, the process for managing content using Git to then push to a website, would be as follows:
 
-1. Technical writers create and maintain content as code –– static data (such as Markdown files) –– in their local repo, edited in a text editor (like VSCode).
+1. Technical writers create and maintain content as code –– static data (such as Markdown files) –– in their local repo, edited in a text or source code editor (like VSCode).
 1. A static site generator (SSG), such as Docsify, converts these files into a static HTML. This page can be served in one of two ways:
     *  Locally through a browser on your machine. No Internet connection is needed for this. This is convenient for when you've already downloaded the repo.
     *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
@@ -144,22 +146,108 @@ Meanwhile, information development system administrators are in charge of:
 
 Using the above examples of possible tools, content could be managed using Git for version control, maintained in Markdown files that are formatted using [GFM](https://github.github.com/gfm/), edited using [VSCode](https://code.visualstudio.com/), and stored in a remote repo on [GitHub](https://github.com/). 
 
-You could then use [Docsify](https://docsify.js.org/#/) to generate documentation that is easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
+You could then use [Docsify](https://docsify.js.org/#/) to generate documentation from your Markdown files by converting it to HTML so that it's easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
 
-Every time you push to your remote repo, either through the command line or with VSCode, you trigger Docsify to convert your Markdown files to HTML before your content is published on your website through [GitHub Pages](https://pages.github.com/).
+Once these tools were set up, the broad process for publishing content would be:
 
-Alternatively, you could generate your HTML page with Docsify locally, and then upload it onto GitHub pages.
+1. Write product documentation in Markdown files using VScode (along with validators to keep the documentation consistent and error-free).
+1. Store your documentation, using Git for version control, on a remote repo in GitHub.
+1. Pull the current state of the documentation from the remote repo into a local repo on your computer to edit it.
+1. Push edited documentation into Git for review and approval on GitHub. 
+1. Merge your approved content to publish your documentation to the site or with the next product release. 
+
+Every time you push to your remote repo, either through the command line or with VSCode, you trigger Docsify to convert your Markdown files to HTML before your content is published on your website through [GitHub Pages](https://pages.github.com/). Alternatively, you could generate your HTML page with Docsify locally, and then upload it onto GitHub pages.
 
 ### Get started with Docs-as-Code
 
-1. Set up Git
-1. Set up GitHub
-1. Set up a local repo
-1. Set up [Docsify](https://docsify.js.org/#/quickstart)
+Before getting started with Docs-as Code, you should define your documentation goals, write a style guide, and plan your workflow, including a plan for automated tests to catch spelling errors and Markdown violations.
+
+There are four high-level tasks involved in getting started with Docs-as-Code:
+
+1. Create a content strategy.
+2. Create a writing style guide.
+3. Apply and develop tools for automated testing and automated deployment.
+4. Collect and analyse statistics and feedback to refine your documentation and process.
+
+Instead of introducing technical documentation with a "grand opening", start small, find pain-points that you can resolve, implement some basic validation checks, prune what doesn't work, and build on the rest. 
+
+Investigate the existing tools at the company for whom you're writing documentation to see what you might be able to leverage and integrate. Many people are passionate about the topics you write, so link with other colleagues and communities, such as PMs and test engineers, and try to get stakeholder buy-in.
+
+Other than that, if you want to get up and running, you could follow these steps:
+
+1. Download the system installer for [VSCode](https://code.visualstudio.com) and follow the steps.
+1. Install npm and Node.js so that you can be install packages with a single command in the command-line. If using a Mac, you might want to install Homebrew first, which simplifies open-source software installation, including Git (step 3). If you have Homebrew installed, you can run the command `brew install node` to install Node.js and npm. To install Homebrew, type the following into the command line:
+    ```
+    rub -e "¢(curk -
+    fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+    ```
+1. Install and set up Git using the appropriate method for your platform.
+    - Option 1: Download and run the git installer for your OS from [Git Downloads](https://git-scm.com/downloads). Navigate through the set-up wizard, leaving all options as default, except the text editor, which in this example is VSCode. Then configure your global user name and email in the command line.
+    - Option 2: If you've installed Homebrew, enter the following command in the command line: `brew install git` and then configure your global user name and email.
+1. Install markdown-cli using the command line so that you can output markdown in the command line: `npm install -g markdownlint-cli`
+1. Set up GitHub. For instructions ...
+1. Set up your SSH key in Github so that you won’t have to enter your password every time you push your content to GitHub. For instructions visit [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+1. Set up a local repo:
+    1. Create a docs directory (folder) to contain the Markdown files.
+    1. Navigate to your project directory in the command line (`cd <path>`)
+    1. Create and add a README file, either as plain text or with Markdown, describing the project.
+    1. Type `git commit` to set up tracking (???) OR in VSCode
+1. Install and set up [Docsify](https://docsify.js.org/#/quickstart)
+1. Connect your local repo to GitHub. Until now, you've been using Git and creating docs locally. To house this project in a remote repo on GitHub:
+    1. Go to github and sign in to your account.
+    1. Select the new repository button in the top-right where you'll be given the option to initialize the repository with a README file
+    1. Select **Create repository**.
+    1. <instructions> for pushing an existing repo to the remote
 1. Edit your markdown documents
 1. Run Docsify
 1. Push your changes to GitHub 
 1. View your page locally or deploy it to a static-site hosting service
 
+> **What is the basic Git configuration?**
+>
+> There three places that Git stores configuration information:
+> 1. **System-level configuration.** The broadest configuration that will apply to every user of the computer by default.
+> 1. **User-level (global) configuration**.** Each user can have their own custom configurations in their home/user directory.
+> 1. **Project-level (repo-specific) configuration.** Most of the time, you'll want configurations to be the same across projects.
+>
+> Git provides some commands for editing these three configurations. Each is going to be `git config` followed by a modifier that indicates whether it should be at the system level (`--system`), the global level (`--global`), or the project level (by default); you're deciding how widely you want your Git configuration to apply. The configurations you might want to set include:
+> - User name: `git config --global user.name "<name>"`
+> - Email address: `git config --global user.email "<email>"`
+> - To set your default editor as VSCode: `git config --global core.editor "code --wait"`
+> - To have colour in the interface: `git config --global color.ui true`
+>
+> You can list the configurations in your current directory using: `git config --list`
+>
+> You can list user-specific (global) configurations using: `cat .gitconfig`
+>
+> You can look at a specific configuration using, for example: `git config user.name`
+>
+> For some resources with beginner information about Git, try:
+>    - [Pro-Git by Chacon and Straub](https://git-scm.com/book/en/v2)
+>    - [Set up Git in Github Docs](https://docs.github.com/en/get-started/quickstart/set-up-git)
+>
+
+
+**Unused notes:**
+
+deploy = ... and serve
+
+mkdocs
+
+write md docs
+SSG turns docs into a single HTML page
+Put HTML page on a server (e.g. GitHub server)
+
+
+
 *  Instructions on how to build the documentation locally 
-*  Instructions on how to contribute
+*  Instructions on how to contributeEstablish potential contributors: non-technical, developers, and technical writers.
+
+Five goals of docs-as-code:
+
+Other potential tools:
+- Xcode = development software for building Mac and iOS apps that includes tools for comile software used on the Mac
+
+Markdown allows you to add a bit of text markup, like hyperlinks, bold/italics, or to indicate code with a monospace font. Markdown is easily converted to html for viewing in a web browser, and GitHub will do this for you automatically.
+
+
