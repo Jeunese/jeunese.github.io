@@ -118,9 +118,9 @@ Git is a distributed VSC, meaning that your local copy of the repo is a complete
 Broadly, the process for managing content using Git to then push to a website, would be as follows:
 
 1. Technical writers create and maintain content as code –– static data (such as Markdown files) –– in their local repo, edited in a text or source code editor (like VSCode).
-1. A static site generator (SSG), such as Docsify, converts these files into a static HTML. This page can be served in one of two ways:
+1. A static site generator (SSG), such as Docsify, converts these files into static HTML. This page can be served in one of two ways:
     *  Locally through a browser on your machine. No Internet connection is needed for this. This is convenient for when you've already downloaded the repo.
-    *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
+    *  Remotely through a static site hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
 1. To host the content on a Web page, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
 1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website.
 
@@ -156,7 +156,7 @@ Once these tools were set up, the broad process for publishing content would be:
 1. Push edited documentation into Git for review and approval on GitHub. 
 1. Merge your approved content to publish your documentation to the site or with the next product release. 
 
-Every time you push to your remote repo, either through the command line or with VSCode, you trigger Docsify to convert your Markdown files to HTML before your content is published on your website through [GitHub Pages](https://pages.github.com/). Alternatively, you could generate your HTML page with Docsify locally, and then upload it onto GitHub pages.
+Every time you push to your remote repo, either through the command line or with VSCode, you trigger [GitHub Pages](https://pages.github.com/) to use Docsify to convert your Markdown files into a single HTML file, and publish it on your website.
 
 ### Get started with Docs-as-Code
 
@@ -176,32 +176,34 @@ Investigate the existing tools at the company for whom you're writing documentat
 Other than that, if you want to get up and running, you could follow these steps:
 
 1. Download the system installer for [VSCode](https://code.visualstudio.com) and follow the steps.
-1. Install npm and Node.js so that you can be install packages with a single command in the command-line. If using a Mac, you might want to install Homebrew first, which simplifies open-source software installation, including Git (step 3). If you have Homebrew installed, you can run the command `brew install node` to install Node.js and npm. To install Homebrew, type the following into the command line:
+1. Install Node.js and npm so that you can install packages with a single command on the command-line. If using a Mac, you might want to install Homebrew first, which simplifies open-source software installation, including Git (step 3). If you have Homebrew installed, you can run the command `brew install node` to install Node.js and npm. To install Homebrew, type the following into the command line:
+    ```bash
+    rub -e "¢(curk - fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
     ```
-    rub -e "¢(curk -
-    fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
-    ```
-1. Install and set up Git using the appropriate method for your platform.
+1. Install and set up Git (if it is not already installed. Find out by typing `git --version`) using the appropriate method for your platform.
     - Option 1: Download and run the git installer for your OS from [Git Downloads](https://git-scm.com/downloads). Navigate through the set-up wizard, leaving all options as default, except the text editor, which in this example is VSCode. Then configure your global user name and email in the command line.
     - Option 2: If you've installed Homebrew, enter the following command in the command line: `brew install git` and then configure your global user name and email.
 1. Install markdown-cli using the command line so that you can output markdown in the command line: `npm install -g markdownlint-cli`
-1. Set up GitHub. For instructions ...
-1. Set up your SSH key in Github so that you won’t have to enter your password every time you push your content to GitHub. For instructions visit [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
-1. Set up a local repo:
-    1. Create a docs directory (folder) to contain the Markdown files.
-    1. Navigate to your project directory in the command line (`cd <path>`)
-    1. Create and add a README file, either as plain text or with Markdown, describing the project.
-    1. Type `git commit` to set up tracking (???) OR in VSCode
-1. Install and set up [Docsify](https://docsify.js.org/#/quickstart)
-1. Connect your local repo to GitHub. Until now, you've been using Git and creating docs locally. To house this project in a remote repo on GitHub:
+1. Set up remote GitHub repository.
     1. Go to github and sign in to your account.
     1. Select the new repository button in the top-right where you'll be given the option to initialize the repository with a README file
     1. Select **Create repository**.
-    1. <instructions> for pushing an existing repo to the remote
-1. Edit your markdown documents
-1. Run Docsify
-1. Push your changes to GitHub 
-1. View your page locally or deploy it to a static-site hosting service
+    1. Create a repository with the same name as your github username.
+    1. Set up your SSH key in Github so that you won’t have to enter your password every time you push your content to GitHub. For instructions visit [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+1. Set up a local repo:
+    1. Navigate to your repository on GitHub and [clone it](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+    1. Once created, navigate to the root of your project directory.
+    1. Create and add a README file, either as plain text or with Markdown, describing the project, if you didn't do so when you created the remote repository.
+    1. Create a folder called docs at the top level (`mkdir docs`).
+1. Install and set up [Docsify](https://docsify.js.org/#/quickstart)
+1. Create and edit your markdown documents in the docs folder you created.
+1. Run Docsify at the root of your repo with `docsify serve ./docs`.
+1. A local server will start up at address `http://localhost:3000`.
+1. Stop the local server in the terminal with `Ctrl-C`.
+1. Visit that page to view your documents locally.
+1. When you are happy with your changes, commit them and push to GitHub.
+1. A remote version of your documents will then be available at `<your-username>.github.io`
+1. Note, your webpage will be publicly available unless you have taken steps to make it private (beyond the scope of this document).
 
 > **What is the basic Git configuration?**
 >
