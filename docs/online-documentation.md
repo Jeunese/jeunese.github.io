@@ -91,7 +91,7 @@ Before continuing, let's cover some terminology.
 |Static HTML file |  | A page delivered to the web browser exactly as it is stored; it doesn't change over time unless it's replaced by another HTML file. |
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
 |(Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a copy stored on your local machine. |
-|Version Control System (or Source Code Management tool) | VCS (not to be confused with VSC*ode*) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VCS is also used to co-ordinate the work of multiple people.
+|Version Control System (or Source Code Management tool) | VCS (not to be confused with VSCode) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VCS is also used to co-ordinate the work of multiple people.
 
 > **Why use static websites for technical documentation?**
 >
@@ -131,7 +131,7 @@ CI checks and validates changes before they're integrated into the main codebase
 
 If you want to get up and running with Docs-as-Code, you could follow these steps for a basic set up with Git for version control:
 
-1. Install Git
+1. Install Git.
 1. Create an account on a cloud-based hosting service (such as GitHub).
 1. Create a new (remote) repo in GitHub.
 1. Copy (`clone`) your repo to your local computer.
