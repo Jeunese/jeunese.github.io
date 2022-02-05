@@ -131,7 +131,8 @@ CI checks and validates changes before they're integrated into the main codebase
 
 If you want to get up and running with Docs-as-Code, you could follow these steps for a basic set up with Git for version control:
 
-1. Install Git and create a GitHub account.
+1. Install Git
+1. Create an account on a cloud-based hosting service (such as GitHub).
 1. Create a new (remote) repo in GitHub.
 1. Copy (`clone`) your repo to your local computer.
 1. Modify files in your local repo and track changes using commits with Git.
