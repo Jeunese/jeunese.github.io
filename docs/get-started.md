@@ -6,7 +6,7 @@ This isn't a case of simply aggregating information in one place. Technical docu
 
 There are five high-level tasks involved in getting started with product documentation:
 
-1. Define your documentation goals 
+1. Define your documentation goals.
 1. Create a content framework and strategy.
 1. Create the content.
 1. Test and deliver the content.
