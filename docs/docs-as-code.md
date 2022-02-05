@@ -70,7 +70,8 @@ In sum, the benefits of docs as code are as follows:
 * **Accuracy** (which also helps to establish trust) by making documentation easy to maintain and update.
 * **Consistency**, both in style and purpose.
 * **Findability**, by making content easy to tag, to include keywords for SEO, to access online, and to search.
-* **Collaboration**, by fostering communication and cooperation * **Integration**, by synchronising documentation release with the functionality of the product.
+* **Collaboration**, by fostering communication and cooperation 
+* **Integration**, by synchronising documentation release with the functionality of the product.
 
 ### Terminology
 
