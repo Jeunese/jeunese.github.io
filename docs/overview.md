@@ -18,17 +18,27 @@ Product documentation articulates technical concepts, in writing, for a company'
 
 The audience for this type of technical content are typically administrators. Administrators install, configure, and maintain products and applications. Administrators are sometimes called "users" because they use the tools described in the product documentation. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
+Product documentation shouldn't be confused with README content, which is more brief and includes details that don't belong in product documentation, such as license or copyright details, basic information about the code, and how to build the project.
+
 Product documentation is "how-to" guidance written for administrators to help them:
 
 - Understand how a product or service works.
 - Keep up with new releases.
 - Learn how to install, upgrade, manage, and troubleshoot products and services
 
-There is also the expanded audience of product documentation to consider, which often includes key decision-makers, such as product managers and executives, who are evaluating the complexity, size, and cost of implementation.
-
-Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes.
-
 Product documentation should help the reader get set up as quickly and smoothly as possible.
+
+To this end, product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
+
+That being said, good product documentation can reduce the number of calls made to Technical Support. Customers often call Technical Support when they can’t figure something out. Good product documentation helps customers figure things out for themselves. Technical Support might also use product documentation for themselves as a point of reference.
+
+There is also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives, who are evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales materials. 
+
+Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. For example, Marketing and Sales might focus on specific aspects of a product, and technical writers might need to consider how to transition readers from this source of information to the product documentation.
+
+The overlap also means that you might be able to leverage existing Marketing and Sales material for overviews and new content. Marketing and Sales content can be streamlined and re-focussed by removing promises about usability and performance and then adding step-by-step instructions for getting started with the product. 
+
+Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Voice and tone is integral brand building and trust. Product documentation shouldn't undermine the company's overall brand.
 
 ### Content framework and strategy
 
@@ -68,7 +78,7 @@ Product documentation should be updated based on a roadmap for organising, sched
 
 ### Infrastructure and process (Docs-as-Code)
 
-With a [Docs-as-Code](/docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
+With a [Docs-as-Code](/online-documentation) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
 
 A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM.  Candidates for product documentation include:
 
