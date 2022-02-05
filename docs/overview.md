@@ -36,9 +36,9 @@ There is also the wider audience to consider. Product documentation tends to att
 
 Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. For example, Marketing and Sales might focus on specific aspects of a product, and technical writers might need to consider how to transition readers from this source of information to the product documentation.
 
-The overlap also means that you might be able to leverage existing Marketing and Sales material for overviews and new content. Marketing and Sales content can be streamlined and re-focussed by removing promises about usability and performance and then adding step-by-step instructions for getting started with the product. 
+The overlap also means that you might be able to leverage existing Marketing and Sales material for overviews and new content. Marketing and Sales content can be streamlined and re-focused by removing promises about usability and performance and adding step-by-step instructions for getting started with the product. 
 
-Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Voice and tone is integral brand building and trust. Product documentation shouldn't undermine the company's overall brand.
+Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Voice and tone is integral brand-building and trust. Product documentation shouldn't undermine the company's overall brand.
 
 ### Content framework and strategy
 

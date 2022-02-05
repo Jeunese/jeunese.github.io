@@ -1,7 +1,7 @@
 - [Overview](/)
 - [Voice and Tone](voice-and-tone)
-- [Writing Guidelines](guidelines)
-- [Online Documentation](docs-as-code)
+- [Writing Guidelines](writing-guidelines)
+- [Online Documentation](online-documentation)
 - **Resources**
 - [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
 - [First Steps with Git](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
