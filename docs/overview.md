@@ -78,7 +78,7 @@ Product documentation should be updated based on a roadmap for organising, sched
 
 ### Infrastructure and process (Docs-as-Code)
 
-With a [Docs-as-Code](/online-documentation) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
+With a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
 
 A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM.  Candidates for product documentation include:
 

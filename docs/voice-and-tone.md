@@ -52,7 +52,7 @@ Some of the guidelines for meeting these goals overlap. For example, using the s
 
 ### Be clear
 
-Keep sentences short and simple with [lean writing principles](https://jeunese.github.io/#/guidelines?id=lean-writing-principles). Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps, by using the second person with the imperative mood and active voice.
+Keep sentences short and simple with [lean writing principles](/writing-guidelines?id=lean-writing-principles). Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps, by using the second person with the imperative mood and active voice.
 
 Other tips for writing clearly include:
 
