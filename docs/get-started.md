@@ -40,7 +40,7 @@ From this you need to determine what you want your target audience to be able to
 
 Describe the high-level roadmap to organising, scheduling, creating, and publishing content. 
 
-1. Create a style or [writing guide](https://jeunese.github.io/#/guidelines) that explains what language to use, how to talk to users, and expected writing conventions. 
+1. Create a style or [writing guide](/writing-guidelines) that explains what language to use, how to talk to users, and expected writing conventions. 
 1. Create a [content framework](https://jeunese.github.io/#/?id=content-framework) in a draft Table of Contents (ToC).
     * Outline the topics you want to cover for meeting your documentation goals.
     * Create a simple and logical navigation structure with a flat hierarchy.
@@ -71,7 +71,7 @@ Get feedback, have your content peer reviewed, and make changes.
 
 Product documentation is meant to be dynamic and updated regularly. Develop tools for testing, delivering, and maintaining the documentation.
 
-If you adopt a [Docs-as-Code](/online-documentation) approach to delivering your content, you'll need to consider implementing systems that help you streamline the process and quality-control the documentation before it's published. 
+If you adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to delivering your content, you'll need to consider implementing systems that help you streamline the process and quality-control the documentation before it's published. 
 
 Instead of introducing documentation with a "grand opening", start small, find pain-points that you can resolve, implement some basic validation checks, prune what doesn't work, and build on the rest. 
 

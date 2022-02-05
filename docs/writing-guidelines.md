@@ -241,7 +241,7 @@ Before writing technical content for product documentation, you should:
 -  Understand at what stage in the customer journey the user is when they read your content.
 -  Understand the product: narrow your perspective down to the specific functionality that requires content.
 
-Before writing content, a technical first researches and tests the product or feature they are writing about. Communicating the knowledge you garner from research and testing is the last step in the process. 
+Before writing content, a technical writer first researches and tests the product or feature they are writing about. Communicating the knowledge you garner from research and testing is the last step in the process. 
 
 -  Develop in-depth knowledge of the product.
 -  Understand the real-world use cases for the product or feature.
