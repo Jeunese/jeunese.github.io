@@ -1,8 +1,8 @@
 # Online Documentation
 
-Ideally, technical documentation should be hosted online. 
+Ideally, technical documentation should be hosted online, rather then in PDFs. 
 
-PDF documentation needs to be actively shared and downloaded, after which, its contents are no longer under your control. PDFs get out-of-date. Outdated information can eventually become harmful. 
+PDFs need to be actively shared and downloaded, after which, its contents are no longer under your control. PDFs get out-of-date. Outdated information can eventually become harmful. 
 
 Even if you regularly create updated PDFs, you then have an issue with version control. You can't force people to delete their older versions. You can't be sure that people have the most up-to-date version. The readers themselves might not be sure that they have the most up-to-date version, or which of their PDFs might be the correct one. And, the most recent PDF might be buried in an email thread somewhere.
 
@@ -12,17 +12,7 @@ Finally, working with PDFs means first working with a word processing tool, like
 
 Online documentation removes these issues, especially if you adopt a "Docs-as-Code" approach. 
 
-You don’t have to adopt a Docs-as-Code approach to maintain online documentation. The approach just streamlines the processes involved and ensures that the product and its documentation are aligned. 
-
-Using the Docs-as-Code approach, documentation becomes *part* of the product or feature, and so can't be neglected; if up-to-date documentation is part of your "Definition of Done", it must be written before a product or feature can be released. 
-
-## What is good documentation?
-
-Good technical documentation is clear and useful to the reader, aided with the use of a clear [writing guide](https://jeunese.github.io/#/guidelines), along with empathy for the intended audience.
-
-Input is only one aspect of technical writing. Technical documentation also benefits from an efficient and effective process for delivering the *output*. 
-
-Good documentation works best when it:
+Documentation works best when it:
 
 *  Is version controlled
 *  Is easy to keep up-to-date and to apply fixes
@@ -33,6 +23,16 @@ Good documentation works best when it:
 *  Empowers colleagues in different teams to collaborate and contribute
 
 That's what a Docs-as-Code approach offers.
+
+Using the Docs-as-Code approach, documentation becomes *part* of the product or feature, and so can't be neglected; if up-to-date documentation is part of your "Definition of Done", it must be written before a product or feature can be released. 
+
+You don’t have to adopt a Docs-as-Code approach to maintain online documentation. The approach just streamlines the processes involved and ensures that the product and its documentation are aligned. 
+
+## What is good documentation?
+
+Good technical documentation is clear and useful to the reader, aided with the use of a [writing guide](https://jeunese.github.io/#/guidelines), along with empathy for the intended audience.
+
+Input is only one aspect of technical writing. Technical documentation also benefits from an efficient and effective process for delivering the *output*.
 
 Docs-as-Code allows you to output technical documentation alongside the products your content refers to. It also allows you to collaborate with others to keep the content up-to-date and to track changes to content with version control.
 
