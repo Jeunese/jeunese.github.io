@@ -135,7 +135,6 @@ If you want to get up and running with Docs-as-Code, you could follow these step
 1. Copy (`clone`) your repo to your local computer.
 1. Modify files in your local repo and track changes using commits with Git.
 1. Push your changes back to Git.
-1. Create a Pull Request (PR) and merge your changes with your remote repo.
 
 **Managing content with Git**
 
