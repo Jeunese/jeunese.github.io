@@ -84,13 +84,13 @@ Before continuing, let's cover some terminology.
 |Dynamic HTML file (compare with **static HTML file**) | | A page delivered to the web browser that offers a live or interactive user experience (such as the BBC website or Facebook); it can change over time depending on different pieces of information that the server writes into a single web page. | 
 |Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that's both human-readable and machine-readable. |
 |Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
-|GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It's a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
+|GitHub Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It's a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
 |Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create web pages. |
 |Markup language| | A publishing format that uses tags to define page layout and the elements within a page.|
 |Static HTML file |  | A page delivered to the web browser exactly as it is stored; it doesn't change over time unless it's replaced by another HTML file. |
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
 |(Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a copy stored on your local machine. |
-|Version Control System (or Source Code Management tool) | VSC (not to be confused with VSC*ode*) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VSC is also used to co-ordinate the work of multiple people.
+|Version Control System (or Source Code Management tool) | VCS (not to be confused with VSC*ode*) | A tool that allows you to track and view changes over time, and to undo or redo those changes. A VCS is also used to co-ordinate the work of multiple people.
 
 > **Why use static websites for technical documentation?**
 >
@@ -107,16 +107,16 @@ The tools listed, below, are used to help describe the Docs-as-Code process with
 | Tool | Description |
 |---|---|
 |Docsify | An SSG that takes static files, like **Markdown** documents, and turns them into an HTML page.|
-|Git | An open-source VSC for tracking, co-ordinating, and managing changes to source code, text files, and directories. |
+|Git | An open-source VCS for tracking, co-ordinating, and managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service and Web interface for managing and collaborating on Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
 |GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
 |Markdown | A lightweight/streamlined markup language, which as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention. This extension can be modified to create exceptions to the Markdown rules. |
-|Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
+|Visual Studio Code (VSC*ode*, not to be confused with VCS) | A free text and source code editor for building and debugging web and cloud applications.|
 
 > **Why use Markdown for technical documentation?**
 >
-> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But,Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
+> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But, Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
 >
 > There's no formal standard for Markdown –– Markdown comes in many "flavours", and one of the most popular is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
 

@@ -2,11 +2,13 @@
 - [Voice and Tone](voice-and-tone)
 - [Writing Guidelines](guidelines)
 - [Online Documentation](docs-as-code)
-- **Links**
+- **Resources**
 - [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
+- [First Steps with Git](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
 - [Github](https://github.com/)
 - [GitHub Content Style Guide](https://github.com/github/docs/blob/main/contributing/content-style-guide.md)
 - [How to Make Sense of Any Mess](http://www.howtomakesenseofanymess.com/)
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 - [Microsoft UX Guide](https://docs.microsoft.com/en-us/windows/win32/uxguide/text-ui)
+- [Pro Git](https://git-scm.com/book/en/v2)
 - [What is Continuous Integration?](https://www.exoscale.com/syslog/what-is-continuous-integration/)
