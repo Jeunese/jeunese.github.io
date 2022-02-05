@@ -1,6 +1,6 @@
 # Online Documentation
 
-Ideally, technical documentation should be hosted online, rather then in PDFs. 
+Ideally, technical documentation should be hosted online, rather than in PDFs. 
 
 A PDF needs to be actively shared and downloaded, after which, its contents are no longer under your control. PDFs get out-of-date. Outdated information can eventually become harmful. 
 
@@ -48,7 +48,7 @@ With a Docs-as-Code approach, technical writers continuously develop the documen
 
 | |Technical Writer | Developer |
 |---|---|---|
-|**1**|The technical writer creates content (for example, in Markdown files using VSCode), which represents a change to the website's codebase (for example, to information about a new feature or typo fix). |The developer writes some code (called a "changeset" or "patch"), which represents a change to the application's codebase (for example, to add a new feature or fix a bug).|
+|**1**|The technical writer creates content (for example, in Markdown files using VSCode), which represents a change to the Website's codebase (for example, to information about a new feature or typo fix). |The developer writes some code (called a "changeset" or "patch"), which represents a change to the application's codebase (for example, to add a new feature or fix a bug).|
 |**2**|The technical writer integrates their change into a centralized authoritative code repository for the documentation website (for example, a remote repo on GitHub). | The developer integrates ("merges") their change into a centralized authoritative code repository for the application (for example, a remote repo on GitHub).|
 |**3**|The HTML is compiled and built into a deployable version of the website. | The source code for the application is compiled and built into a deployable version (called an "artifact" or "package").|
 
@@ -56,7 +56,7 @@ Publishing is no longer a special or challenging event. Rather, the approach inv
 
 Docs-as-Code doesn't mean you have to use a singular test framework for checking both code and documentation. It's common to have two separate, but parallel, test frameworks: one for checking code, and one for validating documentation. 
 
-### What are the benefits of Docs-as-code?
+### Benefits
 
 Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. It allows you to work on content without worrying about visual layout and style, since these aspects are already configured.
 
@@ -122,7 +122,7 @@ The tools listed, below, are used to help describe the Docs-as-Code process with
 
 ### Process
 
-Git is a distributed VSC, which allows technical writers to work offline and to work on the same content in parallel. Most modern software projects, including websites for technical documentation, follow a high-level CI process.
+Git is a distributed VCS, which allows technical writers to work offline and to work on the same content in parallel. Most modern software projects, including websites for technical documentation, follow a high-level CI process.
 
 CI checks and validates changes before they're integrated into the main codebase (the project on the remote repo), and that a team can still successfully build the project (the website in our case as technical writers). In an ideal CI environment, every change is integrated as it’s developed, with every commit.
 
@@ -132,9 +132,9 @@ If you want to get up and running with Docs-as-Code, you could follow these step
 
 1. Install Git and create a GitHub account.
 1. Create a new (remote) repo in GitHub.
-1. Copy your repo to your local computer (using `git clone`).
+1. Copy (`clone`) your repo to your local computer.
 1. Modify files in your local repo and track changes using commits with Git.
-1. Push your changes back to git.
+1. Push your changes back to Git.
 1. Create a Pull Request (PR) and merge your changes with your remote repo.
 
 **Managing content with Git**
