@@ -30,7 +30,7 @@ You don’t have to adopt a Docs-as-Code approach to maintain online documentati
 
 Good technical documentation is clear and useful to the reader, aided with the use of a [writing guide](https://jeunese.github.io/#/guidelines), along with empathy for the intended audience.
 
-These inputs are only one aspect of good technical writing. Technical documentation also benefits from an efficient and effective process for delivering the *output*.
+Technical documentation also benefits from an efficient and effective process for delivering the output.
 
 Docs-as-Code allows you to output technical documentation alongside the products your content refers to. Using the Docs-as-Code approach, up-to-date documentation is part of your "Definition of Done", and must be written before a product or feature can be released. Documentation becomes *part* of the product or feature, and so can't be neglected.
 
@@ -46,7 +46,7 @@ Docs-as-Code is an approach to writing and publishing technical documentation us
 
 With a Docs-as-Code approach, technical writers continuously develop the documentation that helps people use the product, just as Engineering continuously integrates, deploys, tests, and monitors their work.
 
-Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing it to a live website. 
+Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing them to a live website. 
 
 This process allows you to work on content without worrying about visual layout and style, since these aspects are already configured.
 
@@ -70,7 +70,7 @@ Before continuing, let's cover some terminology.
 | Term | Abbreviation |Description |
 |---|---|---|
 | Cascading Style Sheet |CSS | A style sheet language used to express the presentation of a document written in markup language, such as HTML. It is used to format the layout of Web pages by defining things like text style and table sizes –– aspects of Web pages that could previously only be defined in the page's HTML.|
-| Cascading Style Sheet document | CSS document | A file that defines styles to be used by any page that references it. This is instead of defining the style of each element in each page's HTML, which helps create a uniform look across pages and makes it easy to make changes across multiple pages. |
+| Cascading Style Sheet document | CSS file | A file that defines styles to be used by any page that references it. This is instead of defining the style of each element in each page's HTML, which helps create a uniform look across pages and makes it easy to make changes across multiple pages. |
 |Continuous Integration | CI | A development practice in which developers frequently integrate code into a shared (remote) repo. Developers checkout code from the remote repo to work on locally, create a new branch for their work, and run tests on it in their own development environments. Once tests pass, they push commits to the remote repo, where their code is verified by an automated build. |
 |Dynamic HTML file (compare with **static HTML file**) | | A page delivered to the web browser that offers a live or interactive user experience (such as the BBC website or Facebook); it can change over time depending on different pieces of information that the server writes into a single web page. | 
 |Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that's both human-readable and machine-readable. |
