@@ -44,24 +44,33 @@ Docs-as-Code is an approach to writing and publishing technical documentation us
 - Building and publishing documentation with automatic validation and templating.
 - Implementing a review and approval process.
 
-With a Docs-as-Code approach, technical writers continuously develop the documentation that helps people use the product, just as Engineering continuously integrates, deploys, tests, and monitors their work.
+With a Docs-as-Code approach, technical writers continuously develop the documentation that helps people use the product, just as Engineering continuously integrates, deploys, tests, and monitors their work. This means that the process for a technical writer is similar to that of a developer working on a software project, such as creating an app:
 
-Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing them to a live website. 
+| |Technical Writer | Developer |
+|---|---|---|
+|**1**|The technical writer creates content (for example, in Markdown files using VSCode), which represents a change to the website's codebase (for example, to information about a new feature or typo fix). |The developer writes some code (called a "changeset" or "patch"), which represents a change to the application's codebase (for example, to add a new feature or fix a bug).|
+|**2**|The technical writer integrates their change into a centralized authoritative code repository for the documentation website (for example, a remote repo on GitHub). | The developer integrates ("merges") their change into a centralized authoritative code repository for the application (for example, a remote repo on GitHub).|
+|**3**|The HTML is compiled and built into a deployable version of the website. | The source code for the application is compiled and built into a deployable version (called an "artifact" or "package").|
 
-This process allows you to work on content without worrying about visual layout and style, since these aspects are already configured.
+Publishing is no longer a special or challenging event. Rather, the approach involves a simple and functional process in which you build the documentation and ensure that changes don't introduce errors before pushing them to a live website. 
+
+Docs-as-Code doesn't mean you have to use a singular test framework for checking both code and documentation. It's common to have two separate, but parallel, test frameworks: one for checking code, and one for validating documentation. 
+
+### What are the benefits of Docs-as-code?
+
+Using Engineering processes and tools to publish content allows technical writers to review and publish updates faster. It allows you to work on content without worrying about visual layout and style, since these aspects are already configured.
 
 Docs-as-Code also empowers colleagues, especially the Engineers who build the product, to provide their own input. Even large teams of technical writers can't know everything about the product, and people are typically eager to contribute when they get to talk about something they care about. People like to share, so much so that many do it for free –– at work, in gaming, in open-source software projects, and in wikis. 
 
 Ideally, you still create the majority of technical documentation yourself as part of a Continuous Integration (CI) release process, or "continuous documentation". Your job as a technical writer is largely about quality-control. Contributors don't publish changes directly to a production website, but can suggest changes, which then pass through a review and approval process with a technical author.
 
-> **What are the benefits of Docs-as-code?**
->
-> * **Efficiency**, by publishing in alignment with Engineering working practices.
-> * **Accuracy** (which also helps to establish trust) by making documentation easy to maintain and update.
-> * **Consistency**, both in style and purpose.
-> * **Findability**, by making content easy to tag, to include keywords for SEO, to access online, and to search.
-> * **Collaboration**, by fostering communication and cooperation between teams.
-> * **Integration**, by synchronising documentation release with the functionality of the product.
+In sum, the benefits of docs as code are as follows:
+
+* **Efficiency**, by publishing in alignment with Engineering working practices.
+* **Accuracy** (which also helps to establish trust) by making documentation easy to maintain and update.
+* **Consistency**, both in style and purpose.
+* **Findability**, by making content easy to tag, to include keywords for SEO, to access online, and to search.
+* **Collaboration**, by fostering communication and cooperation * **Integration**, by synchronising documentation release with the functionality of the product.
 
 ### Terminology
 
@@ -71,7 +80,7 @@ Before continuing, let's cover some terminology.
 |---|---|---|
 | Cascading Style Sheet |CSS | A style sheet language used to express the presentation of a document written in markup language, such as HTML. It is used to format the layout of Web pages by defining things like text style and table sizes –– aspects of Web pages that could previously only be defined in the page's HTML.|
 | Cascading Style Sheet document | CSS file | A file that defines styles to be used by any page that references it. This is instead of defining the style of each element in each page's HTML, which helps create a uniform look across pages and makes it easy to make changes across multiple pages. |
-|Continuous Integration | CI | A development practice in which developers frequently integrate code into a shared (remote) repo. Developers checkout code from the remote repo to work on locally, create a new branch for their work, and run tests on it in their own development environments. Once tests pass, they push commits to the remote repo, where their code is verified by an automated build. |
+|Continuous Integration | CI | A software engineering practice in which developers frequently integrate code into a shared (remote) repo. Developers checkout code from the remote repo to work on locally, create a new branch for their work, and run tests on it in their own development environments. Once tests pass, they push commits to the remote repo, where their code is verified by an automated build. |
 |Dynamic HTML file (compare with **static HTML file**) | | A page delivered to the web browser that offers a live or interactive user experience (such as the BBC website or Facebook); it can change over time depending on different pieces of information that the server writes into a single web page. | 
 |Extensible Markup Language | XML | A **markup language** that defines a set of rules for encoding documents in a format that's both human-readable and machine-readable. |
 |Formal specification | | A file that lists the criteria for a product, including edge cases, for conformance testing the otherwise ambiguous parts of the syntax, such as how much indentation is needed for a sublist.|
@@ -93,7 +102,7 @@ Before continuing, let's cover some terminology.
 
 ### Tools
 
-The tools listed, below, are used to help describe the Docs-as-Code process with concrete examples. These tools allow you to leverage review and CI tools for writing efficiently, effectively, and collaboratively with Engineering. They aren't the only tools available to you. Many alternatives exist.
+The tools listed, below, are used to help describe the Docs-as-Code process with concrete examples. These tools allow you to leverage CI and review tools for writing efficiently, effectively, and collaboratively with Engineering. They aren't the only tools available to you. Many alternatives exist.
 
 | Tool | Description |
 |---|---|
@@ -101,30 +110,43 @@ The tools listed, below, are used to help describe the Docs-as-Code process with
 |Git | An open-source VSC for tracking, co-ordinating, and managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service and Web interface for managing and collaborating on Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
 |GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
-|Markdown | A lightweight/streamlined markup language, as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
+|Markdown | A lightweight/streamlined markup language, which as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention. This extension can be modified to create exceptions to the Markdown rules. |
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
 > **Why use Markdown for technical documentation?**
 >
-> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
+> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But,Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
 >
-> There's no formal standard for Markdown –– Markdown comes in many "flavours", one of the most popular is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
+> There's no formal standard for Markdown –– Markdown comes in many "flavours", and one of the most popular is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
 
 ### Process
 
-Git is a distributed VSC, meaning that your local copy of the repo is a complete version control repository that you can manage on your local computer. A distributed VSC allow technical writers to work offline and to work on the same content in parallel.
+Git is a distributed VSC, which allows technical writers to work offline and to work on the same content in parallel. Most modern software projects, including websites for technical documentation, follow a high-level CI process.
 
-Broadly, the process for managing content using Git to then push to a website, would be as follows:
+CI checks and validates changes before they're integrated into the main codebase (the project on the remote repo), and that a team can still successfully build the project (the website in our case as technical writers). In an ideal CI environment, every change is integrated as it’s developed, with every commit.
+
+**Basic set up with Git**
+
+If you want to get up and running with Docs-as-Code, you could follow these steps for a basic set up with Git for version control:
+
+1. Install Git and create a GitHub account.
+1. Create a new (remote) repo in GitHub.
+1. Copy your repo to your local computer (using `git clone`).
+1. Modify files in your local repo and track changes using commits with Git.
+1. Push your changes back to git.
+1. Create a Pull Request (PR) and merge your changes with your remote repo.
+
+**Managing content with Git**
+
+Broadly, the process for managing content, using Git to track and push changes to a website, would be as follows:
 
 1. Technical writers create and maintain content as code –– static data (such as Markdown files) –– in their local repo, edited in a text or source code editor (like VSCode).
 1. A static site generator (SSG), such as Docsify, converts these files into static HTML. This page can be served in one of two ways:
-    *  Locally through a browser on your machine. No Internet connection is needed for this. This is convenient for when you've already downloaded the repo.
-    *  Remotely through a static site hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser.
-1. To host the content on a Web page, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
+    *  Locally through a browser on your machine. No Internet connection is needed for this. This is convenient for when you've already downloaded the repo and want to see your changes quickly.
+    *  Remotely through a static site-hosting service (like GitHub Pages), available to anyone with an Internet connection and a browser. This is convenient for when you're ready to share your content with others.
+1. To host the content on a Web page for others to view, the static HTML file is pushed to a remote repo on a cloud-based hosting service (such as GitHub).
 1. A static site-hosting service (such as GitHub Pages) takes files from the remote repo to publish on a website.
-
-Docs-as-Code doesn't mean you have to use a singular test framework for checking both code and documentation. It's common to have two separate, but parallel, test frameworks: one for checking code, and one for validating documentation. 
 
 ### People
 
@@ -146,11 +168,11 @@ Meanwhile, information development system administrators are in charge of:
 
 Using the above examples of possible tools, content could be managed using Git for version control, maintained in Markdown files that are formatted using [GFM](https://github.github.com/gfm/), edited using [VSCode](https://code.visualstudio.com/), and stored in a remote repo on [GitHub](https://github.com/). 
 
-You could then use [Docsify](https://docsify.js.org/#/) to generate documentation from your Markdown files by converting it to HTML so that it's easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
+You could then use [Docsify](https://docsify.js.org/#/) to generate documentation from your Markdown files by converting them in to HTML, which is easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
 
 Once these tools were set up, the broad process for publishing content would be:
 
-1. Write product documentation in Markdown files using VScode (along with validators to keep the documentation consistent and error-free).
+1. Write documentation in Markdown files using VSCode (along with validators to keep the documentation consistent and error-free).
 1. Store your documentation, using Git for version control, on a remote repo in GitHub.
 1. Pull the current state of the documentation from the remote repo into a local repo on your computer to edit it.
 1. Push edited documentation into Git for review and approval on GitHub. 

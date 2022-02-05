@@ -9,4 +9,4 @@
 - [How to Make Sense of Any Mess](http://www.howtomakesenseofanymess.com/)
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 - [Microsoft UX Guide](https://docs.microsoft.com/en-us/windows/win32/uxguide/text-ui)
-
+- [What is Continuous Integration?](https://www.exoscale.com/syslog/what-is-continuous-integration/)
