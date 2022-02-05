@@ -18,9 +18,7 @@ Investigate the existing tools at the company for whom you're writing documentat
 
 ## 1. Define your documentation goals
 
-### Discovery research
-
-Defining your documentation goals starts with some discovery research, which you can then also apply at Step 2. Discovery research might consist of:
+Defining your documentation goals starts with some **discovery research**, which you can then also apply at Step 2. Discovery research might consist of:
 
 * A content inventory to establish what already exists.
 * Discussions with subject matter experts, colleagues in technical teams, and the administrators themselves.
@@ -28,8 +26,6 @@ Defining your documentation goals starts with some discovery research, which you
 * Outlining the customer use cases and problems they're trying to solve.
 * Finding and evaluating other sources of insight, such as survey data and search logs.
 * Evaluating existing content against known administrator needs and pain points as part of a docs audit.
-
-### Documentation goals
 
 From this you need to determine what you want your target audience to be able to do with the documentation:
 
@@ -155,6 +151,6 @@ Findability refers to content that users can reasonably presume would exist in t
 
 **User journey.** Keep the ToC organized around the administrator’s technical workflow and key tasks from the customer’s perspective.
 
-**Use cases.** Write content with the core business cases of our customers in mind .
+**Use cases.** Write content with the core business cases of our customers in mind.
 
 
