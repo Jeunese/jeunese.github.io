@@ -48,7 +48,7 @@ With a Docs-as-Code approach, technical writers continuously develop the documen
 
 | |Technical Writer | Developer |
 |---|---|---|
-|**1**|The technical writer creates content (for example, in Markdown files using VSCode), which represents a change to the Website's codebase (for example, to information about a new feature or typo fix). |The developer writes some code (called a "changeset" or "patch"), which represents a change to the application's codebase (for example, to add a new feature or fix a bug).|
+|**1**|The technical writer creates content (for example, in Markdown files using VSCode), which represents a change to the website's codebase (for example, information about a new feature or a typo fix). |The developer writes some code (called a "changeset" or "patch"), which represents a change to the app's codebase (for example, to add a new feature or to fix a bug).|
 |**2**|The technical writer integrates their change into a centralized authoritative code repository for the documentation website (for example, a remote repo on GitHub). | The developer integrates ("merges") their change into a centralized authoritative code repository for the application (for example, a remote repo on GitHub).|
 |**3**|The HTML is compiled and built into a deployable version of the website. | The source code for the application is compiled and built into a deployable version (called an "artifact" or "package").|
 
@@ -125,7 +125,7 @@ The tools listed, below, are used to help describe the Docs-as-Code process with
 
 Git is a distributed VCS, which allows technical writers to work offline and to work on the same content in parallel. Most modern software projects, including websites for technical documentation, follow a high-level CI process.
 
-CI checks and validates changes before they're integrated into the main codebase (the project on the remote repo), and that a team can still successfully build the project (the website in our case as technical writers). In an ideal CI environment, every change is integrated as it’s developed, with every commit.
+CI checks and validates changes before they're integrated into the main codebase (the project on the remote repo), and that a team can still successfully build the project (the website, in our case as technical writers). In an ideal CI environment, every change is integrated as it’s developed, with every commit.
 
 **Basic set up with Git**
 
