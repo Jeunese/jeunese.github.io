@@ -1,4 +1,4 @@
-# Get started with documentation
+# Get Started with Documentation
 
 This article uses examples that apply to technical documentation for administrators (as opposed to end-users, developers, technicians, or peers) but the precise audience isn't important. What matters is that, once you've defined your target audience, you create content that is *helpful* for that audience. 
 
