@@ -85,7 +85,7 @@ Perhaps the site's previous KPIs are no longer directly applicable, for example,
 
 ## Guidelines for technical documentation
 
-What follows are some proposed guidelines for structuring, creating, and maintaining documentation, grouped by key goals:
+What follows are some proposed guidelines for structuring, creating, and maintaining documentation, grouped by key goals.
 
 ### Findability and discoverability
 
