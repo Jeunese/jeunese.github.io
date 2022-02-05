@@ -37,7 +37,7 @@ The administrator interaction with product documentation is, in itself, a user e
 - A core **content framework**: the **content and structural components**, including the information architecture (IA) this content is built around.
 - A core **content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
 
-#### **Content framework**
+#### Content framework
 
 A content framework deals with how we build, present, and organise content. 
 
@@ -64,11 +64,11 @@ Product documentation should be purposeful and meaningful for the intended audie
 *  The target audience and their needs.
 *  The voice and tone of content for your audience.
 
-Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs as Code** (or **Open Docs**) infrastructure.
+Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs-as-Code** (or **Open Docs**) infrastructure.
 
-### Infrastructure and process (Docs as Code)
+### Infrastructure and process (Docs-as-Code)
 
-With a [Docs as Code](/docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
+With a [Docs-as-Code](/docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
 
 A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM.  Candidates for product documentation include:
 
