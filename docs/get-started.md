@@ -1,10 +1,10 @@
-# Get started
+# Get started with documentation
 
 This article uses examples that apply to technical documentation for administrators (as opposed to end-users, developers, technicians, or peers) but the precise audience isn't important. What matters is that, once you've defined your target audience, you create content that is *helpful* for that audience. 
 
 This isn't a case of simply aggregating information in one place. Technical documentation is about presenting *useful* content that is clear, searchable, and easy for your target audience to read, follow, and use. It should empower them to get their jobs done.
 
-There are five high-level tasks involved in getting started with Docs-as-Code:
+There are five high-level tasks involved in getting started with product documentation:
 
 1. Define your documentation goals 
 1. Create a content framework and strategy.
@@ -18,7 +18,7 @@ Investigate the existing tools at the company for whom you're writing documentat
 
 ## 1. Define your documentation goals
 
-Defining your documentation goals starts with some **discovery research**, which you can then also apply at Step 2. Discovery research might consist of:
+Defining your documentation goals starts with some **discovery research**, which you can then also apply at [Step 2](/get-started?id=_2-create-a-content-framework-and-strategy). Discovery research might consist of:
 
 * A content inventory to establish what already exists.
 * Discussions with subject matter experts, colleagues in technical teams, and the administrators themselves.
@@ -79,7 +79,7 @@ Instead of introducing documentation with a "grand opening", start small, find p
 
 Collect and analyse statistics and feedback to refine your documentation and process based on your documentation goals.
 
-Ideally, the most relevant metrics or key performance indicators (KPIs) should be comparable both before and after product documentation was created or changed. Your baseline might consist of the insights you gathered when you conducted discovery research as part of Step 1. You can use these baselines to establish trends in things like search log data and feedback on the product documentation.
+Ideally, the most relevant metrics or key performance indicators (KPIs) should be comparable both before and after product documentation was created or changed. Your baseline might consist of the insights you gathered when you conducted discovery research as part of [Step 1](/get-started?id=_1-define-your-documentation-goals). You can use these baselines to establish trends in things like search log data and feedback on the product documentation.
 
 Perhaps the site's previous KPIs are no longer directly applicable, for example, because it went through a major restructure or there is brand new content for which you're yet to gather insight. In this way, you've come full circle. There should always be opportunities to collect new points of measurement that you can use. "Discovery" and "Analysis" are two sides of the same coin.
 
@@ -152,5 +152,3 @@ Findability refers to content that users can reasonably presume would exist in t
 **User journey.** Keep the ToC organized around the administrator’s technical workflow and key tasks from the customer’s perspective.
 
 **Use cases.** Write content with the core business cases of our customers in mind.
-
-
