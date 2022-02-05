@@ -78,7 +78,6 @@ Before continuing, let's cover some terminology.
 |GitHub-Flavored Markdown |GFM | A dialect of **Markdown** supported for content in GitHub. It's a formal specification that defines the syntax and semantics of GFM, which is a superset of CommonMark. Any GitHub content that isn't specified on the original CommonMark Spec are extensions, and highlighted as such. | 
 |Hypertext Markup Language | HTML | An example of a markup language (a publishing format), which is used to create web pages. |
 |Markup language| | A publishing format that uses tags to define page layout and the elements within a page.|
-|Package Manager | |A system you download for managing your project dependencies (third-party software installed globally or locally on your cpmputer) so that you don't have to manually download, store, and uninstall them.|
 |Static HTML file |  | A page delivered to the web browser exactly as it is stored; it doesn't change over time unless it's replaced by another HTML file. |
 |Static site generator | SSG | A tool that generates a full static HTML website based on raw data and a set of templates, automating the task of coding individual HTML pages and getting those pages ready to serve to users ahead of time.|
 |(Git) repository | Repo | Virtual storage of a directory or project. A remote repo is a version of your project hosted on a network or on the Internet. A local repo is a copy stored on your local machine. |
@@ -101,10 +100,9 @@ The tools listed, below, are used to help describe the Docs-as-Code process with
 |Docsify | An SSG that takes static files, like **Markdown** documents, and turns them into an HTML page.|
 |Git | An open-source VSC for tracking, co-ordinating, and managing changes to source code, text files, and directories. |
 |GitHub | A cloud-based hosting service and Web interface for managing and collaborating on Git repositories. It helps you manage open-source projects that use Git. There are alternatives to GitHub, including GitLab and BitBucket, which are referred to as "remotes".|
-|GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|A package manager for Mac, designed to simplify open-source software installation, such as Node.js and npm|
+|GitHub Pages | A static site-hosting service that takes files from a repository on GitHub to publish to a website.|
 |Markdown | A lightweight/streamlined markup language, as well as being a publishing format, is also a writing format, designed to be easy for humans to read, write, and understand.|
 |Markdownlint |An extension for **VSCode** that automatically checks content style based on its library of rules, flagging anything that requires attention. This extension can be modified to create exceptions to the Markdown rules. |
-|npm | A package manager that installs packages written in Node.js and provides a command line interface to work with them.|
 |Visual Studio Code (VSC*ode*, not to be confused with VSC) | A free text and source code editor for building and debugging web and cloud applications.|
 
 > **Why use Markdown for technical documentation?**
