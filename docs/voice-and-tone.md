@@ -15,6 +15,7 @@ Depending on the source of definitions for voice and tone, the simplest answers 
 | *What* you say. | *How* you say it. |
 | Remains stable. | Changes based on context.
 | The character or persona. | The attitude or emotional inflection. |
+| How you talk to customers in all communications. | How you talk to different audiences.|
 
 ### Voice
 
@@ -26,7 +27,7 @@ Tone captures the "attitude" with which we express content. It is often describe
 
 For example, an error message in the UI might call for friendlier language such as *"It looks like your passwords don't match. Try again?"* to put the user at ease. Compare this with a phrase like *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel, but the tone is different.
 
-## Voice and tone, or tone of voice?
+## Tone of voice
 
 It can be hard differentiating voice (character) from tone (attitude) with concrete examples. For example, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
 
@@ -36,11 +37,9 @@ Adding to the confusion, the [Microsoft Style Guide](https://docs.microsoft.com/
 
 If voice and tone don't operate independently, it is more useful to consider them jointly in making decisions about writing style rather than attempting separate them. Specifically, it makes sense to define voice as the parameter within which tone can operate. 
 
-Rather than attempting to reconcile the differences in opinion about the precise nature of voice and tone in writing, we refer to them as a single concept in our capacity as technical authors and content designers.
+Rather than attempting to reconcile the differences in opinion about the precise nature of voice and tone in writing, this documentation refers to them as a single concept in your capacity as a technical author or content designer.
 
-For this reason, we refer to our **tone of voice** rather than "voice and tone" to define our high-level writing goals.
-
-## Our tone of voice
+For this reason, this documentation refer to our **tone of voice** rather than "voice and tone" to define the high-level writing goals.
 
 The sections below provide guidelines for the proposed tone of voice of both product documentation and UI content. Our tone of voice is based on the purpose of content and the intended audiences. The high-level goals outlined for tone of voice include:
 
@@ -59,7 +58,6 @@ Other tips for writing clearly include:
 -  Get to the point quickly.
 -  Use plain English.
 -  Use simple words where possible.
--  Write in short sentences.
 -  Break up content to make it more scannable.
 -  Break up sentences into separate thoughts.
 -  Check every word for redundancy and remove excess words.

@@ -28,7 +28,7 @@ You don’t have to adopt a Docs-as-Code approach to maintain online documentati
 
 ## What is good documentation?
 
-Good technical documentation is clear and useful to the reader, aided with the use of a [writing guide](https://jeunese.github.io/#/guidelines), along with empathy for the intended audience.
+Good technical documentation is clear and useful to the reader, aided with the use of a [style guide](https://jeunese.github.io/#/style-guide), along with empathy for the intended audience.
 
 Technical documentation also benefits from an efficient and effective process for delivering the output.
 
@@ -151,7 +151,9 @@ Broadly, the process for managing content, using Git to track and push changes t
 
 ### People
 
-Technical writers are not typically responsible for every aspect of the Docs-as-Code approach. Rather, technical writers are in charge of:
+Product documentation usually sits with the Product team, although developers will also be responsible for aspects of the documentation. 
+
+Technical writers aren't typically responsible for every aspect of the Docs-as-Code approach. Rather, technical writers are in charge of:
 
 - Information gathering and scoping for content.
 - Writing and checking content.

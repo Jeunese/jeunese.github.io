@@ -1,6 +1,8 @@
 - [Overview](/)
 - [Voice and Tone](voice-and-tone)
-- [Writing Guidelines](writing-guidelines)
+- [Style Guide](style-guide)
+- [Technical Writing Guidelines](technical-writing)
+- [UX Writing Guidelines](ux-writing)
 - [Online Documentation](online-documentation)
 - [Get Started](get-started)
 - **Resources**

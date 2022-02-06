@@ -14,9 +14,9 @@ As well as Engineering, information developers typically work closely with:
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a company's products and services. 
+Product documentation articulates technical concepts, in writing, for a company's products and services. For a software company, product documentation describes what a product or service does, how it works, and other technical details needed to set it up.
 
-The audience for this type of technical content are typically administrators. Administrators install, configure, and maintain products and applications. Administrators are sometimes called "users" because they use the tools described in the product documentation. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
+The audience for this type of technical content are typically a customer's administrators. Administrators install, configure, and maintain products and applications. Administrators are sometimes called "users" because they use the tools described in the product documentation. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
 Product documentation shouldn't be confused with README content, which is more brief and includes details that don't belong in product documentation, such as license or copyright details, basic information about the code, and how to build the project.
 
