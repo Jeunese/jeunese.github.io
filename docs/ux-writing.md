@@ -14,7 +14,6 @@ General guidance for UX writing includes:
 -  Set the strategy early in your writing.
 -  Take a user-centred approach.
 -  Keep messages short.
--  Use voice, tone, and terminology consistently across different modes.
 -  Address the reader directly; avoid referring to "users" or "customers".
 -  Avoid using the same word twice in the same screen.
 -  Avoid negative phrasing and words.
@@ -426,7 +425,7 @@ Success message provide positive feedback on a completed action. Guidelines for 
 
 ### Error messages
 
-Error messahes appear when a problem occurs, for example, when an incorrect instruction has been given; the best error messages explicitly describe what is wrong and how to fix it, resulting in the user resolving the issue by themselves. An error message can provide more than one action for the user. 
+Error messages appear when a problem occurs, for example, when an incorrect instruction has been given; the best error messages explicitly describe what is wrong and how to fix it, resulting in the user resolving the issue by themselves. An error message can provide more than one action for the user. 
 
 A good error message has three parts:
 
