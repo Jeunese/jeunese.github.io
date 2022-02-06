@@ -10,11 +10,11 @@ For guidelines that are specific to technical writing, see [Technical Writing Gu
 
 ## Tone of voice
 
-Voice and tone define how you talk to your audience. These are the high-level communication goals that inform the individual writing elements in this style guide.
+This guide refers to *tone of voice* rather than voice and tone as separate constructs, defined in the [Voice and Tone](/voice-and-tone?id=voice-and-tone-or-tone-of-voice) article. 
 
-This guide refers to *tone of voice* rather than voice and tone as separate constructs, as defined in the [Voice and Tone](/voice-and-tone?id=voice-and-tone-or-tone-of-voice) article. 
+Tone of voice is based on the type of company, target audience, and purpose of the content. For a software company, the purpose of product documentation is to provide administrators with quick product reference material for what the product does, how it works, and how to set it up. The purpose of in-product copy is to help end-users of the UI complete tasks easily and effectively with that company's software.
 
-Our tone of voice is based on the type of company, target audience, and purpose of the content. For a software company, the purpose of product documentation is to provide administrators with quick product reference material for what the product does, how it works, and how to set it up. The purpose of in-product copy is to help end-users of the UI complete tasks easily and effectively with that company's software.
+Tone of voice defines how you talk to your audience. These are the high-level communication goals that inform the individual writing elements in this style guide.
 
 - [Be clear](/voice-and-tone?id=be-clear) (direct, simple, precise, and concise)
 - [Be human](/voice-and-tone?id=be-human) (conversational, personal, positive, and inclusive)

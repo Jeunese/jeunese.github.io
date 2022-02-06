@@ -1,5 +1,18 @@
 # Technical Writing Guidelines
 
+General guidance for technical writing includes:
+
+- [Define your documentation goals](/get-started?id=_1-define-your-documentation-goals).
+- [Create a content framework and strategy](/get-started?id=_2-create-a-content-framework-and-strategy).
+- Take a user-centred approach.
+- Describe things simply.
+- Use voice, tone, and terminology consistently.
+- Address the reader directly; avoid referring to “users” or “customers”.
+- Avoid negative phrasing and words.
+- Use sentence case for everything except global navigation and boolean values.
+
+More specific guidance depends on the type of technical writing you’re engaged in. This article focuses on product documentation.
+
 ## Product documentation
 
 Product documentation covers:

@@ -83,9 +83,9 @@ Ideally, the most relevant metrics or key performance indicators (KPIs) should b
 
 Perhaps the site's previous KPIs are no longer directly applicable, for example, because it went through a major restructure or there is brand new content for which you're yet to gather insight. In this way, you've come full circle. There should always be opportunities to collect new points of measurement that you can use. "Discovery" and "Analysis" are two sides of the same coin.
 
-## Guidelines for technical documentation
+## Documentation principles
 
-What follows are some proposed guidelines for structuring, creating, and maintaining documentation, grouped by key goals.
+What follows are some proposed principles for structuring, creating, and maintaining documentation, grouped by key goals.
 
 ### Findability and discoverability
 
