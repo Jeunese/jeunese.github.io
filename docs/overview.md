@@ -2,9 +2,9 @@
 
 An Information Development (or Information Experience, IX) team consists of technical writers that typically belong to Engineering. IX are responsible for:
 
-- Website infrastructure for product documentation.
-- Technical content authoring for a company's products and services.
-- In-product content development, such as error messages and on-screen text.
+- Website infrastructure for product documentation. See [Infrastructure and process (Docs-as-Code)](https://jeunese.github.io/#/?id=infrastructure-and-process-docs-as-code).
+- Technical content authoring for a company's products and services. See [Product documentation](https://jeunese.github.io/#/technical-writing?id=product-documentation).
+- In-product content development, such as error messages and on-screen text. See [UX Writing Guidelines](/ux-writing).
 
 As well as Engineering, information developers typically work closely with:
 
@@ -91,7 +91,7 @@ Once a content need is identified, a ticket should be created in an issue tracki
 
 ## In-product content development
 
-IX technical authors also typically help write and review in-product content for end-users. This can also be done with issue tracking software, and as part of agile and sprint cycles.
+IX technical authors also typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. This can also be done with issue tracking software, and as part of agile and sprint cycles.
 
 In collaboration with PD and the PM, IX can be asked to:
 

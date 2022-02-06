@@ -6,10 +6,11 @@ General guidance for technical writing includes:
 - [Create a content framework and strategy](/get-started?id=_2-create-a-content-framework-and-strategy).
 - Take a user-centred approach.
 - Describe things simply.
+- Follow [lean writing principles](/style-guide?id=lean-writing-principles).
 - Use voice, tone, and terminology consistently.
 - Address the reader directly; avoid referring to “users” or “customers”.
 - Avoid negative phrasing and words.
-- Use sentence case for everything except global navigation and boolean values.
+- Use sentence case for everything except global navigation.
 
 More specific guidance depends on the type of technical writing you’re engaged in. This article focuses on product documentation.
 
@@ -28,11 +29,11 @@ Product documentation covers:
 
 Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities and use cases.
 
-## Product knowledge guidelines
+## Scoping and planning
 
 Before writing technical content for product documentation, you should:
 
--  Understand the user persona: whether they're: network, IT, or security administrators; security officers; end-users; or data analysts.
+-  Understand the user persona, whether they're: network, IT, or security administrators; security officers; end-users; or data analysts.
 -  Change the way you write based on the users and their expectations. Be aware of goals, needs, and backgrounds. Decide on the tone you use based on the product and target audience.
 -  Understand at what stage in the customer journey the user is when they read your content.
 -  Understand the product: narrow your perspective down to the specific functionality that requires content.
