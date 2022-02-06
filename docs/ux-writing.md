@@ -311,12 +311,11 @@ Boolean values are a visual representation of an on/off state, such as a switch.
 	- Wrap the label to multiple lines, if necessary.
 	- Align the UI element with the fist line of the label.
 
-A toggle provides users with a choice between the two mutually exclusive states of a boolean value. 
+A toggle provides users with a choice between the two mutually exclusive states of a boolean value. A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
 
-A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
-- Understand the current state of the selection
-- Tab through a set of options and navigate between options using the arrow keys
-- Use the spacebar to select and deselect an option
+- Understand the current state of the selection.
+- Tab through a set of options and navigate between options using the arrow keys.
+- Use the spacebar to select and deselect an option.
 
 ### Buttons
 
