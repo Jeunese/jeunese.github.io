@@ -1,13 +1,5 @@
 # UX Writing Guidelines
 
-Before writing or reviewing UI content, the UX writer needs to know:
-
--  Who they're writing for, such as end-users or administrators.
--  What the user's goals and needs are.
--  What the product is and how the product is used. 
--  What the use cases are.
--  What components of the product need written or reviewed (if not the end-to-end experience).
-
 General guidance for UX writing includes:
 
 -  Engage early with Product Design (PD).
@@ -21,6 +13,24 @@ General guidance for UX writing includes:
 -  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
 
 More specific guidance depends on the type of UX writing you're engaged in.
+
+## UX writing
+
+A UX writer helps craft in-product content as part of the product design process. This includes in-product text, buttons, messages, labels, and other UI touchpoints that guide a user through a product or service.
+
+This is not the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing.
+
+A UX writer is responsible for creating in-product content that's in line with the company's [tone of voice](/voice-and-tone?id=tone-of-voice) and that facilitates the user experience of the product. UX Writers take insights from UI and UX design, usability, and behavioural psychology to iterate and refine content that is designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy. 
+
+Before writing or reviewing UI content, the UX writer needs to know:
+
+-  Who they're writing for, such as end-users or administrators.
+-  What the user's goals and needs are.
+-  What the product is and how the product is used. 
+-  What the use cases are.
+-  What components of the product need written or reviewed (if not the end-to-end experience).
+
+The aim is create a cohesive content experience. For this reason, it's sometimes described as a sub-discipline of content design. See [UX writing and content design](/ux-writing?id=ux-writing-and-content-design) for more information on the similarities and differences.
 
 ## UX writing and information development
 
@@ -45,18 +55,6 @@ A technical writer's input for in-product design might include:
 UX writer and content designers (sometimes called content writers) have a lot in common. Both work with Product Design to create, deliver, and modify content to maximise the user experience of a product. 
 
 However, UX writing focuses more using UI copy to facilitate the user experience of a product, while content design focuses more on the design of the product itself, which can include written content, but also involves designing the layout, flow, and the type of content to include. 
-
-### What does a UX writer do?
-
-A UX writer helps craft in-product content as part of the product design process. This includes in-product text, buttons, messages, labels, and other UI touchpoints that guide a user through a product or service.
-
-This is not the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing to UX writing.
-
-A UX writer is responsible for creating in-product content that's in line with the company's tone of voice and that facilitates the user experience of the product. UX Writers take insights from UI and UX design, usability, and behavioural psychology to iterate and refine content that is designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy. 
-
-The aim is create a cohesive content experience. For this reason, it's sometimes described as a sub-discipline of content design.
-
-### What does a content designer do?
 
 A content designer tends to be involved in a broader range of activities than a UX writer, identifying user needs for content and creating solutions that meet these needs. This solution might involve writing in-product content, but it might not. It might instead involve establishing consistency across platforms, restructuring the content on a page, making content more accessible, or developing other forms of media such as videos, graphics, animations, and audio. 
 
@@ -259,11 +257,11 @@ Guidelines for watermark text includes:
 
 UX writing involves reviewing and recommending in-product content. The main categories of in-product content are:
 
-### Micro copy
+### Microcopy
 
-Micro copy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of micro copy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row/column headings and entries, and so on.
+Microcopy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of microcopy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row/column headings and entries, and so on.
 
-For guidelines on the individual elements for which micro copy is needed, see [UI elements and controls](/ui-elements-and-controls).
+For guidelines on the individual elements for which microcopy is needed, see [UI elements and controls](/ui-elements-and-controls).
 
 ### Contextual help
 
@@ -310,7 +308,7 @@ Progressive disclosure is an interaction design pattern that sequences informati
 -  Build upon each subsequent step of information experience and learning.
 -  Provide only the necessary information for the user to take each action, one at a time.
 
-With the progressive disclosure philosophy in mind, the UX writer should consider when to use the following types of micro copy and contextual help to guide the user as part of an in-product strategy. You can decide on the type of copy you're providing based on the required level of detail.
+With the progressive disclosure philosophy in mind, the UX writer should consider when to use the following types of microcopy and contextual help to guide the user as part of an in-product strategy. You can decide on the type of copy you're providing based on the required level of detail.
 
 ### On-screen copy (inline instruction)
 
