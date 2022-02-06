@@ -83,173 +83,6 @@ Thus, UX writing involves a range of skills:
 * **Psychology.** An understanding of human behaviour and decision-making.
 * **Empathy.** Empathy for the end-user and a desire to improve the user experience.
 
-## UI elements and input controls
-
-To write consistent, accurate, and clear UI copy, a UX writer needs to understand what each UI element does and best practices for creating them. Every UI element has a specific purpose and guidelines you should follow. These guidelines streamline the content and promote consistency. General guidelines for UI elements and controls include:
-
-### Alt text
-
-Alt text is a label that screen readers can use to describe an image. Alt text appears when images don't render. Guidelines for alt text include: 
-
-- Describe the image in brief (1-2 sentences).
-- Use sentence case.
-
-### Boolean values and toggles
-
-Boolean values are a visual representation of an on/off state, such as a switch. If "off" and "on" are inappropriate for the context, different words that fit the context are used instead. Guidelines for boolean values include:
-
-- Write words to fit the context (for example, `On | Off`, `True | False`, `Yes | No`).
-- Don't use all caps; use title case.
-- If a label for an option runs long, don't truncate the label.
-	- Wrap the label to multiple lines, if necessary.
-	- Align the UI element with the fist line of the label.
-
-A toggle provides users with a choice between the two mutually exclusive states of a boolean value. 
-
-A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
-- Understand the current state of the selection
-- Tab through a set of options and navigate between options using the arrow keys
-- Use the spacebar to select and deselect an option
-
-### Buttons
-
-Buttons are labels that, when selected, initiate an action that allows the user to complete a task. Guidelines for buttons include:
-
-- Use clear, precise, predictable language.
-- Lead with a verb that encourages an action, like `Cancel` and `Delete`.
--  Use one word for call-to-action (CTA) and text buttons unless there is a verb involved.
-- If not a common action (like `Done` or `Close`) use the {verb}+{noun} formula (such as, `Test connection` or `Add selected items`).
-- Don't include descriptors like "now" –– the resulting action from selecting a button should be instantaneous.
-- Avoid introductory labels for buttons; the button label should be enough.
-- Don't use buttons for a list of choices.
-- Separate destructive buttons from non-destructive buttons so that the user must make an intentional effort to select the button.
-- Be specific about single items (for example, `Choose picture` rather than `Import`).
-- Use trailing ellipsis when the button opens another window, dialogue box, or app.
-- If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
-- Use sentence case.
-
-### Checkboxes
-
-Checkboxes are controls that let the user choose between two opposite states, actions, or values. A checkbox is on when it contains a checkmark (indicating that it's selected) and off when it's empty. Guidelines for checkboxes include:
-
-- Make clear what happens when the box is selected versus not selected.
-- Always follow a checkbox with a title or label.
-- Provide a title that implies two opposite states.
-- Place an action at the beginning of the title.
-- Keep the text for a checkbox on a single line.
-- Use positive phrasing (selecting a checkbox shouldn't mean *not* performing an action, unless it's a "Don't show this again" checkbox).
-- For each checkbox in a group, use parallel phrasing.
-- Label a group of checkboxes to make the purpose of the checkboxes evident, ending with a colon.
-- Don't use ending punctuation, unless it's a colon at the end of a label for a group of checkboxes.
-- For large sets, use subheadings to group choices.
-- Present checkboxes in a logical order.
-- Add "Recommended" to the label for a checkbox that is strongly recommended.
-- Use sentence case.
-
-### Console (push) notifications
-
-Push notifications are visual indicators on a list or details page in a console that show when a record or field has changed during a user's session. Guidelines for push notifications include:
-
-- Use action-oriented, positive phrasing in top-level notifications.
-- Keep the language simple.
-- Keep the description brief for scanning.
-- Provide information that helps the user resolve an error state.
-- Use full sentences and standard end punctuation.
-- Use sentence case.
-
-### Dropdown menus and buttons
-
-Dropdown menus are graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
-
-- Consider adding watermark (hint) text to the field, such as "Select one".
-- Use sentence case for both menu names and items.
-
-Dropdown buttons, when selected, display a dropdown list, similar to a dropdown menu, of mutually exclusive items. 
-
-### Forms and text fields
-
-Forms and text fields ask the user to enter information. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. Forms can collect various types of data, including text. Guidelines for forms and text fields include.
-
-- Clearly explain the purpose of the form or text box in the title.
-- Change the input type according to the data you're collecting, for example, separate long references numbers with a gap and limit the input to the exact length expected.
-- Keep forms as short as possible.
-- Avoid asking for private and personal information.
-- Use sentence case for both titles and fields.
-- Make the length of input field proportional to the expected user input.
-
-### Labels
-
-Labels are static text fields that describe UI elements (including groups of elements) or provide a short message. Every control or element, such as a text field, button, or dropdown menu, needs a label. Guidelines for labels include:
-
-- Use plain language; avoid technical jargon.
-- Ensure the label accurately identifies the element it introduces.
-- Group related elements and introduce them using a label.
-- Follow a logical order.
-- Use parallel construction.
-- Use sentence case.
-
-### Links
-
-A link is an interactive reference to other (relevant and trusted) content or external resources that the user can access by selecting it. Guidelines for links include:
-
-- Don't link preceding articles (a, an, the).
-- Don't link punctuation.
-- Ensure the link looks different from regular text.
-- Include a hover state that communicates the link's interactivity.
-- Write a normal sentence and link the relevant words in it.
-- Don't include things like "Click here" on a link.
-- Use sentence case.
-
-### Lists and list boxes
-
-A list is a collection of items that present groups, steps, or sets of information. Guidelines for lists include:
-
-- Give context for the list with a brief introduction.
-- Only number lists when there is an order (for example, steps in a process).
-- Use sentence case.
-
-List boxes, look like dropdown menus but, like checkboxes, allow users to select a multiple items at a time. Guidelines for list boxes include:
-
-- Consider adding watermark (hint) text to the field, such as "Select all that apply".
-- Use sentence case for both menu names and items.
-
-### Navigation
-
-The on-screen elements that helps users find their way through a product, such as a table of contents, breadcrumbs, tags, a search field, icons, links, and menus. Guidelines for navigation include:
-
-- Use title case for main or global navigation
-- Use sentence case for sub-navigation.
-- Keep navigation links clear and concise.
-
-### Radio buttons
-
-Radio buttons are selectable circles placed next to each item in a set of related, mutually exclusive choices from which the user can select only one. A radio button is on when the circle is filled and off when it's empty. Guidelines for radio buttons include:
-
-- Give radio buttons meaningful titles; describe the effect of choosing each radio button.
-- Focus on the difference between options; if all options have the same introductory text, move that text to the group label.
-- Write labels as a phase, not a sentence.
-- Use regular (not bold) text.
-- Don't use ending punctuation unless it labels subordinate controls that follow it, requiring a colon.
-- Label a group of radio buttons with text that describes the nature of the options, ending with a colon.
-- Keep labels brief; if the option requires more information, provide the explanation in a static text control or tooltip (using complete sentences an end punctuation).
-- Use parallel phrasing.
-- Use positive phrasing (for example, "do" instead of "do not").
-- Add "Recommended" to the label for an option that is strongly recommended.
-- Add "Advanced" to the label for an option intended only for advanced users. 
-- Use sentence case.
-
-### Watermark (hint) text
-
-Watermark text, also known as hint, prompt, or placeholder text, is a included in text fields and boxes to help the user understand what to enter by way of example. Not all empty fields require hint text. Hint text is useful for communicating examples:
-- Syntax, such as for an email address.
-- Brief instructions, for example, "Choose a device".
-- Validation rules, such as password requirements.
-
-Guidelines for watermark text includes:
-- Don't use end punctuation or ellipses.
-- Consider alternatives, like placing hint text outside the empty field or as hover text so that it persists when the user starts typing.
-- Use sentence case.
-
 ## In-product content
 
 UX writing involves reviewing and recommending in-product content. The main categories of in-product content are:
@@ -456,3 +289,170 @@ Other guidelines for error messages include:
 	- Allow the user to select `Learn more` to find more details.
 	- For more advanced users who might want to know the technical details, place these details under an expandable and collapsable section.
 	- Where technical or complex details are needed, direct the user to a troubleshooting section to resolve the issue.
+
+## UI elements and input controls
+
+To write consistent, accurate, and clear UI copy, a UX writer needs to understand what each UI element does and best practices for creating them. Every UI element has a specific purpose and guidelines you should follow. These guidelines streamline the content and promote consistency. General guidelines for UI elements and controls include:
+
+### Alt text
+
+Alt text is a label that screen readers can use to describe an image. Alt text appears when images don't render. Guidelines for alt text include: 
+
+- Describe the image in brief (1-2 sentences).
+- Use sentence case.
+
+### Boolean values and toggles
+
+Boolean values are a visual representation of an on/off state, such as a switch. If "off" and "on" are inappropriate for the context, different words that fit the context are used instead. Guidelines for boolean values include:
+
+- Write words to fit the context (for example, `On | Off`, `True | False`, `Yes | No`).
+- Don't use all caps; use title case.
+- If a label for an option runs long, don't truncate the label.
+	- Wrap the label to multiple lines, if necessary.
+	- Align the UI element with the fist line of the label.
+
+A toggle provides users with a choice between the two mutually exclusive states of a boolean value. 
+
+A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
+- Understand the current state of the selection
+- Tab through a set of options and navigate between options using the arrow keys
+- Use the spacebar to select and deselect an option
+
+### Buttons
+
+Buttons are labels that, when selected, initiate an action that allows the user to complete a task. Guidelines for buttons include:
+
+- Use clear, precise, predictable language.
+- Lead with a verb that encourages an action, like `Cancel` and `Delete`.
+-  Use one word for call-to-action (CTA) and text buttons unless there is a verb involved.
+- If not a common action (like `Done` or `Close`) use the {verb}+{noun} formula (such as, `Test connection` or `Add selected items`).
+- Don't include descriptors like "now" –– the resulting action from selecting a button should be instantaneous.
+- Avoid introductory labels for buttons; the button label should be enough.
+- Don't use buttons for a list of choices.
+- Separate destructive buttons from non-destructive buttons so that the user must make an intentional effort to select the button.
+- Be specific about single items (for example, `Choose picture` rather than `Import`).
+- Use trailing ellipsis when the button opens another window, dialogue box, or app.
+- If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
+- Use sentence case.
+
+### Checkboxes
+
+Checkboxes are controls that let the user choose between two opposite states, actions, or values. A checkbox is on when it contains a checkmark (indicating that it's selected) and off when it's empty. Guidelines for checkboxes include:
+
+- Make clear what happens when the box is selected versus not selected.
+- Always follow a checkbox with a title or label.
+- Provide a title that implies two opposite states.
+- Place an action at the beginning of the title.
+- Keep the text for a checkbox on a single line.
+- Use positive phrasing (selecting a checkbox shouldn't mean *not* performing an action, unless it's a "Don't show this again" checkbox).
+- For each checkbox in a group, use parallel phrasing.
+- Label a group of checkboxes to make the purpose of the checkboxes evident, ending with a colon.
+- Don't use ending punctuation, unless it's a colon at the end of a label for a group of checkboxes.
+- For large sets, use subheadings to group choices.
+- Present checkboxes in a logical order.
+- Add "Recommended" to the label for a checkbox that is strongly recommended.
+- Use sentence case.
+
+### Console (push) notifications
+
+Push notifications are visual indicators on a list or details page in a console that show when a record or field has changed during a user's session. Guidelines for push notifications include:
+
+- Use action-oriented, positive phrasing in top-level notifications.
+- Keep the language simple.
+- Keep the description brief for scanning.
+- Provide information that helps the user resolve an error state.
+- Use full sentences and standard end punctuation.
+- Use sentence case.
+
+### Dropdown menus and buttons
+
+Dropdown menus are graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
+
+- Consider adding watermark (hint) text to the field, such as "Select one".
+- Use sentence case for both menu names and items.
+
+Dropdown buttons, when selected, display a dropdown list, similar to a dropdown menu, of mutually exclusive items. 
+
+### Forms and text fields
+
+Forms and text fields ask the user to enter information. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. Forms can collect various types of data, including text. Guidelines for forms and text fields include.
+
+- Clearly explain the purpose of the form or text box in the title.
+- Change the input type according to the data you're collecting, for example, separate long references numbers with a gap and limit the input to the exact length expected.
+- Keep forms as short as possible.
+- Avoid asking for private and personal information.
+- Use sentence case for both titles and fields.
+- Make the length of input field proportional to the expected user input.
+
+### Labels
+
+Labels are static text fields that describe UI elements (including groups of elements) or provide a short message. Every control or element, such as a text field, button, or dropdown menu, needs a label. Guidelines for labels include:
+
+- Use plain language; avoid technical jargon.
+- Ensure the label accurately identifies the element it introduces.
+- Group related elements and introduce them using a label.
+- Follow a logical order.
+- Use parallel construction.
+- Use sentence case.
+
+### Links
+
+A link is an interactive reference to other (relevant and trusted) content or external resources that the user can access by selecting it. Guidelines for links include:
+
+- Don't link preceding articles (a, an, the).
+- Don't link punctuation.
+- Ensure the link looks different from regular text.
+- Include a hover state that communicates the link's interactivity.
+- Write a normal sentence and link the relevant words in it.
+- Don't include things like "Click here" on a link.
+- Use sentence case.
+
+### Lists and list boxes
+
+A list is a collection of items that present groups, steps, or sets of information. Guidelines for lists include:
+
+- Give context for the list with a brief introduction.
+- Only number lists when there is an order (for example, steps in a process).
+- Use sentence case.
+
+List boxes, look like dropdown menus but, like checkboxes, allow users to select a multiple items at a time. Guidelines for list boxes include:
+
+- Consider adding watermark (hint) text to the field, such as "Select all that apply".
+- Use sentence case for both menu names and items.
+
+### Navigation
+
+The on-screen elements that helps users find their way through a product, such as a table of contents, breadcrumbs, tags, a search field, icons, links, and menus. Guidelines for navigation include:
+
+- Use title case for main or global navigation
+- Use sentence case for sub-navigation.
+- Keep navigation links clear and concise.
+
+### Radio buttons
+
+Radio buttons are selectable circles placed next to each item in a set of related, mutually exclusive choices from which the user can select only one. A radio button is on when the circle is filled and off when it's empty. Guidelines for radio buttons include:
+
+- Give radio buttons meaningful titles; describe the effect of choosing each radio button.
+- Focus on the difference between options; if all options have the same introductory text, move that text to the group label.
+- Write labels as a phase, not a sentence.
+- Use regular (not bold) text.
+- Don't use ending punctuation unless it labels subordinate controls that follow it, requiring a colon.
+- Label a group of radio buttons with text that describes the nature of the options, ending with a colon.
+- Keep labels brief; if the option requires more information, provide the explanation in a static text control or tooltip (using complete sentences an end punctuation).
+- Use parallel phrasing.
+- Use positive phrasing (for example, "do" instead of "do not").
+- Add "Recommended" to the label for an option that is strongly recommended.
+- Add "Advanced" to the label for an option intended only for advanced users. 
+- Use sentence case.
+
+### Watermark (hint) text
+
+Watermark text, also known as hint, prompt, or placeholder text, is a included in text fields and boxes to help the user understand what to enter by way of example. Not all empty fields require hint text. Hint text is useful for communicating examples:
+- Syntax, such as for an email address.
+- Brief instructions, for example, "Choose a device".
+- Validation rules, such as password requirements.
+
+Guidelines for watermark text includes:
+- Don't use end punctuation or ellipses.
+- Consider alternatives, like placing hint text outside the empty field or as hover text so that it persists when the user starts typing.
+- Use sentence case.
