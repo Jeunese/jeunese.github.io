@@ -116,8 +116,14 @@ Use a numbered list to denote the order in which steps are carried out; use bull
 
 ### Emphasis
 
-Use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
+**Bold** is the main form of emphasis used in insrtuction content. Use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
 
+Other forms of emphasis used include:
+
+- Code keys and database elements with UPPER CASE.
+- File paths and names with **Initial Caps and Bolding**.
+- Code samples with `monospacing`.
+    
 ### Style
 
 Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
