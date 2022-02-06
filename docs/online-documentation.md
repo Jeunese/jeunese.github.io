@@ -32,7 +32,7 @@ Good technical documentation is clear and useful to the reader, aided with the u
 
 Technical documentation also benefits from an efficient and effective process for delivering the output.
 
-Docs-as-Code allows you to output technical documentation alongside the products your content refers to. Using the Docs-as-Code approach, up-to-date documentation is part of your "Definition of Done", and must be written before a product or feature can be released. Documentation becomes *part* of the product or feature, and so can't be neglected.
+Docs-as-Code allows you to output technical documentation alongside the products your content refers to. Using the Docs-as-Code approach, up-to-date documentation is part of your "Definition of Done", and must be written before a product or feature can be released. Documentation becomes *part* of the product or feature, and so can't be neglected. 
 
 Docs-as-Code also allows you to collaborate with others to keep the content up-to-date and to track changes to content with version control.
 
