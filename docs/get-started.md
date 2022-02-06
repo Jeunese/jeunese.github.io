@@ -40,7 +40,7 @@ From this you need to determine what you want your target audience to be able to
 
 Describe the high-level roadmap to organising, scheduling, creating, and publishing content. 
 
-1. Create a style or [writing guide](/writing-guidelines) that explains what language to use, how to talk to users, and expected writing conventions. 
+1. Create a style or [writing guide](/style-guide) that explains what language to use, how to talk to users, and expected writing conventions. 
 1. Create a [content framework](https://jeunese.github.io/#/?id=content-framework) in a draft Table of Contents (ToC).
     * Outline the topics you want to cover for meeting your documentation goals.
     * Create a simple and logical navigation structure with a flat hierarchy.
