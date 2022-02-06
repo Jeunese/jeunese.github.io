@@ -195,6 +195,9 @@ Don't use symbols or characters to substitute words:
 	- Spell out the word "percent" (instead of using the `%` symbol), unless it's in a heading or table.
 	- Always use a number with "percent" unless the number is the first word in a sentence.
 	- Use a space between the number and the word "percent".
+	-  Use "percent" without a number in column headings.
+	-  Use the the `%` symbol in UI, charts, and table cells, or as a technical symbol.
+
 
 ### Numbers
 
