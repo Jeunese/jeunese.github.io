@@ -3,7 +3,6 @@
 General guidance for UX writing includes:
 
 -  Engage early with Product Design (PD).
--  Set the strategy early in your writing.
 -  Take a user-centred approach.
 -  Keep messages short.
 -  Address the reader directly; avoid referring to "users" or "customers".
@@ -242,13 +241,11 @@ Radio buttons are selectable circles placed next to each item in a set of relate
 ### Watermark (hint) text
 
 Watermark text, also known as hint, prompt, or placeholder text, is a included in text fields and boxes to help the user understand what to enter by way of example. Not all empty fields require hint text. Hint text is useful for communicating examples:
-
 - Syntax, such as for an email address.
 - Brief instructions, for example, "Choose a device".
 - Validation rules, such as password requirements.
-  
-Guidelines for watermark text includes:
 
+Guidelines for watermark text includes:
 - Don't use end punctuation or ellipses.
 - Consider alternatives, like placing hint text outside the empty field or as hover text so that it persists when the user starts typing.
 - Use sentence case.
@@ -261,7 +258,7 @@ UX writing involves reviewing and recommending in-product content. The main cate
 
 Microcopy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of microcopy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row/column headings and entries, and so on.
 
-For guidelines on the individual elements for which microcopy is needed, see [UI elements and controls](/ui-elements-and-controls).
+For guidelines on the individual elements for which microcopy is needed, see [UI elements and controls](/ux-writing?id=ui-elements-and-input-controls).
 
 ### Contextual help
 
@@ -296,7 +293,7 @@ Instructional text is the least demanding way to offer support because it preven
 -  Result in quick issue or query resolution.
 -  Foster ease-of-use.
 -  Be timely and well-placed, appearing the moment the user needs them and embedded directly in the interface.
--  Provide **progressive disclosure**. For more information, see [Progressive disclosure philosophy](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
+-  Provide **progressive disclosure**.
 
 ## Progressive disclosure philosophy
 
@@ -356,6 +353,8 @@ Tooltips are useful with:
 -  Unlabelled controls and command buttons with graphic labels.
 -  Labelled controls and UI elements that benefit from supplemental information that doesn't fit as on-screen text.
 -  As a form of progressive disclosure with help (?) and info (i) icons, eliminating the need for descriptive text on screen if not essential to the primary task.
+
+ For more information on progressive disclosure, see [Progressive disclosure philosophy](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
 
 ### Walk-throughs (guided help)
 
