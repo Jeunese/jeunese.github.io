@@ -14,7 +14,11 @@ As well as Engineering, information developers typically work closely with:
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers' administrators. Administrators use this content to install, configure, update, and maintain these products and services.
+Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers. It provides "how-to" guidance written for administrators to help them:
+
+- Understand how a product or service works.
+- Keep up with new releases.
+- Learn how to install, upgrade, manage, and troubleshoot products and services.
 
 Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
