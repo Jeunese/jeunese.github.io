@@ -14,7 +14,7 @@ As well as Engineering, information developers typically work closely with:
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers. It provides "how-to" guidance written for administrators to help them:
+Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers. It provides "how-to" guidance to help administrators:
 
 - Understand how a product or service works.
 - Keep up with new releases.
