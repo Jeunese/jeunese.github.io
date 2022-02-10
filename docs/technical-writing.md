@@ -1,8 +1,8 @@
 # Technical Writing Guidelines
 
-General guidance for technical writing includes:
+General guidance for technical writing includes the following:
 
-- [Define your documentation goals](/get-started?id=_1-define-your-documentation-goals).
+- Define your documentation goals
 - [Create a content framework and strategy](/get-started?id=_2-create-a-content-framework-and-strategy).
 - Take a user-centred approach.
 - Describe things simply.
@@ -12,9 +12,13 @@ General guidance for technical writing includes:
 - Avoid negative phrasing and words.
 - Use sentence case for everything except global navigation.
 
-More specific guidance depends on the type of technical writing you’re engaged in. This article focuses on [product documentation](/technical-writing?id=product-documentation).
+More specific guidance depends on the type of technical writing you’re engaged in. This article focuses on product documentation.
 
 ## What is product documentation?
+
+Product documentation describes what a product or service does, how it works, and other technical details needed to set it up. The audience for this type of technical content is typically a customer's administrator. Administrators install, configure, and maintain products and applications. 
+
+For more information on what product documentation is (and isn't), see [Product documentation](/?id=product-documentation) in the **Information Development Overview**.
 
 Product documentation covers:
 
@@ -142,7 +146,7 @@ Use the word **click** only to refer to specific mouse actions; in general, avoi
 |To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
 |When writing a series of steps, mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
 
-## Using images
+## Using visual content
 
 Visual content, including images, screenshots, graphics, and videos, allow you to quickly *show* how something works, rather than relying solely on instructional text, which is slower and more effortful to absorb. However, there are both pros and cons to using visual content in product documentation. 
 

@@ -14,9 +14,9 @@ As well as Engineering, information developers typically work closely with:
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a company's products and services. For a software company, product documentation describes what a product or service does, how it works, and other technical details needed to set it up.
+Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers. Administrators use this content to install, configure, update, and maintain these products and services.
 
-The audience for this type of technical content is typically a customer's administrator. Administrators install, configure, and maintain products and applications. Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
+Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
 Product documentation shouldn't be confused with README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, basic information about the code, and how to build the project.
 
@@ -76,7 +76,7 @@ Product documentation should be updated based on a roadmap for organising, sched
 
 ### Infrastructure and process (Docs-as-Code)
 
-With a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to the public (general availability, GA). Features might also be published for private and public (technical) preview. 
+With a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to customers. Features might also be published for private and public (technical) preview. 
 
 A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM.  Candidates for product documentation include:
 
