@@ -39,6 +39,8 @@ Product documentation covers:
 
 Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities, user need, and use cases.
 
+For more information on what to include in product documentation, see [Scoping and planning](/get-started?id=scoping-and-planning) in the **Get Started with Product Documentation** article.
+
 ## Writing product documentation
 
 Once you've learned everything you need to start writing about the product or feature, write only what the administrator needs to know, and no more. The aim is to reduce administrator fatigue and frustration.
@@ -146,7 +148,7 @@ Visual content, including images, screenshots, graphics, and videos, allow you t
 
 The benefits of visual content include:
 
-*  **Processing speed>** People absorb visual information faster and perform tasks better when instructions are provided with visual content.
+*  **Processing speed** People absorb visual information faster and perform tasks better when instructions are provided with visual content.
 *  **Scanning.** Visual content helps break up long blocks of text.
 *  **User-friendliness.** Visual content can make documentation feel less intimidating.
 *  **Visual interest.** Visual content can make documentation more pleasant to go through.
