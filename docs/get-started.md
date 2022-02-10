@@ -13,7 +13,7 @@ There are five high-level tasks involved in getting started with product documen
 1. Do the groundwork (define your goals).
 1. Create a content framework and strategy.
 1. Create the content.
-1. Test and deliver the content.
+1. Implement the content.
 1. Analyse the documentation.
 
 ## 1. Do the groundwork (define your goals)
