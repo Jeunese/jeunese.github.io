@@ -4,7 +4,7 @@
 - [Technical Writing Guidelines](technical-writing)
 - [UX Writing Guidelines](ux-writing)
 - [Online Documentation](online-documentation)
-- [Get Started](get-started)
+- [Get Started with Product Documentation](get-started)
 - **Resources**
 - [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
 - [First Steps with Git](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)

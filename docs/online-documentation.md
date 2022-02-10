@@ -173,12 +173,15 @@ Using the above examples of possible tools, content could be managed using Git f
 
 You could then use [Docsify](https://docsify.js.org/#/) to generate documentation from your Markdown files by converting them in to HTML, which is easy to navigate and parse. You can extend Docsify with features such as collapsible menus, search tools, and themes, for example, with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/introduction).
 
-Once these tools were set up, the broad process for publishing content would be:
+[GitHub Pages](https://pages.github.com/) takes the resulting HTML, stored in the remote repo on GitHub, and publishes this content to a website. Every time you push to your remote repo, either through the command line or with VSCode, you trigger GitHub Pages to use Docsify to convert your Markdown files into a single HTML file, and publish it on your website.
+
+Using these tools were set up, the broad process for publishing content would be:
 
 1. Write documentation in Markdown files using VSCode (along with validators to keep the documentation consistent and error-free).
 1. Store your documentation, using Git for version control, on a remote repo in GitHub.
 1. Pull the current state of the documentation from the remote repo into a local repo on your computer to edit it.
 1. Push edited documentation into Git for review and approval on GitHub. 
-1. Merge your approved content to publish your documentation to the site or with the next product release. 
+1. Create a Pull Request (PR) to submit your content for inclusion in the main repo. 
+1. Merge your approved content to publish your documentation to the site or with the next product release.
 
-Every time you push to your remote repo, either through the command line or with VSCode, you trigger [GitHub Pages](https://pages.github.com/) to use Docsify to convert your Markdown files into a single HTML file, and publish it on your website
+Unlike most wikis, which are subject to potentially harmful changes from whomever edits an article last, Pull Requests in distributed version control also serve as a built-in review process for changes.

@@ -28,7 +28,7 @@ Write clearly, precisely, and concisely to make content easier to read and under
 
 ### Keep content short and simple
 
-Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and are more accessible to people who struggle with reading. With this in mind, aim to:
+Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and are more accessible to people who struggle with reading. Even advanced readers benefit from short and simple language because it results in faster processing and better comprehension.With this in mind, aim to:
 
 - Write short sentences, and keep to a limit:
     - For online documentation, write sentences that are no more than 28 words.
@@ -179,6 +179,18 @@ Long lists of bullets are no easier to read than big blocks of text. So keep bul
 * Eight items or fewer
 
 Consider grouping longer lists into themes and under different subheadings. 
+
+### Links
+
+A link is an interactive reference to other (relevant and trusted) content or external resources that the user can access by selecting it. Guidelines for links include:
+
+- Don't link preceding articles (a, an, the).
+- Don't link punctuation.
+- Ensure the link looks different from regular text.
+- Include a hover state that communicates the link's interactivity.
+- Write a normal sentence and link the relevant words in it.
+- Don't include things like "Click here" on a link.
+- Use sentence case.
 
 ### Symbols
 
