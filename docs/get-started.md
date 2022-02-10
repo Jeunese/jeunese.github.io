@@ -4,7 +4,7 @@ This article uses examples that apply to documentation for administrators (as op
 
 This isn't a case of simply aggregating information in one place. Technical documentation is about presenting *useful* content that is clear, searchable, and easy for your target audience to read, follow, and use. It should empower them to get their jobs done.
 
-There are six high-level tasks involved in getting started with product documentation:
+There are five high-level tasks involved in getting started with product documentation:
 
 1. Define your documentation goals.
 1. Create a style guide.
@@ -21,6 +21,8 @@ Investigate the existing tools at the company for whom you're writing documentat
 
 Defining your documentation goals starts with conducting discovery research, which you can then also apply at [Step 3](/get-started?id=_2-create-a-content-framework-and-strategy). 
 
+### Discovery research
+
 Discovery research might consist of:
 
 * A content inventory to establish what already exists.
@@ -30,7 +32,11 @@ Discovery research might consist of:
 * Finding and evaluating other sources of insight, such as survey data and search logs.
 * Evaluating existing content against known administrator needs and pain points as part of a docs audit.
 
-From this you need to determine what you want your target audience to be able to do with the documentation:
+From this you need to determine what you want your target audience to be able to do with the documentation.
+
+### Documentation goals
+
+Define what you want administrators to achieve with the product documentation:
 
 * Get set-up quickly with a basic configuration?
 * Easily navigate through various options and choose one?
@@ -39,11 +45,11 @@ From this you need to determine what you want your target audience to be able to
 * Make sense of a complicated group of products?
 * Solve specific customer problems with multi-product solutions?
 
-## 2. Create a style guide
+### Create a style guide
 
-Once you have your documentation goals, you can start drafting a [style guide](/style-guide) that explains what language to use, how to talk to users, and expected writing conventions. These guidelines tend to be based on your industry, your company's guidelines for [voice and tone](voice-and-tone), your target audience, and purpose of the content.
+Once you have your documentation goals, you can start drafting a [style guide](/style-guide) (if you don't already have one) that explains what language to use, how to talk to users, and expected writing conventions. These guidelines tend to be based on your industry, your company brand, your company's guidelines for [voice and tone](voice-and-tone), your target audience, and purpose of the content.
 
-## 3. Create a content framework and strategy
+## 2. Create a content framework and strategy
 
 Describe the high-level roadmap to organising, scheduling, creating, and publishing content. 
 
@@ -60,17 +66,21 @@ Even if you know your product really well, you need to plan to ensure that youâ€
 
 To answer these questions, start drafting a [content framework and strategy](/?id=content-framework-and-strategy).
 
+### Build a content framework
+
 Create a [content framework](https://jeunese.github.io/#/?id=content-framework) in a draft Table of Contents (ToC).
 * Outline the topics you want to cover for meeting your documentation goals.
 * Create a simple and logical navigation structure with a flat hierarchy.
 * Create templates for consistent in-page design.
 
-Plan your [content strategy](https://jeunese.github.io/#/?id=content-strategy), from identifying content need through to publishing and maintaining it.
+### Plan a content strategy
+
+Create your [content strategy](https://jeunese.github.io/#/?id=content-strategy), from identifying content need through to publishing and maintaining it.
 * Create an implementation plan, including the rules and tools used to create the content.
 * Create a workflow, including a review process and a plan for automated tests to catch spelling errors and Markdown violations.
 * Create a governance plan, including routines for creating, publishing, maintaining, and removing content.
 
-## 4. Create the content
+## 3. Create the content
 
 Use your documentation goals, content framework and strategy, and style guide to create content.
 
@@ -133,9 +143,13 @@ You don't need all the information right away to start drafting. Leave a placeho
 
 Highlight what the product or feature does in the context of the user need. Use real-world examples and use cases to put the product or feature in context for the administrator. Focus on the solution that a product or feature provides, not just what it is and does. Importantly, describe how the user *performs a task* with the product or feature. For guidance on writing instructions for completing a task, visit [Writing instructional content](/technical-writing?id=writing-instructional-content).
 
-Remember to write for the administrator, not the engineer that created the product, not for Marketing and Sales, and not for your manager. 
+Remember to write for the administrator, not the engineer that created the product, not for Marketing and Sales, and not for your manager.
 
-Your content should:
+This doesn't mean you should ignore other stakeholders in the company. For example, your company might be focusing on specific aspects of a product, and you, as a technical writer, might need to consider how to transition readers from the information in Marketing marketing material to information in the product documentation.
+
+You might even be able to leverage existing company materials for overviews and new content. Deep dive and technical content can be described at a higher level and in simpler terms. Marketing and Sales content can be streamlined and re-focused by removing promises about usability and performance, and adding step-by-step instructions for getting started with the product. 
+
+Regardless, your resulting content should:
 
 * Be clear and easy to use.
 * Be accurate and up-to-date.
@@ -166,7 +180,7 @@ The review process ends just before a feature is rolled out and can last as long
 
 The aim is to document as much as possible based on the available information and to solicit reviews as soon as possible in the authoring process. There may be gaps in your initial content due to SME unavailability or technical issues. Release dates can be unknown, ambiguous, or vague, and so content should be iterated early and often so that you're ready to publish it whenever the PM decides to roll out the feature. 
 
-## 5. Implement the content
+## 4. Implement the content
 
 Instead of introducing documentation with a "grand opening", start small, find pain-points that you can resolve, implement some basic validation checks, prune what doesn't work, and build on the rest. 
 
@@ -181,7 +195,7 @@ Part of implementing the content is also making sure it's well presented.
 * Use consistent fonts and complementary colours across pages. 
 * Make sure your documentation adheres to a style guide. 
 
-## 6. Analyse the documentation
+## 5. Analyse the documentation
 
 Collect and analyse statistics and feedback to refine your documentation and process based on your documentation goals.
 
