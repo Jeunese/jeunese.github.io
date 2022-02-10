@@ -17,11 +17,11 @@ There are five high-level tasks involved in getting started with product documen
 
 Investigate the existing tools at the company for whom you're writing documentation to see what you might be able to leverage and integrate. Many people are passionate about the topics you write, so link with other colleagues and communities, such as PMs and test engineers, and try to get stakeholder buy-in.
 
-## 1. Define your documentation goals
+## 1. Do the ground work
 
-Defining your documentation goals starts with conducting discovery research, which you can then also apply at [Step 3](/get-started?id=_2-create-a-content-framework-and-strategy). 
+Do the work that will help you define your documentation goals. This starts with conducting discovery research, which you can then also apply at [Step 2](/get-started?id=_2-create-a-content-framework-and-strategy). 
 
-### Discovery research
+### Conduct discovery research
 
 Discovery research might consist of:
 
@@ -34,7 +34,7 @@ Discovery research might consist of:
 
 From this you need to determine what you want your target audience to be able to do with the documentation.
 
-### Documentation goals
+### Define your documentation goals
 
 Define what you want administrators to achieve with the product documentation:
 
