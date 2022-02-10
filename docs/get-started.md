@@ -4,6 +4,10 @@ This article uses examples that apply to documentation for administrators (as op
 
 This isn't a case of simply aggregating information in one place. Technical documentation is about presenting *useful* content that is clear, searchable, and easy for your target audience to read, follow, and use. It should empower them to get their jobs done.
 
+## Before you start
+
+Investigate the existing tools at the company for whom you're writing documentation to see what you might be able to leverage and integrate. Many people are passionate about the topics you write, so link with other colleagues and communities, such as PMs and test engineers, and try to get stakeholder buy-in.
+
 There are five high-level tasks involved in getting started with product documentation:
 
 1. Do the groundwork (define your goals).
@@ -11,10 +15,6 @@ There are five high-level tasks involved in getting started with product documen
 1. Create the content.
 1. Test and deliver the content.
 1. Analyse the documentation.
-
-## Before you start
-
-Investigate the existing tools at the company for whom you're writing documentation to see what you might be able to leverage and integrate. Many people are passionate about the topics you write, so link with other colleagues and communities, such as PMs and test engineers, and try to get stakeholder buy-in.
 
 ## 1. Do the groundwork (define your goals)
 
@@ -47,6 +47,15 @@ Define what you want administrators to achieve with the product documentation:
 ### Create a style guide
 
 Once you have your documentation goals, you can start drafting a [style guide](/style-guide) (if you don't already have one) that explains what language to use, how to talk to users, and expected writing conventions. These guidelines tend to be based on your industry, your company brand, your company's guidelines for [voice and tone](voice-and-tone), your target audience, and purpose of the content.
+
+### Create templates
+
+For consistent design and structure, use templates. This should help you separate content from format, which allows you, as a technical writer, to focus on what you write, knowing that the outcome will be accessible, clean, easy to navigate, and well-designed. Well-design product documentation is better at communicating to its audience. Some guidelines for creating product documentation templates:
+
+* Allow for white space to help break content up.
+* Use consistent fonts and complementary colours across pages. 
+* Use a flat hierarchy to ensure that content isn’t hidden or hard to find.
+* Make sure your documentation adheres to your [style guide](/get-started?id=create-a-style-guide). 
 
 ## 2. Create a content framework and strategy
 
@@ -138,9 +147,9 @@ Questions you can ask to collect the right information include the following:
 
 ### Drafting
 
-You don't need all the information right away to start drafting. Leave a placeholder for information you don't yet have and start putting together what you do. Having the main steps involved to complete a task is a good starting point. You can build on the relevant preceding and proceeding information.
+Start with an outline. You don't need all the information right away to start drafting. Leave a placeholder for information you don't yet have and start putting together what you do. Having the main steps involved to complete a task is a good starting point. You can build on the relevant preceding and proceeding information.
 
-Highlight what the product or feature does in the context of the user need. Use real-world examples and use cases to put the product or feature in context for the administrator. Focus on the solution that a product or feature provides, not just what it is and does. Importantly, describe how the user *performs a task* with the product or feature. For guidance on writing instructions for completing a task, visit [Writing instructional content](/technical-writing?id=writing-instructional-content).
+Highlight what the product or feature does in the context of the user need. Use real-world examples and use cases to put the product or feature in context for the administrator. Focus on the solution that a product or feature provides, not just what it is and does. Importantly, describe how the user *performs a task* with the product or feature. For guidance on writing instructions for completing a task, see [Writing instructional content](/technical-writing?id=writing-instructional-content) in the **Technical Writing Guidelines** article.
 
 Remember to write for the administrator, not the engineer that created the product, not for Marketing and Sales, and not for your manager.
 
@@ -156,11 +165,12 @@ Regardless, your resulting content should:
 * Be accessible, adhering to W3C [Web Accessibility](https://www.w3.org/standards/webdesign/accessibility) standards. 
 * Be findable, searchable, and discoverable.
 * Have a logical structure, hierarchy, and flow that are easy to follow.
+* Avoid big blocks of text and pages that are saturated content.
 * Make processes and steps clear.
 * Link to other resources and avoid duplicating content.
 * Use simple and [plain English](/style-guide?id=use-plain-english) where-ever possible. 
 
-For more writing guidelines for product documentation, visit [Writing product documentation](/technical-writing?id=writing-product-documentation).
+For more writing guidelines for product documentation, see [Writing product documentation](/technical-writing?id=writing-product-documentation) in the **Technical Writing Guidelines** article.
 
 ### Reviewing
 
@@ -181,18 +191,13 @@ The aim is to document as much as possible based on the available information an
 
 ## 4. Implement the content
 
-Instead of introducing documentation with a "grand opening", start small, find pain-points that you can resolve, implement some basic validation checks, prune what doesn't work, and build on the rest. 
+Given the evolving nature of product documentation, you might decide to take an incremental approach to implementing the content.
 
-After this, product documentation is meant to be dynamic and updated regularly. In general, new documentation for a release is published only when the feature is available to customers. 
+Instead of introducing documentation with a "grand opening", start small, find pain-points that you can resolve, test out different designs, implement some basic validation checks, try different workflows, prune what doesn't work, and build on the rest. 
+
+Product documentation is meant to be a living artifact: dynamic and updated regularly. Content should be updated as new features are developed.
 
 If you adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to delivering your content, you'll need to consider implementing systems that help you streamline the process and quality-control the documentation before it's published.  Develop tools for testing, delivering, and maintaining the documentation.
-
-Part of implementing the content is also making sure it's well presented. 
-
-* Avoid big blocks of text and pages that are saturated content. 
-* Allow for white space to help break content up.
-* Use consistent fonts and complementary colours across pages. 
-* Make sure your documentation adheres to a style guide. 
 
 ## 5. Analyse the documentation
 
