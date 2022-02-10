@@ -12,45 +12,36 @@ General guidance for technical writing includes:
 - Avoid negative phrasing and words.
 - Use sentence case for everything except global navigation.
 
-More specific guidance depends on the type of technical writing you’re engaged in. This article focuses on product documentation.
+More specific guidance depends on the type of technical writing you’re engaged in. This article focuses on [product documentation](/technical-writing?id=product-documentation).
 
-## Product documentation
+## What is product documentation?
 
 Product documentation covers:
 
 - What the product is and does.
-- Why anyone would use the product.
-- What the dependencies are.
-- How the product relates to other products.
-- How and where to get the product.
-- How to install the product.
-- How to configure the product.
-- The end-to-end technical workflow for setting up the product.
+    - What capabilities does it offer?
+    - What solution does it provide?
+    - How does the product work?
+- Why anyone would use the product. 
+    - What problem does it solve and for whom?
+    - What needs does it meet and for whom?
+- What the dependencies are (requirements and pre-requisites, development environment, licensing, etc.)
+    - What should administrators know about before installing?
+    - What do users need to know to start using the product?
+- What the context is.
+    - How does the product and its features relate to other products and features?
+    - What are the available options for installation and features?
+    - What are the typical use cases?
+- The end-to-end technical workflow for setting up the product, including:
+    - How to install the product.
+    - How and where to get the product.
+    - How to configure the product.
 
-Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities and use cases.
-
-## Scoping and planning
-
-Before writing technical content for product documentation, you should:
-
--  Understand the user persona, whether they're: network, IT, or security administrators; security officers; end-users; or data analysts.
--  Change the way you write based on the users and their expectations. Be aware of goals, needs, and backgrounds. Decide on the tone you use based on the product and target audience.
--  Understand at what stage in the customer journey the user is when they read your content.
--  Understand the product: narrow your perspective down to the specific functionality that requires content.
-
-Before writing content, a technical writer first researches and tests the product or feature they are writing about. Communicating the knowledge you garner from research and testing is the last step in the process. 
-
--  Develop in-depth knowledge of the product.
--  Understand the real-world use cases for the product or feature.
--  Understand the solution provided by the product or feature.
--  Identify the competitors and what the product or feature differentiator is.
--  Consider globalisation standards (strings can be 2 times longer; content can be translated in an unfavourable way).
--  Create content based on a hands-on experience with the product or feature.
--  When writing content, walk through design flow the way a user would and document as you perform the steps.
+Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities, user need, and use cases.
 
 ## Writing product documentation
 
-Once you've learned everything you need to start writing about the product or feature, write only what the administrator needs to know, and no more. Good writing, especially writing that's designed for instruction, should be to the point: clear, precise, and concise. 
+Once you've learned everything you need to start writing about the product or feature, write only what the administrator needs to know, and no more. The aim is to reduce administrator fatigue and frustration.
 
 ### Avoid duplication
 
@@ -110,16 +101,19 @@ To modify a quote from Antoine de Saint-Exupery, good writing is achieved, not w
 
 ## Writing instructional content
 
+Step-by-step instructions for procedural tasks help avoid big blocks of text and provide a clear way to show a process. Separating out the steps in a process makes reading instructions easier to read, understand, and follow, for a better user experience and higher likelihood of success. 
+
+Good writing, especially writing that's designed for instruction, should be to the point: clear, precise, and concise.
+
 ### Bullets and numbering
 
 Use a numbered list to denote the order in which steps are carried out; use bullet points for a general list.
 
 ### Emphasis
 
-**Bold** is the main form of emphasis used in insrtuction content. Use bolding to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
+**Bold** is the main form of emphasis used in instruction content. Use **bold** to call out UI elements and to place emphasis on specific actions, such as **Select**, **Delete**, and **Save**. 
 
-Other forms of emphasis used include:
-
+Other forms of emphasis might include:
 - Code keys and database elements with UPPER CASE.
 - File paths and names with **Initial Caps and Bolding**.
 - Code samples with `monospacing`.
@@ -145,3 +139,42 @@ Use the word **click** only to refer to specific mouse actions; in general, avoi
 |Put conditional clauses before instructions. |*"For more information, see the disclosure document"* (rather than *"See the disclosure document for more information"*). |
 |To direct the user to do something, mention the circumstances before you provide the instruction. |*"If you want a PDF of this page, select the **Download** button in the top-right of the screen"* (rather than *"Select the **Download** button in the top-right of the screen for a PDF of this page"*).|
 |When writing a series of steps, mention the location, followed by the action. |*"From the drop-down menu, select the type of alert you want to send"* (rather than *"Select the type of alert you want to send from the dropdown menu"*). |
+
+## Using images
+
+Visual content, including images, screenshots, graphics, and videos, allow you to quickly *show* how something works, rather than relying solely on instructional text, which is slower and more effortful to absorb. However, there are both pros and cons to using visual content in product documentation. 
+
+The benefits of visual content include:
+
+*  **Processing speed>** People absorb visual information faster and perform tasks better when instructions are provided with visual content.
+*  **Scanning.** Visual content helps break up long blocks of text.
+*  **User-friendliness.** Visual content can make documentation feel less intimidating.
+*  **Visual interest.** Visual content can make documentation more pleasant to go through.
+*  **Ease-of-use.** Visual content can be easier to follow than written content.
+*  **Context.** Visual content helps to confirm the context and to reassure the user that they're taking the right actions.
+
+The potential downsides of using visual content in product documentation include:
+
+*  **Overhead.** Visual content gets easily out-of-date and is harder to maintain than written content.
+*  **Accessibility.** Even with captions and [alt text](https://jeunese.github.io/#/ux-writing?id=alt-text) for your visual content, written instructions are necessary for those who rely on screenreaders.
+*  **Distraction.** Too many images or images that are too large break up content so much that following necessary written instructions becomes harder.
+*  **Quality.** Images of the real product are often detailed and require high resolution to be read and interpreted.
+*  **Clutter.** Images create visual clutter that people become accustomed to skipping over instead of making use of them.
+
+It can be difficult to determine what's too much and what's not enough when it comes to visual content. For example, showing just the relevant part of the UI removes context from an image, but showing the whole UI can provide too much information.
+
+This is just one way in which the "show, don’t tell" mentality can be deceiving in its simplicity and flawed when it comes to its effectiveness in product documentation.
+
+It's tempting to over-rely on visual content for documentation because images and screenshots seemingly remove the effort required to write and read the full instructions. However, images don't "speak for themselves". They require interpretation and explanation. We often rely on image annotation to highlight the important information in a screenshot precisely because images don't "speak for themselves".
+
+If you want your documentation to be usable, inclusive, and easy to navigate, with accessible content that can also be scanned and actively searched, you can't replace written instructions with images. Use visual content to *enhance* the text, rather than to replace it or to add visual interest to the page. Only use visual content that serves a clear functional purpose. Visual content, especially annotated screenshots, add visual clutter, and visual content that includes the instructions within it is less accessible than written instructions for those that rely on screenreaders.
+
+Given the above, some guidelines for using visual content in product documentation include:
+
+* Make visual content complementary to written text, and not a substitute for it. Add this visual content *after* you've written your instructions and can be confident in someone's ability to follow them.
+* Use context-relevant and functional visual content; avoid using visual content for visual interest or as a filler.
+* Explain an image in text before including it. 
+* Consider using [simplified user interface](https://katcassidy.com/blog/creating-beautiful-suis) (SUI) images.
+* Regardless of the type of visual content (including SUIs and screenshots of just one element of the UI), make sure it's high quality.
+* Balance the number and size of images against the amount of text that surrounds it; written instructions shouldn't be hard to see or search.
+* For accessibility, consider size and colour contrast, and include captions and alt-text for screenreaders. 

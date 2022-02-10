@@ -13,13 +13,17 @@ General guidance for UX writing includes:
 
 More specific guidance depends on the type of UX writing you're engaged in.
 
-## UX writing
+## What does a UX writer do?
 
 A UX writer helps craft in-product content as part of the product design process. This includes in-product text, buttons, messages, labels, and other UI touchpoints that guide a user through a product or service.
 
-This is not the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing.
+A UX writer is responsible for creating in-product content that's in line with the company's [tone of voice](/voice-and-tone?id=tone-of-voice) and that facilitates the user experience of the product. UX Writers take insights from UI and UX design principles, usability research, and behavioural psychology to iterate and refine content that is designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy. 
 
-A UX writer is responsible for creating in-product content that's in line with the company's [tone of voice](/voice-and-tone?id=tone-of-voice) and that facilitates the user experience of the product. UX Writers take insights from UI and UX design, usability, and behavioural psychology to iterate and refine content that is designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy. 
+This isn't the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing.
+
+UX writing also isn't about filling in the blanks and making suggested changes to the text after the product is already designed. A UX writer *is* a designer –– a designer *specialising in* UI copy.
+
+As part of product design, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
 
 Before writing or reviewing UI content, the UX writer needs to know:
 
@@ -33,7 +37,7 @@ The aim is create a cohesive content experience. For this reason, it's sometimes
 
 ## UX writing and information development
 
-Technical writers are also sometimes called "information developers", and may work with other writers as part of an information development or information experience (IX) team.
+Technical writers are also sometimes called "information developers", and as part of an information development or information experience (IX) team.
 
 Depending on their background, a technical writer can help create user-friendly, in-product content. Many technical writing principles apply to UX writing, and both product documentation and in-product content needs to conform to a company's voice and tone.
 
@@ -51,9 +55,9 @@ A technical writer's input for in-product design might include:
 
 ## UX writing and content design
 
-UX writer and content designers (sometimes called content writers) have a lot in common. Both work with Product Design to create, deliver, and modify content to maximise the user experience of a product. 
+UX writers and content designers (sometimes called content writers) have a lot in common. Both work with Product Design to create, deliver, and modify content to maximise the user experience of a product. 
 
-However, UX writing focuses more using UI copy to facilitate the user experience of a product, while content design focuses more on the design of the product itself, which can include written content, but also involves designing the layout, flow, and the type of content to include. 
+However, UX writing focuses more on UI copy to facilitate the user experience of a product, while content design focuses more on the design of the product itself, which can include written content, but also involves designing the layout, flow, and the type of content to include. 
 
 A content designer tends to be involved in a broader range of activities than a UX writer, identifying user needs for content and creating solutions that meet these needs. This solution might involve writing in-product content, but it might not. It might instead involve establishing consistency across platforms, restructuring the content on a page, making content more accessible, or developing other forms of media such as videos, graphics, animations, and audio. 
 
@@ -62,10 +66,6 @@ Content design is a more strategic role that is focused on the design outcome: w
 Though more strategic than a UX writer, a content designer isn't a content *strategist*, who would be more concerned with content priorities and planning based on business objectives, more so than the end-user experience. They analyse and manage content rather than create the content themselves.
 
 ## Required knowledge and skills
-
-UX writing isn't about filling in the blanks and making suggested changes to the text after the product is already designed. 
-
-As part of product design, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. A UX writer *is* a designer –– a designer *specialising in* UI copy.
 
 Although UX writing is typically described in more narrow terms than content design, UX writers frequently engage in other important aspects of the design process, including:
 
@@ -91,7 +91,7 @@ UX writing involves reviewing and recommending in-product content. The main cate
 
 Microcopy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of microcopy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row/column headings and entries, and so on.
 
-For guidelines on the individual elements for which microcopy is needed, see [UI elements and controls](/ux-writing?id=ui-elements-and-input-controls).
+Microcopy should be written in second person and sentence case. For more guidelines on the individual elements for which microcopy is needed, see [UI elements and controls](/ux-writing?id=ui-elements-and-input-controls).
 
 ### Contextual help
 
@@ -156,7 +156,11 @@ Embedding information directly within a feature in this way is often the best ch
 
 ### Tooltips
 
-Tooltips are user-triggered, brief informative messages that appear when the user interacts with a UI element by clicking or hovering over it. 
+Tooltips are user-triggered, brief informative messages that appear when the user interacts with a UI element by selecting or hovering over it. They are used:
+- For preventing drop-off at friction points by reassuring users and alleviating doubt.
+- For additional context or necessary information that's too long to put on the screen.
+- To walk users through a process that has multiple steps.
+
 
 Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation/termination method.
 
@@ -169,13 +173,19 @@ The text in a tooltip must be informative. You should aim to:
 -  Provide information that isn't otherwise obvious and doesn't repeat on-screen copy.
 -  Focus on the control's action, for example, by beginning the tag with a verb.
 
-Tooltip text should provide additional and useful information, such as why a field is required or what will be done using the value entered into a field. Other guidelines for using tooltips include:
+Don't use tooltips if there is space in the inline copy. Tooltip text should provide additional and useful information, such as why a field is required or what will be done using the value entered into a field. 
 
--  Use the fewest words possible.
-    -  For labelled controls, limit tooltips to 15 words (if more text is need, this suggests that the design is too complicated).
-    -  For tooltips triggered by clicking help icons, limit text to no more than 40 words (if more content is required, consider adding a Learn more link to the exact documentation, but use such links sparingly, which you might achieve by including one link at the page level).
+Use as few words as possible. For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design is too complicated. For tooltips triggered by selecting help icons, limit the text to no more than 40 words. If more content is required, consider adding a `Learn more` link to the exact documentation, but use such links sparingly, which you might achieve by including one link at the page level.
+
+Other guidelines for writing tooltips include:
+
+-  Use short, complete sentences that tell users what to do and address concerns.
+-  Use a title in sentence case, phrased as a question in first person, for example, "Why can't I update my address?"
 -  If you need to reduce the length of a tag, omit grammatical articles.
 -  Keep in mind that localisation can lengthen text by 20 to 30 percent.
+-  Include a `Close` label next to an X in the upper right corner
+-  Use links in tooltips only if necessary.
+-  Use bullets for lists of items; use paragraphs for explanations
 
 #### When to use tooltips
 
@@ -257,7 +267,7 @@ Success message provide positive feedback on a completed action. Guidelines for 
 
 Error messages appear when a problem occurs, for example, when an incorrect instruction has been given; the best error messages explicitly describe what is wrong and how to fix it, resulting in the user resolving the issue by themselves. An error message can provide more than one action for the user. 
 
-A good error message has three parts:
+An error message should clearly state what went wrong and provide a direction for fixing the problem. A good error message has three parts:
 
 1. Problem identification: describe the exact issue, clearly and unambiguously, so that the user knows the reason for the message.
 1. Details of the cause (if helpful or necessary); don't over-explain the problem.
@@ -275,6 +285,7 @@ Other guidelines for error messages include:
 
 **Tone.**
 -  Don't blame the user.
+-  Avoid a negative tone; be neutral.
 -  Be courteous, respectful, kind, and useful.
 -  Talk to user like a person, in a conversational style
 -  Turn error messages and 404 pages into positive reinforcement by guiding the user along until they complete their task. 
@@ -372,9 +383,9 @@ Dropdown menus are graphical control elements, similar to a list box, except tha
 
 Dropdown buttons, when selected, display a dropdown list, similar to a dropdown menu, of mutually exclusive items. 
 
-### Forms and text fields
+### Input fields 
 
-Forms and text fields ask the user to enter information. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. Forms can collect various types of data, including text. Guidelines for forms and text fields include.
+Input fields allow data to be entered into a form. Forms can collect various types of data, including text. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. Guidelines for text fields include.
 
 - Clearly explain the purpose of the form or text box in the title.
 - Change the input type according to the data you're collecting, for example, separate long references numbers with a gap and limit the input to the exact length expected.
@@ -382,6 +393,22 @@ Forms and text fields ask the user to enter information. Text fields, when selec
 - Avoid asking for private and personal information.
 - Use sentence case for both titles and fields.
 - Make the length of input field proportional to the expected user input.
+- Don't write instructions in a basic text area other than help text.
+
+The general guidelines for forms are:
+- Always include a label for the input field.
+- Label fields as optional if the majority of fields are required.
+- Label fields as required if the majority of fields are optional.
+- If the field label is long, wrap it to multiple lines.
+- Use clear and specific language for labels, placeholder, and helper text.
+
+The guidelines for help text and errors in forms include:
+- Provide concise, relevant help text.
+- Write helpe text in sentence case and in as few words as possible.
+- Don't use help text to explain the field in detail.
+- Provide a character count when a field is restricted to a maximum amount.
+- Show an error state when the user enters an incorrect character type.
+- If a required field is left blank, display a default error message, such as "This field is required".
 
 ### Labels
 
@@ -392,18 +419,6 @@ Labels are static text fields that describe UI elements (including groups of ele
 - Group related elements and introduce them using a label.
 - Follow a logical order.
 - Use parallel construction.
-- Use sentence case.
-
-### Links
-
-A link is an interactive reference to other (relevant and trusted) content or external resources that the user can access by selecting it. Guidelines for links include:
-
-- Don't link preceding articles (a, an, the).
-- Don't link punctuation.
-- Ensure the link looks different from regular text.
-- Include a hover state that communicates the link's interactivity.
-- Write a normal sentence and link the relevant words in it.
-- Don't include things like "Click here" on a link.
 - Use sentence case.
 
 ### Lists and list boxes
@@ -443,6 +458,23 @@ Radio buttons are selectable circles placed next to each item in a set of relate
 - Add "Recommended" to the label for an option that is strongly recommended.
 - Add "Advanced" to the label for an option intended only for advanced users. 
 - Use sentence case.
+
+### Text links
+
+Text links are labels that fall outside of a block of text and may start a task on a new page. Guidelines for text links include:
+- Start with words that are related to the user action, such as "Download" or "View".
+- Differentiate from unlinked text using colour.
+- Use text links as part of a sentence or phrase.
+- Don't use text links in place of buttons.
+- If fewer than 3 words, consider using a button, especially if it starts a new task or it is a secondary action.
+- Use text links to increase SEO on the page.
+- If part of a sentence use second person langauge.
+- Avoid text links that don't convey a function or meaning, such as "click here".
+
+For accessibility: 
+- Text links should standalone and communicate meaning without added words
+- Users should be able to tell what the text link is about without reading the surrounding words.
+- Text links should be written in direct, specific language.
 
 ### Watermark (hint) text
 
