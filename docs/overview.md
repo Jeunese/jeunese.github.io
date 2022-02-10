@@ -14,21 +14,13 @@ As well as Engineering, information developers typically work closely with:
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers. Administrators use this content to install, configure, update, and maintain these products and services.
+Product documentation articulates technical concepts, in writing, for a software company's products and services so that these products and services can be implemented by its customers' administrators. Administrators use this content to install, configure, update, and maintain these products and services.
 
 Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
 Product documentation shouldn't be confused with README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, basic information about the code, and how to build the project.
 
-Product documentation is "how-to" guidance written for administrators to help them:
-
-- Understand how a product or service works.
-- Keep up with new releases.
-- Learn how to install, upgrade, manage, and troubleshoot products and services.
-
-Product documentation should help the reader get set up as quickly and smoothly as possible.
-
-To this end, product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
+Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
 That being said, good product documentation can reduce the number of calls made to Technical Support. Customers often call Technical Support when they can’t figure something out. Good product documentation helps customers figure things out for themselves. Technical Support might also use product documentation as a point of reference.
 

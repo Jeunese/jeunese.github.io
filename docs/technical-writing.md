@@ -16,7 +16,11 @@ More specific guidance depends on the type of technical writing you’re engaged
 
 ## What is product documentation?
 
-Product documentation describes what a product or service does, how it works, and other technical details needed to set it up. The audience for this type of technical content is typically a customer's administrator. Administrators install, configure, and maintain products and applications. 
+Product documentation describes what a product or service does, how it works, and other technical details needed to set it up. The audience for this type of technical content is typically a customer's administrator. Product documentation is "how-to" guidance written for administrators to help them:
+
+- Understand how a product or service works.
+- Keep up with new releases.
+- Learn how to install, upgrade, manage, and troubleshoot products and services.
 
 For more information on what product documentation is (and isn't), see [Product documentation](/?id=product-documentation) in the **Information Development Overview**.
 
@@ -41,7 +45,7 @@ Product documentation covers:
     - How and where to get the product.
     - How to configure the product.
 
-Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities, user need, and use cases.
+Product documentation should help the reader get set up as quickly and smoothly as possible. Be careful not to repeat Marketing or Sales content. The focus should be on the product's capabilities, user need, and use cases.
 
 For more information on what to include in product documentation, see [Scoping and planning](/get-started?id=scoping-and-planning) in the **Get Started with Product Documentation** article.
 
@@ -123,7 +127,7 @@ Other forms of emphasis might include:
 - Code keys and database elements with UPPER CASE.
 - File paths and names with **Initial Caps and Bolding**.
 - Code samples with `monospacing`.
-    
+
 ### Style
 
 Use the imperative mood for instructions. Sentences with an imperative mood start with an action verb and second person singular, with "you" as its implied subject. Imperative sentences are typically in the active voice. 
