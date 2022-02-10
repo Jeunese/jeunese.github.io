@@ -6,8 +6,7 @@ This isn't a case of simply aggregating information in one place. Technical docu
 
 There are five high-level tasks involved in getting started with product documentation:
 
-1. Define your documentation goals.
-1. Create a style guide.
+1. Do the groundwork (define your goals).
 1. Create a content framework and strategy.
 1. Create the content.
 1. Test and deliver the content.
@@ -17,7 +16,7 @@ There are five high-level tasks involved in getting started with product documen
 
 Investigate the existing tools at the company for whom you're writing documentation to see what you might be able to leverage and integrate. Many people are passionate about the topics you write, so link with other colleagues and communities, such as PMs and test engineers, and try to get stakeholder buy-in.
 
-## 1. Do the ground work
+## 1. Do the groundwork (define your goals)
 
 Do the work that will help you define your documentation goals. This starts with conducting discovery research, which you can then also apply at [Step 2](/get-started?id=_2-create-a-content-framework-and-strategy). 
 
