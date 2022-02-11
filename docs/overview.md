@@ -2,7 +2,7 @@
 
 An Information Development team consists of technical writers (information developers) that typically belong to Engineering. 
 
-Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on, to maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be usefully shortened to "IX". 
+Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on, to maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
 
 IX work with software developers and UX designers to optimise how users engage with information, whether that's in technical documentation or in the product itself. To this end, IX are responsible for:
 
@@ -10,10 +10,10 @@ IX work with software developers and UX designers to optimise how users engage w
 - In-product content development, such as error messages and on-screen text. See [UX Writing Guidelines](/ux-writing).
 - Website infrastructure for product documentation. See [Online Documentation](/online-documentation).
 
-Information developers typically work closely with:
+Information developers in IX typically work closely with:
 
-- Software developers and test engineers in Engineering.
 - Product teams, under the guidance of Product Management (PM).
+- Software developers and test engineers in Engineering.
 - Product Design (PD) to collaborate on UI content and guided workflows.
 - Globalisation teams to create automatic translation.
 
@@ -35,16 +35,16 @@ That being said, good product documentation can reduce the number of calls made 
 
 There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
 
-Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. 
+Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. 
 
-Product documentation shouldn't undermine the company's overall brand and business goals. Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Consistency is integral to brand-building and trust.
+Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
 
 ### Content framework and strategy
 
 The administrator interaction with product documentation is, in itself, a user experience. This is additional to the interactions they have with the actual systems and interfaces that the product documentation refers to. To maximise the information experience of product documentation, you should plan and create a core content framework and strategy:
 
-- A core **content framework**: the **content and structural components**, including the information architecture (IA) this content is built around.
-- A core **content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
+- **Content framework:** the **content and structural components** of documentation, including the information architecture (IA) that this content is built around.
+- **Content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
 
 #### Content framework
 
