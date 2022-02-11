@@ -75,7 +75,10 @@ For consistent design and structure, use templates. This should help you separat
 
 Describe the high-level roadmap to organising, scheduling, creating, and publishing content. 
 
-Even if you know your product really well, you need to plan to ensure that you’re helping users perform tasks, not just describing the product in all its glory. Take the time to consider:
+Even if you know your product really well, you need to plan to ensure that you’re helping users perform tasks, not just describing the product in all its glory. 
+
+Take the time to who your target audience is and then consider:
+
 * What to include and what not to include.
 * What order the information should go in.
 * What other resources exist that you might want to link to.
