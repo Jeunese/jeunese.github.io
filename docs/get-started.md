@@ -8,17 +8,18 @@ This isn't a case of simply aggregating information in one place. Technical docu
 
 Investigate the existing tools at the company for whom you're writing documentation to see what you might be able to leverage and integrate. Many people are passionate about the topics you write, so link with other colleagues and communities, such as PMs and test engineers, and try to get stakeholder buy-in.
 
-There are five high-level tasks involved in getting started with product documentation:
+There are six high-level tasks involved in getting started with product documentation:
 
-1. Do the groundwork (define your goals).
-1. Create a content framework and strategy.
+1. Decide what to document.
+1. Decide how to present it.
+1. Plan your documentation.
 1. Create the content.
 1. Implement the content.
 1. Analyse the documentation.
 
-## 1. Do the groundwork (define your goals)
+## 1. Decide what to document
 
-Do the work that will help you define your documentation goals. This starts with conducting discovery research, which you can then also apply at [Step 2](/get-started?id=_2-create-a-content-framework-and-strategy). 
+Do the work that will help you define your documentation goals. This starts with conducting discovery research, which you can then also apply at [Step 3](/get-started?id=_3-plan-your-content). 
 
 ### Conduct discovery research
 
@@ -44,9 +45,22 @@ Define what you want administrators to achieve with the product documentation:
 * Make sense of a complicated group of products?
 * Solve specific customer problems with multi-product solutions?
 
+## 2. Decide how to present it
+
+Once you have your documentation goals, you can start designing a style guide and creating online templates. 
+
+Documentation needs more than text, diagrams, and screenshots. It needs to keep to a style and format that makes content easy to find and follow with:
+
+* Simple and readable headers.
+* Scannable content.
+* A clean page structure.
+* A clear table of contents.
+* Consistent design elements.
+* Accessibility.
+
 ### Create a style guide
 
-Once you have your documentation goals, you can start drafting a [style guide](/style-guide) (if you don't already have one) that explains what language to use, how to talk to users, and expected writing conventions. These guidelines tend to be based on your industry, your company brand, your company's guidelines for [voice and tone](voice-and-tone), your target audience, and purpose of the content.
+Draft a [style guide](/style-guide) (if you don't already have one) that explains what language to use, how to talk to users, and expected writing conventions. These guidelines tend to be based on your industry, your company brand, your company's guidelines for [voice and tone](voice-and-tone), your target audience, and purpose of the content.
 
 ### Create templates
 
@@ -57,7 +71,7 @@ For consistent design and structure, use templates. This should help you separat
 * Use a flat hierarchy to ensure that content isn’t hidden or hard to find.
 * Make sure your documentation adheres to your [style guide](/get-started?id=create-a-style-guide). 
 
-## 2. Create a content framework and strategy
+## 3. Plan your content
 
 Describe the high-level roadmap to organising, scheduling, creating, and publishing content. 
 
@@ -88,13 +102,28 @@ Create your [content strategy](https://jeunese.github.io/#/?id=content-strategy)
 * Create a workflow, including a review process and a plan for automated tests to catch spelling errors and Markdown violations.
 * Create a governance plan, including routines for creating, publishing, maintaining, and removing content.
 
-## 3. Create the content
+## 4. Create the content
 
 Use your documentation goals, content framework and strategy, and style guide to create content.
 
 Product documentation describes more than just *what* a product or feature does. It's also concerned with *who*, *where*, *why* and *how* a product or feature is used.
 
-After creating new product documentation based on a content framework and strategy, you then need to maintain and update your documentation. A documentation release is content that's published at the same time as the public release of the product or feature. Your colleagues, such as the PM and other internal stakeholders identify content gaps and improvements to product documentation for you to scope, draft, and add. Candidates for product documentation include:
+If you don't know where to start, start at the beginning and walk yourself through the set up of the product, taking note of the pain points and any gaps in information that might help the reader complete their tasks. Break this content up into smaller parts. Build a list of items that might also need documented or that are uncovered by colleague or customer tickets, and deal with them one at a time, in line with your content framework.
+
+Some guidelines for what to include in product documentation:
+
+* Highlight what the product or feature does in the context of the user need. 
+* Use real-world examples and use cases to put the product or feature in context for the administrator. 
+* Focus on the solution that a product or feature provides, not just what it is and does. 
+* Single-source your content so that you only need to update information in one location; avoid duplicating content –– explain something once and link to existing resources when they come up.
+* Try to write content that's self-contained, making it easy to move around and link to.
+* Treat each new article like a mini-onboarding, with pre-requisites, process overviews, and clear steps.
+
+Importantly, describe how the user *performs a task* with the product or feature. For guidance on writing instructions for completing a task, see [Writing instructional content](/technical-writing?id=writing-instructional-content) in the **Technical Writing Guidelines** article.
+
+After creating new product documentation based on a content framework and strategy, you then need to maintain and update your documentation. 
+
+Most commonly, you'll write event-triggered content, typically a documentation release. A documentation release is content that's published at the same time as the public release of the product or feature. Your colleagues, such as the PM and other internal stakeholders identify content gaps and improvements to product documentation for you to scope, draft, and add. Candidates for product documentation include:
 
 - A new product, feature, or important component release.
 - An important update to an existing feature.
@@ -147,13 +176,11 @@ Questions you can ask to collect the right information include the following:
 
 ### Drafting
 
-Start with an outline. You don't need all the information right away to start drafting. Leave a placeholder for information you don't yet have and start putting together what you do. Having the main steps involved to complete a task is a good starting point. You can build on the relevant preceding and proceeding information.
-
-Highlight what the product or feature does in the context of the user need. Use real-world examples and use cases to put the product or feature in context for the administrator. Focus on the solution that a product or feature provides, not just what it is and does. Importantly, describe how the user *performs a task* with the product or feature. For guidance on writing instructions for completing a task, see [Writing instructional content](/technical-writing?id=writing-instructional-content) in the **Technical Writing Guidelines** article.
+Start with an outline. You don't need all the information right away to start drafting. Leave a placeholder for information you don't yet have and start putting together what you do. Having the main steps involved to complete a task is a good starting point. You can build on the relevant preceding and proceeding information. 
 
 Remember to write for the administrator, not the engineer that created the product, not for Marketing and Sales, and not for your manager.
 
-This doesn't mean you should ignore other stakeholders in the company. For example, your company might be focusing on specific aspects of a product, and you, as a technical writer, might need to consider how to transition readers from the information in Marketing marketing material to information in the product documentation.
+This doesn't mean you should ignore other stakeholders in the company. For example, your company might be focusing on specific aspects of a product, and you, as a technical writer, might need to consider how to transition readers from the information in Marketing material to information in the product documentation.
 
 You might even be able to leverage existing company materials for overviews and new content. Deep dive and technical content can be described at a higher level and in simpler terms. Marketing and Sales content can be streamlined and re-focused by removing promises about usability and performance, and adding step-by-step instructions for getting started with the product. 
 
@@ -166,8 +193,6 @@ Regardless, your resulting content should:
 * Be findable, searchable, and discoverable.
 * Have a logical structure, hierarchy, and flow that are easy to follow.
 * Avoid big blocks of text and pages that are saturated content.
-* Make processes and steps clear.
-* Link to other resources and avoid duplicating content.
 * Use simple and [plain English](/style-guide?id=use-plain-english) where-ever possible. 
 
 For more writing guidelines for product documentation, see [Writing product documentation](/technical-writing?id=writing-product-documentation) in the **Technical Writing Guidelines** article.
@@ -189,7 +214,7 @@ The review process ends just before a feature is rolled out and can last as long
 
 The aim is to document as much as possible based on the available information and to solicit reviews as soon as possible in the authoring process. There may be gaps in your initial content due to SME unavailability or technical issues. Release dates can be unknown, ambiguous, or vague, and so content should be iterated early and often so that you're ready to publish it whenever the PM decides to roll out the feature. 
 
-## 4. Implement the content
+## 5. Implement the content
 
 Given the evolving nature of product documentation, you might decide to take an incremental approach to implementing the content.
 
@@ -197,9 +222,9 @@ Instead of introducing documentation with a "grand opening", start small, find p
 
 Product documentation is meant to be a living artifact: dynamic and updated regularly. Content should be updated as new features are developed.
 
-If you adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to delivering your content, you'll need to consider implementing systems that help you streamline the process and quality-control the documentation before it's published.  Develop tools for testing, delivering, and maintaining the documentation.
+If you adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to delivering your content, you'll need to consider implementing systems that help you streamline the process and quality-control the documentation before it's published. Develop tools for testing, delivering, and maintaining the documentation.
 
-## 5. Analyse the documentation
+## 6. Analyse the documentation
 
 Collect and analyse statistics and feedback to refine your documentation and process based on your documentation goals.
 
