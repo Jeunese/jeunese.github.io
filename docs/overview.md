@@ -29,15 +29,15 @@ Administrators are sometimes called "users" because they use tools described in 
 
 Product documentation shouldn't be confused with README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, basic information about the code, and how to build the project.
 
-Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
+Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material, such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls made to Technical Support. Customers often call Technical Support when they can’t figure something out. Good product documentation helps customers figure things out for themselves. Technical Support might also use product documentation as a point of reference.
+That being said, good product documentation can reduce the number of calls made to Technical Support. Customers often call Technical Support when they can’t figure something out. Good product documentation helps customers figure things out. Technical Support might also use product documentation for themselves as a point of reference.
 
-There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales materials. 
+There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
 
 Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. 
 
-Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Voice and tone is integral brand-building and trust. Product documentation shouldn't undermine the company's overall brand and business goals.
+Product documentation shouldn't undermine the company's overall brand and business goals. Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Consistency is integral to brand-building and trust.
 
 ### Content framework and strategy
 
