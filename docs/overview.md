@@ -2,13 +2,13 @@
 
 An Information Development team consists of technical authors/writers, also called information developers, that typically belong to Engineering. 
 
-Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on, to maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
+Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on, to optimise how people engage with information and maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
 
-IX work with software developers and UX designers to optimise how users engage with information, whether that's in technical documentation or in the product itself. To this end, IX are responsible for:
+IX work with software developers and UX designers to ensure that the information is meaningful, accurate, and formatted appropriately, whether that's in technical documentation or in the product itself. To this end, IX are responsible for:
 
-- Technical content authoring for a software company's products and services. See [Technical Writing Guidelines](https://jeunese.github.io/#/technical-writing).
-- In-product content development, such as error messages and on-screen text. See [UX Writing Guidelines](/ux-writing).
-- Website infrastructure for product documentation. See [Online Documentation](/online-documentation).
+- Technical content authoring for a software company's products and services. For guidance on technical writing and, in particular, writing product documentation, see [Technical Writing Guidelines](https://jeunese.github.io/#/technical-writing).
+- In-product content development, such as error messages and on-screen text. For information on UX writing, see [UX Writing Guidelines](/ux-writing).
+- Website infrastructure for product documentation. For an overview of this approach to managing documentation, see [Online Documentation](/online-documentation).
 
 Information developers in IX typically work closely with:
 
@@ -27,15 +27,20 @@ Product documentation articulates technical concepts, in writing, for a software
 
 Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
-Product documentation shouldn't be confused with README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, basic information about the code, and how to build the project.
+Product documentation *isn't*:
 
-Product documentation isn't a complete list of every component or functionality. It also isn't Sales or Marketing material, such as blogs or news designed to convince a non-technical audience to adopt a feature or product. And, it isn't a substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
+* A complete list of every component or functionality.
+* README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, basic information about the code, and how to build the project.
+* Sales or Marketing material, such as blog posts or news articles designed to convince a non-technical audience to adopt a feature or product. 
+* A substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls made to Technical Support. Customers often call Technical Support when they can’t figure something out. Good product documentation helps customers figure things out. Technical Support might also use product documentation for themselves as a point of reference.
+That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a point of reference and to help customers with the same source of information that customers have available to them.
 
-There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
+Other company employees might benefit from your documentation, using it to keep up-to-speed with product developments. And, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
 
-Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. Although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. 
+There's also the wider audience to consider. Product documentation also tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
+
+Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. Additionally, although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. 
 
 Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
 

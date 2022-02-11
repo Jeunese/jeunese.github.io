@@ -56,7 +56,7 @@ Avoid duplication by adopting a single-sourcing model. The following guidelines 
 - Keep content in one place so that you can efficiently manage it.
 - Arrange content logically.
 - Create self-contained, complete pieces of content that don't overlap ("topics").
-- Make liberal use of links to existing content.
+- Make liberal use of links to existing content and resources.
 - Don't assume someone has read one piece of content before reading another.
 
 ### Make content easy to scan for relevant information
