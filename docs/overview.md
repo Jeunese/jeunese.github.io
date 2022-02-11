@@ -1,6 +1,6 @@
 # Information Development Overview
 
-An Information Development team consists of technical writers (information developers) that typically belong to Engineering. 
+An Information Development team consists of technical authors/writers, also called information developers, that typically belong to Engineering. 
 
 Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on, to maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
 
@@ -52,12 +52,12 @@ A content framework deals with how we build, present, and organise content.
 
 Content should provide a coherent, consistent narrative throughout the product set-up and maintenance journey –– structured around the needs of the target audience so that administrators can find the right information and make use of it efficiently. Take the time to understand and plan for the target audience in the context of their needs and pain points, including: 
 
-*  User goals and needs
-*  User tasks and activities
-*  Information-retrieval behaviour	
-*  User knowledge and experience
+*  Audience goals and needs.
+*  Audience tasks and activities.
+*  Information-retrieval behaviour.
+*  Audience knowledge and experience.
 
-Make everything you write scannable, discoverable, and searchable. Think about *where* information is best placed and *how* to communicate flows of information (procedures and processes). This information:
+Make everything you write scannable, discoverable, and searchable. Think about *where* information is best placed and *how* to communicate flows of information (the procedures and processes administrators must follow to complete their tasks). This information:
 
 *  Helps the reader figure out where they are in the content.
 *  Helps the reader determine where the information they want is in relation to their current position.
@@ -71,26 +71,25 @@ Product documentation should be purposeful and meaningful for the intended audie
 
 *  How your content will help you meet business goals.
 *  The target audience and their needs.
-*  The voice and tone of content for your audience.
+*  The [voice and tone](/voice-and-tone) of content for your audience.
 
-Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs-as-Code** (or **Open Docs**) infrastructure.
+Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs-as-Code** infrastructure.
 
 ### Infrastructure and process (Docs-as-Code)
 
-With a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to product documentation, content for a release is published only when a feature or update is available to customers. Features might also be published for private and public (technical) preview. 
+It's becoming increasingly popular to adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to managing product documentation.
 
-A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM.  Candidates for product documentation include:
+Docs-as-Code involves information developers using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-Code typically matches the agile delivery approach, which might include using an issue tracking manager (such as JIRA), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
 
--  A new product, feature, or important component release.
--  An important update to an existing feature.
--  Information on how to install, upgrade, manage, or troubleshoot.
--  Public technical preview content.
+With a Docs-as-Code approach to product documentation, content for a release is published only when a feature or update is available to customers. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM. For more information on what might be included in product documentation, see [Create the content](/get-started?id=_3-create-the-content) in the **Get Started with Product Documentation** article.
 
-Once a content need is identified, a ticket should be created in an issue tracking tool, such as JIRA. Once the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of a Master branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering. The technical author pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
+Once a content need is identified, a ticket should be created in an issue tracking tool. Once the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of a Master branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering and the PM. The technical author pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
+
+For more information on the tools and processes involved in a Docs-as-Code approach, see the [Online Documentation](/online-documentation) article.
 
 ## In-product content development
 
-IX technical authors also typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. This can also be done with issue tracking software, and as part of agile and sprint cycles.
+IX technical authors also typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
 
 In collaboration with PD and the PM, IX can be asked to:
 

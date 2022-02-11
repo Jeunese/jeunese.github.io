@@ -15,3 +15,4 @@
 - [Microsoft UX Guide](https://docs.microsoft.com/en-us/windows/win32/uxguide/text-ui)
 - [Pro Git](https://git-scm.com/book/en/v2)
 - [What is Continuous Integration?](https://www.exoscale.com/syslog/what-is-continuous-integration/)
+- [Why we use a ‘docs as code’ approach for technical documentation](https://technology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/)
