@@ -159,7 +159,7 @@ A technical writer's input for in-product design might include:
 
 * Improving the functionality, readability, and understandability of on-screen text.
 * Creating friendly, informative, and clear on-screen dialogues.
-* Suggesting user-centered, action-focused wording on buttons and labels.
+* Suggesting user-centred, action-focused wording on buttons and labels.
 * Creating or editing content for error messages.
 * Proofreading for consistency and for language, spelling, and grammatical errors.
 * Recommending different terminology or turns of phrase.

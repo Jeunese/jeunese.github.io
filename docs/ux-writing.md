@@ -37,26 +37,26 @@ UX writing involves reviewing and recommending in-product content. The main cate
 
 Microcopy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of microcopy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row/column headings and entries, and so on.
 
-Microcopy should be written in second person and sentence case. For more guidelines on the individual elements for which microcopy is needed, see [UI elements and controls](/ux-writing?id=ui-elements-and-input-controls).
+Microcopy should be written in second person and sentence case. For more guidelines on the individual elements for which microcopy is needed, see [UI elements and input controls](/ux-writing?id=ui-elements-and-input-controls).
 
 ### Contextual help
 
-Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as instructions, tooltips, guided workflows, and so on. Help that is offered in context is easier to identify and use (has high affordance) and us less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow, which can achieved with **instructional text**.
+Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as instructions, tooltips, guided workflows, and so on. Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow, which can achieved with **instructional text**.
 
 ### Instructional (on-screen) text
 
-Instructional text, also called in-product instructions or on-screen text, is contextual help presented inline with the interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to the support team.
+Instructional text, also called in-product instructions or on-screen text, is contextual help presented inline with the interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
 
 #### Guidelines for instructional text
 
 **Keep it simple.** Don't overuse instructional UI text; copy should enhance the experience, not clutter it.
 
--  Don't explain fundamental features; if a user needs instructions, consider making the service design more intuitive.
--  Don't explain obvious features and workflow (instructional text will get in the way of an already intuitive workflow).
+-  Don't explain fundamental features; if a user needs instructions, consider ways of making the design more intuitive.
+-  Don't explain obvious features and workflows; instructional text can get in the way of an already intuitive workflow.
 -  Don't make users engage with instructional text; users should be free to ignore instructional UI and still progress through it.
 -  Don't repeat information; add a setting to display instructional UI instead.
 
-**Keep it useful.** Use instructional text to make the onboarding flow as smooth as possible
+**Keep it useful.** Use instructional text to make the onboarding flow as smooth as possible.
     
 -  The most immediate instructions should be those that apply to every page.
 -  Focus on the actions that the user needs to take.
@@ -66,12 +66,12 @@ Instructional text, also called in-product instructions or on-screen text, is co
 
 #### When to use instructional text
 
-Instructional text is the least demanding way to offer support because it prevents the user from having to rely on working memory or from having to take an extra step to find information. To maximise the chances of positive experience, in-product assistance should:
+Instructional text is the least demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product assistance should:
 
 -  Cause minimal disruption to the user's workflow.
 -  Result in quick issue or query resolution.
 -  Foster ease-of-use.
--  Be timely and well-placed, appearing the moment the user needs them and embedded directly in the interface.
+-  Be timely and well-placed, appearing the moment the user needs it and embedded directly in the UI.
 -  Provide **progressive disclosure**.
 
 ## Progressive disclosure philosophy
