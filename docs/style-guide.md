@@ -40,6 +40,8 @@ Shorter paragraphs, sentences, and words are easier to scan, easier to understan
 - Replace wordy phrases with single words where possible, for example: "due to the fact that" can be replaced with "because".
 - Use as few words as possible to portray meaning, for example: "You'll be asked to change your password ~~at some point~~ before you next sign in."
 
+Keep in mind that localisation can lengthen text by 20 to 30 percent.
+
 ### Write purposeful content
 
 Write every sentence and choose every word with purpose, direction, and meaning.
