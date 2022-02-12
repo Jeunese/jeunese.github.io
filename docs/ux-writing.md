@@ -15,7 +15,7 @@ General guidance for UX writing includes:
 
 A UX writer helps craft in-product content as part of the product design process. This includes in-product text, buttons, messages, labels, and other UI touchpoints that guide a user through a product or service.
 
-A UX writer is responsible for creating in-product content that's in line with the company's [tone of voice](/voice-and-tone?id=tone-of-voice) and that facilitates the user experience of the product. UX Writers take insights from UI and UX design principles, usability research, and behavioural psychology to iterate and refine content that is designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy. 
+A UX writer is responsible for creating in-product content that's in line with the company's [Voice and Tone](/voice-and-tone) and that facilitates the user experience of the product. UX writers take insights from UI and UX design principles, usability research, and behavioural psychology to create and refine content that's designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy.
 
 This isn't the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing.
 
@@ -25,61 +25,13 @@ As part of product design, UX writers should be involved early in the design pro
 
 Before writing or reviewing UI content, the UX writer needs to know:
 
--  Who they're writing for, such as end-users or administrators.
+-  Who they're writing for.
 -  What the user's goals and needs are.
 -  What the product is and how the product is used. 
 -  What the use cases are.
 -  What components of the product need written or reviewed (if not the end-to-end experience).
 
 The aim is create a cohesive content experience. For this reason, it's sometimes described as a sub-discipline of content design. See [UX writing and content design](/ux-writing?id=ux-writing-and-content-design) for more information on the similarities and differences.
-
-## UX writing and information development
-
-Technical writers are also sometimes called "information developers", and as part of an information development or information experience (IX) team.
-
-Depending on their background, a technical writer can help create user-friendly, in-product content. Many technical writing principles apply to UX writing, and both product documentation and in-product content needs to conform to a company's voice and tone.
-
-It is thus common to ask technical writers to advise on aspects of UX writing. However, not all technical writers will take on the role of a UX writer, and UX writers will typically focus on the design of the product rather than writing the product documentation that comes with it, as technical writers do.
-
-A technical writer's input for in-product design might include:
-
-* Improving the functionality, readability, and understandability of on-screen text.
-* Creating friendly, informative, and clear on-screen dialogues.
-* Suggesting user-centered, action-focused wording on buttons and labels.
-* Creating or editing content for error messages.
-* Proofreading for consistency and for language, spelling, and grammatical errors.
-* Recommending different terminology or turns of phrase.
-* Providing copy for in-product help, hints, and explanations.
-
-## UX writing and content design
-
-UX writers and content designers (sometimes called content writers) have a lot in common. Both work with Product Design to create, deliver, and modify content to maximise the user experience of a product. 
-
-However, UX writing focuses more on UI copy to facilitate the user experience of a product, while content design focuses more on the design of the product itself, which can include written content, but also involves designing the layout, flow, and the type of content to include. 
-
-A content designer tends to be involved in a broader range of activities than a UX writer, identifying user needs for content and creating solutions that meet these needs. This solution might involve writing in-product content, but it might not. It might instead involve establishing consistency across platforms, restructuring the content on a page, making content more accessible, or developing other forms of media such as videos, graphics, animations, and audio. 
-
-Content design is a more strategic role that is focused on the design outcome: what and how information is presented to users. The aim is to develop content that is purposeful, meaningful, structured, and usable to help end-users navigate through a product or service.
-
-Though more strategic than a UX writer, a content designer isn't a content *strategist*, who would be more concerned with content priorities and planning based on business objectives, more so than the end-user experience. They analyse and manage content rather than create the content themselves.
-
-## Required knowledge and skills
-
-Although UX writing is typically described in more narrow terms than content design, UX writers frequently engage in other important aspects of the design process, including:
-
-* Conducting user research
-* Writing style guides
-* Engaging in early design processes
-* Advocating for the end-user (the user experience)
-
-Thus, UX writing involves a range of skills:
-
-* **Writing.** The ability to write clearly and concisely, with attention to detail.
-* **Creativity.** Lateral thinking and creative problem-solving.
-* **UX design.** An understanding of product design processes and outcomes.
-* **Research.** The ability to collate, understand, intepret, and present data, such as user testing and analytics that provide insight into how the product is used. 
-* **Psychology.** An understanding of human behaviour and decision-making.
-* **Empathy.** Empathy for the end-user and a desire to improve the user experience.
 
 ## In-product content
 
