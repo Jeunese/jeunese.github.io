@@ -308,9 +308,10 @@ Checkboxes are controls that let the user choose between two opposite states, ac
 - Add "Recommended" to the label for a checkbox that is strongly recommended.
 - Use sentence case.
 
-For large sets, use subheadings to group choices. Guidelines for grouping and ordering checkboxes include:
+Guidelines for grouping and ordering checkboxes include:
 
 - For each checkbox in a group, use parallel phrasing.
+- For large sets, use subheadings to group choices. 
 - Label a group of checkboxes to make the purpose of the checkboxes evident, ending with a colon.
 - Present checkboxes in a logical order.
 
@@ -367,7 +368,7 @@ The guidelines for help text and errors in forms include:
 
 ### Labels
 
-Labels are static text fields that describe UI elements (including groups of elements) or provide a short message. Every control or element, such as a text field, button, or dropdown menu, needs a label. Guidelines for labels include:
+Labels are static text that describe UI elements (including groups of elements) or provide a short message. Every control or element, such as a text field, button, or dropdown menu, needs a label. Guidelines for labels include:
 
 - Use plain language; avoid technical jargon.
 - Ensure the label accurately identifies the element it introduces.
@@ -378,20 +379,20 @@ Labels are static text fields that describe UI elements (including groups of ele
 
 ### Lists and list boxes
 
-A list is a collection of items that present groups, steps, or sets of information. Guidelines for lists include:
+A list is a collection of items that presents groups, steps, or sets of information. Guidelines for lists include:
 
 - Give context for the list with a brief introduction.
 - Only number lists when there is an order (for example, steps in a process).
 - Use sentence case.
 
-List boxes, look like dropdown menus but, like checkboxes, allow users to select a multiple items at a time. Guidelines for list boxes include:
+List boxes look like dropdown menus but, like checkboxes, allow users to select multiple items. Guidelines for list boxes include:
 
 - Consider adding watermark (hint) text to the field, such as "Select all that apply".
 - Use sentence case for both menu names and items.
 
 ### Navigation
 
-The on-screen elements that helps users find their way through a product, such as a table of contents, breadcrumbs, tags, a search field, icons, links, and menus. Guidelines for navigation include:
+The on-screen elements that help users find their way through a product, such as a table of contents, breadcrumbs, tags, a search field, icons, links, and menus. Guidelines for navigation include:
 
 - Use title case for main or global navigation
 - Use sentence case for sub-navigation.
@@ -401,18 +402,22 @@ The on-screen elements that helps users find their way through a product, such a
 
 Radio buttons are selectable circles placed next to each item in a set of related, mutually exclusive choices from which the user can select only one. A radio button is on when the circle is filled and off when it's empty. Guidelines for radio buttons include:
 
-- Give radio buttons meaningful titles; describe the effect of choosing each radio button.
-- Focus on the difference between options; if all options have the same introductory text, move that text to the group label.
-- Write labels as a phase, not a sentence.
-- Use regular (not bold) text.
-- Don't use ending punctuation unless it labels subordinate controls that follow it, requiring a colon.
-- Label a group of radio buttons with text that describes the nature of the options, ending with a colon.
-- Keep labels brief; if the option requires more information, provide the explanation in a static text control or tooltip (using complete sentences an end punctuation).
-- Use parallel phrasing.
-- Use positive phrasing (for example, "do" instead of "do not").
+- Write labels as a phrase, not a sentence.
 - Add "Recommended" to the label for an option that is strongly recommended.
-- Add "Advanced" to the label for an option intended only for advanced users. 
+- Add "Advanced" to the label for an option intended for advanced users. 
+- Don't use ending punctuation unless it labels subordinate controls that follow it, requiring a colon.
+- Give radio buttons meaningful titles; describe the effect of choosing each radio button.
+- Keep labels brief; if the option requires more information, provide the explanation in a static text control or tooltip (using complete sentences an end punctuation).
+- Use positive phrasing (for example, "do" instead of "don't").
 - Use sentence case.
+
+Guidelines for grouping and ordering checkboxes include:
+
+- For each radio button in a group, use parallel phrasing.
+- For large sets, use subheadings to group choices. 
+- Label a group of radio buttons with text that describes the nature of the options, ending with a colon.
+- Focus on the difference between options; if all options have the same introductory text, move that text to the group label.
+- Present radio boxes in a logical order.
 
 ### Text links
 
@@ -421,24 +426,24 @@ Text links are labels that fall outside of a block of text and may start a task 
 - Differentiate from unlinked text using colour.
 - Use text links as part of a sentence or phrase.
 - Don't use text links in place of buttons.
-- If fewer than 3 words, consider using a button, especially if it starts a new task or it is a secondary action.
+- If fewer than 3 words, consider using a button, especially if it starts a new task or it's a secondary action.
 - Use text links to increase SEO on the page.
-- If part of a sentence use second person langauge.
+- If part of a sentence, use second person language.
 - Avoid text links that don't convey a function or meaning, such as "click here".
 
 For accessibility: 
-- Text links should standalone and communicate meaning without added words
+- Text links should standalone and communicate meaning without added words.
 - Users should be able to tell what the text link is about without reading the surrounding words.
 - Text links should be written in direct, specific language.
 
 ### Watermark (hint) text
 
-Watermark text, also known as hint, prompt, or placeholder text, is a included in text fields and boxes to help the user understand what to enter by way of example. Not all empty fields require hint text. Hint text is useful for communicating examples:
+Watermark text, also known as hint, prompt, or placeholder text, is text included in text fields and boxes to help the user understand what to enter by way of example. Not all empty fields require watermark text. Watermark text is useful for communicating:
+- Examples.
 - Syntax, such as for an email address.
 - Brief instructions, for example, "Choose a device".
 - Validation rules, such as password requirements.
 
-Guidelines for watermark text includes:
-- Don't use end punctuation or ellipses.
+Guidelines for watermark text include:
 - Consider alternatives, like placing hint text outside the empty field or as hover text so that it persists when the user starts typing.
 - Use sentence case.
