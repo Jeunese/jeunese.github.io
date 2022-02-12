@@ -1,6 +1,6 @@
 # Information Development Overview
 
-An Information Development team consists of technical authors, also called information developers, that typically belong to Engineering. 
+An Information Development team consists of technical authors, also called content or information developers, that typically belong to Engineering. 
 
 Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on. For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
 
@@ -130,7 +130,11 @@ For more information on the tools and processes involved in a Docs-as-Code appro
 
 ## In-product content development
 
-IX technical authors also typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
+Information developers (or IX technical authors) don't just create documentation to explain a confusing and unintuitive interface. We're also concerned with UI copy, visual design, and interactions with the UI. 
+
+To this end, as well as documentation, IX technical authors typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. We collaborate *with* designers to contribute to the UI for an effective and engaging user experience (UX). 
+
+As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
 
 In collaboration with PD and the PM, IX can be asked to:
 
@@ -140,15 +144,21 @@ In collaboration with PD and the PM, IX can be asked to:
 
 ### UX writing
 
-UX writing is the process of creating in-product copy for the UI of digital products to help the end-user interact with it. UI text speaks to the user and helps them make their journey through the UI as smoothly as possible. When users hit a roadblock, effective help content can make the difference between a negative and a positive experience. 
+Good UX needs good content. The right word (UI copy) to accompany the right designs, at the right time, influence how a user engages with a product. 
 
-UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. 
+UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. UI copy speaks to the user and helps them make their journey through the UI as smoothly as possible. 
 
-The optimal level of UX writer involvement in product design should be at the beginning. The right words to accompany the right designs make all the difference to how a user engages with a product. This means that UX writing is a design exercise and an integral part of designing the customer journey.
+UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. This makes UX writing a design exercise and an integral part of designing the customer journey. Thus, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information.
+
+Good UX writing gives the user what they need, in context, when they need it. This minimises the end-user's need to engage with documentation, by helping to make the UI more intuitive, which increases usability and reduces frustration.
+
+When users hit a roadblock, effective help content can make the difference between a negative and a positive experience. UX writers help embed help content into the application itself.
 
 ### UI review
 
-IX engages with Product Design (PD) for UI content review when PD has developed a wireframe or prototype for a specific Engineering ticket. The typical engagement flow is as follows:
+Having an information developer responsible for UI copy helps ensure that information is clear and consistent, for a better user experience.
+
+To this end, IX engages with Product Design (PD) for UI content review when PD has developed a wireframe or prototype for a specific issue/ticket. The typical engagement flow is as follows:
 
 1. **Early designs.** PD notifies IX that there is content to review, with links typically included in a ticket. PD might also provide a walk-through of the design, links to demos, or a detailed explanation of some of the screens in the prototype.
 2. **Information gathering.** IX reviews the associated tickets and requests additional information from PD if needed to understand the intent of the design. 
