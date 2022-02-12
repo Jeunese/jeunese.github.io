@@ -271,43 +271,48 @@ Boolean values are a visual representation of an on/off state, such as a switch.
 A toggle provides users with a choice between the two mutually exclusive states of a boolean value. A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
 
 - Understand the current state of the selection.
-- Tab through a set of options and navigate between options using the arrow keys.
+- Tab through the options and between them using the arrow keys.
 - Use the spacebar to select and deselect an option.
 
 ### Buttons
 
 Buttons are labels that, when selected, initiate an action that allows the user to complete a task. Guidelines for buttons include:
 
-- Use clear, precise, predictable language.
-- Lead with a verb that encourages an action, like `Cancel` and `Delete`.
--  Use one word for call-to-action (CTA) and text buttons unless there is a verb involved.
-- If not a common action (like `Done` or `Close`) use the {verb}+{noun} formula (such as, `Test connection` or `Add selected items`).
-- Don't include descriptors like "now" –– the resulting action from selecting a button should be instantaneous.
 - Avoid introductory labels for buttons; the button label should be enough.
+- Be consistent with button placement across different UI elements. For example, don't reverse the placement of `OK` and `Cancel` in different parts of the UI.
 - Don't use buttons for a list of choices.
 - Separate destructive buttons from non-destructive buttons so that the user must make an intentional effort to select the button.
-- Be specific about single items (for example, `Choose picture` rather than `Import`).
 - Use trailing ellipsis when the button opens another window, dialogue box, or app.
-- If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
 - Use sentence case.
+
+Guidelines for the language used in button include:
+
+- Use clear, precise, predictable language.
+- Lead with a verb that encourages an action, like `Cancel` and `Delete`.
+- Use one word for call-to-action (CTA) and text buttons unless there is a verb involved.
+- If not a common action (like `Done` or `Close`) use the {verb}+{noun} formula (such as, `Test connection` or `Add selected items`).
+- Don't include descriptors like "now" –– the resulting action from selecting a button should be instantaneous.
+- Be specific about single items (for example, `Choose picture` rather than `Import`).
+- If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
 
 ### Checkboxes
 
 Checkboxes are controls that let the user choose between two opposite states, actions, or values. A checkbox is on when it contains a checkmark (indicating that it's selected) and off when it's empty. Guidelines for checkboxes include:
 
-- Make clear what happens when the box is selected versus not selected.
-- Always follow a checkbox with a title or label.
-- Provide a title that implies two opposite states.
 - Place an action at the beginning of the title.
 - Keep the text for a checkbox on a single line.
 - Use positive phrasing (selecting a checkbox shouldn't mean *not* performing an action, unless it's a "Don't show this again" checkbox).
-- For each checkbox in a group, use parallel phrasing.
-- Label a group of checkboxes to make the purpose of the checkboxes evident, ending with a colon.
+- Make clear what happens when the box is selected versus not selected.
+- Always follow a checkbox with a title or label; provide a title that implies two opposite states.
 - Don't use ending punctuation, unless it's a colon at the end of a label for a group of checkboxes.
-- For large sets, use subheadings to group choices.
-- Present checkboxes in a logical order.
 - Add "Recommended" to the label for a checkbox that is strongly recommended.
 - Use sentence case.
+
+For large sets, use subheadings to group choices. Guidelines for grouping and ordering checkboxes include:
+
+- For each checkbox in a group, use parallel phrasing.
+- Label a group of checkboxes to make the purpose of the checkboxes evident, ending with a colon.
+- Present checkboxes in a logical order.
 
 ### Console (push) notifications
 
