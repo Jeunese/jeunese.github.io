@@ -327,37 +327,41 @@ Push notifications are visual indicators on a list or details page in a console 
 
 ### Dropdown menus and buttons
 
-Dropdown menus are graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
+A Dropdown menu is graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
 
 - Consider adding watermark (hint) text to the field, such as "Select one".
 - Use sentence case for both menu names and items.
 
-Dropdown buttons, when selected, display a dropdown list, similar to a dropdown menu, of mutually exclusive items. 
+Dropdown *buttons*, when selected, display a dropdown list, similar to a dropdown menu, of mutually exclusive items. 
 
-### Input fields 
+### Input fields and forms
 
-Input fields allow data to be entered into a form. Forms can collect various types of data, including text. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. Guidelines for text fields include.
+Input fields allow data to be entered into a form. Forms can collect various types of data, including text. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. 
 
-- Clearly explain the purpose of the form or text box in the title.
+Guidelines for input fields in forms include:
+
+- Clearly explain the purpose of the input field in the title.
 - Change the input type according to the data you're collecting, for example, separate long references numbers with a gap and limit the input to the exact length expected.
-- Keep forms as short as possible.
-- Avoid asking for private and personal information.
 - Use sentence case for both titles and fields.
-- Make the length of input field proportional to the expected user input.
+- Make the length of the input field proportional to the expected user input.
 - Don't write instructions in a basic text area other than help text.
 
 The general guidelines for forms are:
+
+- Keep forms as short as possible.
 - Always include a label for the input field.
+- Avoid asking for private and personal information.
 - Label fields as optional if the majority of fields are required.
 - Label fields as required if the majority of fields are optional.
 - If the field label is long, wrap it to multiple lines.
 - Use clear and specific language for labels, placeholder, and helper text.
 
 The guidelines for help text and errors in forms include:
+
 - Provide concise, relevant help text.
-- Write helpe text in sentence case and in as few words as possible.
+- Write help text in sentence case and in as few words as possible.
 - Don't use help text to explain the field in detail.
-- Provide a character count when a field is restricted to a maximum amount.
+- Provide a character count when a field is restricted to a minimum or maximum amount.
 - Show an error state when the user enters an incorrect character type.
 - If a required field is left blank, display a default error message, such as "This field is required".
 
