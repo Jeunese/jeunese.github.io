@@ -129,27 +129,71 @@ For more information on the tools and processes involved in a Docs-as-Code appro
 
 ## In-product content development
 
-Information developers (or IX technical authors) don't just create product documentation. We're also concerned with UI copy, visual design, and interactions with the UI itself. 
+As well as creating product documentation, IX technical authors typically help write and review user-friendly in-product content for end-users in a UX writing capacity. 
 
-To this end, as well as creating product documentation, IX technical authors typically help write and review in-product content for end-users in a UX writing capacity. UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. 
+UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. Here, we're concerned with UI copy, visual design, and interactions with the UI itself. 
 
-As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
+Many technical writing principles apply to UX writing, and both product documentation and in-product content needs to conform to a company's voice and tone.
 
-We collaborate *with* designers to contribute to the UI for an effective and engaging user experience. In collaboration with PD and the PM, IX can be asked to:
+It is thus common to ask technical writers to advise on aspects of UX writing. However, not all technical writers will take on the role of a UX writer, and UX writers will typically focus on the design of the product rather than writing the product documentation that comes with it, as technical writers do.
+
+Technical writers collaborate *with* designers to contribute to the UI for an effective and engaging user experience. In collaboration with PD and the PM, IX can be asked to:
 
 -  Provide early design insights into prototypes and the proposed flow of a feature or product.
 -  Participate in design reviews or focused walkthroughs to answer specific questions, or identify and help resolve specific issues in the design.
 -  Provide new end-to-end design feedback and recommendations on the same feature or product later in the development lifecycle.
 
+As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
+
 ### UX writing
 
-Good UX needs good content. The right UI copy to accompany the right designs, at the right time, influences how a user engages with a product. 
+Good UX needs good content. The right UI copy to accompany the right designs, at the right time, influences how a user engages with a product.
 
 UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. UI copy speaks to the user and helps make their journey through the UI as smooth as possible.
 
 Good UX writing gives the user what they need, in context, when they need it. When users hit a roadblock, effective in-product help content can make the difference between a negative and a positive experience. UX writers help embed this content into the application itself. This minimises the end-user's need to engage with documentation, by helping to make the UI more intuitive, which increases usability and reduces frustration.
 
 UX writing is an integral part of designing the customer journey. As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
+
+A technical writer's input for in-product design might include:
+
+* Improving the functionality, readability, and understandability of on-screen text.
+* Creating friendly, informative, and clear on-screen dialogues.
+* Suggesting user-centered, action-focused wording on buttons and labels.
+* Creating or editing content for error messages.
+* Proofreading for consistency and for language, spelling, and grammatical errors.
+* Recommending different terminology or turns of phrase.
+* Providing copy for in-product help, hints, and explanations.
+
+#### UX writing and content design
+
+UX writers and content designers (sometimes called content writers) have a lot in common. Both work with Product Design to create, deliver, and modify content to maximise the user experience of a product. 
+
+However, UX writing focuses more on UI copy to facilitate the user experience of a product, while content design focuses more on the design of the product itself, which can include written content, but also involves designing the layout, flow, and the type of content to include. 
+
+A content designer tends to be involved in a broader range of activities than a UX writer, identifying user needs for content and creating solutions that meet these needs. This solution might involve writing in-product content, but it might not. It might instead involve establishing consistency across platforms, restructuring the content on a page, making content more accessible, or developing other forms of media such as videos, graphics, animations, and audio. 
+
+Content design is a more strategic role that is focused on the design outcome: what and how information is presented to users. The aim is to develop content that is purposeful, meaningful, structured, and usable to help end-users navigate through a product or service.
+
+Though more strategic than a UX writer, a content designer isn't a content *strategist*, who would be more concerned with content priorities and planning based on business objectives, more so than the end-user experience. They analyse and manage content rather than create the content themselves.
+
+#### Required knowledge and skills
+
+Although UX writing is typically described in more narrow terms than content design, UX writers frequently engage in other important aspects of the design process, including:
+
+* Conducting user research
+* Writing style guides
+* Engaging in early design processes
+* Advocating for the end-user (the user experience)
+
+Thus, UX writing involves a range of skills:
+
+* **Writing.** The ability to write clearly and concisely, with attention to detail.
+* **Creativity.** Lateral thinking and creative problem-solving.
+* **UX design.** An understanding of product design processes and outcomes.
+* **Research.** The ability to collate, understand, intepret, and present data, such as user testing and analytics that provide insight into how the product is used. 
+* **Psychology.** An understanding of human behaviour and decision-making.
+* **Empathy.** Empathy for the end-user and a desire to improve the user experience.
 
 ### UI review
 
@@ -164,5 +208,3 @@ To this end, IX engages with PD for UI content review when the designer has deve
 5. **"Ready for Implementation" (RFI).** PD completes the design, which is approved by the PM for implementation by Engineering. 
 	-  Depending on priorities and Engineering bandwidth, the design might or might not be implemented. 
 	-  IX might start drafting documentation for these designs.
-
-
