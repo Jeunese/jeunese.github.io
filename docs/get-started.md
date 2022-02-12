@@ -19,7 +19,7 @@ There are six high-level tasks involved in getting started with product document
 
 ## 1. Decide what to document
 
-Do the work that will help you define your documentation goals. This starts with conducting discovery research, which you can then also apply at [Step 3](/get-started?id=_3-plan-your-content). 
+Do the work that will help you define your documentation goals. This starts with conducting discovery research, which you can then also apply at [Step 3](/get-started?id=_3-plan-your-documentation). 
 
 ### Conduct discovery research
 
