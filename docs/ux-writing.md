@@ -211,15 +211,15 @@ Success messages provide positive feedback on a completed action. Guidelines for
 
 ### Error messages
 
-Error messages appear when a problem occurs, for example, when an incorrect instruction has been given; the best error messages explicitly describe what is wrong and how to fix it, resulting in the user resolving the issue by themselves. An error message can provide more than one action for the user. 
+Error messages appear when a problem occurs. The best error messages explicitly describe what's wrong and how to fix it, resulting in the user resolving the issue by themselves. An error message can provide more than one action for the user. 
 
-An error message should clearly state what went wrong and provide a direction for fixing the problem. A good error message has three parts:
+A good error message has three parts:
 
 1. Problem identification: describe the exact issue, clearly and unambiguously, so that the user knows the reason for the message.
 1. Details of the cause (if helpful or necessary); don't over-explain the problem.
 1. A solution (if possible); if not, specify an action the user can take, like where to go to find support or investigate the problem.
 
-Be explicit (1), specific (2), and helpful (3). Ensure the content (2) and action (3) matches the message.
+Be explicit (1), specific (2), and helpful (3). Ensure the content (2) and action (3) match the message.
 
 Other guidelines for error messages include:
 
@@ -233,8 +233,8 @@ Other guidelines for error messages include:
 -  Don't blame the user.
 -  Avoid a negative tone; be neutral.
 -  Be courteous, respectful, kind, and useful.
--  Talk to user like a person, in a conversational style
--  Turn error messages and 404 pages into positive reinforcement by guiding the user along until they complete their task. 
+-  Talk to the user like a person, in a conversational style.
+-  Turn error messages into positive reinforcement by guiding the user along until they complete their task. 
 
 **Content.**
 -  Focus on the solution, not the error or mistake.
@@ -255,7 +255,7 @@ To write consistent, accurate, and clear UI copy, a UX writer needs to understan
 
 Alt text is a label that screen readers can use to describe an image. Alt text appears when images don't render. Guidelines for alt text include: 
 
-- Describe the image in brief (1-2 sentences).
+- Describe the image in brief.
 - Use sentence case.
 
 ### Boolean values and toggles
