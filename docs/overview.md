@@ -54,7 +54,7 @@ After creating your information experience, you should evaluate and improve on i
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a software company's products so that these can be implemented by its customers. The documentation provides "how-to" guidance to help administrators:
+Product documentation articulates technical concepts, in writing, for a software company's products so that these products can be implemented by its customers. The documentation provides "how-to" guidance to help administrators:
 
 - Understand how a product or service works.
 - Keep up with new releases.
@@ -65,19 +65,19 @@ Administrators are sometimes called "users" because they use tools described in 
 Product documentation *isn't*:
 
 * A complete list of every component or functionality.
-* README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, basic information about the code, and how to build the project.
-* Sales or Marketing material, such as blog posts or news articles designed to convince a non-technical audience to adopt a feature or product. 
+* README content, which is more brief and includes details that don't belong in product documentation, such as licence or copyright details, and basic information about the code.
+* Sales or Marketing material, such as blog posts or news articles, designed to convince a non-technical audience to adopt a feature or product. 
 * A substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a point of reference and to help customers with the same source of information that customers have available to them.
+That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a point of reference and to help customers using the same sources of information that customers have available to them.
 
-Other company employees might benefit from your documentation, using it to keep up-to-speed with product developments. And, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
+Other company employees might also benefit from your documentation, using it to keep up-to-speed with product developments. Additionally, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
 
-There's also the wider audience to consider. Product documentation also tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
+There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
 
-Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. Additionally, although more technical and direct than Sales and Marketing content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. 
+Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. 
 
-Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
+Although more technical and direct than other sources of content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
 
 ### Content framework and strategy
 
