@@ -28,7 +28,7 @@ Write clearly, precisely, and concisely to make content easier to read and under
 
 ### Keep content short and simple
 
-Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and are more accessible to people who struggle with reading. Even advanced readers benefit from short and simple language because it results in faster processing and better comprehension.With this in mind, aim to:
+Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and more accessible to people who struggle with reading. Even advanced readers benefit from short and simple language because it results in faster processing and better comprehension. With this in mind, aim to:
 
 - Write short sentences, and keep to a limit:
     - For online documentation, write sentences that are no more than 28 words.
@@ -57,7 +57,7 @@ Follow these tips to get to the point in your communication with readers.
 |Tip | Example |
 |---|---|
 |Avoid buried verbs (nominalisation): using a noun and a verb when a verb alone would portray the meaning.  | "Follow the guidelines for testing your software", rather than "Follow the guidelines for *performing a test of* your software". Turning the word "test" into an action removed the need for the word "performing".|
-|Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add a new user" or "The solution ~~in this case~~ is to delete the file." |
+|Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add a new user" or "~~In this case~~, delete the file." |
 |Use adverbs in place of prepositional phrases.  | "This allows you to use the app effectively", rather than "This allows you to use the app *with great effectiveness*". |
 |Replace prepositional phrases with the possessive.| "Find the computer's instructions", rather than "Find *the instructions for the computer*".|
 |Use the active voice, which is more direct and easier to understand than the passive voice. |"You can send emails from your phone", rather than "Emails *can be sent from* your phone".|
