@@ -21,9 +21,9 @@ Information developers in IX typically work closely with:
 
 Regardless of whether you're creating product documentation or designing UI content, there are four basic rules for creating a good information experience.
 
-1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they are trying to do. Take the time to understand:
-	* The goals and activities of your target audience.
-	* What the intended audience needs to know, already knows, and doesn't know.
+1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they're trying to do. Take the time to understand:
+	* The goals and activities of your intended audience.
+	* What your intended audience needs to know, already knows, and doesn't know.
 	* How to provide the information that the intended audience needs.
 1. **Create a plan for implementing content.** Just as developers have coding processes and designers have design guidelines, IX should have a defined and systematic plan for creating and implementing content to:
 	* Help integrate it as part of the product or feature.
@@ -37,18 +37,17 @@ Regardless of whether you're creating product documentation or designing UI cont
 	* Scannable content.
 	* Content that's understandable and easy to follow.
 	* Content that's in line with your company's [Voice and Tone](/voice-and-tone).
-1. **Map content to your audience's processes and tasks.** Structure content around the intended audience's workflow and build this content based on:
+1. **Map content to your audience's processes and tasks.** Create task-based content that's structured around the intended audience's workflow. Build this content and decide where it should go based on:
 	* What the intended audience is trying to do.
-	* What information and resources the intended audience needs to complete a task.
 	* The steps involved in completing a task.
-	* Where the content should exist and already exists.
-	* How to present information so that the intended audience can scan and find information that fulfills their information needs.
+	* What information and resources the intended audience needs to complete a task.
 	* What content and resources already exist.
 	* What concepts require explanation.
+	* How to present information so that the intended audience can scan and find information that fulfils their information needs.
 
 After creating your information experience, you should evaluate and improve on it:
 
-* Validate the logic behind the information flow as the intended audience moves between task. 
+* Validate the logic behind the information flow as the intended audience moves between tasks. 
 * Identify information gaps, such as incomplete steps, missing context or explanation, or a lack of technical depth.
 * Identify and remove or fix confusing, out-of-date, inaccurate, redundant, or unnecessary information.
 * Check your content for errors and that it meets the requirements outlined in your style guide.
