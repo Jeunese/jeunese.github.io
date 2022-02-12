@@ -99,8 +99,8 @@ Make your content about the reader or user. Make it obvious why content is relev
 -  Focus on what matters for the reader or user.
 -  Understand what the reader or user needs to know to meet their goals.
 -  Use the second person ("you") in sentences about the reader or user.
--  Use the active (as opposed to passive) voice.
--  Focus on the impact for the reader or user
+-  Use the active (as opposed to passive) voice, where possible.
+-  Focus on the impact for the reader or user.
 -  Suggest next steps for the reader or user.
 
 **Hone in on the user's actions:**
