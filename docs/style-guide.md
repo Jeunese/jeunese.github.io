@@ -4,7 +4,7 @@ Following a set of writing guidelines helps ensure consistency, content quality,
 
 This isn't a complete list of every language, grammar, or formatting rule or convention. The style guide is designed to deal with common scenarios and to recommend best practices for technical documentation and in-product content.
 
-You can apply the following **Lean writing principles**, **Word choice guidelines**, and **Writing conventions** to both technical writing and UX writing (or content design).
+You can apply the following [Lean writing principles](/style-guide?id=lean-writing-principles), [Word choice guidelines](/style-guide?id=word-choice-guidelines), and [Writing conventions](/style-guide?id=writing-conventions) to both technical writing and UX writing (or content design).
 
 For guidelines that are specific to technical writing, see [Technical Writing Guidelines](/technical-writing). For guidelines that are specific to UX writing, see [UX Writing Guidelines](/ux-writing).
 
