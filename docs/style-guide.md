@@ -117,11 +117,11 @@ For example, an error message that says *"Sorry! There was a generic error"* is 
 
 ## Writing conventions
 
-This section provides guidance on some of the mechanics of technical writing, like punctuation, capitalization, and lists –– the individual elements that help make content clear and understandable.
+This section provides guidance on some of the mechanics of technical writing, like punctuation, capitalisation, and lists –– the individual elements that help make content clear and understandable.
 
 ### Punctuation
 
-Punctuation provides meaning in the absence of the rhythm, intonation, and pauses in speech that would otherwise offer clarity.
+Punctuation provides meaning in the absence of the rhythm, intonation, and pauses that speech would otherwise offer for clarity.
 
 -  Keep punctuation simple. Complex constructions, using semicolons or multiple dashes, for example, can impair readability and can make translation difficult.
 -  Use the serial (Oxford) comma to provide clarity and to maintain consistency across content. Use a comma for a series of three or more elements.
@@ -136,12 +136,12 @@ There has been a recent shift to using sentence case in headings, except for glo
 
 In general, use sentence case for: 
 
--  Headlines, headers, and subheads
--  Secondary web navigation and menu items
--  Buttons and calls to action (CTA)
--  Titles and fields on forms
--  Titles of charts, tables, and diagrams
--  List items
+-  Headlines, headers, and subheads.
+-  Secondary web navigation and menu items.
+-  Buttons and calls to action (CTA).
+-  Titles and input fields.
+-  Titles of charts, tables, and diagrams.
+-  List items.
 
 Use title case only for:
 
@@ -154,7 +154,7 @@ Use title case only for:
 
 Headings help with scanning by breaking up a page into sections and signposting those sections.
 
--  Keep headings (headlines and subheadings), short, clear, and to the point. 
+-  Keep headings (headlines and subheadings) short, clear, and to the point. 
 -  Use action verbs whenever possible. 
 -  Choose clarity over cleverness.
 -  Highlight the main point of your content to give the reader a good sense of what they’re about to read. 
@@ -168,8 +168,8 @@ Use lists to present steps, groups, or sets of information:
 -  Use bullets, not numbers, when the order of the list doesn’t matter. 
 -  Number a list when the order is important, like describing steps of a process. 
 -  Capitalise the first word of a list item. 
--  Don’t add a full stop to the end of a list item if it’s not a complete sentence or if it contains fewer than four words. 
 -  If a list includes standalone, complete sentences, use proper closing punctuation. 
+-  Don’t add a full stop to the end of a list item if it’s not a complete sentence or if it contains fewer than four words.
 
 Long lists of bullets are no easier to read than big blocks of text. So keep bulleted items:
 
@@ -190,14 +190,13 @@ A link is an interactive reference to other (relevant and trusted) content or ex
 - Include a hover state that communicates the link's interactivity.
 - Write a normal sentence and link the relevant words in it.
 - Don't include things like "Click here" on a link.
-- Use sentence case.
 
 ### Symbols
 
 Don't use symbols or characters to substitute words:
 
 -  Use "or" instead of ``/``.
--  Use "and" instead of ``&`` unless space is extremely limited in the UI, for example, for tab labels or screen titles.
+-  Use "and" instead of ``&`` unless space is extremely limited in the UI, for example, in tab labels or screen titles.
  -  Use "more than" and "less than" instead of ``>`` and ``<`` unless space is extremely limited in UI labels.
  -  Only use ``+`` when you're adding a technical command or to indicate a count that exceeds a specific number when space is limited in the UI, for example, "30+ degrees".
 -  Only use ``"`` when you're adding a technical command or to represent inches, for example, 10"x10".
@@ -208,7 +207,7 @@ Don't use symbols or characters to substitute words:
 	- Always use a number with "percent" unless the number is the first word in a sentence.
 	- Use a space between the number and the word "percent".
 	-  Use "percent" without a number in column headings.
-	-  Use the the `%` symbol in UI, charts, and table cells, or as a technical symbol.
+	-  Use the the `%` symbol in UI charts, and table cells, or as a technical symbol.
 
 
 ### Numbers
@@ -237,14 +236,14 @@ Use shortened forms with care.
 
 Reserve acronyms and abbreviations for when space is limited or for when users are more familiar with the acronym or abbreviation than the phrase it's based on (for example, URL). When you do use acronyms and abbreviations:
 
--  Don't capitalise the words on which the acronym is based unless it is a proper noun.
+-  Don't capitalise the words on which the acronym is based unless referring to a proper noun.
 -  Avoid using the possessive form with abbreviations and acronyms.
 -  Use the proper article with an acronym in the sentence.
 -  Don't use an apostrophe for the plural of an acronym.
 -  Avoid using abbreviations and acronyms for the first time in a title or heading, unless the abbreviation or acronym is a keyword, in which case, introduce the acronym in parenthesis following the full phrase it's based on.
 -  Use abbreviations for a unit of measurement.
-	-  If an abbreviation matches a preposition, include a period after (for example, 3 ft, 5 in.).
-	-  Insert a space between the number and the unit of measure
+	-  If an abbreviation matches a preposition, include a period after. For example, "3 ft, 5 in."
+	-  Insert a space between the number and the unit of measure.
 
 In technical documentation, spell out acronyms on first reference. Include the acronym in parentheses immediately following the expanded form unless it's a long-established acronym (for example, HTML).
 
