@@ -43,11 +43,11 @@ Regardless of whether you're creating product documentation or designing UI cont
 	* What information and resources the intended audience needs to complete a task.
 	* What content and resources already exist.
 	* What concepts require explanation.
-	* How to present information so that the intended audience can scan and find information that fulfils their information needs.
+	* How to present information so that the intended audience can scan and find content that fulfils their information needs.
 
 After creating your information experience, you should evaluate and improve on it:
 
-* Validate the logic behind the information flow as the intended audience moves between tasks. 
+* Validate the logic behind your information flow as the intended audience moves between tasks. 
 * Identify information gaps, such as incomplete steps, missing context or explanation, or a lack of technical depth.
 * Identify and remove or fix confusing, out-of-date, inaccurate, redundant, or unnecessary information.
 * Check your content for errors and that it meets the requirements outlined in your style guide.
@@ -69,7 +69,7 @@ Product documentation *isn't*:
 * Sales or Marketing material, such as blog posts or news articles, designed to convince a non-technical audience to adopt a feature or product. 
 * A substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a point of reference and to help customers using the same sources of information that customers have available to them.
+That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a point of reference and to help customers, using the same documentation available to customers.
 
 Other company employees might also benefit from your documentation, using it to keep up-to-speed with product developments. Additionally, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
 
