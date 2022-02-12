@@ -90,7 +90,7 @@ The administrator interaction with product documentation is, in itself, a user e
 
 A content framework deals with how we build, present, and organise content. 
 
-Content should provide a coherent, consistent narrative throughout the product set-up and maintenance journey –– structured around the needs of the target audience so that administrators can find the right information and make use of it efficiently. Take the time to understand and plan for the target audience in the context of their needs and pain points, including: 
+Content should provide a coherent, consistent narrative throughout the product set-up and maintenance journey –– structured around the needs of the target audience so that administrators can find the right information and make use of it efficiently. Take the time to understand the target audience in the context of their needs and pain points, including: 
 
 *  Audience goals and needs.
 *  Audience tasks and activities.
@@ -119,27 +119,27 @@ Product documentation should be updated based on a roadmap for organising, sched
 
 It's becoming increasingly popular to adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to managing product documentation.
 
-Docs-as-Code involves information developers using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-Code typically matches the agile delivery approach, which might include using an issue tracking manager (such as JIRA), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
+Docs-as-Code involves information developers using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-Code typically matches the agile approach to delivering output, which might include using an issue tracking manager (such as JIRA), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
 
-With a Docs-as-Code approach to product documentation, content for a release is published only when a feature or update is available to customers. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM. For more information on what might be included in product documentation, see [Create the content](/get-started?id=_3-create-the-content) in the **Get Started with Product Documentation** article.
+With a Docs-as-Code approach to product documentation, content for a release is published only when a feature or update is available to customers. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM. For more information on what might be included in product documentation, see [Create the content](/get-started?id=_4-create-the-content) in the **Get Started with Product Documentation** article.
 
-Once a content need is identified, a ticket should be created in an issue tracking tool. Once the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of a Master branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering and the PM. The technical author pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
+Once a content need is identified, a ticket should be created in an issue tracking tool. Once the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of the main documentation branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering and the PM. The technical author pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
 
 For more information on the tools and processes involved in a Docs-as-Code approach, see the [Online Documentation](/online-documentation) article.
 
 ## In-product content development
 
-Information developers (or IX technical authors) don't just create documentation to explain a confusing and unintuitive interface. We're also concerned with UI copy, visual design, and interactions with the UI. 
+Information developers (or IX technical authors) don't just create product documentation. We're also concerned with UI copy, visual design, and interactions with the UI itself. 
 
-To this end, as well as documentation, IX technical authors typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. We collaborate *with* designers to contribute to the UI for an effective and engaging user experience. 
+To this end, as well as creating product documentation, IX technical authors typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. We collaborate *with* designers to contribute to the UI for an effective and engaging user experience. 
 
 As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
 
 In collaboration with PD and the PM, IX can be asked to:
 
--  Provide early design insights into design prototypes and the proposed flow of the feature.
+-  Provide early design insights into prototypes and the proposed flow of a feature or product.
 -  Participate in design reviews or focused walkthroughs to answer specific questions, or identify and help resolve specific issues in the design.
--  Provide new end-to-end design feedback and recommendations on the same feature later in the development lifecycle.
+-  Provide new end-to-end design feedback and recommendations on the same feature or product later in the development lifecycle.
 
 ### UX writing
 
