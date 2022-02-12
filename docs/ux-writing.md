@@ -145,13 +145,13 @@ Other guidelines for writing tooltips include:
 -  Use links in tooltips only if necessary.
 -  Use bullets for lists of items; use paragraphs for explanations.
 
-### Walk-throughs (guided help)
+### Walkthroughs (guided help)
 
-A series of messages or tooltips appearing one at a time to provide step-by-step instructions that will guide a user through a feature, used when the functionality or workflow is more complex or spread across multiple pages. A walk-through provides step-by-step guidance and instructions.
+A walkthrough provides step-by-step guidance and instructions: a series of messages or tooltips appearing one at a time to provide step-by-step instructions that will guide a user through a product or feature, used when the functionality or workflow is more complex or spread across multiple pages.
 
 ### Page-level help
 
-Context-sensitive topics that are triggered when the user selects a link provided at page level, used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page that the user is on. This provides users with a way of getting detailed information without having to navigate or search different sites.
+Context-sensitive topics that are triggered when the user selects a link provided at page level, used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page they're on. This provides users with a way of getting detailed information without having to navigate or search different sites.
 
 ## UI messages
 
@@ -164,7 +164,7 @@ How a message is written will depend on its purpose. In general, messages should
 -  Use clear and simple language.
 -  Provide sufficient and not excessive information.
 -  Convey technical information in simple terms; avoid jargon and technical detail.
--  If technical detail might be wanted or needed, use progressive disclosure.
+-  If technical detail is wanted or needed, use progressive disclosure.
 -  Suggest next steps.
 -  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
 
@@ -174,7 +174,7 @@ General recommendations for each element of a message, whichever type it is, are
 
 -  For titles, use sentence case capitalisation and no ending punctuation, unless the statement is a question.
 -  For the message body, use complete sentences, sentence case capitalisation, and ending punctuation.
--  For the buttons, use sentence case punctuation but no end punctuation, and use short, action verbs unless the buttons require a simple **Yes | No**.
+-  For the buttons, use sentence case with no end punctuation, and use short, action verbs unless the buttons require a simple **Yes | No**.
 
 ### Notifications (informational messages)
 
@@ -197,14 +197,14 @@ Warnings alert the user to a condition that may cause a potential issue. Guidlin
 
 Confirmation messages appear when the user is performing a task to explain the consequences of an action before determining if they want to proceed with it. Guidelines for confirmation messages include:
 
-- Frame the confirmation message as an action as a question to determine if the user wants to proceed.
-- Explain the outcome or why the user might wish not to proceed.
+- Frame the confirmation message as an action and as a question to determine if the user wants to proceed.
+- Explain the outcome or why the user might not want to proceed.
 - Use sentence case.
 - Use a command button.
 
 ### Success messages
 
-Success message provide positive feedback on a completed action. Guidelines for success messages include:
+Success messages provide positive feedback on a completed action. Guidelines for success messages include:
 
 - Use sentence case.
 - Use a a command button, such as `Close` or `OK`
