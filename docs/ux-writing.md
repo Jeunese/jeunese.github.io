@@ -88,17 +88,17 @@ With the progressive disclosure philosophy in mind, you should consider when to 
 
 ### On-screen copy (inline instruction)
 
-On-screen copy is brief text that appears on the page, alongside the UI element it references, and it is used when the information is:
+On-screen copy is brief text that appears on the page, alongside the UI element it references, and it's used when the information is:
 
 -  Essential to performing the task.
 -  Directly actionable. 
 
-If there is enough space, the UX writer might also decide to include:
+If there's enough space, you might also decide to include:
 
 -  Important but not directly actionable information.
 -  Supplementary information, preventing the user from having to navigate elsewhere to find it.
 
-Embedding information directly within a feature in this way is often the best choice for providing contextual help. It can, however, make the interface look cluttered or might not provide enough information to be useful. If this is the case, consider using **tooltips**.
+Embedding information directly within a feature is often the best choice for providing contextual help. It can, however, make the interface look cluttered or might not provide enough information to be useful. If this is the case, consider using **tooltips**.
 
 ### Tooltips
 
@@ -107,8 +107,21 @@ Tooltips are user-triggered, brief informative messages that appear when the use
 - For additional context or necessary information that's too long to put on the screen.
 - To walk users through a process that has multiple steps.
 
-
 Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation/termination method.
+
+#### When to use tooltips
+
+Tooltips are offered when additional content might help the user make more informed decisions based on specific, contextual information. They typically provide a short description of the element or functionality that users might want or need to know more about. 
+
+Tooltips disappear, and so they shouldn't be used for directly-actionable or essential information required to perform a task.
+
+Tooltips are useful with:
+
+-  Unlabelled controls and command buttons with graphic labels.
+-  Labelled controls and UI elements that benefit from supplemental information that doesn't fit as on-screen text.
+-  As a form of progressive disclosure with help (?) and info (i) icons, eliminating the need for descriptive on-screen text if not essential to the primary task.
+
+For more information on progressive disclosure, see [Progressive disclosure philosophy](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
 
 #### Guidelines for using tooltips
 
@@ -119,31 +132,18 @@ The text in a tooltip must be informative. You should aim to:
 -  Provide information that isn't otherwise obvious and doesn't repeat on-screen copy.
 -  Focus on the control's action, for example, by beginning the tag with a verb.
 
-Don't use tooltips if there is space in the inline copy. Tooltip text should provide additional and useful information, such as why a field is required or what will be done using the value entered into a field. 
+Don't use tooltips if there's space in the inline copy. Tooltip text should provide additional and useful information, such as why a field is required or how the value entered into a field will be used. 
 
-Use as few words as possible. For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design is too complicated. For tooltips triggered by selecting help icons, limit the text to no more than 40 words. If more content is required, consider adding a `Learn more` link to the exact documentation, but use such links sparingly, which you might achieve by including one link at the page level.
+Use as few words as possible. For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design is too complicated. For tooltips triggered by selecting help icons, limit the text to no more than 40 words. If more content is required, consider adding a `Learn more` link to the exact documentation; use such links sparingly, which you might achieve by including one link at the page level.
 
 Other guidelines for writing tooltips include:
 
--  Use short, complete sentences that tell users what to do and address concerns.
--  Use a title in sentence case, phrased as a question in first person, for example, "Why can't I update my address?"
+-  Use short, complete sentences that address concerns and tell users what to do.
+-  Use a title, in sentence case, phrased as a question in first person, for example, "Why can't I update my address?"
 -  If you need to reduce the length of a tag, omit grammatical articles.
--  Keep in mind that localisation can lengthen text by 20 to 30 percent.
--  Include a `Close` label next to an X in the upper right corner
+-  Include a `Close` label next to an `X` in the upper right corner
 -  Use links in tooltips only if necessary.
--  Use bullets for lists of items; use paragraphs for explanations
-
-#### When to use tooltips
-
-Tooltips are offered when additional content might help the user make more informed decisions based on specific, contextual information. They typically provide a short description of the element or functionality that users might want or need to know more about; tooltips disappear, and so they shouldn't be used for directly-actionable or essential information required to perform a task.
-
-Tooltips are useful with:
-
--  Unlabelled controls and command buttons with graphic labels.
--  Labelled controls and UI elements that benefit from supplemental information that doesn't fit as on-screen text.
--  As a form of progressive disclosure with help (?) and info (i) icons, eliminating the need for descriptive text on screen if not essential to the primary task.
-
- For more information on progressive disclosure, see [Progressive disclosure philosophy](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
+-  Use bullets for lists of items; use paragraphs for explanations.
 
 ### Walk-throughs (guided help)
 
