@@ -17,19 +17,17 @@ Information developers in IX typically work closely with:
 - Product Design (PD) to collaborate on UI content and guided workflows.
 - Globalisation teams to create automatic translation.
 
-## Four rules for creating a good information experience
+## 4 rules for creating a good information experience
 
-Regardless of whether you're creating product documentation or designing UI content, there are five basic rules for creating a good information experience.
+Regardless of whether you're creating product documentation or designing UI content, there are four basic rules for creating a good information experience.
 
-1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they are trying to do. Take the time to understand your target audience goals and activities to inform your content. Consider:
-	* What the intended audience needs to know and do to complete a task.
+1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they are trying to do. Take the time to understand:
+	* What goals and activities your target audience has.
 	* What the intended audience already knows and what they don't know.
-	* What concepts require explanation.
 	* How to provide the information that the intended audience needs.
-	* What content and resources already exist.
 1. **Create a plan for implementing content.** Just as developers have coding processes and designers have design guidelines, IX should have a defined and systematic plan for creating and implementing content to:
 	* Help integrate it as part of the product or feature.
-	* Allow time to review content with the PM and developers (for product documentation), and in context (for UX writing).
+	* Allow time to review content with colleagues, in context.
 	* Create the bandwidth to make improvements while there's still time in the development cycle.
 1. **Follow a [style guide](/style-guide).** Create and use a style guide to create:
 	* Consistency.
@@ -41,10 +39,12 @@ Regardless of whether you're creating product documentation or designing UI cont
 	* Content that's in line with your company's [Voice and Tone](/voice-and-tone).
 1. **Map content to your audience's processes and tasks.** Structure content around the intended audience's workflow and build this content based on:
 	* What the intended audience is trying to do.
-	* The steps involved in completing a task.
 	* What information and resources the intended audience needs to complete a task.
+	* The steps involved in completing a task.
 	* Where the content should exist and already exists.
 	* How to present information so that the intended audience can scan and find information that fulfills their information needs.
+	* What content and resources already exist.
+	* What concepts require explanation.
 
 After creating your information experience, you should evaluate and improve on it:
 
@@ -132,7 +132,7 @@ For more information on the tools and processes involved in a Docs-as-Code appro
 
 Information developers (or IX technical authors) don't just create documentation to explain a confusing and unintuitive interface. We're also concerned with UI copy, visual design, and interactions with the UI. 
 
-To this end, as well as documentation, IX technical authors typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. We collaborate *with* designers to contribute to the UI for an effective and engaging user experience (UX). 
+To this end, as well as documentation, IX technical authors typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. We collaborate *with* designers to contribute to the UI for an effective and engaging user experience. 
 
 As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
 
