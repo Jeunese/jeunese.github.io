@@ -231,7 +231,7 @@ If you adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) app
 
 Collect and analyse statistics and feedback to refine your documentation and process based on your documentation goals.
 
-Ideally, the most relevant metrics or key performance indicators (KPIs) should be comparable both before and after product documentation was created or changed. Your baseline might consist of the insights you gathered when you conducted discovery research as part of [Step 1](/get-started?id=_1-define-your-documentation-goals). You can use these baselines to establish trends in things like search log data and feedback on the product documentation.
+Ideally, the most relevant metrics or key performance indicators (KPIs) should be comparable both before and after product documentation was created or changed. Your baseline might consist of the insights you gathered when you conducted discovery research as part of [Step 1](/get-started?id=_1-decide-what-to-document). You can use these baselines to establish trends in things like search log data and feedback on the product documentation.
 
 Perhaps the site's previous KPIs are no longer directly applicable, for example, because it went through a major restructure or there is brand new content for which you're yet to gather insight. In this way, you've come full circle. There should always be opportunities to collect new points of measurement that you can use. "Discovery" and "Analysis" are two sides of the same coin.
 
