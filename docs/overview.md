@@ -143,7 +143,7 @@ In collaboration with PD and the PM, IX can be asked to:
 
 ### UX writing
 
-Good UX needs good content. The right word (UI copy) to accompany the right designs, at the right time, influence how a user engages with a product. 
+Good UX needs good content. The right UI copy to accompany the right designs, at the right time, influences how a user engages with a product and their user experience. 
 
 UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. UI copy speaks to the user and helps them make their journey through the UI as smoothly as possible. 
 
