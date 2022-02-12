@@ -35,7 +35,7 @@ Regardless of whether you're creating product documentation or designing UI cont
 	* Accessibility.
 	* Good format and design.
 	* Scannable content.
-	* Content that's understandable and easy to follow.
+	* Content that's useful (understandable and easy to follow).
 	* Content that's in line with your company's [Voice and Tone](/voice-and-tone).
 1. **Map content to your audience's processes and tasks.** Create task-based content that's structured around the intended audience's workflow. Build this content and decide where it should go based on:
 	* What the intended audience is trying to do.
