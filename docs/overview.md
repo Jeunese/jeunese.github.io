@@ -23,12 +23,12 @@ Regardless of whether you're creating product documentation or designing UI cont
 
 1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they are trying to do. Take the time to understand:
 	* What goals and activities your target audience has.
-	* What the intended audience already knows and what they don't know.
+	* What the intended audience needs to know, already knows, and doesn't know.
 	* How to provide the information that the intended audience needs.
 1. **Create a plan for implementing content.** Just as developers have coding processes and designers have design guidelines, IX should have a defined and systematic plan for creating and implementing content to:
 	* Help integrate it as part of the product or feature.
 	* Allow time to review content with colleagues, in context.
-	* Create the bandwidth to make improvements while there's still time in the development cycle.
+	* Create the bandwidth to make improvements during the development cycle.
 1. **Follow a [style guide](/style-guide).** Create and use a style guide to create:
 	* Consistency.
 	* Readability.
