@@ -153,7 +153,7 @@ This isn't the same as a copywriter, who writes and edits Marketing material. A 
 
 UX writing also isn't about filling in the blanks and making suggested changes to the text after the product is already designed. A UX writer *is* a designer –– a designer *specialising in* UI copy.
 
-UX writing is an integral part of designing the customer journey. As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
+As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. UX writing is an integral part of designing the customer journey. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
 
 A technical writer's input for in-product design might include:
 
