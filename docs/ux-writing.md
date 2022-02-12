@@ -76,7 +76,7 @@ Instructional text is the least demanding way to offer support because it preven
 
 ## Progressive disclosure philosophy
 
-Progressive disclosure is an interaction design pattern that sequences information and actions across screens and reveals only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
+Progressive disclosure is an interaction design pattern that involves sequencing information and actions across screens, and revealing only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
 
 -  Don't bombard the user with a lot of information as soon as they're introduced to the product.
 -  Allow the information to progress naturally, from simple to complex.
@@ -84,7 +84,7 @@ Progressive disclosure is an interaction design pattern that sequences informati
 -  Build upon each subsequent step of information experience and learning.
 -  Provide only the necessary information for the user to take each action, one at a time.
 
-With the progressive disclosure philosophy in mind, the UX writer should consider when to use the following types of microcopy and contextual help to guide the user as part of an in-product strategy. You can decide on the type of copy you're providing based on the required level of detail.
+With the progressive disclosure philosophy in mind, you should consider when to use the following types of microcopy and contextual help to guide the user. You can decide on the type of copy you're providing based on the required level of detail.
 
 ### On-screen copy (inline instruction)
 
