@@ -129,9 +129,9 @@ For more information on the tools and processes involved in a Docs-as-Code appro
 
 ## In-product content development
 
-As well as creating product documentation, IX technical authors typically help write and review user-friendly in-product content in a UX writing capacity. 
+As well as creating product documentation, IX technical authors typically help write and review in-product content in a UX writing capacity. 
 
-UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. Here, we're concerned with UI copy, visual design, and interactions with the UI itself. 
+UX writing is the process of creating user-friendly content for the UI of digital products to help the end-user interact with it. Here, we're concerned with UI copy, visual design, and interactions with the UI itself. 
 
 Many technical writing principles apply to UX writing, and both product documentation and in-product content needs to conform to a company's voice and tone. It's thus common to ask technical writers to advise on aspects of UX writing. However, not all technical writers will take on the role of a UX writer, and UX writers will typically focus on the design of the product rather than writing the product documentation that comes with it, as technical writers do.
 
@@ -175,7 +175,7 @@ However, UX writing focuses more on UI copy to facilitate the user experience of
 
 A content designer tends to be involved in a broader range of activities than a UX writer, identifying user needs for content and creating solutions that meet these needs. This solution might involve writing in-product content, but it might not. It might instead involve establishing consistency across platforms, restructuring the content on a page, making content more accessible, or developing other forms of media such as videos, graphics, animations, and audio. 
 
-Content design is a more strategic role that is focused on the design outcome: what and how information is presented to users. The aim is to develop content that is purposeful, meaningful, structured, and usable to help end-users navigate through a product or service.
+Content design is a more strategic role that is focused on the design outcome: what and how information is presented to users. The aim is to develop content that's purposeful, meaningful, structured, and usable to help end-users navigate through a product or service.
 
 Though more strategic than a UX writer, a content designer isn't a content *strategist*, who would be more concerned with content priorities and planning based on business objectives, more so than the end-user experience. They analyse and manage content rather than create the content themselves.
 
