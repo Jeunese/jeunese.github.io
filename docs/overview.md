@@ -1,10 +1,10 @@
 # Information Development Overview
 
-An Information Development team consists of technical authors/writers, also called information developers, that typically belong to Engineering. 
+An Information Development team consists of technical authors, also called information developers, that typically belong to Engineering. 
 
-Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on, to optimise how people engage with information and maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
+Information developers are concerned with designing the digital experience of product information –– how information is formed, organised, delivered, presented, and so on. The aim is to optimise how people engage with information to maximise the user experience (UX). For this reason, Information Development is also called **Information Experience**, which can be shortened to "IX". 
 
-IX work with software developers and UX designers to ensure that the information is meaningful, accurate, and formatted appropriately, whether that's in technical documentation or in the product itself. To this end, IX are responsible for:
+IX work with software developers and UX designers to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that's in technical documentation or in the product itself. To this end, IX are responsible for:
 
 - Technical content authoring for a software company's products and services. For guidance on technical writing and, in particular, writing product documentation, see [Technical Writing Guidelines](https://jeunese.github.io/#/technical-writing).
 - In-product content development, such as error messages and on-screen text. For information on UX writing, see [UX Writing Guidelines](/ux-writing).
