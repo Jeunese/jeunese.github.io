@@ -129,13 +129,11 @@ For more information on the tools and processes involved in a Docs-as-Code appro
 
 ## In-product content development
 
-As well as creating product documentation, IX technical authors typically help write and review user-friendly in-product content for end-users in a UX writing capacity. 
+As well as creating product documentation, IX technical authors typically help write and review user-friendly in-product content in a UX writing capacity. 
 
 UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. Here, we're concerned with UI copy, visual design, and interactions with the UI itself. 
 
-Many technical writing principles apply to UX writing, and both product documentation and in-product content needs to conform to a company's voice and tone.
-
-It is thus common to ask technical writers to advise on aspects of UX writing. However, not all technical writers will take on the role of a UX writer, and UX writers will typically focus on the design of the product rather than writing the product documentation that comes with it, as technical writers do.
+Many technical writing principles apply to UX writing, and both product documentation and in-product content needs to conform to a company's voice and tone. It's thus common to ask technical writers to advise on aspects of UX writing. However, not all technical writers will take on the role of a UX writer, and UX writers will typically focus on the design of the product rather than writing the product documentation that comes with it, as technical writers do.
 
 Technical writers collaborate *with* designers to contribute to the UI for an effective and engaging user experience. In collaboration with PD and the PM, IX can be asked to:
 
@@ -151,7 +149,9 @@ Good UX needs good content. The right UI copy to accompany the right designs, at
 
 UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. UI copy speaks to the user and helps make their journey through the UI as smooth as possible.
 
-Good UX writing gives the user what they need, in context, when they need it. When users hit a roadblock, effective in-product help content can make the difference between a negative and a positive experience. UX writers help embed this content into the application itself. This minimises the end-user's need to engage with documentation, by helping to make the UI more intuitive, which increases usability and reduces frustration.
+This isn't the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing.
+
+UX writing also isn't about filling in the blanks and making suggested changes to the text after the product is already designed. A UX writer *is* a designer –– a designer *specialising in* UI copy.
 
 UX writing is an integral part of designing the customer journey. As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
 
@@ -164,6 +164,8 @@ A technical writer's input for in-product design might include:
 * Proofreading for consistency and for language, spelling, and grammatical errors.
 * Recommending different terminology or turns of phrase.
 * Providing copy for in-product help, hints, and explanations.
+
+Good UX writing gives the user what they need, in context, when they need it. When users hit a roadblock, effective in-product help content can make the difference between a negative and a positive experience. UX writers help embed this content into the application itself. This minimises the end-user's need to engage with documentation, by helping to make the UI more intuitive, which increases usability and reduces frustration.
 
 #### UX writing and content design
 

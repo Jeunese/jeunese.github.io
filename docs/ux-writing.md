@@ -17,10 +17,6 @@ A UX writer helps craft in-product content as part of the product design process
 
 A UX writer is responsible for creating in-product content that's in line with the company's [Voice and Tone](/voice-and-tone) and that facilitates the user experience of the product. UX writers take insights from UI and UX design principles, usability research, and behavioural psychology to create and refine content that's designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy.
 
-This isn't the same as a copywriter, who writes and edits Marketing material. A copywriter creates content to attract and persuade customers as a sales effort, which requires a different style of writing.
-
-UX writing also isn't about filling in the blanks and making suggested changes to the text after the product is already designed. A UX writer *is* a designer –– a designer *specialising in* UI copy.
-
 As part of product design, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
 
 Before writing or reviewing UI content, the UX writer needs to know:
@@ -31,7 +27,7 @@ Before writing or reviewing UI content, the UX writer needs to know:
 -  What the use cases are.
 -  What components of the product need written or reviewed (if not the end-to-end experience).
 
-The aim is create a cohesive content experience. For this reason, it's sometimes described as a sub-discipline of content design. See [UX writing and content design](/ux-writing?id=ux-writing-and-content-design) for more information on the similarities and differences.
+The aim is create a cohesive content experience. For this reason, it's sometimes described as a sub-discipline of content design. See [UX writing and content design](/?id=ux-writing-and-content-design) for more information on the similarities and differences.
 
 ## In-product content
 
