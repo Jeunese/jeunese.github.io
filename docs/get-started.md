@@ -10,12 +10,12 @@ Investigate the existing tools at the company for whom you're writing documentat
 
 There are six high-level tasks involved in getting started with product documentation:
 
-1. Decide what to document.
-1. Decide how to present it.
-1. Plan your documentation.
-1. Create the content.
-1. Implement the content.
-1. Analyse the documentation.
+1. [Decide what to document](/get-started?id=_1-decide-what-to-document)
+1. [Decide how to present it](/get-started?id=_2-decide-how-to-present-it)
+1. [Plan your documentation](/get-started?id=_3-plan-your-documentation)
+1. [Create the content](/get-started?id=_4-create-the-content)
+1. [Implement the content](/get-started?id=_5-implement-the-content)
+1. [Analyse the documentation](/get-started?id=_6-analyse-the-documentation)
 
 ## 1. Decide what to document
 
@@ -71,7 +71,7 @@ For consistent design and structure, use templates. This should help you separat
 * Use a flat hierarchy to ensure that content isn’t hidden or hard to find.
 * Make sure your documentation adheres to your [style guide](/get-started?id=create-a-style-guide). 
 
-## 3. Plan your content
+## 3. Plan your documentation
 
 Describe the high-level roadmap to organising, scheduling, creating, and publishing content. 
 
