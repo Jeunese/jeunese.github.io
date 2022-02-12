@@ -77,7 +77,7 @@ There's also the wider audience to consider. Product documentation tends to attr
 
 Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. 
 
-Although more technical and direct than other sources of content, product documentation should maintain a [voice and tone](/voice-and-tone) that is consistent with the voice and tone of the company as a whole. Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
+Although more technical and direct than other sources of content, product documentation should maintain a style that's consistent with the [Voice and Tone](/voice-and-tone) of the company as a whole. Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
 
 ### Content framework and strategy
 
@@ -99,7 +99,7 @@ Content should provide a coherent, consistent narrative throughout the product s
 
 Make everything you write scannable, discoverable, and searchable. Think about *where* information is best placed and *how* to communicate flows of information (the procedures and processes administrators must follow to complete their tasks). This information:
 
-*  Helps the reader figure out where they are in the content.
+*  Helps the reader figure out where they are in the documentation.
 *  Helps the reader determine where the information they want is in relation to their current position.
 *  Informs the **content strategy**.
 
@@ -111,15 +111,15 @@ Product documentation should be purposeful and meaningful for the intended audie
 
 *  How your content will help you meet business goals.
 *  The target audience and their needs.
-*  The [voice and tone](/voice-and-tone) of content for your audience.
+*  The [Voice and Tone](/voice-and-tone) of content for your audience.
 
-Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs-as-Code** infrastructure.
+Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs-as-Code** approach.
 
 ### Infrastructure and process (Docs-as-Code)
 
 It's becoming increasingly popular to adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to managing product documentation.
 
-Docs-as-Code involves information developers using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-Code typically matches the agile approach to delivering output, which might include using an issue tracking manager (such as JIRA), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
+Docs-as-Code involves using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-Code typically matches the agile approach to delivering output, which might include using an issue tracking manager (such as JIRA), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
 
 With a Docs-as-Code approach to product documentation, content for a release is published only when a feature or update is available to customers. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM. For more information on what might be included in product documentation, see [Create the content](/get-started?id=_4-create-the-content) in the **Get Started with Product Documentation** article.
 
@@ -131,11 +131,11 @@ For more information on the tools and processes involved in a Docs-as-Code appro
 
 Information developers (or IX technical authors) don't just create product documentation. We're also concerned with UI copy, visual design, and interactions with the UI itself. 
 
-To this end, as well as creating product documentation, IX technical authors typically help write and review in-product content for end-users in a [UX writing](/ux-writing) capacity. UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. We collaborate *with* designers to contribute to the UI for an effective and engaging user experience. 
+To this end, as well as creating product documentation, IX technical authors typically help write and review in-product content for end-users in a UX writing capacity. UX writing is the process of creating in-product content for the UI of digital products to help the end-user interact with it. 
 
 As with product documentation, this can involve issue tracking software, and be implemented as part of agile and sprint cycles.
 
-In collaboration with PD and the PM, IX can be asked to:
+We collaborate *with* designers to contribute to the UI for an effective and engaging user experience. In collaboration with PD and the PM, IX can be asked to:
 
 -  Provide early design insights into prototypes and the proposed flow of a feature or product.
 -  Participate in design reviews or focused walkthroughs to answer specific questions, or identify and help resolve specific issues in the design.
