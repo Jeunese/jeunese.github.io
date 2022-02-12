@@ -8,7 +8,7 @@ General guidance for technical writing includes the following:
 - Describe things simply.
 - Follow [lean writing principles](/style-guide?id=lean-writing-principles).
 - Use voice, tone, and terminology consistently.
-- Address the reader directly.
+- Address the reader directly; avoid referring to "users" or "customers".
 - Avoid negative phrasing.
 - Use sentence case for everything except global navigation.
 

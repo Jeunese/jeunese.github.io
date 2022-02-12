@@ -7,11 +7,9 @@ General guidance for UX writing includes:
 -  Keep messages short.
 -  Address the reader directly; avoid referring to "users" or "customers".
 -  Avoid using the same word twice in the same screen.
--  Avoid negative phrasing and words.
+-  Avoid negative phrasing.
 -  Use sentence case for everything except global navigation and boolean values.
 -  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
-
-More specific guidance depends on the type of UX writing you're engaged in.
 
 ## What does a UX writer do?
 
