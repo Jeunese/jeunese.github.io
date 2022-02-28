@@ -175,7 +175,7 @@ You could then use [Docsify](https://docsify.js.org/#/) to generate documentatio
 
 [GitHub Pages](https://pages.github.com/) takes the resulting HTML, stored in the remote repo on GitHub, and publishes this content to a website. Every time you push to your remote repo, either through the command line or with VSCode, you trigger GitHub Pages to use Docsify to convert your Markdown files into a single HTML file, and publish it on your website.
 
-Using these tools were set up, the broad process for publishing content would be:
+Using these tools, the broad process for publishing content would be:
 
 1. Write documentation in Markdown files using VSCode (along with validators to keep the documentation consistent and error-free).
 1. Store your documentation, using Git for version control, on a remote repo in GitHub.
