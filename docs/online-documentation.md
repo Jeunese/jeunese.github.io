@@ -97,7 +97,7 @@ Before continuing, let's cover some terminology.
 >
 > Technical documentation tends to make use of static websites because the server needs only to *serve* the pages you've created (rather than *generate* them dynamically).
 >
-> Static websites tend to be faster, simpler, and more secure because they don't have any server-side application dependences or databases, don't need you to install anything, and the server uses very few hardware resources. 
+> Static websites tend to be faster, simpler, and more secure because they don't have any server-side application dependences or databases, they don't need you to install anything, and the server uses very few hardware resources. 
 >
 > For technical documentation, you provide an SSG with content (such as Markdown files) and a theme (such as templated HTML), which it then turns into a working website. Updating the site can be as simple as modifying the content and processing everything again.
 
@@ -117,7 +117,7 @@ The tools listed, below, are used to help describe the Docs-as-Code process with
 
 > **Why use Markdown for technical documentation?**
 >
-> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But, Markdown is the most widely used and lightweight markup language and has a very clean syntax. 
+> Markdown isn't the only kind of static data that an SSG can convert to HTML. The data could also be JSON, yml, images, or any other kind of static data file. But, Markdown is the most widely used lightweight markup language and has a very clean syntax. 
 >
 > There's no formal standard for Markdown –– Markdown comes in many "flavours", and one of the most popular is GFM. In 2017, GitHub released a formal specification for GFM, which is emerging as an industry standard for Markdown, and has a growing list of tools that support it. 
 
