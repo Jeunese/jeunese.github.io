@@ -69,7 +69,7 @@ Product documentation *isn't*:
 * Sales or Marketing material, such as blog posts or news articles, designed to convince a non-technical audience to adopt a feature or product. 
 * A substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a source of truth, and to help customers, using the same documentation as a shared point of reference.
+That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well as a source of truth. To help customers, Technical Support might also refer to product documentation as a shared point of reference.
 
 Other company employees might also benefit from your documentation, using it to keep up-to-speed with product developments. Additionally, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
 
