@@ -7,7 +7,7 @@ Information developers are concerned with designing the digital experience of pr
 IX work with software developers and UX designers to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that's as part of technical documentation or in the product itself. The aim is to optimise how people engage with information to maximise the user experience (UX) of a product. To this end, IX are responsible for:
 
 - Technical content authoring for a software company's products and services. For guidance on technical writing and, in particular, writing product documentation, see [Technical Writing Guidelines](https://jeunese.github.io/#/technical-writing).
-- In-product content development, such as error messages and on-screen text. For information on UX writing, see [UX Writing Guidelines](/ux-writing).
+- In-product content development (UX writing), such as error messages and on-screen text. For information on UX writing, see [UX Writing Guidelines](/ux-writing).
 - Website infrastructure for product documentation. For an overview of this approach to managing documentation, see [Online Documentation](/online-documentation).
 
 Information developers in IX typically work closely with:
@@ -23,13 +23,13 @@ Regardless of whether you're creating product documentation or designing UI cont
 
 1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they're trying to do. Take the time to understand:
 	* The goals and activities of your intended audience.
-	* What your intended audience needs to know, already knows, and doesn't know.
+	* What your intended audience already knows, doesn't know, and needs to know.
 	* How to provide the information that the intended audience needs.
 1. **Create a plan for implementing content.** Just as developers have coding processes and designers have design guidelines, IX should have a defined and systematic plan for creating and implementing content to:
 	* Help integrate it as part of the product or feature.
 	* Allow time to review content with colleagues, in context.
 	* Create the bandwidth to make improvements during the development cycle.
-1. **Follow a [style guide](/style-guide).** Create and use a style guide to create:
+1. **Follow a [style guide](/style-guide).** Create and use a style guide to foster:
 	* Consistency.
 	* Readability.
 	* Accessibility.
@@ -69,7 +69,7 @@ Product documentation *isn't*:
 * Sales or Marketing material, such as blog posts or news articles, designed to convince a non-technical audience to adopt a feature or product. 
 * A substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a point of reference and to help customers, using the same documentation available to customers.
+That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might use product documentation as well, as a source of truth, and to help customers, using the same documentation as a shared point of reference.
 
 Other company employees might also benefit from your documentation, using it to keep up-to-speed with product developments. Additionally, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
 
