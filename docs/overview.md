@@ -31,13 +31,14 @@ Regardless of whether you're creating product documentation or designing UI cont
 	* Help integrate it as part of the product or feature.
 	* Allow time to review content with colleagues, in context.
 	* Create the bandwidth to make improvements during the development cycle.
-1. **Follow a [style guide](/style-guide).** Create and use a style guide to foster:
+1. **Follow a [style guide](/style-guide).** Create and use a style guide to meet the following goals:
 	* Consistency.
 	* Readability.
 	* Accessibility.
 	* Good format and design.
 	* Scannable content.
-	* Content that's useful (understandable and easy to follow).
+	* Content that's useful (helps users achieve intended goals).
+	* Content that usable (understandable and easy to follow).
 	* Content that's in line with your company's [Voice and Tone](/voice-and-tone).
 1. **Map content to your audience's processes and tasks.** Create task-based content that's structured around the intended audience's workflow. Build this content and decide where it should go based on:
 	* What the intended audience is trying to do.
@@ -56,13 +57,13 @@ After creating your information experience, you should evaluate and improve on i
 
 ## Product documentation
 
-Product documentation articulates technical concepts, in writing, for a software company's products so that these products can be implemented by its customers. The documentation provides "how-to" guidance to help administrators:
+Product documentation articulates technical concepts, in writing, for a software company's products so that these products can be implemented by its customers. The documentation provides "how-to" guidance to help administrators and users:
 
 - Understand how a product or service works.
 - Keep up with new releases.
-- Learn how to install, upgrade, manage, and troubleshoot products and services.
+- Learn how to install, upgrade, manage, use, and troubleshoot products and services.
 
-Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
+> **Note:** Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
 
 Product documentation *isn't*:
 
@@ -71,22 +72,22 @@ Product documentation *isn't*:
 * Sales or Marketing material, such as blog posts or news articles, designed to convince a non-technical audience to adopt a feature or product. 
 * A substitute for Technical Support, explaining or solving specific issues, in detail, with suggested fixes. 
 
-That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might also use product documentation, as a source of truth and to help customers –– using the documentation as a shared point of reference.
+That being said, good product documentation can reduce the number of calls to Technical Support by helping customers figure things out for themselves. Technical Support might also use product documentation as a shared point of reference and source of truth to help customers.
 
-Other company employees might benefit from your documentation as well, using it to keep up-to-speed with product developments. Additionally, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
+Other company employees might benefit from your documentation as well, using it to keep up-to-date with product developments. Additionally, the process of writing documentation during product development can potentially uncover issues with a feature or process before it's released.
 
-There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as product managers and executives evaluating the complexity, size, and cost of implementation –– information that they can't fully garner from Marketing and Sales. 
+There's also the wider audience to consider. Product documentation tends to attract key decision-makers, such as Product Managers (PMs) and executives evaluating the complexity, size, and cost of implementation, information that they can't fully garner from marketing and sales material. 
 
-Nevertheless, product documentation can overlap with Marketing and Sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. 
+Nevertheless, product documentation can overlap with marketing and sales material and shouldn't directly contradict it, even though the purpose, style, perspective, and approach between these sources of content are very different. 
 
 Although more technical and direct than other sources of content, product documentation should maintain a style that's consistent with the [Voice and Tone](/voice-and-tone) of the company as a whole. Consistency is integral to brand-building and trust, and product documentation shouldn't undermine a company's overall brand and business goals. 
 
 ### Content framework and strategy
 
-The administrator interaction with product documentation is, in itself, a user experience. This is additional to the interactions they have with the actual systems and interfaces that the product documentation refers to. To maximise the information experience of product documentation, you should plan and create a core content framework and strategy:
+The interaction with product documentation is, in itself, a user experience. This is additional to the interactions users and administrators have with the actual systems and interfaces that the product documentation refers to. To maximise the information experience of product documentation, plan and create a core content framework and strategy:
 
 - **Content framework:** the **content and structural components** of documentation, including the information architecture (IA) that this content is built around.
-- **Content strategy**: the methods and guidelines for developing and curating content –– the **process and people components** of product documentation management.
+- **Content strategy**: the **process and people components** of product documentation management, including the methods and guidelines for developing and curating content.
 
 #### Content framework
 
