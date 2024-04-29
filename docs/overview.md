@@ -93,7 +93,9 @@ The interaction with product documentation is, in itself, a user experience. Thi
 
 A content framework deals with how we build, present, and organise content. 
 
-Content should provide a coherent, consistent narrative throughout the product set-up and maintenance journey –– structured around the needs of the target audience so that administrators can find the right information and make use of it efficiently. Take the time to understand the target audience in the context of their needs and pain points, including: 
+Content should provide a coherent, consistent narrative throughout the product set-up and maintenance journey, structured around the needs of the target audience so that users can find the right information and make use of it efficiently. 
+
+Take the time to understand the target audience in the context of their needs and pain points, including: 
 
 *  Audience goals and needs.
 *  Audience tasks and activities.
