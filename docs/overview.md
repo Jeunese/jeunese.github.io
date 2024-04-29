@@ -53,7 +53,7 @@ After creating your information experience, you should evaluate and improve on i
 * Validate the logic behind your information flow as the intended audience moves between tasks. 
 * Identify information gaps, such as incomplete steps, missing context or explanation, or a lack of technical depth.
 * Identify and remove or fix confusing, out-of-date, inaccurate, redundant, or unnecessary information.
-* Check your content for errors and that it meets the requirements outlined in your style guide.
+* Check that your content for errors and that it meets the requirements outlined in your style guide.
 
 ## Product documentation
 
