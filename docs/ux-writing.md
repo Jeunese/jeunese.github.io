@@ -33,9 +33,27 @@ UX writing is an integral part of designing the customer journey. As such, UX wr
 
 As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
 
+## Progressive disclosure philosophy
+
+Progressive disclosure is an interaction design pattern that involves sequencing information and actions across screens, and revealing only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
+
+-  Don't bombard the user with a lot of information as soon as they're introduced to the product.
+-  Allow the information to progress naturally, from simple to complex.
+-  Help the user move from completing tasks with essential information to completing more complex tasks with additional info.
+-  Build upon each subsequent step of information experience and learning.
+-  Provide only the necessary information for the user to take each action, one at a time.
+
+With the progressive disclosure philosophy in mind, you should consider when to use the following types of microcopy and contextual help to guide the user. You can decide on the type of copy you're providing based on the required level of detail.
+
 ## In-product content types
 
 Good UX writing gives the user what they need, in context, when they need it. This minimises the end-user's need to engage with documentation by helping to make the UI more intuitive, which increases usability and reduces frustration. The main categories of in-product content are:
+
+### Contextual help
+
+Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as [instructional text](/ux-writing?id=instructional-text), [in-line copy](/ux-writing?id=inline-copy), [tooltips](/ux-writing?id=tooltips), [guided workflows](/ux-writing?id=walkthroughs-guided-help), and [page-level help](/ux-writing?id=page-level-help). 
+
+Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow.
 
 ### Microcopy
 
@@ -43,25 +61,21 @@ Microcopy refers to the words or very short sentences that tell a user what to d
 
 Microcopy should be written in second person and sentence case. For more guidelines on the individual elements for which microcopy is needed, see [UI elements and input controls](/ux-writing?id=ui-elements-and-input-controls).
 
-### Contextual help
+## Instructional text
 
-Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as instructions, tooltips, guided workflows, and so on. Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow.
-
-## Instructional (on-screen) text
-
-Instructional text, also called in-product instructions or on-screen text, is a type of **contextual help** presented inline with the interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
+Instructional text, also called in-product instructions or on-screen text, is a type of [contextual help](/ux-writing?id=contextual-help) that's presented in line with interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
 
 ### When to use instructional text
 
-Instructional text is the least demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product text should:
+Instructional text is a less demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product text should:
 
 -  Cause minimal disruption to the user's workflow.
 -  Result in quick issue or query resolution.
 -  Foster ease-of-use.
 -  Be timely and well-placed, appearing the moment the user needs it and embedded directly in the UI.
--  Provide [**progressive disclosure**](ux-writing?id=progressive-disclosure-philosophy).
+-  Provide [progressive disclosure](/ux-writing?id=progressive-disclosure-philosophy).
 
-#### Guidelines for instructional text
+### Guidelines for instructional text
 
 **Keep it simple.** Don't overuse instructional UI text; copy should enhance the experience, not clutter it.
 
@@ -78,21 +92,41 @@ Instructional text is the least demanding way to offer support because it preven
 -  Ensure warnings are relevant to the task.
 -  Include tips that might help the user complete their task.
 
-### On-screen copy (inline instruction)
+## In-line copy
 
-On-screen copy is brief text that appears on the page, alongside the UI element it references, and it's used when the information is:
+In-line copy is brief text that appears on the page, alongside the UI element it references.
+
+It is a type of [contextual help](/ux-writing?id=contextual-help) that provides immediate guidance within the UI, but is less comprehensive than [instructional on-screen text](/ux-writing?id=instructional-on-screen-text).
+
+### When to use in-line copy
+
+In-line copy is used when the information is: 
 
 -  Essential to performing the task.
 -  Directly actionable. 
+
+For example, you can use in-line copy to provide informative error messages when users encounter issues or input errors. You can also use it to provide feedback to users after they complete actions or submit forms, using in-line copy to confirm successful completion.
 
 If there's enough space, you might also decide to include:
 
 -  Important but not directly actionable information.
 -  Supplementary information, preventing the user from having to navigate elsewhere to find it.
 
-Embedding information directly within a feature is often the best choice for providing contextual help. It can, however, make the interface look cluttered or might not provide enough information to be useful. If this is the case, consider using **tooltips**.
+Embedding information directly within a feature is often the best choice for providing contextual help. It can, however, make the interface look cluttered or might not provide enough information to be useful. If this is the case, consider using [tooltips](/ux-writing?id=tooltips).
 
-### Tooltips
+### Guidelines for in-line copy
+
+**Keep it simple.** Keep in-line copy concise and to the point.
+
+-  Use clear and simple language that's easy for users to understand without ambiguity or confusion.
+-  Use as few words as possible to convey the intended message.
+
+**Keep it relevant.** Ensure that in-line copy is contextually relevant to the user's current task or interaction within the interface.
+    
+-  Place in-line copy directly adjacent to the relevant interface element, such as buttons, form fields, or navigation links, to provide immediate guidance.
+-  Use actionable language that prompts users to take specific actions or provides clear instructions on how to proceed.
+
+## Tooltips
 
 Tooltips are user-triggered, brief informative messages that appear when the user interacts with a UI element by selecting or hovering over it. They are used:
 - For preventing drop-off at friction points by reassuring users and alleviating doubt.
@@ -101,7 +135,7 @@ Tooltips are user-triggered, brief informative messages that appear when the use
 
 Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation/termination method.
 
-#### When to use tooltips
+### When to use tooltips
 
 Tooltips are offered when additional content might help the user make more informed decisions based on specific, contextual information. They typically provide a short description of the element or functionality that users might want or need to know more about. 
 
@@ -115,20 +149,20 @@ Tooltips are useful with:
 
 For more information on progressive disclosure, see [Progressive disclosure philosophy](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
 
-#### Guidelines for using tooltips
+### Guidelines for using tooltips
 
-The text in a tooltip must be informative. You should aim to:
+**Be informative.** You should aim to:
 
 -  Avoid redundant information.
 -  Provide helpful content.
 -  Provide information that isn't otherwise obvious and doesn't repeat on-screen copy.
 -  Focus on the control's action, for example, by beginning the tag with a verb.
 
-Don't use tooltips if there's space in the inline copy. Tooltip text should provide additional and useful information, such as why a field is required or how the value entered into a field will be used. 
+Don't use tooltips if there's space in the [inline copy](/ux-writing?id=inline-copy). Tooltip text should provide additional and useful information, such as why a field is required or how the value entered into a field will be used. 
 
-Use as few words as possible. For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design is too complicated. For tooltips triggered by selecting help icons, limit the text to no more than 40 words. If more content is required, consider adding a `Learn more` link to the exact documentation; use such links sparingly, which you might achieve by including one link at the page level.
+**Keep it short.** Use as few words as possible. For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design is too complicated. For tooltips triggered by selecting help icons, limit the text to no more than 40 words. If more content is required, consider adding a `Learn more` link to the exact documentation; use such links sparingly, which you might achieve by including one link at the page level.
 
-Other guidelines for writing tooltips include:
+**Other guidelines** for writing tooltips include:
 
 -  Use short, complete sentences that address concerns and tell users what to do.
 -  Use a title, in sentence case, phrased as a question in first person, for example, "Why can't I update my address?"
@@ -137,25 +171,76 @@ Other guidelines for writing tooltips include:
 -  Use links in tooltips only if necessary.
 -  Use bullets for lists of items; use paragraphs for explanations.
 
-### Walkthroughs (guided help)
+## Walkthroughs (guided help)
 
 A walkthrough provides step-by-step guidance and instructions: a series of messages or tooltips appearing one at a time to provide step-by-step instructions that will guide a user through a product or feature, used when the functionality or workflow is more complex or spread across multiple pages.
 
-### Page-level help
+### When to use walkthroughs
 
-Context-sensitive topics that are triggered when the user selects a link provided at page level, used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page they're on. This provides users with a way of getting detailed information without having to navigate or search different sites.
+Walkthroughs are often used for:
 
-## Progressive disclosure philosophy
+- Product tours, showcasing the key benefits and functionalities of a product or service to potential customers. 
+- New user onboarding, helping the user to navigate the interface, understand basic functionality, and get started with using a product or feature effectively.
+- Breaking down complex features or workflows into manageable steps that help users understand the sequence of actions and reduces the likelihood of confusion or errors.
+- Significant product updates or changes, helping existing users familiarise themselves with the new features for a smooth transition and minimal disruption to the user experience.
+- Task completion assistance for when users encounter roadblocks or challenges while completing a specific process.
+- User engagement and retention to encourage users to explore different areas of the UI, discover hidden features, or learn advanced techniques.
 
-Progressive disclosure is an interaction design pattern that involves sequencing information and actions across screens, and revealing only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
+### Guidelines for using walkthroughs
 
--  Don't bombard the user with a lot of information as soon as they're introduced to the product.
--  Allow the information to progress naturally, from simple to complex.
--  Help the user move from completing tasks with essential information to completing more complex tasks with additional info.
--  Build upon each subsequent step of information experience and learning.
--  Provide only the necessary information for the user to take each action, one at a time.
+**Be user-centric.**
+- Align content with the user's goals and objectives, for example, "Create your account to get started".
+- Use action-oriented language, for example, "select" instead of "click".
+- Address the reader directly with “you” rather than “the customer” or “users”.
 
-With the progressive disclosure philosophy in mind, you should consider when to use the following types of microcopy and contextual help to guide the user. You can decide on the type of copy you're providing based on the required level of detail.
+**Provide context.** Help users understand why they are performing a certain action.
+- Highlight the benefits of completing each step to motivate users to continue the walkthrough.
+- Explain how each action contributes to achieving the overall goal of the walkthrough.
+- Anticipate user questions or concerns and address them proactively within the walkthrough.
+- Include links to relevant help resources for users who need further assistance, such as support articles or contact information.
+
+**Keep it simple.** Write concisely and use everyday language. 
+- Use simple and straightforward language.
+- Keep sentences short.
+- Use visuals wisely, to illustrate key concepts or demonstrate specific actions when necessary.
+
+**Other guidelines** for walkthroughs include:
+- Provide clear explanations and examples to guide users through each step of the process.
+- Use consistent terminology and writing style throughout the walkthrough to avoid confusion.
+- Ensure that the tone of voice aligns with the overall brand personality and user expectations.
+- Use the imperative mood to provide clear and direct instructions, for example, "Choose a payment method" instead of "You can choose a payment method."
+- Use bold sparingly. Avoid bolding whole sentences or paragraphs. Everything included in a walkthrough should be already be important.
+- Use sentence case, even in headers and buttons.
+
+## Page-level help
+
+Context-sensitive topics that are triggered when the user selects a link provided at page level. This provides users with a way of getting detailed information without having to navigate or search different sites.
+
+### When to use page-level help
+
+Page-level help is used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page they're on. Specifically, page-level help can be useful:
+
+- When features, controls, or workflows are complex.
+- For introducing new features.
+- For sensitive information, such as privacy policies, terms of service, or account settings.
+
+### Guidelines for page-level help
+
+**Keep it simple.** Provide information in a clear and concise manner.
+- Avoid overwhelming users with too much text.
+- Keep explanations brief and to the point.
+- Use simple language and avoid technical jargon or industry-specific terms.
+
+**Keep it relevant** Ensure that the help content is relevant to the context of the page. 
+- Explain the purpose of the page and how it fits into the overall user journey or workflow.
+- Tailor the help content to address common user questions or concerns related to the page's functionality. 
+- Provide examples or scenarios that demonstrate how the page's features or functionality can be used in real-world situations.
+
+**Be helpful.**
+- Provide clear and actionable step-by-step instructions to guide users through the process. 
+- Use numbered lists or bullet points for readability.
+- Use visuals can help clarify complex concepts or illustrate step-by-step instructions.
+- Link to additional resources, such as support articles and video tutorials.
 
 ## UI messages
 
