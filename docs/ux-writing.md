@@ -1,14 +1,8 @@
 # UX writing guidelines
 
-Good UX writing gives the user what they need, in context, when they need it. This minimises the end-user's need to engage with documentation, by helping to make the UI more intuitive, which increases usability and reduces frustration. 
+User experience (UX) writing involves creating content for applications and websites to help users navigate the product or service. This includes in-product text, buttons, messages, labels, and other UI touch points that guide a user through a product or service. 
 
-When users hit a roadblock, effective in-product help content can make the difference between a negative and a positive experience. UX writers help embed this content into the application itself. This includes in-product text, buttons, messages, labels, and other UI touch points that guide a user through a product or service.
-
-## Best practices
-
-UX writing is an integral part of designing the customer journey. As such, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
-
-As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
+This page summarises best practices and industry standards for UX writing.
 
 ## Prerequisites
 
@@ -23,19 +17,25 @@ Before writing or reviewing UI content, the UX writer needs to know:
 ## General guidance
 
 General guidance for UX writing includes:
-
 -  Engage early with Product Design.
 -  Take a user-centred approach.
+-  Use present tense where possible.
 -  Keep messages short.
 -  Address the reader directly; avoid referring to "users" or "customers".
 -  Avoid using the same word twice in the same screen.
 -  Avoid negative phrasing.
--  Use sentence case for everything except global navigation and boolean values.
+-  Use sentence case for everything except global navigation and boolean values. If in doubt, use sentence case.
 -  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
 
-## In-product content
+## UX writing and design
 
-UX writing involves reviewing and recommending in-product content. The main categories of in-product content are:
+UX writing is an integral part of designing the customer journey. As such, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
+
+As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
+
+## In-product content types
+
+Good UX writing gives the user what they need, in context, when they need it. This minimises the end-user's need to engage with documentation by helping to make the UI more intuitive, which increases usability and reduces frustration. The main categories of in-product content are:
 
 ### Microcopy
 
@@ -45,11 +45,21 @@ Microcopy should be written in second person and sentence case. For more guideli
 
 ### Contextual help
 
-Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as instructions, tooltips, guided workflows, and so on. Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow, which can achieved with **instructional text**.
+Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as instructions, tooltips, guided workflows, and so on. Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow.
 
-### Instructional (on-screen) text
+## Instructional (on-screen) text
 
-Instructional text, also called in-product instructions or on-screen text, is contextual help presented inline with the interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
+Instructional text, also called in-product instructions or on-screen text, is a type of **contextual help** presented inline with the interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
+
+### When to use instructional text
+
+Instructional text is the least demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product text should:
+
+-  Cause minimal disruption to the user's workflow.
+-  Result in quick issue or query resolution.
+-  Foster ease-of-use.
+-  Be timely and well-placed, appearing the moment the user needs it and embedded directly in the UI.
+-  Provide [**progressive disclosure**](ux-writing?id=progressive-disclosure-philosophy).
 
 #### Guidelines for instructional text
 
@@ -67,28 +77,6 @@ Instructional text, also called in-product instructions or on-screen text, is co
 -  Provide information about prerequisites and next steps.
 -  Ensure warnings are relevant to the task.
 -  Include tips that might help the user complete their task.
-
-#### When to use instructional text
-
-Instructional text is the least demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product assistance should:
-
--  Cause minimal disruption to the user's workflow.
--  Result in quick issue or query resolution.
--  Foster ease-of-use.
--  Be timely and well-placed, appearing the moment the user needs it and embedded directly in the UI.
--  Provide **progressive disclosure**.
-
-## Progressive disclosure philosophy
-
-Progressive disclosure is an interaction design pattern that involves sequencing information and actions across screens, and revealing only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
-
--  Don't bombard the user with a lot of information as soon as they're introduced to the product.
--  Allow the information to progress naturally, from simple to complex.
--  Help the user move from completing tasks with essential information to completing more complex tasks with additional info.
--  Build upon each subsequent step of information experience and learning.
--  Provide only the necessary information for the user to take each action, one at a time.
-
-With the progressive disclosure philosophy in mind, you should consider when to use the following types of microcopy and contextual help to guide the user. You can decide on the type of copy you're providing based on the required level of detail.
 
 ### On-screen copy (inline instruction)
 
@@ -156,6 +144,18 @@ A walkthrough provides step-by-step guidance and instructions: a series of messa
 ### Page-level help
 
 Context-sensitive topics that are triggered when the user selects a link provided at page level, used when the user might need conceptual or bigger-picture information (such as UI use cases) to help them understand the page they're on. This provides users with a way of getting detailed information without having to navigate or search different sites.
+
+## Progressive disclosure philosophy
+
+Progressive disclosure is an interaction design pattern that involves sequencing information and actions across screens, and revealing only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
+
+-  Don't bombard the user with a lot of information as soon as they're introduced to the product.
+-  Allow the information to progress naturally, from simple to complex.
+-  Help the user move from completing tasks with essential information to completing more complex tasks with additional info.
+-  Build upon each subsequent step of information experience and learning.
+-  Provide only the necessary information for the user to take each action, one at a time.
+
+With the progressive disclosure philosophy in mind, you should consider when to use the following types of microcopy and contextual help to guide the user. You can decide on the type of copy you're providing based on the required level of detail.
 
 ## UI messages
 

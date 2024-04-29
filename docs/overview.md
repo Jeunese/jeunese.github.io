@@ -143,7 +143,7 @@ As with product documentation, this can involve issue tracking software, and can
 
 ### UX writing
 
-Good UX needs good content.
+Good UX needs good content. UX writers help embed this content into the application or website itself. 
 
 UX writing is the process of writing in-product content to facilitate the user experience of that product, in line with the company's [voice and tone](/voice-and-tone).
 
@@ -152,7 +152,7 @@ A UX writer take insights from UI and UX design principles, usability research, 
 #### What UX writing is and isn't
 UX writing is the process of creating user-friendly textual content (copy) for the UI of digital products to help users interact with it.
 
-UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. The right UI copy to accompany the right designs, at the right time, influences how a user engages with a product.
+UI copy includes buttons, menu labels, error messages, security notes, T&Cs, inline instructions, tooltips, and any kind of in-product instructions on product usage. The right UI copy to accompany the right designs, at the right time, influences how a user engages with a product. When users hit a roadblock, effective in-product content can make the difference between a negative and a positive experience. 
 
 UX writing isn't the same as a copywriting. A copywriter writes and edits marketing material, creating content to attract and persuade customers as a sales effort, which requires a different style of writing.
 
