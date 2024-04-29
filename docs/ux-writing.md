@@ -51,7 +51,7 @@ Good UX writing gives the user what they need, in context, when they need it. Th
 
 ### Contextual help
 
-Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as [instructional text](/ux-writing?id=instructional-text), [in-line copy](/ux-writing?id=inline-copy), [tooltips](/ux-writing?id=tooltips), [guided workflows](/ux-writing?id=walkthroughs-guided-help), and [page-level help](/ux-writing?id=page-level-help). 
+Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as [instructional text](/ux-writing?id=instructional-text), [in-line copy](/ux-writing?id=inline-copy), [tooltips](/ux-writing?id=tooltips), [guided workflows](/ux-writing?id=walkthroughs-guided-help), [page-level help](/ux-writing?id=page-level-help), and [UI messages](/ux-writing?id=ui-messages).
 
 Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow.
 
