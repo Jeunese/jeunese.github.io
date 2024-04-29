@@ -17,42 +17,6 @@ The work of information developers affects the user's **information experience (
 - Product Design (PD) to collaborate on UI content and guided workflows.
 - Internationalisation (globalisation and localisation) teams to create automatic translation for documentation and UI copy.
 
-## 4 rules for creating a good information experience
-
-Regardless of whether you're creating product documentation or designing UI content, there are four basic rules for creating a good information experience.
-
-1. **Understand your target audience.** The type and amount of information your audience wants and needs depends on who they are and what they're trying to do. Take the time to understand:
-	* The goals and activities of your intended audience.
-	* What your intended audience already knows, doesn't know, and needs to know.
-	* How to provide the information that the intended audience needs.
-1. **Create a plan for implementing content.** Just as developers have coding processes and designers have design guidelines, IX should have a defined and systematic plan for creating and implementing content to:
-	* Help integrate it as part of the product or feature.
-	* Allow time to review content with colleagues, in context.
-	* Create the bandwidth to make improvements during the development cycle.
-1. **Follow a [style guide](/style-guide).** Create and use a style guide to meet the following goals:
-	* Consistency.
-	* Readability.
-	* Accessibility.
-	* Good format and design.
-	* Scannable content.
-	* Content that's useful (helps users achieve intended goals).
-	* Content that usable (understandable and easy to follow).
-	* Content that's in line with your company's [Voice and Tone](/voice-and-tone).
-1. **Map content to your audience's processes and tasks.** Create task-based content that's structured around the intended audience's workflow. Build this content and decide where it should go based on:
-	* What the intended audience is trying to do.
-	* The steps involved in completing a task.
-	* What information and resources the intended audience needs to complete a task.
-	* What content and resources already exist.
-	* What concepts require explanation.
-	* How to present information so that the intended audience can scan and find content that fulfils their information needs.
-
-After creating your information experience, you should evaluate and improve on it:
-
-* Validate the logic behind your information flow as the intended audience moves between tasks. 
-* Identify information gaps, such as incomplete steps, missing context or explanation, or a lack of technical depth.
-* Identify and remove or fix confusing, out-of-date, inaccurate, redundant, or unnecessary information.
-* Check that your content for errors and that it meets the requirements outlined in your style guide.
-
 ## Product documentation
 
 Product documentation articulates technical concepts, in writing, for a software company's products so that these products can be implemented by its customers. The documentation provides "how-to" guidance to help administrators and users:
