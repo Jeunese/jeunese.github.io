@@ -34,9 +34,6 @@ General guidance for UX writing includes:
 -  Use sentence case for everything except global navigation and boolean values. If in doubt, use sentence case.
 -  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
 
-## UX writing and design
-
-
 ## Progressive disclosure philosophy
 
 Progressive disclosure is an interaction design pattern that involves sequencing information and actions across screens, and revealing only essential information. This avoids overwhelming the user and helps them manage complexity. It also makes products easier to learn and use, avoids frustration and confusion, and reduces the number of potential errors. Some guidelines include:
