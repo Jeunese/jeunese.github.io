@@ -1,4 +1,4 @@
-# Style Guide
+# Style guide
 
 Following a set of writing guidelines helps ensure consistency, content quality, and a good user experience of product documentation and UI content. The guidelines presented in this article are based on substantial research, content design principles, UX writing expertise, and industry standards.
 

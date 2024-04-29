@@ -1,4 +1,4 @@
-# Voice and Tone
+# Voice and tone
 
 Voice and tone are determined by the individual components that make up the content, like the words and phrases we use (and don't use), sentence structure, viewpoint, and the progression of information.
 

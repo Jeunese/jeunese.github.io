@@ -1,4 +1,4 @@
-# UX Writing Guidelines
+# UX writing guidelines
 
 General guidance for UX writing includes:
 

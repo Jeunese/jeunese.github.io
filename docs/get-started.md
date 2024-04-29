@@ -1,4 +1,4 @@
-# Get Started with Product Documentation
+# Get started with product documentation
 
 This article uses examples that apply to documentation for administrators (as opposed to end-users, developers, technicians, or peers) –– [product documentation](/?id=product-documentation) –– but the precise audience isn't important. What matters is that, once you've defined your target audience, you create content that is *helpful* for that audience. 
 

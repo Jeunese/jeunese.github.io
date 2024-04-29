@@ -1,23 +1,19 @@
-# Information Development Overview
+# Information development and experience overview
 
-An Information Development team consists of technical authors, also called content or information developers, that typically belong to Engineering.
+**Information development** is concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. 
 
-Information developers are concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. Information developers often work with technical content, such as user manuals, documentation, training materials, and technical specifications.
-
-The work of information developers affects the user's information experience (IX), which refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals.
-
-IX teams work with software developers and UX designers to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that's as part of technical documentation or in the product itself. The aim is to optimise how people engage with information to maximise the user experience (UX) of a product. To this end, IX are responsible for:
+An Information Development team consists of technical writers, also called content or information developers. Information developers work with software developers and UX designers to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that's as part of technical documentation or in the product itself. The aim is to optimise how people engage with information to maximise the user experience (UX) of a product. To this end, information developers are responsible for:
 
 - Technical content authoring for a software company's products and services. For guidance on technical writing and, in particular, writing product documentation, see [Technical Writing Guidelines](https://jeunese.github.io/#/technical-writing).
 - In-product content development (UX writing), such as error messages and on-screen text. For information on UX writing, see [UX Writing Guidelines](/ux-writing).
 - Website infrastructure for product documentation. For an overview of this approach to managing documentation, see [Online Documentation](/online-documentation).
 
-Information developers in IX typically work closely with:
+The work of information developers (or technical writers) affects the user's **information experience (IX)**. Information experience, or IX, refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals. To this end, information developers also typically work closely with:
 
-- Product teams, under the guidance of Product Management (PM).
-- Software developers and test engineers in Engineering.
+- Product teams, under the guidance of Product Management (PM), to help inform UI copy and understand user needs for technical documentation.
+- Software developers and test engineers in Engineering to learn how a product or feature works and to effectively document it.
 - Product Design (PD) to collaborate on UI content and guided workflows.
-- Globalisation teams to create automatic translation.
+- Internationalisation (globalisation and localisation) teams to create automatic translation for documentation and UI copy.
 
 ## 4 rules for creating a good information experience
 
@@ -63,7 +59,7 @@ Product documentation articulates technical concepts, in writing, for a software
 - Keep up with new releases.
 - Learn how to install, upgrade, manage, use, and troubleshoot products and services.
 
-> **Note:** Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end-users* of the product or service that the administrator sets up. 
+> **Note:** Administrators are sometimes called "users" because they use tools described in the documentation to set up the product or service. We use the term "administrator" to differentiate this type of user from the *end users* of the product or service that the administrator sets up. 
 
 Product documentation *isn't*:
 

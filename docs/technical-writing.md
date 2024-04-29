@@ -1,4 +1,4 @@
-# Technical Writing Guidelines
+# Technical writing guidelines
 
 General guidance for technical writing includes the following:
 

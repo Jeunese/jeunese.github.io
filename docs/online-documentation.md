@@ -1,4 +1,4 @@
-# Online Documentation
+# Online documentation
 
 Ideally, technical documentation should be hosted online, rather than in PDFs. 
 
