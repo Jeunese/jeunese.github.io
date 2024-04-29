@@ -15,7 +15,7 @@ Depending on the source of definitions for voice and tone, the simplest answers 
 | *What* you say. | *How* you say it. |
 | Remains stable. | Changes based on context.
 | The character or persona. | The attitude or emotional inflection. |
-| How you talk to customers in all communications. | How you talk to different audiences.|
+| How you talk to customers in all communications. | How you talk to different audiences at different times.|
 
 ### Voice
 
@@ -23,29 +23,29 @@ Voice captures the persona behind the content or its "character". Voice should b
 
 ### Tone
 
-Tone captures the "attitude" with which we express content. It is often described as the "emotional inflection" applied to the voice. This should change based on the target audience, context, and the reader's state of mind.
+Tone captures the "attitude" with which we express content. It's often described as the "emotional inflection" applied to the voice. This should change based on the target audience, context, and the reader's likely state of mind.
 
 For example, an error message in the UI might call for friendlier language, such as *"It looks like your passwords don't match. Try again?"* to put the user at ease. Compare this with a phrase like *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel, but the tone is different.
 
-It can be hard differentiating voice (character) from tone (attitude) with concrete examples. For example, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
+It can be hard differentiating voice (character) from tone (attitude) with concrete examples. For instance, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
 
-This is similar to the difference between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (as a more transient state) depending on the situation or who you're interacting with.
+This is similar to the difference between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (as a transient state) depending on the situation or who you're interacting with.
 
 Adding to the confusion, the [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that the *message*, rather than voice, is *what* you say, and that voice is *how* you say it. According to this style guide, tone is *an aspect of* voice, alongside personality, substance, and style. Under this logic, voice becomes a group of multiple features or a delivery mechanism for these features.
 
-If voice and tone don't operate independently, it is more useful to consider them jointly in making decisions about writing style rather than separating them. Specifically, it makes sense to define voice as the parameter within which tone can operate. 
+If voice and tone don't operate independently, it's perhaps more useful to consider them jointly in making decisions about writing style rather than separating them. Specifically, it makes sense to define voice as the parameter within which tone can operate. 
 
 Rather than attempting to reconcile the differences in opinion about the precise nature of voice and tone in writing, this documentation refers to them as a single concept: **tone of voice**.
 
 ## Tone of voice
 
-The sections below provide guidelines for the proposed tone of voice of both product documentation and UI content. Our tone of voice is based on the purpose of content and the intended audiences. The high-level goals outlined for tone of voice include:
+The sections below provide guidelines for the proposed tone of voice for both product documentation and UI content. Tone of voice is based on the purpose of content and the intended audiences. The high-level goals outlined for tone of voice include:
 
 - Be clear (direct, simple, precise, and concise)
 - Be human (conversational, personal, positive, and inclusive)
 - Be useful (professional, user-centric, and action-focused)
 
-Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be useful).
+Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (**be clear**), helps establish a conversational style (**be human**), and makes the content directly relevant to the reader (**be useful**).
 
 > **Notes on formality:**
 >
