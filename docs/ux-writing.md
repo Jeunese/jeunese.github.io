@@ -4,15 +4,22 @@ User experience (UX) writing involves creating content for applications and webs
 
 This page summarises best practices and industry standards for UX writing.
 
-## Prerequisites
+## UX writing approach
 
-Before writing or reviewing UI content, the UX writer needs to know:
+UX writing is an integral part of designing the customer journey. As such, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects for context gathering, design, and review.
 
--  Who they're writing for.
--  What the user's goals and needs are.
--  What the product is and how the product is used. 
--  What the use cases are.
--  What components of the product need written or reviewed (if not the end-to-end experience).
+1. **Context gathering.** Before writing or reviewing UI content, the UX writer needs to know:
+
+    -  Who they're writing for.
+    -  What the user's goals and needs are.
+    -  What the product is and how the product is used. 
+	-  What the flow is.
+    -  What the use cases are.
+    -  What components of the product need written or reviewed (if not the end-to-end experience).
+
+1. **Design.** As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
+
+1. **Review.** UX writers should check that the UX copy fulfils user needs and represents the intended tone of voice. You can also seek insight from user research if it's needed and a viable option.
 
 ## General guidance
 
@@ -29,9 +36,6 @@ General guidance for UX writing includes:
 
 ## UX writing and design
 
-UX writing is an integral part of designing the customer journey. As such, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
-
-As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
 
 ## Progressive disclosure philosophy
 
