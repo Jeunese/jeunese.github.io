@@ -1,10 +1,10 @@
 # Information Development Overview
 
-An Information Development team consists of technical authors, also called content or information developers, that typically belong to Engineering. 
+An Information Development team consists of technical authors, also called content or information developers, that typically belong to Engineering.
 
-Information developers are concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. Information developers often work with technical content, such as user manuals, documentation, training materials, and technical specifications. 
+Information developers are concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. Information developers often work with technical content, such as user manuals, documentation, training materials, and technical specifications.
 
-The work of an information developer contributes to the user's overall **Information Experience**, which can be shortened to "IX". IX refers to the holistic experience that users have when interacting with content. It considers the entire user journey, from discovering information to consuming it and completing tasks or achieving goals with it.
+The work of information developers affects the user's information experience (IX), which refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals.
 
 IX teams work with software developers and UX designers to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that's as part of technical documentation or in the product itself. The aim is to optimise how people engage with information to maximise the user experience (UX) of a product. To this end, IX are responsible for:
 
