@@ -1,23 +1,16 @@
 # UX writing guidelines
 
-General guidance for UX writing includes:
+Good UX writing gives the user what they need, in context, when they need it. This minimises the end-user's need to engage with documentation, by helping to make the UI more intuitive, which increases usability and reduces frustration. 
 
--  Engage early with Product Design (PD).
--  Take a user-centred approach.
--  Keep messages short.
--  Address the reader directly; avoid referring to "users" or "customers".
--  Avoid using the same word twice in the same screen.
--  Avoid negative phrasing.
--  Use sentence case for everything except global navigation and boolean values.
--  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
+When users hit a roadblock, effective in-product help content can make the difference between a negative and a positive experience. UX writers help embed this content into the application itself. This includes in-product text, buttons, messages, labels, and other UI touch points that guide a user through a product or service.
 
-## What does a UX writer do?
+## Best practices
 
-A UX writer helps craft in-product content as part of the product design process. This includes in-product text, buttons, messages, labels, and other UI touchpoints that guide a user through a product or service.
+UX writing is an integral part of designing the customer journey. As such, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
 
-A UX writer is responsible for creating in-product content that's in line with the company's [Voice and Tone](/voice-and-tone) and that facilitates the user experience of the product. UX writers take insights from UI and UX design principles, usability research, and behavioural psychology to create and refine content that's designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy.
+As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
 
-As part of product design, UX writers should be involved early in the design process, alongside UX and UI designers, UX researchers, and information architects. 
+## Prerequisites
 
 Before writing or reviewing UI content, the UX writer needs to know:
 
@@ -27,7 +20,18 @@ Before writing or reviewing UI content, the UX writer needs to know:
 -  What the use cases are.
 -  What components of the product need written or reviewed (if not the end-to-end experience).
 
-The aim is create a cohesive content experience. For this reason, it's sometimes described as a sub-discipline of content design. See [UX writing and content design](/?id=ux-writing-and-content-design) for more information on the similarities and differences.
+## General guidance
+
+General guidance for UX writing includes:
+
+-  Engage early with Product Design.
+-  Take a user-centred approach.
+-  Keep messages short.
+-  Address the reader directly; avoid referring to "users" or "customers".
+-  Avoid using the same word twice in the same screen.
+-  Avoid negative phrasing.
+-  Use sentence case for everything except global navigation and boolean values.
+-  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
 
 ## In-product content
 
