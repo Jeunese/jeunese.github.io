@@ -1,21 +1,37 @@
-# Information development overview
+# Overview of information development
 
-**Information development** is concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience.
+This guide describes how **information development** shapes the user experience of digital products and services by designing how information is formed, organized, delivered, and presented. 
 
-Information development is related to, but distinct from, **content design**. While information development primarily deals with the creation and management of content itself, content design focuses on how that content is presented and how users interact with it.
+As a whole, this guide offers:
+
+-  An overview of information development and related concepts, with a focus on **technical writing** for [product documentation](/?id=product-documentation) and **UX writing** (and review) for [in-product content development](/?id=in-product-content-development).
+- Voice, tone, and style guidelines for two key components of information development: [technical writing](/technical-writing) and [UX writing](/ux-writing) (which also applies to UI review).
+- A description and high-level instructions for adopting a [docs-as-code](/online-documentation?id=what-is-docs-as-code) approach to creating and managing online documentation.
+
+## Disambiguation of terms
+
+Though relevant and overlapping, information development isn't synonymous with other related concepts, such as information experience (IX), content design, technical writing, and UX writing. This section defines, delineates, and explains the relationship these concepts to help the reader navigate the nuances.
+
+**Information development** is concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. Because of the emphasis on writing, information developers are commonly also called **technical writers**, though they're also often (but not always) involved in UX writing activities as well.
+
+Information development is related to, but distinct from, **content design**. While information development primarily deals with the creation and management of content itself, content design focuses on how that content is presented and how users interact with content. This is why there was a move away from the term "content writer", which implies a focus on written content, to "content designer", which highlights content design as a **UX design** exercise.
+
+The work of information developers (and content designers) affects the user's **information experience (IX)**. Information experience, or IX, refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals. 
+
+## What information developers do
 
 **Information developers** work with software developers and UX designers to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that's as part of documentation (**technical writing**) or in the product itself (**UX writing**). The aim is to optimise how people engage with information to maximise the user experience (UX) of a product. To this end, information developers are responsible for:
 
-- Technical content authoring for a software company's products and services. For guidance on technical writing and, in particular, writing product documentation, see [Technical Writing Guidelines](https://jeunese.github.io/#/technical-writing).
-- In-product content development (UX writing), such as error messages and on-screen text. For information on UX writing, see [UX Writing Guidelines](/ux-writing).
-- Website infrastructure for product documentation. For an overview of this approach to managing documentation, see [Online Documentation](/online-documentation).
+- Technical content authoring for a software company's products and services. For guidance on technical writing and, in particular, writing product documentation, see [Technical writing guidelines](https://jeunese.github.io/#/technical-writing).
+- In-product content development (UX writing), such as error messages and on-screen text. For information on UX writing, see [UX writing guidelines](/ux-writing).
+- Website infrastructure for product documentation. For an overview of this approach to managing documentation, see [Online documentation](/online-documentation).
 
-The work of information developers affects the user's **information experience (IX)**. Information experience, or IX, refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals. To this end, information developers also typically work closely with:
+In pursuit of providing a good IX for users, information developers also typically work closely with:
 
 - Product teams, under the guidance of Product Management (PM), to help inform UI copy and understand user needs for technical documentation.
 - Software developers and test engineers in Engineering to learn how a product or feature works and to effectively document it.
-- Product Design (PD) to collaborate on UI content and guided workflows.
-- Internationalisation (globalisation and localisation) teams to create automatic translation for documentation and UI copy.
+- Design teams to collaborate on UI content and guided workflows.
+- Internationalisation (globalisation and localisation) teams to translate documentation and UI copy.
 
 ## Product documentation
 
@@ -46,12 +62,12 @@ Although more technical and direct than other sources of content, product docume
 
 ### Content framework and strategy
 
-The interaction with product documentation is, in itself, a user experience. This is additional to the interactions users and administrators have with the actual systems and interfaces that the product documentation refers to. To maximise the information experience of product documentation, plan and create a core content framework and strategy:
+The interaction with product documentation is, in itself, a user experience. This is additional to the interactions users and administrators have with the actual systems and interfaces that the product documentation refers to. To ensure the best information experience of product documentation, plan and create a core content framework and strategy:
 
-- **Content framework:** the **content and structural components** of documentation, including the information architecture (IA) that this content is built around.
-- **Content strategy**: the **process and people components** of product documentation management, including the methods and guidelines for developing and curating content.
+- [**Content framework**](/?id=content-framework): the **content and structural components** of documentation, including the information architecture (IA) that this content is built around.
+- [**Content strategy**](https://jeunese.github.io/#/?id=content-strateg): the **process and people components** of product documentation management, including the methods and guidelines for developing and curating content.
 
-#### Content framework (where and how)
+#### Content framework
 
 A content framework deals with how we build, present, and organise content. 
 
@@ -69,9 +85,9 @@ how to communicate flows of information (the procedures and processes users must
 
 *  Helps the reader figure out where they are in the documentation.
 *  Helps the reader determine where the information they want is in relation to their current position.
-*  Informs the **content strategy**.
+*  Informs the [content strategy](https://jeunese.github.io/#/?id=content-strategy).
 
-#### Content strategy (what and why)
+#### Content strategy
 
 Content strategy deals with how we create and maintain content, including what that content needs to be.
 
@@ -79,25 +95,25 @@ Product documentation should be purposeful and meaningful for the intended audie
 
 *  How your content will help you meet business goals.
 *  The target audience and their needs.
-*  The [Voice and Tone](/voice-and-tone) of content for your audience.
+*  The [voice and tone](/voice-and-tone) of content for your audience.
 
-Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **Docs-as-Code** approach.
+Product documentation should be updated based on a roadmap for organising, scheduling, creating, and publishing content. Increasingly, this is achieved with a **docs-as-code** approach.
 
-### Infrastructure and process (Docs-as-Code)
+### Infrastructure and process (docs-as-code)
 
-It's becoming increasingly popular to adopt a [Docs-as-Code](/online-documentation?id=what-is-docs-as-code) approach to managing product documentation.
+It's becoming increasingly popular to adopt a [docs-as-code](/online-documentation?id=what-is-docs-as-code) approach to managing product documentation.
 
-Docs-as-Code involves using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-Code typically matches the agile approach to delivering output, which might include using an issue tracking manager (such as Jira), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
+Docs-as-code involves using similar tools and processes to create and manage documentation as developers use for creating and managing code. Docs-as-code typically matches the agile approach to delivering output, which might include using an issue tracking manager (such as Jira), assigning tickets in bi-weekly sprints, and demoing completed doc work. 
 
-With a Docs-as-Code approach to product documentation, content for a release is published at the same time that a feature or update is available to customers. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM. For more information on what might be included in product documentation, see [Create the content](/get-started?id=_4-create-the-content) in the **Get Started with Product Documentation** article.
+With a docs-as-code approach to product documentation, content for a release is published at the same time that a feature or update is available to customers. A release typically includes one specific feature or a narrowly defined set of features, the scheduling of which is at the discretion of the PM. For more information on what might be included in product documentation, see [Create the content](/get-started?id=_4-create-the-content) in the **Get started with product documentation** article.
 
-After a content need is identified, a ticket should be created in an issue tracking tool. When the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of the main documentation branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering and the PM. The technical author pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
+After a content need is identified, a ticket should be created in an issue tracking tool. When the technical author has enough information, they can start drafting, which might include creating a working branch for the feature off of the main documentation branch in Git. Content is merged at the same time as the public release of the feature, following approval from Engineering and the PM. The technical writer (information developer) pushes content to a remote repository and creates a Pull Request (PR). Depending on stakeholder needs, content can be reviewed directly in the PR.
 
-For more information on the tools and processes involved in a Docs-as-Code approach, see the [Online Documentation](/online-documentation) article.
+For more information on the tools and processes involved in a docs-as-code approach, see the [Online Documentation](/online-documentation) article.
 
 ## In-product content development
 
-As well as creating product documentation, IX technical authors often help write and review in-product content in a UX writing capacity. In collaboration with PD and the PM, an IX team can be asked to:
+As well as creating product documentation, information developers often help write and review in-product content in a UX writing capacity. In collaboration with Design and the PM, an IX team can be asked to:
 
 -  Provide early design insights into prototypes and the proposed flow of a feature or product.
 -  Participate in design reviews or focused walkthroughs to answer specific questions, or identify and help resolve specific issues in the design.
@@ -140,7 +156,7 @@ Many technical writing principles apply to UX writing, and both product document
 
 #### UX writing and content design
 
-UX writers and content designers (sometimes called content writers) have a lot in common. Both work with Product Design to create, deliver, and modify content to maximise the user experience of a product. 
+UX writers and content designers (sometimes called content writers) have a lot in common. Both work with Design to create, deliver, and modify content to maximise the user experience of a product. 
 
 UX writing focuses more on UI copy to facilitate the user experience of a product, while content design focuses more on the design of the product itself, which can include written content, but also involves designing the layout, flow, and the type of content to include. 
 
@@ -172,12 +188,12 @@ Thus, UX writing involves a range of skills:
 
 Having an information developer responsible for UI copy helps ensure that information is clear and consistent, for a better user experience.
 
-To this end, IX teams engage often engage with Product Design for UI content review when the designer has developed a wireframe or prototype for a specific issue/ticket. The typical engagement flow is as follows:
+To this end, technical writers (or information developers) in information development and IX teams engage often engage with the Design team for UI content review when the designer has developed a wireframe or prototype for a specific issue/ticket. The typical engagement flow is as follows:
 
-1. **Early designs.** Product Design notifies IX that there is content to review, with links typically included in a ticket. Product Design might also provide a walkthrough of the design, links to demos, or a detailed explanation of some of the screens in the prototype.
-2. **Information gathering.** IX reviews the associated tickets and requests additional information from Product Design if needed to understand the intent of the design. 
-3. **Feedback.** IX provides feedback on the prototype and asks any outstanding questions for information, confirmation, or clarification. Where multiple approaches to on-screen content are possible, IX provides clear options and preferences.
-4. **Review.** Product Design incorporates IX feedback and reviews the completed prototypes with the PM for approval.
+1. **Early designs.** Product Design notifies the information developer that there is content to review, with links typically included in a ticket. Product Design might also provide a walkthrough of the design, links to demos, or a detailed explanation of some of the screens in the prototype.
+2. **Information gathering.** The information developer reviews the associated tickets and requests additional information from Product Design if needed to understand the intent of the design. 
+3. **Feedback.** The information developer provides feedback on the prototype and asks any outstanding questions for information, confirmation, or clarification. Where multiple approaches to on-screen content are possible, the information developer provides clear options and preferences.
+4. **Review.** Product Design incorporates information developer feedback and reviews the completed prototypes with the PM for approval.
 5. **"Ready for Implementation" (RFI).** Product Design completes the design, which is approved by the PM for implementation by Engineering. 
 	-  Depending on priorities and Engineering bandwidth, the design might or might not be implemented. 
-	-  IX might start drafting documentation for these designs.
+	-  The information developer might start drafting documentation for these designs.
