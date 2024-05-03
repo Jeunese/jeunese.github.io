@@ -8,7 +8,7 @@ As a whole, this guide offers:
 - Voice, tone, and style guidelines for two key components of information development: [technical writing](/technical-writing) and [UX writing](/ux-writing) (which also applies to UI review).
 - A description and high-level instructions for adopting a [docs-as-code](/online-documentation?id=what-is-docs-as-code) approach to creating and managing online documentation.
 
-## Disambiguation of terms
+## Terminology
 
 Though relevant and overlapping, information development isn't synonymous with other related concepts, such as information experience (IX), content design, technical writing, and UX writing. This section defines, delineates, and explains the relationship these concepts to help the reader navigate the nuances.
 
