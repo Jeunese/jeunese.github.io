@@ -20,7 +20,7 @@ These are the high-level communication goals that inform the individual writing 
 - [Be human](/voice-and-tone?id=be-human) (conversational, personal, positive, and inclusive)
 - [Be useful](/voice-and-tone?id=be-useful) (professional, user-centric, and action-focused)
 
-To achieve these characteristics, your writing style the needs to follow some more granular principles and guidelines.
+To achieve these characteristics, your writing style needs to follow some more granular principles and guidelines.
 
 ## Lean writing principles
 
