@@ -4,15 +4,15 @@ Following a set of writing guidelines helps ensure consistency, content quality,
 
 This isn't a complete list of every language, grammar, or formatting rule or convention. The style guide is designed to deal with common scenarios and to recommend best practices for technical documentation and in-product content.
 
-You can apply the following [Lean writing principles](/style-guide?id=lean-writing-principles), [Word choice guidelines](/style-guide?id=word-choice-guidelines), and [Writing conventions](/style-guide?id=writing-conventions) to both technical writing and UX writing (or content design).
+You can apply the following [Lean writing principles](/style-guide?id=lean-writing-principles), [Word choice guidelines](/style-guide?id=word-choice-guidelines), and [Writing conventions](/style-guide?id=writing-conventions) to both technical writing and UX writing.
 
 For guidelines that are specific to technical writing, see [Technical Writing Guidelines](/technical-writing). For guidelines that are specific to UX writing, see [UX Writing Guidelines](/ux-writing).
 
 ## Tone of voice
 
-This guide refers to *tone of voice* rather than voice and tone as separate constructs, defined in the [Voice and Tone](/voice-and-tone?id=voice-and-tone-or-tone-of-voice) article. Tone of voice defines how you talk to your audience.
+This guide refers to *tone of voice* rather than voice and tone as separate constructs, defined in the [voice and tone](/voice-and-tone?id=voice-and-tone-or-tone-of-voice) article. 
 
-Tone of voice is based on the type of company, target audience, and purpose of the content. For a software company, the purpose of product documentation is to provide administrators with quick product reference material for what the product does, how it works, and how to set it up. The purpose of in-product copy is to help end-users of the UI complete tasks easily and effectively with that company's software.
+Tone of voice defines how you talk to your audience. Tone of voice is based on the type of company, target audience, and purpose of the content. For a software company, the purpose of product documentation is to provide administrators with quick product reference material for what the product does, how it works, and how to set it up. The purpose of in-product copy is to help end-users of the UI complete tasks easily and effectively with that company's software.
 
 These are the high-level communication goals that inform the individual writing elements in this style guide.
 

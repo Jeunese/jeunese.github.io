@@ -18,7 +18,7 @@ More specific guidance depends on the type of technical writing you’re engaged
 
 Product documentation describes what a product or service does, how it works, and other technical details needed to set it up. The audience for this type of technical content is typically a customer's administrator. Administrators use this content to install, configure, update, and maintain these products and services.
 
-For more information on what product documentation is (and isn't), see [Product documentation](/?id=product-documentation) in the **Information Development Overview**.
+For more information on what product documentation is (and isn't), see [Product documentation](/?id=product-documentation) in the **Overview of information development**.
 
 Product documentation covers:
 
