@@ -1,8 +1,6 @@
 # Overview of information development
 
-This guide describes how **information development** shapes the user experience of digital products and services by designing how information is formed, organized, delivered, and presented. 
-
-As a whole, this guide offers:
+This guide describes how **information development** shapes the user experience of digital products and services. As a whole, this guide offers:
 
 -  An overview of information development and related concepts, with a focus on **technical writing** for [product documentation](/?id=product-documentation) and **UX writing** for [in-product content development](/?id=in-product-content-development).
 - Voice, tone, and style guidelines for two key components of information development: [technical writing](/technical-writing) and [UX writing](/ux-writing).
