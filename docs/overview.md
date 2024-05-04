@@ -4,19 +4,19 @@ This guide describes how **information development** shapes the user experience 
 
 As a whole, this guide offers:
 
--  An overview of information development and related concepts, with a focus on **technical writing** for [product documentation](/?id=product-documentation) and **UX writing** (and review) for [in-product content development](/?id=in-product-content-development).
-- Voice, tone, and style guidelines for two key components of information development: [technical writing](/technical-writing) and [UX writing](/ux-writing) (which also applies to UI review).
+-  An overview of information development and related concepts, with a focus on **technical writing** for [product documentation](/?id=product-documentation) and **UX writing** for [in-product content development](/?id=in-product-content-development).
+- Voice, tone, and style guidelines for two key components of information development: [technical writing](/technical-writing) and [UX writing](/ux-writing).
 - A description and high-level instructions for adopting a [docs-as-code](/online-documentation?id=what-is-docs-as-code) approach to creating and managing online documentation.
 
 ## Terminology
 
-Though relevant and overlapping, information development isn't synonymous with other related concepts, such as information experience (IX), content design, technical writing, and UX writing. This section defines, delineates, and explains the relationship these concepts to help the reader navigate the nuances.
+This section defines, delineates, and explains the relationship between information development and overlapping concepts (information experience, content design, and technical writing) to help the reader navigate the nuances.
 
-**Information development** is concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. Because of the emphasis on writing, information developers are commonly also called **technical writers**, though they're also often (but not always) involved in UX writing activities as well.
+**Information development** is concerned with designing the digital experience of product information: how information is formed, organised, delivered, presented, and so on. It encompasses activities such as writing, editing, structuring, and managing content to ensure that it's accurate, clear, and accessible to the intended audience. Because of the emphasis on writing, information developers are commonly also called **technical writers**, and they're often (but not always) involved in **UX writing** activities as well.
 
-Information development is related to, but distinct from, **content design**. While information development primarily deals with the creation and management of content itself, content design focuses on how that content is presented and how users interact with content. This is why there was a move away from the term "content writer", which implies a focus on written content, to "content designer", which highlights content design as a **UX design** exercise.
+Information development is related to, but distinct from, **content design**. While information development primarily deals with the creation and management of content itself, content design focuses on how that content is presented and how users interact with content. This is why there was a move away from the term "content writer", which implies a focus on *written* content, to "content designer", which highlights content design as a UX design exercise.
 
-The work of information developers (and content designers) affects the user's **information experience (IX)**. Information experience, or IX, refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals. 
+The work of information developers affects the user's **information experience (IX)**. Information experience, or IX, refers to the holistic experience that users have when interacting with content. IX is a central part of user-centred design and considers the entire journey of the user, from discovering information to consuming it and completing tasks or achieving goals.
 
 ## What information developers do
 
