@@ -70,11 +70,11 @@ Other tips for writing clearly include:
 Avoid:
 
 -  Culture-specific references, including idioms, colloquial language, regionalisms, and slang.
--  Phrases with indirect, ironic, or humourous meaning, which can be misinterpreted or irritating.
+-  Phrases with indirect, ironic, or humorous meaning, which can be misinterpreted or irritating.
 - Long and complicated sentences.
 - Marketing and sales language.
 - Technical jargon.
-- Ambiguous terms.
+- Ambiguous terms. See [Word choice guidelines](https://jeunese.github.io/#/style-guide?id=word-choice-guidelines) for a list of ambiguous words and phrases to avoid.
 
 |Guidance | Examples | 
 |---|---|

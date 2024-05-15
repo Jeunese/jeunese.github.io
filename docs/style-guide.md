@@ -18,7 +18,7 @@ These are the high-level communication goals that inform the individual writing 
 
 - [Be clear](/voice-and-tone?id=be-clear) (direct, simple, precise, and concise)
 - [Be human](/voice-and-tone?id=be-human) (conversational, personal, positive, and inclusive)
-- [Be useful](/voice-and-tone?id=be-useful) (professional, user-centric, and action-focused)
+- [Be useful](/voice-and-tone?id=be-useful) (objective, user-centric, action-oriented, and goal-focused)
 
 To achieve these characteristics, your writing style needs to follow some more granular principles and guidelines.
 
@@ -31,7 +31,7 @@ Write clearly, precisely, and concisely to make content easier to read and under
 Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and more accessible to people who struggle with reading. Even advanced readers benefit from short and simple language because it results in faster processing and better comprehension. With this in mind, aim to:
 
 - Write short sentences, and keep to a limit:
-    - For online documentation, write sentences that are no more than 28 words.
+    - For online documentation, write sentences that are no more than 30 words.
     - For UI content, write sentences that are no more than 15 words.
 - Separate different points or thoughts into different sentences.
 - Use common contractions, such as "don't" instead of "do not".
@@ -68,13 +68,32 @@ Follow these tips to get to the point in your communication with readers.
 
 ## Word choice guidelines
 
-Use clear, consistent, and human language.
+Use clear, consistent, objective, and human language.
 
 ### Use unambiguous terms
 
 -  Use terms that are clear and understood by global audiences without need of special or local cultural knowledge.
 -  Avoid "would", "should", and "may", which can be ambiguous in describing whether something *will*, *must*, or *can* be done.
 -  Don't use double-negatives, for example, use "like" instead of "not unlike".
+
+|Avoid | Use instead |Exceptions
+|---|---|---|
+|above (see also **below**)	|previous; preceding; earlier ||	
+|as (see also, **since**)	| because ||	
+| below (see also **above**) |later; the following ||	
+| could	| can ||
+| employ| use||
+|for instance|	for example	||
+| flag	| option; setting; checkbox	||
+|may	| might; can | When referring specifically to permission. |
+|new; newer (see also **old**)| latest; later; most recent ||	
+|old; older (see also **new**)|earlier; legacy; original ||	
+|once	| when; after	| When referring specifically to a singular occasion. |
+| should | must; expected; we recommend; might; can	||
+| surface | expose; uncover; reveal; make available ||	
+| since (see also **as**) | because ||
+|wish|	want; need ||	
+|would	|can	||
 
 ### Use plain English
 
@@ -83,6 +102,122 @@ Use clear, consistent, and human language.
 -  Use technical language only when it's needed, and try to also explain it generally.
 -  Spend time researching what words the intended readers use rather than defaulting to corporate language.
 -  Use intended words instead of Latin abbreviations, such as "specifically" instead of "i.e.".
+-  Don't use non-English words and phrases.
+-  Avoid abbreviations except where the abbreviation is better known than the full term or phrase, for example, URL.
+
+|Avoid | Use instead |Exceptions
+|---|---|---|
+|access	|see; edit; find; use; view||
+|allow (see also **enable**) | let||
+|AKA|or; formerly||
+|assistance	| help||	
+|comprises|	consists of; contains; includes	||
+|e.g.| for example||
+|enable (see also **allow**)|let||
+|etc.|and so on|
+|further| more||
+|i.e.|specifically|	
+|ingest	| load; import||
+|in order to|to|When the word “to” is in the middle of a sentence and “in order to” would clarify the meaning.
+|navigate|go to||
+|leverage|use||	
+|possible|can|	Setting expectations about what might go wrong, for example, “It is possible for data to change”.||
+|utilize|use||
+|via| through|
+|vice versa| NA – write out the reverse in full, for example, "There might be detractors and no promotors, or there might be promotors and no detractors."
+
+### Use user-focused language
+
+Be user-centred rather than system-centered.
+
+- Refer to user actions instead of system actions, for example, "select" instead of "click".
+- Focus on what the user can do instead of what the system is doing for the user, for example, say "You can share documents with others" instead of "We allow you to share your documents with others".
+- Address the user directly; use the second person "you" instead of "the customer", "the user", or "the administrator".
+
+|Guidance | Use instead | Exceptions|
+|---|---|---|
+|button (see also **checkbox**)|Avoid talking about UI elements. Instead, describe the user action, for example, "Select **Save**".|
+|checkbox (see also **button**)|Avoid talking about UI elements. Instead, describe the user action, for example, "Select **Remember me**".
+|click| select; choose|
+|menu|Describe the user action, for example, "Go to **Settings** and select **Profile**. | Include the word "menu" if it's needed for clarity.| 
+|press (see also **type**)| enter|
+|return|submit|
+|tab|Describe the user action, for example, "Select **Insights**". | Include the word "tab" if it's needed for clarity.
+|tab through| navigate through|
+|type (see also **press**)| enter|
+|toggle on/off | switch on; switch off; turn on using the toggle; turn off using the toggle|
+
+### Use unbiased and inclusive language
+
+You're talking to humans, so be sensitive to the human meaning of words.
+
+- Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate".
+- Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad", and references that carry forward the master/slave paradigm.
+- Use gender-neutral alternatives to "he", "she", "him", and "her".
+
+|Guidance | Use instead  |
+|---|---|
+|abort| end; leave; stop; exit; cancel |
+|agnostic | platform-independent|
+|blacklist (see also **whitelist**)| blocklist; exclude list; deny list|
+|black box testing (see also **white box testing**)| functional testing; acceptance testing|
+|black hat hacker (see also **white hat hacker**)|bad actor; unauthorized user; malicious hacker|
+|blind|	anonymous; ignore|
+|disable|turn off|
+|dummy data/value|placeholder data/value; sample data/value|
+|execute| run|
+|exploit| use|
+|grandfather|legacy; pre-existing|
+|hand (as in “right-hand side of the screen”)|NA – remove word, for example, “On the right ~~hand~~ side”|
+|hands-off|automatic|
+|hands-on|	direct|
+|hang| freeze; stop responding; not responding|
+|hit|select|
+|kill|end; stop|
+|man hours|person hours; time; resources; effort|
+|man-in-the-middle|	attacker-in-the-middle; on-path attacker; or name the specific attack type |
+|master	|main; primary; lead(er)|
+|mute	|silence|
+|native|	built-in|
+|owner	|lead, manager, expert|
+|sanity check	|smoke test; confidence check; coherence check|
+|slave	|secondary; subordinate; follower|
+|terminate|stop; exit; cancel; end|
+|trigger|prompt; start ; generate|
+|white glove|	high-touch; premium|
+|whitelist (see also **blacklist**)| allowlist; include list|
+|white box testing (see also **black box testing**)	|glass box testing; clear box testing|
+|white hat hacker (see also **black hat hacker**)| Use a specific job title, such as, “Cyber Defense Analyst”.
+
+### Avoid subjective terms
+
+- Don't use value judgements that are subject to interpretation and indvidual difference, like, "great" or "amazing".
+- Don't use marketing or sales terminology, like "easily" or "state of the art".
+
+|Guidance | Use instead| Exceptions|
+|---|---|---|
+|amazing|NA – remove word||
+|easily; easy| Remove word because the same meaning can usually be conveyed without it; if necessary, use “straightforward” instead.||
+|just (see also **only**)|NA – remove word||
+|latest	|if necessary, use “up to date”.||
+|obviously|NA – remove word||
+|only (see also **just**)|NA – remove word, for example, "The process ~~only~~ takes 5 minutes."| When something is limited, for example, "You can only have one user name".
+| quick; quickly | Remove word because the same meaning can usually be conveyed without it; if necessary, refer to the number of steps or the specific amount of time instead.|
+|simple; simply	| NA – remove word||
+
+### Be considerate, not over-polite
+
+Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program. Adding these terms might seem polite, but they can come across as disingenuous and slow people down by adding wordiness to your sentences.
+
+|Term | Guidance | When to use (example) | When to remove (example) |
+|---|---|---|---|
+|Please | Use "please" only in situations when asking for permission or forgiveness, such as when you're asking a user to do something that's inconvenient or when the software is at fault. | "Please try again later." | "To view the file, ~~please~~ select **View**."|
+|Thank you | Use "thank you" when you're asking someone to provide input that's inconvenient. Convey gratitude from the people behind the documentation or product rather than the system itself. |"Thank you for giving us your feedback!" |"Check that you've entered your email address correctly before submitting. ~~Thank you~~."  |
+|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service. Please try again later." |"~~Sorry.~~ It looks like your card is expired." |
+
+Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of the reader or user first. 
+
+For example, an error message that says *"Sorry! There was a generic error"* is polite, but not especially useful because it focuses on its own function, and not what the reader or user needs to do. 
 
 ### Use terminology consistently
 
@@ -92,30 +227,6 @@ Without consistency, documentation can come across as unreliable or lacking cred
 -  After introducing an acronym, don't switch back and forth between full words and the acronym.
 -  Don't switch between language conventions, such as American and British spellings.
 -  In instructions, refer to UI elements exactly as they appear in the product.
-
-### Use unbiased and inclusive language
-
-You're talking to humans, so be sensitive to the human meaning of words.
-
-|Guidance | Example |
-|---|---|
-|Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate". | **Do use:** "*End* your session." **Don't use:** "*Kill* your session." |
-|Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad", and references that carry forward the master/slave paradigm | **Do use:** "blocklist", "allowlist", "main table". **Don't use:** "blacklist", "whitelist", "master table". |
-|Use gender-neutral alternatives to "he", "she", "him", and "her". | **Do use:** "them", "their", "they". **Don't use:** "him", "his", "her".|
-
-### Be considerate, not over-polite
-
-Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program. Adding these terms might seem polite, but they can come across as disingenuous and slow people down by adding wordiness to your sentences.
-
-|Term | Guidance | When to use (example) | When to remove (example) |
-|---|---|---|---|
-|Please | Use "please" only in situations where you're asking someone to do something inconvenient or where the software is at fault. | "Please try again later." | "To view the file, ~~please~~ select **View**."|
-|Thank you | Use "thank you" when you're asking someone to provide input that's inconvenient. Convey gratitude from the people behind the documentation or product rather than the system itself. |"Thank you for giving us your feedback!" |"Check that you've entered your email address correctly before submitting. ~~Thank you~~."  |
-|Sorry | Use "sorry" only in situations that cause problems for the user, such as a system crash or data loss. Don't apologise for how the product or service is designed to function. | "Sorry. We were unable to connect you to the service. Please try again later." |"~~Sorry.~~ It looks like your card is expired." |
-
-Software and product documentation should, above all else, be *considerate* more so than polite, which means putting the needs of of the reader or user first. 
-
-For example, an error message that says *"Sorry! There was a generic error"* is polite, but not especially useful because it focuses on its own function, and not what the reader or user needs to do. 
 
 ## Writing conventions
 
