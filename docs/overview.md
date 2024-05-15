@@ -120,7 +120,7 @@ As with product documentation, this can involve issue tracking systems, and can 
 
 Good UX needs good content. UX writers help embed this content into the application or website itself. They write in-product content to facilitate the user experience of that product, in line with the company's [voice and tone](/voice-and-tone).
 
-A UX writer take insights from UI and UX design principles, usability research, and behavioural psychology to create and refine content that's designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy.
+A UX writer takes insights from UI and UX design principles, usability research, and behavioural psychology to create and refine content that's designed for the end-user of a product, from large blocks of text to a product's UI elements and microcopy.
 
 #### What UX writing is and isn't
 UX writing is the process of creating user-friendly textual content (copy) for the UI of digital products to help users interact with it.
