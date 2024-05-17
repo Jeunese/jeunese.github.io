@@ -148,12 +148,12 @@ Be user-centred rather than system-centered.
 |type (see also **press**)| enter|
 |toggle on/off | switch on; switch off; turn on using the toggle; turn off using the toggle|
 
-### Use unbiased and inclusive language
+### Use unbiased, human-centric, and inclusive language
 
 You're talking to humans, so be sensitive to the human meaning of words.
 
 - Avoid offensive or violent terms, like "abort", "hit", "force", "reject", "kill", "hang", and "terminate".
-- Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad", and references that carry forward the master/slave paradigm.
+- Avoid terms that reflect historical racial , such as using colour to communicate something is "good" or "bad", and references that carry forward the master/slave paradigm.
 - Use gender-neutral alternatives to "he", "she", "him", and "her".
 
 |Avoid | Use instead  |
@@ -191,19 +191,19 @@ You're talking to humans, so be sensitive to the human meaning of words.
 |white hat hacker (see also **black hat hacker**)| Use a specific job title, such as, “Cyber Defense Analyst”.
 
 ### Avoid subjective terms
-
+Let the reader decide fot themselves how good or bad something is. Just tell them what they need to know.
 - Don't use value judgements that are subject to interpretation and indvidual difference, like, "great" or "amazing".
 - Don't use marketing or sales terminology, like "easily" or "state of the art".
 
 |Avoid | Use instead| Exceptions|
 |---|---|---|
 |amazing|NA – remove word||
-|easily; easy| Remove word because the same meaning can usually be conveyed without it; if necessary, use “straightforward” instead.||
+|easily; easy| NA – remove word; if necessary, use “straightforward” instead.||
 |just (see also **only**)|NA – remove word||
 |latest	|if necessary, use “up to date”.||
 |obviously|NA – remove word||
 |only (see also **just**)|NA – remove word, for example, "The process ~~only~~ takes 5 minutes."| When something is limited, for example, "You can only have one user name".
-| quick; quickly | Remove word because the same meaning can usually be conveyed without it; if necessary, refer to the number of steps or the specific amount of time instead.|
+| quick; quickly | NA – remove word; if necessary, refer to the number of steps or the specific amount of time instead.|
 |simple; simply	| NA – remove word||
 
 ### Be considerate, not over-polite
