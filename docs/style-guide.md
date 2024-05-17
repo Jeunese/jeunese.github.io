@@ -194,7 +194,7 @@ You're talking to humans, so be sensitive to the human meaning of words.
 
 Avoid resumé statements and claims that are subject to interpretation and could set users up for disappointment. Focus only on what the reader needs to know and let the reader decide for themselves how good (or bad) something is.
 
-- Don't use value judgements that are subject to interpretation and indvidual difference, like, "great" or "amazing".
+- Don't use value judgements that are subject to indvidual differences in perception, like, "great" or "amazing".
 - Don't use marketing or sales terminology, like "easily" or "state of the art".
 
 |Avoid | Use instead| Exceptions|
