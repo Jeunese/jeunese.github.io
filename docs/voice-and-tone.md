@@ -42,6 +42,12 @@ The sections below provide guidelines for the proposed tone of voice for both pr
 
 Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (**be clear**), helps establish a conversational style (**be human**), and makes the content directly relevant to the reader (**be useful**).
 
+> **Note:** 
+>
+> Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not".
+>
+> For more information, see [Formality, professionalism, and user-friendliness](https://jeunese.github.io/#/style-guide?id=formality-professionalism-and-user-friendliness).
+
 ### Be clear
 
 Keep sentences short and simple with [lean writing principles](/style-guide?id=lean-writing-principles). Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps, by using the second person with the imperative mood and active voice.
@@ -68,7 +74,7 @@ Avoid:
 |---|---|
 |Write in the active voice, where the subject of the sentence performs the action (subject + verb + object construction).| "You can send emails from your phone", rather than "Emails *can be sent from* your phone".|
 |Be specific and accurate. | Instead of "This can take a while to process", be more precise with a sentence like: "This can take up to 24 hours to process". |
-| Clarify antecedents to avoid or clarify "this", "that", "these", and "it". Restate the noun or use a more specific term. | "Select the gear icon to edit your profile settings. This allows you to change your user name and personal details" could instead be written as follows: "Select the gear icon to edit your profile. These settings allow you to change your user name and personal details". |
+| Clarify antecedents to avoid or clarify "this", "that", "these", and "it". Restate the noun or use a more specific term. | "Select the gear icon to edit your profile settings. This allows you to change your user name and personal details" could instead be written as follows: "Select the gear icon to edit your profile. *These settings* allow you to change your user name and personal details". |
 | Keep the precise meaning of words in mind and use the least ambiguous alternatives. | Use "after" instead of "once", which can also refer to a single occurrence of something; use "might" or "can" instead of "may", which can also imply permission; use "because" instead of "since", which can also imply a period of time. |
 | Don't remove relative pronouns such as "that" and "which", even though it shortens the sentence. | "Save items *that* you want to keep."
 
@@ -79,14 +85,14 @@ Keep your style informal and natural, even if relaying technical information to 
 -  Use simple, everyday language.
 -  Be direct and conversational.
 -  Talk *to* users, not at them.
--  Adopt an informal and personal style.
+-  Adopt a personal style.
 -  Be friendly and positive.
 
 Avoid:
 -  Being too informal.
 -  Being patronising.
 -  Biased langauge, such as, referring to a specific gender when talking about the user.
--  Overusing niceties such as please, thank you, and sorry. The emphasis should be on being direct and helpful.
+-  Overusing niceties such as please, thank you, and sorry. The emphasis should be on being direct and helpful. For more information, see [Be considerate, not over-polite](https://jeunese.github.io/#/style-guide?id=be-considerate-not-over-polite).
 
 |Guidance | Examples | 
 |---|---|
@@ -119,14 +125,3 @@ Avoid:
 |Focus on what the user can do, rather than the state of the system.| "If you get no output, investigate the input" rather than "If you get no output, there is a serious issue with the input."|
 |Use more verbs and fewer nouns. | "If you decide to..." instead of "If you make a decision to..."; "The system analysed..." instead of "The system conducted an analysis of..." |
 
-## Formality, professionalism, and user-friendliness
-
-For both documentation and in-product content, information developers must strike a balance between user-friendliness and professionalism.
-
-Professional isn't the same as formal. You can write clearly and simply, and thus write less formally, without losing the credibility needed for technical documentation and in-product guidance. The aim is to be neutral and objective, whilst also being accessible and friendly.
-
-Scientific and academic papers typically use third person and tend to avoid contractions, making them formal and impersonal. In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style, whilst also maintaining a level of professionalism and authority.
-
-> **Note:** 
->
-> Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not".

@@ -22,6 +22,14 @@ These are the high-level communication goals that inform the individual writing 
 
 To achieve these characteristics, your writing style needs to follow some more granular principles and guidelines.
 
+## Formality, professionalism, and user-friendliness
+
+For both documentation and in-product content, information developers must strike a balance between user-friendliness and professionalism.
+
+Professional isn't the same as formal. You can write clearly and simply, and thus write less formally, without losing the credibility needed for technical documentation and in-product guidance. The aim is to be neutral and objective, whilst also being accessible and friendly.
+
+Scientific and academic papers typically use third person and tend to avoid contractions, making them formal and impersonal. In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style, whilst also maintaining a level of professionalism and authority.
+
 ## Lean writing principles
 
 Write clearly, precisely, and concisely to make content easier to read and understand.
