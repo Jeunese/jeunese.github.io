@@ -133,7 +133,7 @@ Be user-centred rather than system-centered.
 - Refer to user actions instead of system actions, for example, "select" instead of "click".
 - Focus on what the user can do instead of what the system is doing for the user, for example, say "You can share documents with others" instead of "We allow you to share your documents with others".
 - Address the user directly; use the second person "you" instead of "the customer", "the user", or "the administrator".
-- Avoid talking about UI elements, like buttons and menus. Instead, describe the user action, such as "Go to **Settings > Profile**" instead of "Choose **Settings** from the menu and then select **Profile**".
+- Avoid talking about UI elements, like buttons and menus. Instead, describe the user action, such as "Choose your application" instead of "Open the dropdown menu to choose from a list of applications".
 
 |Avoid | Use instead | Exceptions|
 |---|---|---|
