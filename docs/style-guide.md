@@ -191,7 +191,9 @@ You're talking to humans, so be sensitive to the human meaning of words.
 |white hat hacker (see also **black hat hacker**)| Use a specific job title, such as, “Cyber Defense Analyst”.
 
 ### Avoid subjective terms
-Let the reader decide fot themselves how good or bad something is. Just tell them what they need to know.
+
+Focus only on what the reader needs to know. Avoid resumé statements and claims that could set users up for disappointment. Let the reader decide for themselves how good (or bad) something is.
+
 - Don't use value judgements that are subject to interpretation and indvidual difference, like, "great" or "amazing".
 - Don't use marketing or sales terminology, like "easily" or "state of the art".
 
