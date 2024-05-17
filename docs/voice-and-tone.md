@@ -38,9 +38,9 @@ For both documentation and in-product content, information developers must strik
 
 Professional isn't the same as formal. You can write clearly and simply, and thus write less formally, without losing the credibility needed for technical documentation and in-product guidance. The aim is to be neutral and objective, whilst also being accessible and friendly.
 
-Formality in writing is a spectrum. Scientific and academic papers typically use third person and tend to avoid contractions, making them more formal and impersonal than you can expect from good documentation. 
+Formality in writing is a spectrum. Scientific and academic papers typically use third person and tend to avoid contractions, making them more formal and impersonal than you might aim for in documentation and in-product content. 
 
-In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style, whilst also maintaining a level of professionalism and authority. This expectation is set with **tone of voice guidelines**
+In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style, whilst also maintaining a level of professionalism and authority.
 
 ## Tone of voice guidelines
 
