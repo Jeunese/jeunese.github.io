@@ -109,7 +109,7 @@ Use clear, consistent, objective, and human language.
 
 |Avoid | Use instead |Exceptions
 |---|---|---|
-|above (see also **below**)	|previous; preceding; earlier ||	
+|above (see also **below**)	|previous; earlier ||	
 |as (see also, **since**)	| because ||	
 | below (see also **above**) |later; the following ||	
 | could	| can ||
@@ -133,13 +133,14 @@ Be user-centred rather than system-centered.
 - Refer to user actions instead of system actions, for example, "select" instead of "click".
 - Focus on what the user can do instead of what the system is doing for the user, for example, say "You can share documents with others" instead of "We allow you to share your documents with others".
 - Address the user directly; use the second person "you" instead of "the customer", "the user", or "the administrator".
+- Avoid talking about UI elements, like buttons and menus. Instead, describe the user action, such as "Go to **Settings > Profile**" instead of "Choose **Settings** from the menu and then select **Profile**".
 
-|Guidance | Use instead | Exceptions|
+|Avoid | Use instead | Exceptions|
 |---|---|---|
-|button (see also **checkbox**)|Avoid talking about UI elements. Instead, describe the user action, for example, "Select **Save**".|
-|checkbox (see also **button**)|Avoid talking about UI elements. Instead, describe the user action, for example, "Select **Remember me**".
+|button (see also **checkbox**)|Describe the user action, for example, "Save your document".|
+|checkbox (see also **button**)|Describe the user action, for example, "Select **Remember me**".
 |click| select; choose|
-|menu|Describe the user action, for example, "Go to **Settings** and select **Profile**. | Include the word "menu" if it's needed for clarity.| 
+|menu|Describe the user action, for example, "Go to **Settings > Profile**. | Include the word "menu" if it's needed for clarity.| 
 |press (see also **type**)| enter|
 |return|submit|
 |tab|Describe the user action, for example, "Select **Insights**". | Include the word "tab" if it's needed for clarity.
@@ -155,7 +156,7 @@ You're talking to humans, so be sensitive to the human meaning of words.
 - Avoid terms that reflect historical racial bias such as using colour to communicate something is "good" or "bad", and references that carry forward the master/slave paradigm.
 - Use gender-neutral alternatives to "he", "she", "him", and "her".
 
-|Guidance | Use instead  |
+|Avoid | Use instead  |
 |---|---|
 |abort| end; leave; stop; exit; cancel |
 |agnostic | platform-independent|
@@ -194,7 +195,7 @@ You're talking to humans, so be sensitive to the human meaning of words.
 - Don't use value judgements that are subject to interpretation and indvidual difference, like, "great" or "amazing".
 - Don't use marketing or sales terminology, like "easily" or "state of the art".
 
-|Guidance | Use instead| Exceptions|
+|Avoid | Use instead| Exceptions|
 |---|---|---|
 |amazing|NA – remove word||
 |easily; easy| Remove word because the same meaning can usually be conveyed without it; if necessary, use “straightforward” instead.||
