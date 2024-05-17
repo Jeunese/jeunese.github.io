@@ -12,7 +12,7 @@ For guidelines that are specific to technical writing, see [Technical Writing Gu
 
 This guide refers to *tone of voice* rather than [voice and tone](/voice-and-tone?id=voice-and-tone-or-tone-of-voice) as separate constructs. 
 
-Tone of voice defines how you talk to your audience. This is based on the type of company, target audience, and purpose of the content. For a software company, the purpose of product documentation is to provide administrators with quick product reference material for what the product does, how it works, and how to set it up. The purpose of in-product copy is to help end users of the UI complete tasks easily and effectively with that company's software.
+Tone of voice defines how you talk to your audience. This is based on the type of company, target audience, and purpose of the content. For a software company, the purpose of product **documentation** is to provide users with quick product reference material for what the product does, how it works, and how to set it up. The purpose of **in-product copy** is to help end users of the UI complete tasks easily and effectively with that company's software.
 
 These are the high-level communication goals that inform the individual writing elements in this style guide.
 
@@ -21,14 +21,6 @@ These are the high-level communication goals that inform the individual writing 
 - [Be useful](/voice-and-tone?id=be-useful) (objective, user-centric, action-oriented, and goal-focused)
 
 To achieve these characteristics, your writing style needs to follow some more granular principles and guidelines.
-
-## Formality, professionalism, and user-friendliness
-
-For both documentation and in-product content, information developers must strike a balance between user-friendliness and professionalism.
-
-Professional isn't the same as formal. You can write clearly and simply, and thus write less formally, without losing the credibility needed for technical documentation and in-product guidance. The aim is to be neutral and objective, whilst also being accessible and friendly.
-
-Scientific and academic papers typically use third person and tend to avoid contractions, making them formal and impersonal. In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style, whilst also maintaining a level of professionalism and authority.
 
 ## Lean writing principles
 

@@ -32,6 +32,16 @@ If voice and tone don't operate independently, it's perhaps more useful to consi
 
 Rather than attempting to reconcile the differences in opinion about the precise nature of voice and tone in writing, this documentation refers to them as a single concept: **tone of voice**.
 
+## Formality, professionalism, and user-friendliness
+
+For both documentation and in-product content, information developers must strike a balance between user-friendliness and professionalism, achieved in part by following the appropriate **tone of voice** guidelines.
+
+Professional isn't the same as formal. You can write clearly and simply, and thus write less formally, without losing the credibility needed for technical documentation and in-product guidance. The aim is to be neutral and objective, whilst also being accessible and friendly.
+
+Formality in writing is a spectrum. Scientific and academic papers typically use third person and tend to avoid contractions, making them more formal and impersonal than you can expect from good documentation. 
+
+In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style, whilst also maintaining a level of professionalism and authority. This expectation is set with **tone of voice guidelines**
+
 ## Tone of voice guidelines
 
 The sections below provide guidelines for the proposed tone of voice for both product documentation and UI content. Tone of voice is based on the purpose of content and the intended audiences. The high-level goals for tone of voice include:
@@ -44,9 +54,7 @@ Some of the guidelines for meeting these goals overlap. For example, using the s
 
 > **Note:** 
 >
-> Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not".
->
-> For more information, see [Formality, professionalism, and user-friendliness](https://jeunese.github.io/#/style-guide?id=formality-professionalism-and-user-friendliness).
+> While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not". These latter examples are *harder* to read and reduce the level of formality too much.
 
 ### Be clear
 
