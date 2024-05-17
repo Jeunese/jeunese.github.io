@@ -2,35 +2,37 @@
 
 Voice and tone are determined by the individual components that make up the content, like the words and phrases we use (and don't use), sentence structure, viewpoint, and the progression of information.
 
-For example, scientific and academic papers typically use third person and tend to avoid contractions, making them formal and impersonal. 
-
-In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style.
-
-## What are voice and tone?
-
-Depending on the source of definitions for voice and tone, the simplest answers are:
+The main differences between voice and tone are as follows:
 
 |Voice|Tone|
 |---|---|
-| Remains stable. | Changes based on context.
 | The character or persona. | The attitude or emotional inflection. |
+| Remains stable. | Changes based on context.
 | How you talk to customers in all communications. | How you talk to different audiences at different times.|
 
-### Voice
+**Voice** captures the persona behind the content or its "character". Voice should be delivered with consistency across content. If your personality or messaging change too much or too often, it’s harder for readers to understand the purpose of the content or to trust it.
 
-Voice captures the persona behind the content or its "character". Voice should be delivered with consistency across content. If your personality or messaging change too much or too often, it’s harder for readers to understand the purpose of the content or to trust it.
+**Tone** captures the "attitude" with which we express content. It's often described as the "emotional inflection" applied to the voice. This should change based on the target audience, context, and the reader's likely state of mind.
 
-### Tone
+For example, you can adopt a professional yet friendly voice across platforms, but you can also be more or less professional or friendly depending on the situation and audience (tone).
 
-Tone captures the "attitude" with which we express content. It's often described as the "emotional inflection" applied to the voice. This should change based on the target audience, context, and the reader's likely state of mind.
+In-app error messages, for example, might call for friendlier language, such as *"It looks like your passwords don't match. Try again?"* to put the user at ease when they encounter a problem. Compare this with a phrase like *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel (voice), but the tone is different.
 
-For example, an error message in the UI might call for friendlier language, such as *"It looks like your passwords don't match. Try again?"* to put the user at ease. Compare this with a phrase like *"Ensure that you've entered the correct password twice"* in the product documentation. Both examples use short sentences, contractions, and second person, achieving clarity and a more human feel, but the tone is different.
+## Formality, professionalism, and user-friendliness
+
+For both documentation and in-product content, information developers must strike a balance between user-friendliness and professionalism.
+
+Professional isn't the same as formal. You can write clearly and simply, and thus write less formally, without losing the credibility needed for technical documentation and in-product guidance. The aim is to be neutral and objective, whilst also being accessible and friendly.
+
+Scientific and academic papers typically use third person and tend to avoid contractions, making them formal and impersonal. In product documentation and UX writing, it's more important to avoid fatigue and frustration; we want the text to be as direct and understandable as possible for helping the reader get the job done. We thus aim to write in plain English, short sentences, and a conversational style.
+
+> **Note:** 
+>
+> Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not".
 
 ## Differentiating voice and tone
 
-It can be hard differentiating voice (character) from tone (attitude) with concrete examples. For instance, you can adopt a friendly voice across platforms, but you can also be more or less friendly depending on the situation and audience (tone). 
-
-This is similar to the difference between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (as a transient state) depending on the situation or who you're interacting with.
+The difference between voice and tone is similar to the difference between "traits" and "states" in human psychology. You can be a friendly person (trait), but also exhibit more or less friendliness (as a transient state) depending on the situation or who you're interacting with.
 
 The [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human) (2018) says that voice is *how* you say something and that tone is *an aspect of* voice, alongside personality, substance, and style. Under this logic, voice is made up of a group of multiple features or is a delivery mechanism for these features.
 
@@ -47,12 +49,6 @@ The sections below provide guidelines for the proposed tone of voice for both pr
 - Be useful (objective, user-centric, action-oriented, and goal-focused)
 
 Some of the guidelines for meeting these goals overlap. For example, using the second person ("you") makes it easier to write in the active voice (**be clear**), helps establish a conversational style (**be human**), and makes the content directly relevant to the reader (**be useful**).
-
-> **Notes on formality:**
->
-> * Formality in writing is a spectrum. While everyday contractions are encouraged because they're easier to read, avoid less common or colloquial contractions, such as "that'd" instead of "that would", or "mightn't" instead of "might not". 
-> * Professional isn't the same as formal. You can write clearly and simply, and thus less formally, without losing the credibility needed for technical (serious) documentation and in-product guidance.
->
 
 ### Be clear
 

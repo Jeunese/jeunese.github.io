@@ -70,31 +70,6 @@ Follow these tips to get to the point in your communication with readers.
 
 Use clear, consistent, objective, and human language.
 
-### Use unambiguous terms
-
--  Use terms that are clear and understood by global audiences without need of special or local cultural knowledge.
--  Avoid "would", "should", and "may", which can be ambiguous in describing whether something *will*, *must*, or *can* be done.
--  Don't use double-negatives, for example, use "like" instead of "not unlike".
-
-|Avoid | Use instead |Exceptions
-|---|---|---|
-|above (see also **below**)	|previous; preceding; earlier ||	
-|as (see also, **since**)	| because ||	
-| below (see also **above**) |later; the following ||	
-| could	| can ||
-| employ| use||
-|for instance|	for example	||
-| flag	| option; setting; checkbox	||
-|may	| might; can | When referring specifically to permission. |
-|new; newer (see also **old**)| latest; later; most recent ||	
-|old; older (see also **new**)|earlier; legacy; original ||	
-|once	| when; after	| When referring specifically to a singular occasion. |
-| should | must; expected; we recommend; might; can	||
-| surface | expose; uncover; reveal; make available ||	
-| since (see also **as**) | because ||
-|wish|	want; need ||	
-|would	|can	||
-
 ### Use plain English
 
 -  Avoid marketing language and technical jargon.
@@ -125,6 +100,31 @@ Use clear, consistent, objective, and human language.
 |utilize|use||
 |via| through|
 |vice versa| NA – write out the reverse in full, for example, "There might be detractors and no promotors, or there might be promotors and no detractors."
+
+### Use unambiguous terms
+
+-  Use terms that are clear and understood by global audiences without need of special or local cultural knowledge.
+-  Avoid "would", "should", and "may", which can be ambiguous in describing whether something *will*, *must*, or *can* be done.
+-  Don't use double-negatives, for example, use "like" instead of "not unlike".
+
+|Avoid | Use instead |Exceptions
+|---|---|---|
+|above (see also **below**)	|previous; preceding; earlier ||	
+|as (see also, **since**)	| because ||	
+| below (see also **above**) |later; the following ||	
+| could	| can ||
+| employ| use||
+|for instance|	for example	||
+| flag	| option; setting; checkbox	||
+|may	| might; can | When referring specifically to permission. |
+|new; newer (see also **old**)| up-to-date; later; most recent ||	
+|old; older (see also **new**)|earlier; legacy; original ||	
+|once	| when; after	| When referring specifically to a singular occasion. |
+| should | must; expected; we recommend; might; can	||
+| surface | expose; uncover; reveal; make available ||	
+| since (see also **as**) | because ||
+|wish|	want; need ||	
+|would	|can	||
 
 ### Use user-focused language
 
