@@ -128,7 +128,7 @@ Use clear, consistent, objective, and human language.
 
 ### Use user-focused language
 
-Be user-centred rather than system-centered.
+Be user-centred rather than system-centred.
 
 - Refer to user actions instead of system actions, for example, "select" instead of "click".
 - Focus on what the user can do instead of what the system is doing for the user, for example, say "You can share documents with others" instead of "We allow you to share your documents with others".

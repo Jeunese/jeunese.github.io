@@ -19,7 +19,7 @@ UX writing is an integral part of designing the customer journey. As such, UX wr
 
 1. **Design.** As a design exercise, the optimal level of UX writer involvement in product design is at the beginning. This way, the UI can be designed as a unified source of information from the beginning of the design process, rather than having a UX writer come in at the end to fix surface-level issues with UI text.
 
-1. **Review.** UX writers should check that the UX copy fulfils user needs and represents the intended tone of voice. You can also seek insight from user research if it's needed and a viable option.
+1. **Review.** UX writers should check that the UX copy fulfils user needs with intended tone of voice. You can also seek insight from user research if it's needed and a viable option.
 
 ## General guidance
 
@@ -40,7 +40,7 @@ Progressive disclosure is an interaction design pattern that involves sequencing
 
 -  Don't bombard the user with a lot of information as soon as they're introduced to the product.
 -  Allow the information to progress naturally, from simple to complex.
--  Help the user move from completing tasks with essential information to completing more complex tasks with additional info.
+-  Help the user move from completing tasks with essential information to completing more complex tasks with additional information.
 -  Build upon each subsequent step of information experience and learning.
 -  Provide only the necessary information for the user to take each action, one at a time.
 
@@ -54,21 +54,21 @@ Good UX writing gives the user what they need, in context, when they need it. Th
 
 Contextual help is on-demand content based on the state that an application is in when a user seeks help, such as [instructional text](/ux-writing?id=instructional-text), [in-line copy](/ux-writing?id=inline-copy), [tooltips](/ux-writing?id=tooltips), [guided workflows](/ux-writing?id=walkthroughs-guided-help), [page-level help](/ux-writing?id=page-level-help), and [UI messages](/ux-writing?id=ui-messages).
 
-Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the program that the user is interacting with. It is thus better if the user can access this help without leaving the current workflow.
+Help that's offered in context is easier to identify and use (has high affordance) and is less disruptive; rather than interrupt the workflow by forcing the user to browse an online manual or help centre, context-sensitive help delivers content relevant to the part of the product that the user is interacting with. It's thus better if the user can access this help without leaving the current workflow.
 
 ### Microcopy
 
-Microcopy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of microcopy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row/column headings and entries, and so on.
+Microcopy refers to the words or very short sentences that tell a user what to do, address user concerns, and provide context to a situation. Examples of microcopy include: title bars, buttons, menus, error messages, labels, supplementary explanations, checkbox options, dropdown lists, row and column headings and entries, and so on.
 
 Microcopy should be written in second person and sentence case. For more guidelines on the individual elements for which microcopy is needed, see [UI elements and input controls](/ux-writing?id=ui-elements-and-input-controls).
 
 ## Instructional text
 
-Instructional text, also called in-product instructions or on-screen text, is a type of [contextual help](/ux-writing?id=contextual-help) that's presented in line with interface content, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
+Instructional text, also called in-product instructions or on-screen text, is a type of [contextual help](/ux-writing?id=contextual-help) that's presented inside the UI, which avoids making users switch between tools to get help. Instructional text helps the user understand what a feature does or how to populate a field. This allows the user to solve problems without waiting for assistance or referring to a user manual, reducing the number of incoming queries to Technical Support.
 
 ### When to use instructional text
 
-Instructional text is a less demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product text should:
+Instructional text is a less demanding way to offer support because it prevents the user from having to rely on working memory or having to take an extra step to find information. To maximise the chances of a positive experience, in-product instructional text should:
 
 -  Cause minimal disruption to the user's workflow.
 -  Result in quick issue or query resolution.
@@ -82,7 +82,7 @@ Instructional text is a less demanding way to offer support because it prevents 
 
 -  Don't explain fundamental features; if a user needs instructions, consider ways of making the design more intuitive.
 -  Don't explain obvious features and workflows; instructional text can get in the way of an already intuitive workflow.
--  Don't make users engage with instructional text; users should be free to ignore instructional UI and still progress through it.
+-  Don't make users engage with instructional text; users should be free to ignore instructional UI and still progress through the UI.
 -  Don't repeat information; add a setting to display instructional UI instead.
 
 **Keep it useful.** Use instructional text to make the onboarding flow as smooth as possible.
@@ -106,7 +106,7 @@ In-line copy is used when the information is:
 -  Essential to performing the task.
 -  Directly actionable. 
 
-For example, you can use in-line copy to provide informative error messages when users encounter issues or input errors. You can also use it to provide feedback to users after they complete actions or submit forms, using in-line copy to confirm successful completion.
+For example, you can use in-line copy to provide informative [error message](https://jeunese.github.io/#/ux-writing?id=error-messages) when users encounter issues or input errors. You can also use it to provide feedback to users after they complete actions or submit forms, using in-line copy to confirm successful completion.
 
 If there's enough space, you might also decide to include:
 
@@ -129,12 +129,12 @@ Embedding information directly within a feature is often the best choice for pro
 
 ## Tooltips
 
-Tooltips are user-triggered, brief informative messages that appear when the user interacts with a UI element by selecting or hovering over it. They are used:
+Tooltips are user-generated, brief informative messages that appear when the user interacts with a UI element by selecting or hovering over it. They are used:
 - For preventing drop-off at friction points by reassuring users and alleviating doubt.
 - For additional context or necessary information that's too long to put on the screen.
 - To walk users through a process that has multiple steps.
 
-Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation/termination method.
+Tooltips used in touchscreen devices are called popup tips, following the same guidelines as tooltips, except that they require a specific initiation and exit method.
 
 ### When to use tooltips
 
