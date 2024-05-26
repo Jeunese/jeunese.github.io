@@ -181,7 +181,7 @@ Don't use tooltips if there's space in the [in-line copy](/ux-writing?id=inline-
 
 ## Walkthroughs (guided help)
 
-A walkthrough provides step-by-step guidance and instructions: a series of messages or tooltips appearing one at a time to provide step-by-step instructions that will guide a user through a product or feature, used when the functionality or workflow is more complex or spread across multiple pages.
+A walkthrough provides step-by-step guidance and instructions: a series of messages or [tooltips](https://jeunese.github.io/#/ux-writing?id=tooltips) appearing one at a time to provide step-by-step instructions that will guide a user through a product or feature, used when the functionality or workflow is more complex or spread across multiple pages.
 
 ### When to use walkthroughs
 
