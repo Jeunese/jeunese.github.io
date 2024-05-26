@@ -181,7 +181,7 @@ Don't use tooltips if there's space in the [in-line copy](/ux-writing?id=inline-
 
 ## Walkthroughs (guided help)
 
-A walkthrough provides step-by-step guidance and instructions: a series of messages or [tooltips](https://jeunese.github.io/#/ux-writing?id=tooltips) appearing one at a time to provide step-by-step instructions that will guide a user through a product or feature, used when the functionality or workflow is more complex or spread across multiple pages.
+A walkthrough provides step-by-step guidance and instructions: a series of messages or [tooltips](https://jeunese.github.io/#/ux-writing?id=tooltips) appearing one at a time to provide procedural directions that guide a user through a product or feature, used when the functionality or workflow is more complex or spread across multiple pages or features.
 
 ### When to use walkthroughs
 
@@ -190,15 +190,15 @@ Walkthroughs are often used for:
 - Product tours, showcasing the key benefits and functionalities of a product or service to potential customers. 
 - New user onboarding, helping the user to navigate the interface, understand basic functionality, and get started with using a product or feature effectively.
 - Breaking down complex features or workflows into manageable steps that help users understand the sequence of actions and reduces the likelihood of confusion or errors.
-- Significant product updates or changes, helping existing users familiarise themselves with the new features for a smooth transition and minimal disruption to the user experience.
-- Task completion assistance for when users encounter roadblocks or challenges while completing a specific process.
+- Significant product updates or changes, helping existing users familiarise themselves with new features for a smooth transition and minimal disruption to the user journey.
+- Task completion assistance for when users encounter roadblocks or challenges while performing a specific process.
 - User engagement and retention to encourage users to explore different areas of the UI, discover hidden features, or learn advanced techniques.
 
 ### Guidelines for using walkthroughs
 
 **Be user-centric.**
 - Align content with the user's goals and objectives, for example, "Create your account to get started".
-- Use action-oriented language, for example, "select" instead of "click".
+- Use user-oriented language instead of system-oriented language, for example, "select" instead of "click".
 - Address the reader directly with “you” rather than “the customer” or “users”.
 
 **Provide context.** Help users understand why they are performing a certain action.
