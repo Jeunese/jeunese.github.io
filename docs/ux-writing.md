@@ -378,24 +378,31 @@ A toggle provides users with a visual representation of a choice between two mut
 
 ### Buttons
 
-Buttons are labels that, when selected, initiate an action that allows the user to complete a task. Guidelines for buttons include:
+Buttons are labels that, when selected, initiate an action that allows the user to complete a task. 
 
+Guidelines for buttons include:
+
+- Use sentence case.
 - Avoid introductory labels for buttons; the button label should be enough.
 - Be consistent with button placement across different UI elements. For example, don't reverse the placement of `OK` and `Cancel` in different parts of the UI.
 - Don't use buttons for a list of choices.
 - Separate destructive buttons from non-destructive buttons so that the user must make an intentional effort to select the button.
 - Use trailing ellipsis when the button opens another window, dialogue box, or app.
-- Use sentence case.
 
-Guidelines for the language used in buttons include:
+Button labels should be contextual and descriptive. This helps users:
+- Distinguish verbs from nouns, for example, “email” can be either a verb or a noun.
+- Know what to expect. For example "Send email" is unambiguous about the action that the user is starting.
+- Be more task-efficient because users are less likely to either avoid selecting a button or undo an action caused by selecting a button that didn't do what they expected.
+
+Buttons imply actions. Verbs are the best way to encourage action. With this in mind, avoid generic words like `Yes`, `No`, `OK`, `Submit`, `Import` or `Start`. Instead, be task-specific and direct; use action verbs and imperative phrases in combination with nouns. For example, `Choose picture` rather than `Import`. If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
+
+Other guidelines for the language used in buttons include:
 
 - Use clear, precise, predictable language.
 - Lead with a verb that encourages an action, like `Cancel` and `Delete`.
 - Use one word for call-to-action (CTA) and text buttons unless there is a verb involved.
 - If not a common action (like `Done` or `Close`) use the {verb}+{noun} formula (such as, `Test connection` or `Add selected items`).
 - Don't include descriptors like "now". The resulting action from selecting a button should be instantaneous.
-- Be specific about single items (for example, `Choose picture` rather than `Import`).
-- If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
 
 ### Checkboxes
 
@@ -472,12 +479,13 @@ The guidelines for help text and errors in forms include:
 
 Labels are static text that describe UI elements (including groups of elements) or provide a short message. Every control or element, such as a text field, button, or dropdown menu, needs a label. Guidelines for labels include:
 
+- Keep labels short and useful.
+- Use sentence case.
 - Use plain language; avoid technical jargon.
 - Ensure the label accurately identifies the element it introduces.
 - Group related elements and introduce them using a label.
 - Follow a logical order.
 - Use parallel construction.
-- Use sentence case.
 
 ### Lists and list boxes
 
@@ -523,7 +531,14 @@ Guidelines for grouping and ordering radio buttons include:
 
 ### Text links
 
-Text links are labels that fall outside of a block of text and might start a task on a new page. Guidelines for text links include:
+Text links are labels that fall outside of a block of text and might start a task on a new page.
+
+Don’t use links as [buttons](https://jeunese.github.io/#/ux-writing?id=buttons). Buttons point to the most important actions in the UI while links:
+- Encourage browsing.
+- Imply that the user will be taken somewhere else.
+- Can be longer and more descriptive.
+
+Guidelines for text links include:
 - Start with words that are related to the user action, such as "Download" or "View".
 - Differentiate from unlinked text using colour.
 - Use text links as part of a sentence or phrase.
@@ -531,7 +546,9 @@ Text links are labels that fall outside of a block of text and might start a tas
 - If fewer than three words, consider using a button, especially if it starts a new task or it's a secondary action.
 - Use text links to increase SEO on the page.
 - If part of a sentence, use second person language.
-- Avoid text links that don't convey a function or meaning, such as "click here". Use precise language instead.
+- Avoid generic verbs that don't convey a function or meaning, such as "Click here". Use precise language instead.
+
+Although phrases like "Click here" and "Learn more" is common link text, try using more specific alternatives, such as "Read more in our documentation".
 
 For accessibility: 
 - Text links should be complete in themselves and communicate meaning without added words.
