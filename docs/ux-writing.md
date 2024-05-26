@@ -148,7 +148,7 @@ Tooltips are useful:
 -  With abelled controls and UI elements that benefit from supplemental information that doesn't fit as on-screen text.
 -  As a form of [Progressive disclosure](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy), eliminating the need for descriptive on-screen text if not essential to the primary task.
 
-Tooltips are typically opened when the user interacts with a help (?), info (i), and important (!) icon:
+Tooltips are opened when a user hovers over a labelled control or when a user directly interacts with a help (?), info (i), or important (!) icon. For tooltip icons:
 - Use a question mark (**?**) for tooltips that answer the *questions* "why?", "how?", or "what does this mean?", like why an email address is needed, where to find a reference number, or what a term means.
 - Use the letter "**i**" for tooltips that provide supplementary information that users might benefit from without having to navigate away from the UI, like useful knowledge, insights, or tips to add value or clarification. For example, you might want to let users know what they can do with a feature ("You can customise this design") or provide extra guidance like password requirements.
 - Use an exclamation point (**!**) for tooltips that provide important information or context, like how personal information will be used or how something is calculated. If information is *necessary*, consider using [in-line copy](https://jeunese.github.io/#/ux-writing?id=in-line-copy) instead.
@@ -162,16 +162,20 @@ Tooltips are typically opened when the user interacts with a help (?), info (i),
 -  Provide information that isn't otherwise obvious and doesn't repeat on-screen copy.
 -  Focus on the control's action, for example, by beginning the tag with a verb.
 
-Don't use tooltips if there's space in the [inline copy](/ux-writing?id=inline-copy). Tooltip text should provide additional and useful information, such as why a field is required or how the value entered into a field will be used. 
+Don't use tooltips if there's space in the [in-line copy](/ux-writing?id=inline-copy). Tooltip text should provide additional and useful information, such as why a field is required or how the value entered into a field will be used. 
 
-**Keep it short.** Use as few words as possible. For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design is too complicated. For tooltips triggered by selecting help icons, limit the text to no more than 40 words. If more content is required, consider adding a `Learn more` link to the exact documentation; use such links sparingly, which you might achieve by including one link at the page level.
+**Keep it short.** Use as few words as possible. 
+
+- For labelled controls, limit tooltips to 15 words. If more text is needed, this suggests that the design might be too complicated. 
+- For tooltips opened by selecting icons, limit the text to no more than 40 words. 
+- If more content is required, consider adding a `Learn more` link to the relevant documentation; use such links sparingly, which you might achieve by including one link at the page level.
 
 **Other guidelines** for writing tooltips include:
 
 -  Use short, complete sentences that address concerns and tell users what to do.
--  Use a title, in sentence case, phrased as a question in first person, for example, "Why can't I update my address?"
+-  Consider using a title, in sentence case, phrased as a question in first person, for example, "Why can't I update my address?"
 -  If you need to reduce the length of a tag, omit grammatical articles.
--  Include a `Close` label next to an `X` in the upper right corner
+-  Include a `Close` label next to an `X` in the upper right corner.
 -  Use links in tooltips only if necessary.
 -  Use bullets for lists of items; use paragraphs for explanations.
 
