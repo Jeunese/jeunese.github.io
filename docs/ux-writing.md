@@ -196,7 +196,7 @@ Walkthroughs are often used for:
 
 ### Guidelines for using walkthroughs
 
-**Be user-centric.**
+**Be user-centric.** Provide useful, conversational content that makes sense to the user.
 - Align content with the user's goals and objectives, for example, "Create your account to get started".
 - Use user-oriented language instead of system-oriented language, for example, "select" instead of "click".
 - Address the reader directly with “you” rather than “the customer” or “users”.
@@ -217,7 +217,7 @@ Walkthroughs are often used for:
 - Use consistent terminology and writing style throughout the walkthrough to avoid confusion.
 - Ensure that the tone of voice aligns with the overall brand personality and user expectations.
 - Use the imperative mood to provide clear and direct instructions, for example, "Choose a payment method" instead of "You can choose a payment method."
-- Use bold sparingly. Avoid bolding whole sentences or paragraphs. Everything included in a walkthrough should be already be important.
+- Use bolding sparingly. Avoid bolding whole sentences or paragraphs. Everything included in a walkthrough should be already be important.
 - Use sentence case, even in headers and buttons.
 
 ## Page-level help
