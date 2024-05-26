@@ -432,7 +432,7 @@ Push notifications are visual indicators on a list or details page in a console 
 
 A dropdown menu is a graphical control element, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
 
-- Consider adding watermark (hint) text to the field, such as "Select one".
+- Consider adding [watermark (hint) text](https://jeunese.github.io/#/ux-writing?id=watermark-hint-text) to the field, such as "Select one".
 - Use sentence case for both menu names and items.
 
 Dropdown *buttons*, when selected, display a dropdown list, similar to a dropdown menu, of mutually exclusive items. 
@@ -489,7 +489,7 @@ A list is a collection of items that presents groups, steps, or sets of informat
 
 List boxes look like dropdown menus but, like checkboxes, allow users to select multiple items. Guidelines for list boxes include:
 
-- Consider adding watermark (hint) text to the field, such as "Select all that apply".
+- Consider adding [watermark (hint) text](https://jeunese.github.io/#/ux-writing?id=watermark-hint-text) to the field, such as "Select all that apply".
 - Use sentence case for both menu names and items.
 
 ### Navigation
@@ -548,15 +548,14 @@ Not all empty fields require watermark text. Watermark text is useful for commun
 - Brief instructions, for example, "Choose a device".
 - Validation rules, such as password requirements.
 
-Guidelines for watermark text include:
-- Consider alternatives, like placing hint text outside the empty field or as hover text so that it persists when the user starts typing.
-- Use sentence case.
+There are three ways to use watermark text:
 
-Watermark text might also be used *instead* of a label to save space. For example, including "Search" as a placeholder inside a search bar instead of a label next to it. You might use a label *with* placeholder text if:
-- You want to encourage the user to use a UI element by giving them an instruction as well as a label. For example, you might have a dropdown menu labelled "Location" and placeholder text that says "Select one".
-- Interacting with the UI element is necessary to continue, such as in a form. Having a label as well as placeholder text can cognitive load while the user interacts with the element.
+- Without a label, which can help to save space or duplication of content. For example, including "Search" as a placeholder inside a search bar instead of a label next to it. 
+- In addition to a label. You might do this if:
+	- You want to encourage the user to use a UI element by giving them an instruction as well as a label. For example, you might have a dropdown menu labelled "Location" and placeholder text that says "Select one".
+	- Interacting with the UI element is necessary to continue, such as in a form. Having a label as well as placeholder text can reduce cognitive load while the user interacts with the element.
+- As a label by placing the hint text outside an empty field. You might do this if:
+	- Your UI is looking cluttered.
+	- You want to reduce cognitive load by having the example persist when the user starts interacting with the UI element.
 
-You might use a placeholder as a label if:
-- Interacting with the UI element is optional.
-- Your UI is looking cluttered.
-
+You can also consider alternatives to watermark text, like using hover text so that the information persists when the user starts typing.
