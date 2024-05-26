@@ -142,13 +142,16 @@ Tooltips are offered when additional content might help the user make more infor
 
 Tooltips disappear, and so they shouldn't be used for directly-actionable or essential information required to perform a task.
 
-Tooltips are useful with:
+Tooltips are useful:
 
--  Unlabelled controls and command buttons with graphic labels.
--  Labelled controls and UI elements that benefit from supplemental information that doesn't fit as on-screen text.
--  As a form of progressive disclosure with help (?) and info (i) icons, eliminating the need for descriptive on-screen text if not essential to the primary task.
+-  With unlabelled controls and command buttons with graphic labels.
+-  With abelled controls and UI elements that benefit from supplemental information that doesn't fit as on-screen text.
+-  As a form of [Progressive disclosure](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy), eliminating the need for descriptive on-screen text if not essential to the primary task.
 
-For more information on progressive disclosure, see [Progressive disclosure philosophy](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
+Tooltips are typically opened when the user interacts with a help (?), info (i), and important (!) icon:
+- Use a question mark (**?**) for tooltips that answer the *questions* "why?", "how?", or "what does this mean?", like why an email address is needed, where to find a reference number, or what a term means.
+- Use the letter "**i**" for tooltips that provide supplementary information that users might benefit from without having to navigate away from the UI, like useful knowledge, insights, or tips to add value or clarification. For example, you might want to let users know what they can do with a feature ("You can customise this design") or provide extra guidance like password requirements.
+- Use an exclamation point (**!**) for tooltips that provide important information or context, like how personal information will be used or how something is calculated. If information is *necessary*, consider using [in-line copy](https://jeunese.github.io/#/ux-writing?id=in-line-copy) instead.
 
 ### Guidelines for using tooltips
 
