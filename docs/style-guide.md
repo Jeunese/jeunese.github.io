@@ -94,18 +94,22 @@ Use clear, consistent, objective, and human language.
 |access	|see; edit; find; use; view||
 |allow (see also **enable**) | let||
 |AKA|or; formerly||
-|assistance	| help||	
+|assistance	| help||
 |comprises|	consists of; contains; includes	||
 |e.g.| for example||
 |enable (see also **allow**)|let||
 |etc.|and so on|
 |further| more||
-|i.e.|specifically|	
+|i.e.|specifically|
+|illustrates|shows||
 |ingest	| load; import||
-|in order to|to|When the word “to” is in the middle of a sentence and “in order to” would clarify the meaning.
-|navigate|go to||
+|in order to|to|When the word “to” is in the middle of a sentence and “in order to” would clarify the meaning.|
 |leverage|use||	
+|locate|find||
+|navigate|go to||
+|obtain|get||
 |possible|can|	Setting expectations about what might go wrong, for example, “It is possible for data to change”.||
+|provides|gives||
 |utilize|use||
 |via| through|
 |vice versa| NA – write out the reverse in full, for example, "There might be detractors and no promotors, or there might be promotors and no detractors."
@@ -129,8 +133,8 @@ Use clear, consistent, objective, and human language.
 |new; newer (see also **old**)| up-to-date; later; most recent ||	
 |old; older (see also **new**)|earlier; legacy; original ||	
 |once	| when; after	| When referring specifically to a singular occasion. |
-| should | must; expected; we recommend; might; can	||
-| surface | expose; uncover; reveal; make available ||	
+| should | must; does; expected; we recommend; might; can	||
+| surface | expose; uncover; reveal; make available ||
 | since (see also **as**) | because ||
 |wish|	want; need ||	
 |would	|can	||
