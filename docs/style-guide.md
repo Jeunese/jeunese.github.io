@@ -354,16 +354,19 @@ A link is an interactive reference to other (relevant and trusted) content or ex
 
 Don't use symbols or characters to substitute words:
 
--  Use "or" instead of ``/``.
--  Use "and" instead of ``&`` unless space is extremely limited in the UI, for example, in tab labels or screen titles.
- -  Use "more than" and "less than" instead of ``>`` and ``<`` unless space is extremely limited in UI labels.
- -  Only use ``+`` when you're adding a technical command or to indicate a count that exceeds a specific number when space is limited in the UI, for example, "30+ degrees".
+-  Use "or" instead of ``/``. Forward slashes reduce specificity in sentences and aren’t good for screen readers. Reserve ``/`` for code, URLs, and file paths.
+-  Use "and" instead of ``&`` unless space is extremely limited in the UI, for example, in tab labels or screen titles. Reserve ``&`` for code, URLs, and company names.
+-  Use "more than" and "less than" instead of ``>`` and ``<`` unless space is extremely limited in UI labels.
+-  Only use ``+`` when you're adding a technical command or to indicate a count that exceeds a specific number when space is limited in the UI, for example, "30+ degrees".
 -  Only use ``"`` when you're adding a technical command or to represent inches, for example, 10"x10".
 -  Only use ``x`` when you're adding a technical command; don't use the letter ``x`` to indicate a multiplication sign.
--  Use an en dash (``-``) to indicate a minus sign or a hyphen.
+
+> **Note:** 
+>
+> "And" and "&" aren't synonymous. In code, “and” is a logical operator; “&” is a concatenation operator. In everyday language, “&” is the equivalent of writing “u r” instead of “you are” or “you’re”. Using “&” isn’t just *less* formal, it’s *too* informal. 
 
 Use "percent" with a number for specifying a quantity (for example, 5 percent) and "percentage" without a number.
-- Spell out the word "percent" (instead of using the `%` symbol), unless it's in a heading, chart, or table, the content is data-intensive, you need to save space, or it's being used as a technical symbol.
+- Spell out the word "percent" (instead of using the ``%`` symbol), unless it's in a heading, chart, or table, the content is data-intensive, you need to save space, or it's being used as a technical symbol.
 - Use a space between the written number and the word "percent".
 - Don't use spaced between a number written as a figure and the `%` symbol, for example, "5%".
 -  Use "percent" without a number in column headings.
@@ -403,14 +406,14 @@ Other guidelines:
 
 ### Dashes and hyphens
 
+In general, avoid dashes. These are often used inconsistently and incorrectly.
+
 - Hyphenate compound modifiers that act as adjectives, for example, "a high-definition user experience".
 - Don't use a hyphen with adverbs ending in -ly, for example, "a highly mobile worker".
-- Use em dashes (––) like parentheses, but don’t overuse them. 
-- Be careful not to substitute an en dash (–) for an em dash (––), or vice versa.
-- Use an en dash (–) to indicate a: 
-	- Minus sign
-	- Negative number
-	- Range of numbers (for example, pages 95–110)
+- Use em dashes (––) like parentheses, but don’t overuse them. Typically, you can use commas or create new sentences instead.
+- Use an en dash (–) to indicate a minus sign or a negative number.
+
+For a range, use “to” instead of a dash or hyphen, for example "2 to 5 events". If not using the word "to", use an en dash (–) without spaces on either side, for example, "pages 95–110".
 
 ### Acronyms and abbreviations
 
