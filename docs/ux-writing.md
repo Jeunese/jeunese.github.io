@@ -362,7 +362,7 @@ Alt text is a label that screen readers can use to describe an image. Alt text a
 
 ### Boolean values and toggles
 
-Boolean values represent of an on/off state, such as a switch. If "off" and "on" are inappropriate for the context, different words that fit the context are used instead. Guidelines for boolean values include:
+Boolean values represent an on/off state. If "off" and "on" are inappropriate for the context, different words that fit the context are used instead. Guidelines for boolean values include:
 
 - Write words to fit the context (for example, `On | Off`, `True | False`, `Yes | No`).
 - Don't use all caps; use title case.
@@ -370,7 +370,7 @@ Boolean values represent of an on/off state, such as a switch. If "off" and "on"
 	- Wrap the label to multiple lines, if necessary.
 	- Align the UI element with the fist line of the label.
 
-A toggle provides users with a visual choice between the two mutually exclusive states of a boolean value. A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
+A toggle provides users with a visual representation of a choice between two mutually exclusive states of a boolean value. A user should be able to make selections with only a screen reader and keyboard. Users of screenreaders should be able to:
 
 - Understand the current state of the selection.
 - Tab through the options and between them using the arrow keys.
@@ -387,13 +387,13 @@ Buttons are labels that, when selected, initiate an action that allows the user 
 - Use trailing ellipsis when the button opens another window, dialogue box, or app.
 - Use sentence case.
 
-Guidelines for the language used in button include:
+Guidelines for the language used in buttons include:
 
 - Use clear, precise, predictable language.
 - Lead with a verb that encourages an action, like `Cancel` and `Delete`.
 - Use one word for call-to-action (CTA) and text buttons unless there is a verb involved.
 - If not a common action (like `Done` or `Close`) use the {verb}+{noun} formula (such as, `Test connection` or `Add selected items`).
-- Don't include descriptors like "now" –– the resulting action from selecting a button should be instantaneous.
+- Don't include descriptors like "now". The resulting action from selecting a button should be instantaneous.
 - Be specific about single items (for example, `Choose picture` rather than `Import`).
 - If not using a specific action (as recommended), use the word `OK` rather than Ok, ok, or Okay.
 
@@ -404,7 +404,7 @@ Checkboxes are controls that let the user choose between two opposite states, ac
 - Place an action at the beginning of the title.
 - Keep the text for a checkbox on a single line.
 - Use positive phrasing (selecting a checkbox shouldn't mean *not* performing an action, unless it's a "Don't show this again" checkbox).
-- Make clear what happens when the box is selected versus not selected.
+- Make clear what happens when the box is selected compared to when it's not selected.
 - Always follow a checkbox with a title or label; provide a title that implies two opposite states.
 - Don't use ending punctuation, unless it's a colon at the end of a label for a group of checkboxes.
 - Add "Recommended" to the label for a checkbox that is strongly recommended.
@@ -430,7 +430,7 @@ Push notifications are visual indicators on a list or details page in a console 
 
 ### Dropdown menus and buttons
 
-A dropdown menu is graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
+A dropdown menu is a graphical control element, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
 
 - Consider adding watermark (hint) text to the field, such as "Select one".
 - Use sentence case for both menu names and items.
@@ -439,12 +439,12 @@ Dropdown *buttons*, when selected, display a dropdown list, similar to a dropdow
 
 ### Input fields and forms
 
-Input fields allow data to be entered into a form. Forms can collect various types of data, including text. Text fields, when selected, allow users to enter text. A text field can allow either a single line or multiple lines of text. 
+Input fields allow data to be entered into a form. Forms can collect various types of data, including text. Text input fields, when selected, allow users to enter text. A text input field can allow either a single line or multiple lines of text. 
 
 Guidelines for input fields in forms include:
 
 - Clearly explain the purpose of the input field in the title.
-- Change the input type according to the data you're collecting, for example, separate long references numbers with a gap and limit the input to the exact length expected.
+- Change the input type according to the data you're collecting, for example, separate long references numbers into chunks separated by gaps or dashes and limit the input to the exact required length.
 - Use sentence case for both titles and fields.
 - Make the length of the input field proportional to the expected user input.
 - Don't write instructions in a basic text area other than help text.
@@ -454,10 +454,10 @@ The general guidelines for forms are:
 - Keep forms as short as possible.
 - Always include a label for the input field.
 - Avoid asking for private and personal information.
-- Label fields as optional if the majority of fields are required.
-- Label fields as required if the majority of fields are optional.
+- Label individual fields as optional if the majority of fields are required.
+- Label individual fields as required if the majority of fields are optional.
 - If the field label is long, wrap it to multiple lines.
-- Use clear and specific language for labels, placeholder, and helper text.
+- Use clear and specific language for labels, placeholder text, and helper text.
 
 The guidelines for help text and errors in forms include:
 
