@@ -494,7 +494,7 @@ List boxes look like dropdown menus but, like checkboxes, allow users to select 
 
 ### Navigation
 
-The on-screen elements that help users find their way through a product, such as a table of contents, breadcrumbs, tags, a search field, icons, links, and menus. Guidelines for navigation include:
+Navigation refers to the on-screen elements that help users find their way through a product, such as a table of contents, breadcrumbs, tags, search field, icons, links, and menus. Guidelines for navigation include:
 
 - Use title case for main or global navigation
 - Use sentence case for sub-navigation.
@@ -502,46 +502,48 @@ The on-screen elements that help users find their way through a product, such as
 
 ### Radio buttons
 
-Radio buttons are selectable circles placed next to each item in a set of related, mutually exclusive choices from which the user can select only one. A radio button is on when the circle is filled and off when it's empty. Guidelines for radio buttons include:
+Radio buttons are selectable circles placed next to each item in a set of related, mutually exclusive choices from which the user can select only one. A radio button is "on" when the circle is filled and "off" when it's empty. Guidelines for radio buttons include:
 
-- Write labels as a phrase, not a sentence.
-- Add "Recommended" to the label for an option that is strongly recommended.
-- Add "Advanced" to the label for an option intended for advanced users. 
+- Write radio button labels as a phrase, not a sentence.
+- Add "Recommended" to a label for an option that's strongly recommended.
+- Add "Advanced" to a label for an option intended for advanced users. 
 - Don't use ending punctuation unless it labels subordinate controls that follow it, requiring a colon.
 - Give radio buttons meaningful titles; describe the effect of choosing each radio button.
 - Keep labels brief; if the option requires more information, provide the explanation in a static text control or tooltip (using complete sentences an end punctuation).
 - Use positive phrasing (for example, "do" instead of "don't").
 - Use sentence case.
 
-Guidelines for grouping and ordering checkboxes include:
+Guidelines for grouping and ordering radio buttons include:
 
 - For each radio button in a group, use parallel phrasing.
-- For large sets, use subheadings to group choices. 
 - Label a group of radio buttons with text that describes the nature of the options, ending with a colon.
+- For large sets, use subheadings to group choices. 
 - Focus on the difference between options; if all options have the same introductory text, move that text to the group label.
-- Present radio boxes in a logical order.
+- Present radio boxes in a logical order. If no logical order exists and the list is long, use alphabetical ordering.
 
 ### Text links
 
-Text links are labels that fall outside of a block of text and may start a task on a new page. Guidelines for text links include:
+Text links are labels that fall outside of a block of text and might start a task on a new page. Guidelines for text links include:
 - Start with words that are related to the user action, such as "Download" or "View".
 - Differentiate from unlinked text using colour.
 - Use text links as part of a sentence or phrase.
 - Don't use text links in place of buttons.
-- If fewer than 3 words, consider using a button, especially if it starts a new task or it's a secondary action.
+- If fewer than three words, consider using a button, especially if it starts a new task or it's a secondary action.
 - Use text links to increase SEO on the page.
 - If part of a sentence, use second person language.
-- Avoid text links that don't convey a function or meaning, such as "click here".
+- Avoid text links that don't convey a function or meaning, such as "click here". Use precise language instead.
 
 For accessibility: 
-- Text links should standalone and communicate meaning without added words.
-- Users should be able to tell what the text link is about without reading the surrounding words.
+- Text links should be complete in themselves and communicate meaning without added words.
+- Users should be able to tell what the text link is for without reading the surrounding words.
 - Text links should be written in direct, specific language.
 
 ### Watermark (hint) text
 
-Watermark text, also known as hint, prompt, or placeholder text, is text included in text fields and boxes to help the user understand what to enter by way of example. Not all empty fields require watermark text. Watermark text is useful for communicating:
-- Examples.
+Watermark text, also known as hint, prompt, or placeholder text, is text included in text fields and boxes to help the user understand what to enter by way of example. 
+
+Not all empty fields require watermark text. Watermark text is useful for communicating information not already covered in the label:
+- Examples, such as "Jane Doe" for a text field labelled "Full name".
 - Syntax, such as for an email address.
 - Brief instructions, for example, "Choose a device".
 - Validation rules, such as password requirements.
@@ -549,3 +551,12 @@ Watermark text, also known as hint, prompt, or placeholder text, is text include
 Guidelines for watermark text include:
 - Consider alternatives, like placing hint text outside the empty field or as hover text so that it persists when the user starts typing.
 - Use sentence case.
+
+Watermark text might also be used *instead* of a label to save space. For example, including "Search" as a placeholder inside a search bar instead of a label next to it. You might use a label *with* placeholder text if:
+- You want to encourage the user to use a UI element by giving them an instruction as well as a label. For example, you might have a dropdown menu labelled "Location" and placeholder text that says "Select one".
+- Interacting with the UI element is necessary to continue, such as in a form. Having a label as well as placeholder text can cognitive load while the user interacts with the element.
+
+You might use a placeholder as a label if:
+- Interacting with the UI element is optional.
+- Your UI is looking cluttered.
+

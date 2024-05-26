@@ -26,6 +26,7 @@ To achieve these characteristics, your writing style needs to follow some more g
 
 Write clearly, precisely, and concisely to make content easier to read and understand.
 
+
 ### Keep content short and simple
 
 Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and more accessible to people who struggle with reading. Even advanced readers benefit from short and simple language because it results in faster processing and better comprehension. With this in mind, aim to:
@@ -41,6 +42,16 @@ Shorter paragraphs, sentences, and words are easier to scan, easier to understan
 - Use as few words as possible to portray meaning, for example: "You'll be asked to change your password ~~at some point~~ before you next sign in."
 
 Keep in mind that localisation can lengthen text by 20 to 30 percent.
+
+Follow the appropriate writing conventions to help keep sentences shorter:
+
+|Tip | Example |
+|---|---|
+|Use the active voice, which is more direct and easier to understand than the passive voice. |"You can send emails from your phone", rather than "Emails *can be sent from* your phone".|
+|Write sentences in the imperative mood, which removes unnecessary words. | "If you need further help, ~~you can~~ contact the Support team". |
+|Use present tense where possible, which makes sentences shorter and more straightforward, as well as promotes consistency.|"This opens a form", rather than "This will open a form".|
+|Refer to the user in second person, which more direct and makes it easier to write in the active voice. |"You can save documents" instead of "The user can save documents"|
+|Use common contractions, which shortens sentences and helps to avoid users missing the word "not".|"We don't recommend deleting items", rather than "We do not recommend deleting items".|
 
 ### Write purposeful content
 
@@ -62,8 +73,6 @@ Follow these tips to get to the point in your communication with readers.
 |Omit prepositional phrases. | "Select the plus sign ~~in order~~ to add a new user" or "~~In this case~~, delete the file." |
 |Use adverbs in place of prepositional phrases.  | "This allows you to use the app effectively", rather than "This allows you to use the app *with great effectiveness*". |
 |Replace prepositional phrases with the possessive.| "Find the computer's instructions", rather than "Find *the instructions for the computer*".|
-|Use the active voice, which is more direct and easier to understand than the passive voice. |"You can send emails from your phone", rather than "Emails *can be sent from* your phone".|
-|Write imperative sentences. | "If you need further help, ~~you can~~ contact the Support team". |
 |Avoid grammatical expletives (words that add emphasis by delaying the subject), such as "it is" or "there are". |"There are six items in the list", could be reworded to "The list has six items".|
 
 ## Word choice guidelines
@@ -233,7 +242,7 @@ Without consistency, documentation can come across as unreliable or lacking cred
 
 ## Writing conventions
 
-This section provides guidance on some of the mechanics of technical writing, like punctuation, capitalisation, and lists –– the individual elements that help make content clear and understandable.
+This section provides guidance on some of the mechanics of technical writing, like punctuation, capitalisation, and lists. These are the individual elements that help make content clear and understandable.
 
 ### Punctuation
 
@@ -248,7 +257,15 @@ Punctuation provides meaning in the absence of the rhythm, intonation, and pause
 
 ### Capitalisation
 
-There has been a recent shift to using sentence case in headings, except for global (primary) headers in a website, otherwise known as top-level navigation. This is because sentence case is easier to read. Sentence case involves capitalising only the first word and proper nouns in a heading.
+Sentence case involves capitalising only the first word and proper nouns.
+
+There has been a shift to using sentence case in headings, except for global (primary) headers in a website, otherwise known as top-level navigation. This is because sentence case is easier to read, has a friendlier tone, and helps distinguish proper nouns from common nouns. 
+
+Most technology concepts, product categories, devices, features, and components are common nouns. Keeping features lowercase helps companies avoid over-capitalising. A company might make exceptions for features that:
+- Are sold separately.
+- Are trademarked.
+- Need to be distinguished from the general meaning of the same word for understanding.
+- Are named using a word that has a known meaning that’s very different from what it means in the product.
 
 In general, use sentence case for: 
 
@@ -261,19 +278,27 @@ In general, use sentence case for:
 
 Use title case only for:
 
--  Main or global navigation on webpages (top-level/primary navigation).
--  Distinguishing products from general technology with similar names (for example, SQL Server from SQL database server).
+-  Main or global navigation on webpages (top-level or primary navigation).
+-  Distinguishing features and products from general technology with similar names (for example, SQL Server from SQL database server).
 -  Titles of books, podcasts, webinars, and videos.
 -  Trademarked product names.
 
+### Present tense
+
+Use the present tense to describe product behavior.When you need to write in past tense, use simple verb forms.
+
+Present tense is more direct, easier to read, and results in shorter sentences, for example, "a new window opens" instead of “a new window will open".
+
+Using present tense also naturally reduces the use of words that leave room for interpretation, such as “should”, which obscures whether an action is required, optional, a suggestion, or something that will definitely happen, for example, “You should then see a new list” versus “A new list opens”.
+
 ### Headings
 
-Headings help with scanning by breaking up a page into sections and signposting those sections.
+Headings help the use scan content by breaking up a page into sections and signposting those sections.
 
 -  Keep headings (headlines and subheadings) short, clear, and to the point. 
 -  Use action verbs whenever possible. 
 -  Choose clarity over cleverness.
--  Highlight the main point of your content to give the reader a good sense of what they’re about to read. 
+-  Highlight the main point of your content to give the reader a good sense of what they’re about to read.
 -  Create a benefit-driven statement written in conversational language.  
 -  Keep your headline as short as possible, using a subheading to dive into the details.
 
@@ -284,7 +309,7 @@ Use lists to present steps, groups, or sets of information:
 -  Use bullets, not numbers, when the order of the list doesn’t matter. 
 -  Number a list when the order is important, like describing steps of a process. 
 -  Capitalise the first word of a list item. 
--  If a list includes standalone, complete sentences, use proper closing punctuation. 
+-  If a list includes independent, complete sentences, use proper closing punctuation. 
 -  Don’t add a full stop to the end of a list item if it’s not a complete sentence or if it contains fewer than four words.
 
 Long lists of bullets are no easier to read than big blocks of text. So keep bulleted items:
@@ -305,7 +330,7 @@ A link is an interactive reference to other (relevant and trusted) content or ex
 - Ensure the link looks different from regular text.
 - Include a hover state that communicates the link's interactivity.
 - Write a normal sentence and link the relevant words in it.
-- Don't include things like "Click here" on a link.
+- Don't include phrases like "Click here" on a link.
 
 ### Symbols
 
@@ -318,22 +343,45 @@ Don't use symbols or characters to substitute words:
 -  Only use ``"`` when you're adding a technical command or to represent inches, for example, 10"x10".
 -  Only use ``x`` when you're adding a technical command; don't use the letter ``x`` to indicate a multiplication sign.
 -  Use an en dash (``-``) to indicate a minus sign or a hyphen.
--  Use "percent" with a number (for example, 5 percent) and "percentage" without a number.
-	- Spell out the word "percent" (instead of using the `%` symbol), unless it's in a heading or table.
-	- Always use a number with "percent" unless the number is the first word in a sentence.
-	- Use a space between the number and the word "percent".
-	-  Use "percent" without a number in column headings.
-	-  Use the the `%` symbol in UI charts, and table cells, or as a technical symbol.
 
+Use "percent" with a number for specifying a quantity (for example, 5 percent) and "percentage" without a number.
+- Spell out the word "percent" (instead of using the `%` symbol), unless it's in a heading, chart, or table, the content is data-intensive, you need to save space, or it's being used as a technical symbol.
+- Use a space between the written number and the word "percent".
+- Don't use spaced between a number written as a figure and the `%` symbol, for example, "5%".
+-  Use "percent" without a number in column headings.
+-  For a sequence, add the `%` symbol after both numbers and use the same number of decimal places, for example “5.25% to 7.50%”.
+- Describe the difference in percentages as percentage points. For example, if you have two percentage numbers, 2% and 4%, the percentage point difference is 2 pp whereas the percentage difference is 100%.
 
-### Numbers
+### Numbers and measurements
 
--  In the main body of text:
-    -  Spell out numbers from zero through to nine.
-    -  Use figures for 10 and above.
--  Use figures for numbers in headlines.
--  Use figures before million, billion, and trillion (for example, 1 million).
--  Use figures for specific dates, time, and measurements (for example, 5 minutes), unless that number is at the beginning of a sentence.
+Spell out numbers from zero through to nine in the main body of text unless:
+- The number is a measurement, for example, 8 px.
+- The number is technical or precise, for example, 0.75.
+- It’s a number that the user is directed to enter, for example, “Enter the number 5”.
+- The number is part of date, for example, May 9.
+- The number crosses a boundary, for example, 5 to 10 minutes.
+
+Use figures:
+-  For 10 and above.
+-  For numbers in headlines.
+-  Before million, billion, and trillion (for example, 1 million).
+-  For specific dates, time, and measurements (for example, 5 minutes), unless that number is at the beginning of a sentence.
+
+Use abbreviations for units of measure, except time unless space is limited. If using abbreviations:
+- Keep in mind that abbreviations are always singular.
+- Don’t use hyphens between numerals and the abbreviation or symbol.
+
+Insert a space between the number and the unit of measure, unless:
+- Using the % symbol.
+- Reporting a temperature.
+- Referring to positive or negative numbers.
+
+Other guidelines:
+- Avoid using hyphens for a range of numbers. Use “to” instead.
+- Use “0” where there is no digit before a decimal point, for example, 0.6.
+- Don’t abbreviate the word “number” to “#”.
+- Use a comma for large numbers, except when referring to pixels, page numbers, or years.
+
 
 ### Dashes and hyphens
 
