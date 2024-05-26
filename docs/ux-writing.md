@@ -239,7 +239,7 @@ Page-level help is used when the user might need conceptual or bigger-picture in
 - Keep explanations brief and to the point.
 - Use simple language and avoid technical jargon or industry-specific terms.
 
-**Keep it relevant** Ensure that the help content is relevant to the context of the page. 
+**Keep it relevant.** Ensure that the help content is relevant to the context of the page. 
 - Explain the purpose of the page and how it fits into the overall user journey or workflow.
 - Tailor the help content to address common user questions or concerns related to the page's functionality. 
 - Provide examples or scenarios that demonstrate how the page's features or functionality can be used in real-world situations.
@@ -247,31 +247,31 @@ Page-level help is used when the user might need conceptual or bigger-picture in
 **Be helpful.**
 - Provide clear and actionable step-by-step instructions to guide users through the process. 
 - Use numbered lists or bullet points for readability.
-- Use visuals can help clarify complex concepts or illustrate step-by-step instructions.
+- Use visuals to help clarify complex concepts or illustrate step-by-step instructions.
 - Link to additional resources, such as support articles and video tutorials.
 
 ## UI messages
 
 Messages are information in the UI that address an immediate need and appear while the user interacts with the product. Messages typically require an action from the user on their way to completing their tasks. Messages should help the user complete these tasks as efficiently, effectively, and easily as possible. 
 
-How a message is written will depend on its purpose. In general, messages should:
+How a message is written depends on its purpose. In general, messages should:
 
 -  Be written in a consistent style.
 -  Be friendly.
 -  Use clear and simple language.
--  Provide sufficient and not excessive information.
+-  Provide sufficient (not excessive) information.
 -  Convey technical information in simple terms; avoid jargon and technical detail.
--  If technical detail is wanted or needed, use progressive disclosure.
+-  If technical detail is wanted or needed, use [progressive disclosure](https://jeunese.github.io/#/ux-writing?id=progressive-disclosure-philosophy).
 -  Suggest next steps.
--  Be kind to users who encounter situations in the product UI that could be frustrating for them, such as 404 pages.
+-  Be kind to users who encounter situations in the product that could be frustrating for them, such as 404 pages.
 
 ### Message elements
 
 General recommendations for each element of a message, whichever type it is, are:
 
--  For titles, use sentence case capitalisation and no ending punctuation, unless the statement is a question.
--  For the message body, use complete sentences, sentence case capitalisation, and ending punctuation.
--  For the buttons, use sentence case with no end punctuation, and use short, action verbs unless the buttons require a simple **Yes | No**.
+-  For titles, use sentence case capitalisation and no ending punctuation, unless the title is a question.
+-  For the message body, use complete sentences, sentence case capitalisation, and ending punctuation. Avoid repeating information that's already in the title.
+-  For [buttons](https://jeunese.github.io/#/ux-writing?id=buttons), use sentence case with no end punctuation, and use short, action verbs where possible.
 
 ### Notifications (informational messages)
 
@@ -280,15 +280,18 @@ Notifications alert the user to additional information that helps with related c
 - Structure the notification as a statement or a fact.
 - Describe the condition.
 - Use sentence case.
-- Optionally, use a command button.
+- Optionally, include a command button.
 
 ### Warnings 
 
-Warnings alert the user to a condition that may cause a potential issue. Guidlines for warnings include:
+Warnings alert the user to a condition that may cause a potential issue. Guidelines for warnings include:
 
-- Describe the the potential issue and why it's important.
+- Include an informative, scannable title that encapsulates the main message.
+- Describe the potential issue and why it's important.
 - Use sentence case.
 - Use a command button.
+
+Warnings might also require a [confirmation message](https://jeunese.github.io/#/ux-writing?id=confirmation-messages).
 
 ### Confirmation messages
 
@@ -304,7 +307,9 @@ Confirmation messages appear when the user is performing a task to explain the c
 Success messages provide positive feedback on a completed action. Guidelines for success messages include:
 
 - Use sentence case.
-- Use a a command button, such as `Close` or `OK`
+- Include an informative, scannable title that encapsulates the main message.
+- Avoid being over enthusiastic with too many emojis and exclamation points.
+- Use a command button, such as `Close` or `OK`.
 
 ### Error messages
 
@@ -322,9 +327,9 @@ Other guidelines for error messages include:
 
 **Language.**
 
-- Use a language that encourages the user to come back or try again. 
-- Use plain language; avoid referring to implementation details.
-- Avoid negative words (for example, instead of "The form contains *errors*", try "Please enter a valid postcode").
+- Use language that encourages the user to come back or try again. 
+- Use plain words; avoid referring to implementation details.
+- Avoid negative words (for example, instead of "The form contains *errors*", try "Enter a valid postcode").
 
 **Tone.**
 -  Don't blame the user.
