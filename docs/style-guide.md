@@ -139,7 +139,7 @@ Use clear, consistent, objective, and human language.
 
 Be user-centred rather than system-centred.
 
-- Refer to user actions instead of system actions, for example, "select" instead of "click".
+- Refer to user actions instead of system actions, for example, "select" instead of "click". In this example, “select” is what a human does; “click” is what a mouse does.
 - Address the user directly; use the second person "you" instead of "the customer", "the user", or "the administrator", for example, “Save your changes”.
 - Focus on what the user can do instead of what the system is doing for the user, for example, say "You can share documents with others" instead of "We allow you to share your documents with others".
 - Avoid talking about UI elements, like buttons and menus. Instead, describe the user action, such as "Choose your application" instead of "Open the dropdown menu to choose from a list of applications".
@@ -292,6 +292,22 @@ Use the present tense to describe product behavior.When you need to write in pas
 Present tense is more direct, easier to read, and results in shorter sentences, for example, "your list is then updated" instead of “your list will then be updated".
 
 Using present tense also naturally reduces the use of words that leave room for interpretation, such as “should”, which obscures whether an action is required, optional, a suggestion, or something that will definitely happen, for example, “You should then see a new list” versus “A new list opens”.
+
+### Contractions
+
+Use common negation and present-tense contractions. This is because contractions:
+
+- Result in shorter sentences.
+- Are easier to read.
+- Are harder to misinterpret.
+- Are more human-friendly.
+
+This is especially important for phrases that include the word “not”. Use “don’t” instead of “do not” as an alternative way of ensuring people don’t scan over the word “not”. Reserve bolding for referring to UI elements.
+
+Avoid:
+- Contractions formed from nouns and verbs, for example, “Saving’s effective”.
+- Double contractions, such as “mightn’t’ve”.
+- Confusing “its” (possessive) with “it’s” (noun + verb).
 
 ### Headings
 
