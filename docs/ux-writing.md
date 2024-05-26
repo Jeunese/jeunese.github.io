@@ -355,14 +355,14 @@ To write consistent, accurate, and clear UI copy, a UX writer needs to understan
 
 ### Alt text
 
-Alt text is a label that screen readers can use to describe an image. Alt text appears when images don't render. Guidelines for alt text include: 
+Alt text is a label that screen readers can use to describe an image. Alt text also appears when images don't render. Guidelines for alt text include: 
 
 - Describe the image in brief.
 - Use sentence case.
 
 ### Boolean values and toggles
 
-Boolean values are a visual representation of an on/off state, such as a switch. If "off" and "on" are inappropriate for the context, different words that fit the context are used instead. Guidelines for boolean values include:
+Boolean values represent of an on/off state, such as a switch. If "off" and "on" are inappropriate for the context, different words that fit the context are used instead. Guidelines for boolean values include:
 
 - Write words to fit the context (for example, `On | Off`, `True | False`, `Yes | No`).
 - Don't use all caps; use title case.
@@ -370,11 +370,11 @@ Boolean values are a visual representation of an on/off state, such as a switch.
 	- Wrap the label to multiple lines, if necessary.
 	- Align the UI element with the fist line of the label.
 
-A toggle provides users with a choice between the two mutually exclusive states of a boolean value. A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
+A toggle provides users with a visual choice between the two mutually exclusive states of a boolean value. A user should be able to make selections with only a screen reader and keyboard. To this end, they should be able to:
 
 - Understand the current state of the selection.
 - Tab through the options and between them using the arrow keys.
-- Use the spacebar to select and deselect an option.
+- Use the space bar to select and deselect an option.
 
 ### Buttons
 
@@ -430,7 +430,7 @@ Push notifications are visual indicators on a list or details page in a console 
 
 ### Dropdown menus and buttons
 
-A Dropdown menu is graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
+A dropdown menu is graphical control elements, similar to a list box, except that it only allows the user to choose one value from a list. Guidelines for dropdown menus include:
 
 - Consider adding watermark (hint) text to the field, such as "Select one".
 - Use sentence case for both menu names and items.
