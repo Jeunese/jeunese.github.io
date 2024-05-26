@@ -49,7 +49,7 @@ Follow the appropriate writing conventions to help keep sentences shorter:
 |---|---|
 |Use the active voice, which is more direct and easier to understand than the passive voice. |"You can send emails from your phone", rather than "Emails *can be sent from* your phone".|
 |Write sentences in the imperative mood, which removes unnecessary words. | "If you need further help, ~~you can~~ contact the Support team". |
-|Use present tense where possible, which makes sentences shorter and more straightforward, as well as promotes consistency.|"This opens a form", rather than "This will open a form".|
+|Use [present tense](https://jeunese.github.io/#/style-guide?id=present-tense) where possible, which makes sentences shorter and more straightforward.|"This opens a form", rather than "This will open a form".|
 |Refer to the user in second person, which more direct and makes it easier to write in the active voice. |"You can save documents" instead of "The user can save documents"|
 |Use common contractions, which shortens sentences and helps to avoid users missing the word "not".|"We don't recommend deleting items", rather than "We do not recommend deleting items".|
 
@@ -140,9 +140,11 @@ Use clear, consistent, objective, and human language.
 Be user-centred rather than system-centred.
 
 - Refer to user actions instead of system actions, for example, "select" instead of "click".
+- Address the user directly; use the second person "you" instead of "the customer", "the user", or "the administrator", for example, “Save your changes”.
 - Focus on what the user can do instead of what the system is doing for the user, for example, say "You can share documents with others" instead of "We allow you to share your documents with others".
-- Address the user directly; use the second person "you" instead of "the customer", "the user", or "the administrator".
 - Avoid talking about UI elements, like buttons and menus. Instead, describe the user action, such as "Choose your application" instead of "Open the dropdown menu to choose from a list of applications".
+- Use active voice to encourage conversational sentences, for example, "You can change your profile image" instead of "Your profile image can be changed".
+- Try starting sentences with a verb, for example, "Change your profile image in the **Settings** page."
 
 |Avoid | Use instead | Exceptions|
 |---|---|---|
@@ -287,7 +289,7 @@ Use title case only for:
 
 Use the present tense to describe product behavior.When you need to write in past tense, use simple verb forms.
 
-Present tense is more direct, easier to read, and results in shorter sentences, for example, "a new window opens" instead of “a new window will open".
+Present tense is more direct, easier to read, and results in shorter sentences, for example, "your list is then updated" instead of “your list will then be updated".
 
 Using present tense also naturally reduces the use of words that leave room for interpretation, such as “should”, which obscures whether an action is required, optional, a suggestion, or something that will definitely happen, for example, “You should then see a new list” versus “A new list opens”.
 
@@ -372,7 +374,7 @@ Use abbreviations for units of measure, except time unless space is limited. If 
 - Don’t use hyphens between numerals and the abbreviation or symbol.
 
 Insert a space between the number and the unit of measure, unless:
-- Using the % symbol.
+- Using the `%` symbol.
 - Reporting a temperature.
 - Referring to positive or negative numbers.
 
