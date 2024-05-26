@@ -26,7 +26,6 @@ To achieve these characteristics, your writing style needs to follow some more g
 
 Write clearly, precisely, and concisely to make content easier to read and understand.
 
-
 ### Keep content short and simple
 
 Shorter paragraphs, sentences, and words are easier to scan, easier to understand, and more accessible to people who struggle with reading. Even advanced readers benefit from short and simple language because it results in faster processing and better comprehension. With this in mind, aim to:
@@ -53,15 +52,23 @@ Follow the appropriate writing conventions to help keep sentences shorter:
 |Refer to the user in second person, which more direct and makes it easier to write in the active voice. |"You can save documents" instead of "The user can save documents"|
 |Use common contractions, which shortens sentences and helps to avoid users missing the word "not".|"We don't recommend deleting items", rather than "We do not recommend deleting items".|
 
-### Write purposeful content
+### Write clear and purposeful content
 
-Write every sentence and choose every word with purpose, direction, and meaning.
+Aim for specificity and usefulness. Write every sentence and choose every word with purpose, direction, and meaning.
 
 - Write only to say something relevant that the reader or user can use.
 - Use adjectives with purpose, not as filler.
 - Don't write to take up space.
 - Don't provide unnecessary context or detail.
 - Don't tell the reader how to think or feel, such as "Setting this up is easy"; allow the reader to think or feel based on what you write.
+
+Although lean writing is concerned with shorter and simpler sentences, brevity is second to clarity. The following guidance is also important for localisation.
+
+|Tip|Example|
+|---|---|
+|Don’t omit helper words and relative pronouns that add clarity to sentences, such as “that”, “then”, or “of” . | Keep the word "of" in a sentence like "Download all of the data".|
+|Repeat prepositions and add articles to properly identify context.|Data can load in the same table or in a new table.|
+
 
 ### Get to the point, quicker
 
@@ -119,6 +126,8 @@ Use clear, consistent, objective, and human language.
 -  Use terms that are clear and understood by global audiences without need of special or local cultural knowledge.
 -  Avoid "would", "should", and "may", which can be ambiguous in describing whether something *will*, *must*, or *can* be done.
 -  Don't use double-negatives, for example, use "like" instead of "not unlike".
+- Avoid words that imply a hypothetical future state, like "would" or "will". This can be avoided by ensuring that you write in [present tense](https://jeunese.github.io/#/style-guide?id=present-tense), which is also easier to read.
+
 
 |Avoid | Use instead |Exceptions
 |---|---|---|
@@ -207,10 +216,17 @@ You're talking to humans, so be sensitive to the human meaning of words.
 
 ### Avoid subjective terms
 
-Avoid resumé statements and claims that are subject to interpretation and could set users up for disappointment. Focus only on what the reader needs to know and let the reader decide for themselves how good (or bad) something is.
+The aim is to be neutral but human. You can be conversational and human (for example, by using [contractions](https://jeunese.github.io/#/style-guide?id=contractions) and second person pronouns), whilst also being objective.
 
-- Don't use value judgements that are subject to indvidual differences in perception, like, "great" or "amazing".
-- Don't use marketing or sales terminology, like "easily" or "state of the art".
+Avoid over-promising. Say what something does, not how great it is.
+
+Say what something does, not how great it is. Value judgements such as "amazing", "easily", or "state of the art", common in marketing and sales language aren't appropriate for UX or technical writing because they:
+
+- Create a subjective rather than neutral or objective tone.
+- Are reliant on individual differences in perception that can be disagreed with.
+- Can result in over-promising and thus disappointment.
+
+Avoid resumé statements and claims that are subject to interpretation and could set users up for disappointment. Focus only on what the reader needs to know and let the reader decide for themselves how good or easy something is. 
 
 |Avoid | Use instead| Exceptions|
 |---|---|---|
@@ -224,8 +240,7 @@ Avoid resumé statements and claims that are subject to interpretation and could
 |simple; simply	| NA – remove word||
 
 ### Be considerate, not over-polite
-
-Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program. Adding these terms might seem polite, but they can come across as disingenuous and slow people down by adding wordiness to your sentences.
+Avoid overusing "please", "thank you", and "sorry", especially for normal operations of the program. Adding these terms might seem polite, but they can come across as disingenuous and slow people down by adding wordiness to your sentences. 
 
 |Term | Guidance | When to use (example) | When to remove (example) |
 |---|---|---|---|
@@ -263,9 +278,9 @@ Punctuation provides meaning in the absence of the rhythm, intonation, and pause
 
 ### Capitalisation
 
-Sentence case involves capitalising only the first word and proper nouns.
-
 There has been a shift to using sentence case in headings, except for global (primary) headers in a website, otherwise known as top-level navigation. This is because sentence case is easier to read, has a friendlier tone, and helps distinguish proper nouns from common nouns. 
+
+Sentence case involves capitalising only the first word and proper nouns.
 
 Most technology concepts, product categories, devices, features, and components are common nouns. Keeping features lowercase helps companies avoid over-capitalising. A company might make exceptions for features that:
 - Are sold separately.
@@ -293,9 +308,10 @@ Use title case only for:
 
 Use the present tense to describe product behavior.When you need to write in past tense, use simple verb forms.
 
-Present tense is more direct, easier to read, and results in shorter sentences, for example, "your list is then updated" instead of “your list will then be updated".
-
-Using present tense also naturally reduces the use of words that leave room for interpretation, such as “should”, which obscures whether an action is required, optional, a suggestion, or something that will definitely happen, for example, “You should then see a new list” versus “A new list opens”.
+Present tense:
+- Is easier to read because it's more direct and results in shorter sentences, for example, "your list is updated" instead of “your list will then be updated".
+- Naturally reduces the use of words that leave room for interpretation, such as “should”, which obscures whether an action is required, optional, a suggestion, or something that will definitely happen, for example, “A new list opens” instead of “You should then see a new list”.
+- Avoids implying a hypothetical future state, which could otherwise can lead to frustration if an error occurs.
 
 ### Contractions
 
@@ -407,6 +423,21 @@ Other guidelines:
 - Don’t abbreviate the word “number” to “#”.
 - Use a comma for large numbers, except when referring to pixels, page numbers, or years.
 
+### Date and time
+Write out the date and time where possible.
+- Don’t use ordinal numbers, like June 1st.
+- Avoid all-number formats, like 01/02/23.
+- If space is limited, use the three-letter abbreviation with no punctuation.
+- Don’t use a 24-hour clock. Use am and pm instead.
+- Avoid numerals for 12:00 and 00:00. Use “noon” and “midnight” where possible.
+- Include the time zone if you’re referring to an event. 
+
+|Do write | Don't write| Acceptable|
+|---|---|---|
+|June 1|June 1st|Jun 1|
+|June 1, 2023| 01/06/23; 06/01/23|-|
+|3pm|15:00|-|
+|Noon; midnight|-|12:00; 00:00|
 
 ### Dashes and hyphens
 

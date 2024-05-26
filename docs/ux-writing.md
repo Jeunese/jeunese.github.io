@@ -26,12 +26,12 @@ UX writing is an integral part of designing the customer journey. As such, UX wr
 General guidance for UX writing includes:
 -  Engage early with Product Design.
 -  Take a user-centred approach.
--  Use present tense where possible.
+-  Use [present tense](https://jeunese.github.io/#/style-guide?id=present-tense) where possible.
 -  Keep messages short.
 -  Address the reader directly; avoid referring to "users" or "customers".
 -  Avoid using the same word twice in the same screen.
--  Avoid negative phrasing.
--  Use sentence case for everything except global navigation and boolean values. If in doubt, use sentence case.
+-  Avoid negative phrasing and, where possible, focus on what can be done instead of what can't. For example, instead of "You can't use GIFs" you could instead say " You can use JPEG and PNG image".
+-  Use [sentence case](https://jeunese.github.io/#/style-guide?id=capitalisation) for everything except global navigation and boolean values. If in doubt, use sentence case.
 -  Avoid using abbreviations and acronyms in UI content unless space is severely limited or the acronym is better known than the full term (for example, URL).
 
 ## Progressive disclosure philosophy
