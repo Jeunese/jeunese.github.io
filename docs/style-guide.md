@@ -214,13 +214,11 @@ You're talking to humans, so be sensitive to the human meaning of words.
 |white box testing (see also **black box testing**)	|glass box testing; clear box testing|
 |white hat hacker (see also **black hat hacker**)| Use a specific job title, such as, “Cyber Defense Analyst”.
 
-### Avoid subjective terms
+### Be objective
 
-The aim is to be neutral but human. You can be conversational and human (for example, by using [contractions](https://jeunese.github.io/#/style-guide?id=contractions) and second person pronouns), whilst also being objective.
+The aim is to be neutral but human. You can be conversational and human (for example, by using [contractions](https://jeunese.github.io/#/style-guide?id=contractions) and second-person pronouns), whilst also being objective.
 
-Avoid over-promising. Say what something does, not how great it is.
-
-Say what something does, not how great it is. Value judgements such as "amazing", "easily", or "state of the art", common in marketing and sales language aren't appropriate for UX or technical writing because they:
+To avoid over-promising and subjectivity, focus only on saying what something does, not how great it is. Value judgements such as "amazing", "easily", or "state of the art", common in marketing and sales language, aren't appropriate for UX or technical writing because they:
 
 - Create a subjective rather than neutral or objective tone.
 - Are reliant on individual differences in perception that can be disagreed with.
@@ -233,7 +231,6 @@ Avoid resumé statements and claims that are subject to interpretation and could
 |amazing|NA – remove word||
 |easily; easy| NA – remove word; if necessary, use “straightforward” instead.||
 |just (see also **only**)|NA – remove word||
-|latest	|if necessary, use “up to date”.||
 |obviously|NA – remove word||
 |only (see also **just**)|NA – remove word, for example, "The process ~~only~~ takes 5 minutes."| When something is limited, for example, "You can only have one user name".
 | quick; quickly | NA – remove word; if necessary, refer to the number of steps or the specific amount of time instead.|
